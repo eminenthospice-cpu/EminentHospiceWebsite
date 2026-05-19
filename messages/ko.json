@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home": "홈",
+    "aboutUs": "소개",
+    "hospiceServices": "호스피스 서비스",
+    "understandingHospice": "호스피스 케어 이해하기",
+    "hospiceLaws": "호스피스 법률 및 환자 권리",
+    "forFamilies": "가족 및 보호자를 위한 정보",
+    "insurance": "보험 및 메디케어",
+    "faq": "자주 묻는 질문",
+    "contact": "문의하기",
+    "referral": "의뢰 양식",
+    "mainNav": "주요 내비게이션",
+    "mobileNav": "모바일 내비게이션",
+    "skipToMain": "주요 콘텐츠로 이동",
+    "openMenu": "내비게이션 메뉴 열기",
+    "closeMenu": "내비게이션 메뉴 닫기",
+    "homeLinkAriaLabel": "에미넌트 호스피스 케어 — 홈페이지로 이동",
+    "switchLanguage": "{lang}로 전환"
+  },
+  "footer": {
+    "tagline": "LA 카운티 전역의 환자와 가족에게 따뜻하고 전문적인 호스피스 케어를 제공합니다.",
+    "footerNav": "푸터 내비게이션",
+    "quickLinksHeading": "바로가기",
+    "home": "홈",
+    "aboutUs": "소개",
+    "hospiceServices": "호스피스 서비스",
+    "faq": "자주 묻는 질문",
+    "contact": "문의하기",
+    "referral": "의뢰 양식",
+    "contactHeading": "연락처",
+    "address": "캘리포니아, 로스앤젤레스",
+    "phone": "(XXX) XXX-XXXX",
+    "email": "info@eminentHospice.com",
+    "hours": "24시간, 주 7일 이용 가능",
+    "copyright": "© {year} Eminent Hospice Care Inc. 모든 권리 보유.",
+    "licensedInCalifornia": "캘리포니아주 인가 업체"
+  },
+  "home": {
+    "pageTitle": "로스앤젤레스 호스피스 케어",
+    "heroHeading": "존엄과 함께하는 케어.\n따뜻한 마음으로 드리는 위안.",
+    "heroSubtext": "에미넌트 호스피스 케어는 인생에서 가장 힘든 순간, LA 카운티 전역의 환자와 가족을 위해 전문적이고 진심 어린 케어를 제공합니다.",
+    "heroCta": "호스피스 알아보기",
+    "heroCtaSecondary": "문의하기"
+  }
+}

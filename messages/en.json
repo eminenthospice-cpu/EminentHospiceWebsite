@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "hospiceServices": "Hospice Services",
+    "understandingHospice": "Understanding Hospice Care",
+    "hospiceLaws": "Hospice Laws & Patient Rights",
+    "forFamilies": "For Families & Caregivers",
+    "insurance": "Insurance & Medicare",
+    "faq": "FAQ",
+    "contact": "Contact Us",
+    "referral": "Referral Form",
+    "mainNav": "Main navigation",
+    "mobileNav": "Mobile navigation",
+    "skipToMain": "Skip to main content",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "homeLinkAriaLabel": "Eminent Hospice Care — go to homepage",
+    "switchLanguage": "Switch to {lang}"
+  },
+  "footer": {
+    "tagline": "Providing compassionate, expert hospice care to patients and families throughout Los Angeles County.",
+    "footerNav": "Footer navigation",
+    "quickLinksHeading": "Quick Links",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "hospiceServices": "Hospice Services",
+    "faq": "FAQ",
+    "contact": "Contact Us",
+    "referral": "Referral Form",
+    "contactHeading": "Contact Us",
+    "address": "Los Angeles, California",
+    "phone": "(XXX) XXX-XXXX",
+    "email": "info@eminentHospice.com",
+    "hours": "Available 24 hours a day, 7 days a week",
+    "copyright": "© {year} Eminent Hospice Care Inc. All rights reserved.",
+    "licensedInCalifornia": "Licensed in the State of California"
+  },
+  "home": {
+    "pageTitle": "Compassionate Hospice Care in Los Angeles",
+    "heroHeading": "Care With Dignity.\nComfort With Compassion.",
+    "heroSubtext": "Eminent Hospice Care provides expert, heartfelt care to patients and families throughout Los Angeles County during life's most challenging moments.",
+    "heroCta": "Learn About Hospice",
+    "heroCtaSecondary": "Contact Us"
+  }
+}
