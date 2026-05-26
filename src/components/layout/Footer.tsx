@@ -13,6 +13,13 @@ export function Footer() {
     { key: 'referral',        href: '/referral' },
   ] as const;
 
+  const legalLinks = [
+    { key: 'privacy',       href: '/privacy' },
+    { key: 'hipaaNotice',   href: '/hipaa-notice' },
+    { key: 'accessibility', href: '/accessibility' },
+    { key: 'terms',         href: '/terms' },
+  ] as const;
+
   return (
     <footer className="bg-primary-900 text-white mt-auto">
       <div className="max-w-content mx-auto px-section-x py-12">
@@ -41,9 +48,33 @@ export function Footer() {
             </address>
           </div>
         </div>
-        <div className="mt-10 pt-6 border-t border-primary-700 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-primary-400">
-          <p>{t('copyright', { year: new Date().getFullYear() })}</p>
-          <p>{t('licensedInCalifornia')}</p>
+        <div className="mt-10 pt-6 border-t border-primary-700 space-y-4">
+          <nav aria-label={t('legalLinksHeading')}>
+            <ul className="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-primary-300">
+              {legalLinks.map(({ key, href }) => (
+                <li key={key}>
+                  <Link
+                    href={href}
+                    className="hover:text-white transition-colors duration-ui focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm"
+                  >
+                    {t(`legalLinks.${key}`)}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <a
+                  href="/sitemap.xml"
+                  className="hover:text-white transition-colors duration-ui focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm"
+                >
+                  {t('legalLinks.sitemap')}
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-primary-400">
+            <p>{t('copyright', { year: new Date().getFullYear() })}</p>
+            <p>{t('licensedInCalifornia')}</p>
+          </div>
         </div>
       </div>
     </footer>

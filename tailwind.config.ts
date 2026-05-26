@@ -42,8 +42,8 @@ const config: Config = {
         'text-muted':     '#718096',
       },
       fontFamily: {
-        heading: ['var(--font-playfair)', 'Georgia', 'serif'],
-        body:    ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        heading: ['var(--font-playfair)', 'var(--font-noto-sans-kr)', 'Georgia', 'serif'],
+        body:    ['var(--font-inter)', 'var(--font-noto-sans-kr)', 'system-ui', 'sans-serif'],
       },
       spacing: {
         'section-y': '5rem',

@@ -37,3 +37,6 @@ next-env.d.ts
 # temp files
 dev-output.txt
 dev-error.txt
+
+# Claude Code harness (per-machine config)
+.claude/

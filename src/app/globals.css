@@ -46,3 +46,53 @@
     border-width: 0;
   }
 }
+
+/* Long-form informational pages (Day 3+): sidebar anchors land below the sticky header.
+   Header height is h-16 (4rem) mobile / h-20 (5rem) desktop; 6rem gives comfortable clearance. */
+.long-form h2 {
+  scroll-margin-top: 6rem;
+}
+
+/* Day 5 — FAQ deep links: /faq#q-{key} should land the <details> below the sticky header.
+   Browsers automatically open a <details> whose id matches the URL hash. */
+.long-form details {
+  scroll-margin-top: 6rem;
+}
+
+@media print {
+  header,
+  footer,
+  [data-print-hide] {
+    display: none !important;
+  }
+  .long-form {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .long-form a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #444;
+  }
+  .long-form h2 {
+    break-after: avoid;
+  }
+  .long-form table {
+    break-inside: avoid;
+  }
+  /* Day 5 — FAQ <details> should print expanded regardless of collapsed state. */
+  .long-form details {
+    break-inside: avoid;
+  }
+  .long-form details > *:not(summary) {
+    display: block !important;
+  }
+  .long-form details summary {
+    font-weight: 600;
+    list-style: none;
+  }
+  .long-form details summary::-webkit-details-marker {
+    display: none;
+  }
+}

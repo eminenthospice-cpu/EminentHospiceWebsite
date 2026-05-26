@@ -12,7 +12,7 @@ Days 1 (scaffold) and 2 (Home) are complete. Day 3 ships the **educational core*
 **Source alignment:**
 - `7-day-plan.md` Day 3: "educational core — builds trust and authority. Consistent layout: main content + sidebar (quick links, contact CTA)." All three pages must carry the educational-content disclaimer.
 - `instructions.md`: Priority #1 = "accurate and trustworthy information about hospice care." These three pages are where that promise is kept.
-- `notebooklm.md` notebook 2 (Hospice Regulations, Medicare & Compliance — `37f4da68-…`): primary source for regulatory content. Already queried — covers 23 federal CoPs, two-physician certification, ≤6-month prognosis, four levels of care (RHC/CHC/GIP/IRC), FY2026 rates (2.6% increase, Aggregate Cap $35,361.44, Inpatient Cap 20% of patient days), HQRP, HOPE tool (effective Oct 1, 2025), LA County fraud scrutiny.
+- `notebooklm.md` notebook 2 (Hospice Regulations, Medicare & Compliance — `37f4da68-…`): primary source for regulatory content. Already queried — covers the federal Conditions of Participation (42 CFR Part 418, Subparts C–D), two-physician certification, ≤6-month prognosis, four levels of care (RHC/CHC/GIP/IRC), FY2026 rates (2.6% increase, Aggregate Cap $35,361.44), HQRP, HOPE tool (effective Oct 1, 2025), LA County fraud scrutiny. *Note: the often-cited "23 CoPs" headline number is widely used in industry literature but is not directly enumerated in a single CMS reference page — page copy avoids citing a specific count unless an implementer verifies it against the eCFR table of contents before publish.* The HQRP/HOPE/Inpatient Cap items are provider-side context only and do **not** appear in family-facing page copy.
 - `notebooklm.md` notebook 1 (`d92cd23b-…`): family-facing copy — plain-language hospice definition (frag 1, 4), myth-busting (frag 24), eligibility lists (frag 42), advance directives (frag 46), insurance coverage in everyday language (frag 55).
 - `day2-plan.md`: established the reusable primitives (`SectionContainer`, `Icon`, content-in-JSON pattern). Day 3 builds **one new shared layout primitive** (`LongFormPage`) that Days 4 and 5 will also use.
 
@@ -80,7 +80,8 @@ type LongFormPageProps = {
 - Title in `font-heading text-4xl md:text-5xl`
 - "Last reviewed" stamp: small caps, `text-text-muted`, positioned just below title
 - Disclaimer slot: visually distinct callout box (`bg-warning/10 border-l-4 border-warning`) — communicates "important notice" without alarm
-- Sidebar: `sticky top-24` on desktop so it stays visible while scrolling; not sticky on mobile
+- Sidebar: `sticky top-24` (6rem) on desktop so it stays visible while scrolling; not sticky on mobile. **Before implementing, measure the actual `<Header>` rendered height in DevTools — if it differs from 6rem, update both `top-` on the sidebar AND `scroll-margin-top` in `globals.css` to match so anchor targets and the sidebar share the same offset.**
+- Root element gets `class="long-form"` so the scoped `scroll-margin-top` rule in `globals.css` applies to its `<h2>` headings.
 
 ---
 
@@ -91,7 +92,7 @@ type LongFormPageProps = {
 | `messages/en.json` | **Edit** — add 3 namespaces (`understandingHospice`, `hospiceLaws`, `insurance`) + shared `common` namespace | All Day 3 copy |
 | `messages/ko.json` | **Edit** — mirror in Korean | Bilingual parity (draft today, polish Day 7) |
 | `messages/PLACEHOLDERS.md` | **Edit** — append any keys holding placeholder values (e.g. Eminent complaint contact phone) | Track for client review |
-| `src/app/globals.css` | **Edit** — add `scroll-margin-top` to `<h2>` so anchor links land below the sticky header | Sidebar anchor links |
+| `src/app/globals.css` | **Edit** — add `scroll-margin-top` scoped to long-form content (e.g. `.long-form h2 { scroll-margin-top: 6rem }`), **not** applied globally to `h2` so Home/other pages aren't affected | Sidebar anchor links |
 | `src/components/layout/LongFormPage.tsx` | **Create** | Shared two-column shell |
 | `src/components/layout/PageSidebar.tsx` | **Create** | Reusable sidebar (quick links + contact card) |
 | `src/components/ui/Disclaimer.tsx` | **Create** | Callout box used across Day 3 pages |
@@ -101,7 +102,7 @@ type LongFormPageProps = {
 | `src/components/info/EligibilityList.tsx` | **Create** | Used on Understanding Hospice page |
 | `src/components/info/PatientRightsList.tsx` | **Create** | Used on Hospice Laws page |
 | `src/components/info/AdvanceDirectivesGrid.tsx` | **Create** | 3-card grid (Living Will / DPOA / POLST) used on Hospice Laws page |
-| `src/components/info/CoverageTable.tsx` | **Create** | Medicare vs Medi-Cal vs Private comparison — used on Insurance page |
+| `src/components/info/CoverageTable.tsx` | **Create** | Medicare vs Medi-Cal vs Private comparison — used on Insurance page. **Must use semantic `<table>` + `<thead>` + `<th scope="col">` + `<tbody>` + `<th scope="row">` for a11y; wrap in `<div class="overflow-x-auto">` for mobile.** |
 | `src/components/info/PageBottomCta.tsx` | **Create** | "Have questions?" CTA band — reused by all 3 Day 3 pages |
 | `src/app/[locale]/understanding-hospice/page.tsx` | **Create** | Page route |
 | `src/app/[locale]/hospice-laws/page.tsx` | **Create** | Page route |
@@ -159,7 +160,7 @@ understandingHospice
 
 ### Section outline
 
-1. **Federal Standards: Conditions of Participation** — 1-paragraph plain-language overview of the **23 Medicare Conditions of Participation** (notebook 2 frag 1). Explain in family terms: "Every hospice that accepts Medicare must meet 23 federal standards covering patient rights, assessment, interdisciplinary care, and infection control." Link out to the official CMS regulation (`https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418`) so the curious can verify.
+1. **Federal Standards: Conditions of Participation** — 1-paragraph plain-language overview of the **Medicare Conditions of Participation** (42 CFR Part 418, Subparts C–D; notebook 2 frag 1). Explain in family terms: "Every hospice that accepts Medicare must meet federal standards covering patient rights, assessment, the interdisciplinary care team, quality, and infection control." Link out to the official CMS regulation (`https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418`) so the curious can verify. *If a specific CoP count is added to copy later, confirm against the eCFR Part 418 Subparts C–D table of contents first; "23" is the industry shorthand but not a single-source CMS figure.*
 2. **Your Rights as a Hospice Patient** — `PatientRightsList` component, plain-language list (paraphrased from 42 CFR §418.52 — patient rights):
    - To receive effective pain and symptom management
    - To be treated with dignity and respect
@@ -174,13 +175,13 @@ understandingHospice
 3. **Advance Directives** — `AdvanceDirectivesGrid` (3-card layout):
    - **Living Will** — written instructions about end-of-life care if you cannot speak for yourself. California: any adult can complete an *Advance Health Care Directive* (Probate Code §4670 et seq.). Free forms available from the California Hospital Association and California Department of Justice.
    - **Durable Power of Attorney for Healthcare (DPOA-HC)** — names someone to make medical decisions for you. Part of the same California Advance Health Care Directive form.
-   - **POLST (Physician Orders for Life-Sustaining Treatment)** — a medical order signed by a physician for seriously ill patients; travels with the patient across care settings. California POLST is printed on bright pink paper so emergency responders recognize it instantly.
+   - **POLST (Physician Orders for Life-Sustaining Treatment)** — a medical order signed by a physician for seriously ill patients; travels with the patient across care settings. In California, the POLST form is *recommended* (not required) to be printed on bright pink paper (Ultra Pink 65#) so emergency responders can locate it quickly; the form remains legally valid on any color paper or in electronic form.
 4. **How to File a Complaint or Grievance** — three paths:
    - With Eminent Hospice directly (contact info — placeholder until client confirms)
    - With the California Department of Public Health (CDPH) Licensing & Certification — (800) 228-1019
    - With the Medicare Beneficiary Ombudsman — 1-800-MEDICARE
    - Stress: **filing a complaint cannot result in retaliation** (federal protection).
-5. **HIPAA & Your Privacy** — short paragraph on what's protected, with link to the Notice of Privacy Practices (Day 7 page; placeholder link until then).
+5. **HIPAA & Your Privacy** — short paragraph on what's protected. **Do not ship a placeholder link to a not-yet-built page** (would 404). Instead: render plain text *"Our full Notice of Privacy Practices will be published before launch — see the footer for the linked notice once available."* On Day 7 when the page exists, swap the text for a real `<Link>`. Tracked as a TODO in `messages/PLACEHOLDERS.md`.
 
 ### Components used
 - `LongFormPage`, `Disclaimer`, `LastReviewed`, `PatientRightsList`, `AdvanceDirectivesGrid`, `PageBottomCta`
@@ -274,12 +275,36 @@ The **disclaimer text is regulatory-sensitive**. Wording is locked across all th
 
 ---
 
+## Implementation Conventions (carried forward from Days 1–2)
+
+These were established earlier; restated here because Day 3 spins up 3 new pages × `generateMetadata` and 5 new components, and missing any of them silently breaks a11y, SEO, or i18n.
+
+1. **`useTranslations` vs `getTranslations`** — `getTranslations` (from `next-intl/server`, `await`ed) is only required in async server contexts: `generateMetadata` and async server components. The three Day 3 page bodies and all `info/*` blocks stay **synchronous** server components using `useTranslations('namespace')`. Don't `await` either.
+2. **`params` in Next.js 14.2.x** — `params` is synchronous (not a Promise). In `generateMetadata({ params }: { params: { locale: string } })`, do **not** `await params`.
+3. **Korean term policy** — for regulatory/branded English terms (Medicare, Medi-Cal, POLST, DPOA, HIPAA, Medicare Part A), use the Day 2 hybrid: Korean translation followed by parenthesized English on first use per page (`"메디케어 파트 A (Medicare Part A)"`), and English-only on subsequent mentions. Educational-disclaimer copy may use Korean transliterations (메디케어/메디캘) because the disclaimer is regulatory boilerplate, not a teaching moment — but be consistent within a section.
+4. **Tailwind tokens only** — no raw hex; for any `bg-*`/`text-*` chosen via prop, use an explicit `Record<…, string>` lookup map of full literal class strings so the JIT compiles them (see Day 2 `SectionContainer`).
+5. **No `_note` keys in `messages/*.json`** — placeholders are tracked in `messages/PLACEHOLDERS.md`, never in the runtime JSON (next-intl would otherwise emit them in the client bundle).
+
+---
+
 ## Step-by-Step Implementation Order
 
 1. **Add Day 3 namespaces to `messages/en.json`** — full nested structure for `understandingHospice`, `hospiceLaws`, `insurance`, and shared `common`. Draft copy from NotebookLM sources.
 2. **Mirror in `messages/ko.json`** — Korean drafts (Day 7 native polish).
 3. **Update `messages/PLACEHOLDERS.md`** — note that CDPH/Medicare phone numbers and the CMS link URL are official values (not placeholders), but any phone number listed as Eminent's complaint contact is a placeholder until the client confirms.
-4. **Edit `src/app/globals.css`** — add `h2 { scroll-margin-top: 6rem; }` so anchor links land below the sticky header.
+4. **Edit `src/app/globals.css`** — add **scoped** `.long-form h2 { scroll-margin-top: 6rem; }` (not a global `h2` rule — that would affect Home and every future page). Also add a minimal print stylesheet for the three info pages — caregivers commonly print regulatory content (patient rights, advance directives, insurance):
+
+   ```css
+   @media print {
+     header, footer, [data-print-hide] { display: none; }
+     .long-form { max-width: none; color: #000; background: #fff; }
+     .long-form a::after { content: " (" attr(href) ")"; font-size: 0.85em; color: #444; }
+     .long-form h2 { break-after: avoid; }
+     .long-form table { break-inside: avoid; }
+   }
+   ```
+
+   Add `data-print-hide` to the `PageSidebar` and `PageBottomCta` root elements so they vanish on print.
 5. **Extend `src/components/ui/Icon.tsx`** with `scale`, `document`, `info` icons (Heroicons outline, MIT-licensed).
 6. **Create `src/components/ui/Disclaimer.tsx`** and `src/components/ui/LastReviewed.tsx`.
 7. **Create `src/components/layout/PageSidebar.tsx`**.
@@ -304,8 +329,8 @@ NLM = NotebookLM. Citations refer to the fragment numbers from the earlier queri
 | `common.educationalDisclaimer` | "This information is general education, not legal or insurance advice. Coverage decisions are made by Medicare, Medi-Cal, and your physician. For your specific situation, please contact us or your insurance provider." | "본 안내는 일반적인 교육 정보이며, 법률 또는 보험 자문이 아닙니다. 보장 여부는 메디케어, 메디캘 및 담당 의사가 결정합니다. 구체적인 상황은 본 기관 또는 보험 제공자에게 문의해 주세요." | regulatory standard |
 | `understandingHospice.sections.myths.items.1.myth` | "Hospice means giving up." | "호스피스는 포기하는 것이다." | NLM 1 frag 24 |
 | `understandingHospice.sections.myths.items.1.fact` | "Hospice is choosing comfort and dignity. Many patients live as long as or longer than expected once symptoms are well managed." | "호스피스는 편안함과 존엄을 선택하는 것입니다. 증상이 잘 관리되면 많은 환자가 예상보다 오래 생활하기도 합니다." | NLM 1 frag 24 |
-| `hospiceLaws.sections.cops.body` | "Every hospice that accepts Medicare must meet 23 federal Conditions of Participation. These cover patient rights, assessment, the interdisciplinary care team, quality, and infection control." | "메디케어를 수용하는 모든 호스피스 기관은 환자 권리, 평가, 다학제 팀 운영, 품질, 감염 관리 등을 다루는 23개 연방 참여 조건(CoPs)을 충족해야 합니다." | NLM 2 frag 1 |
-| `hospiceLaws.sections.advanceDirectives.polst.paperColorNote` | "In California, the POLST form is printed on bright pink paper so emergency responders recognize it quickly." | "캘리포니아에서는 응급 구조대원이 즉시 식별할 수 있도록 POLST 양식이 밝은 분홍색 종이에 인쇄됩니다." | CA POLST standard |
+| `hospiceLaws.sections.cops.body` | "Every hospice that accepts Medicare must meet the federal Conditions of Participation. These cover patient rights, assessment, the interdisciplinary care team, quality, and infection control." | "메디케어를 수용하는 모든 호스피스 기관은 환자 권리, 평가, 다학제 팀 운영, 품질, 감염 관리 등을 다루는 연방 참여 조건(Conditions of Participation)을 충족해야 합니다." | 42 CFR Part 418 Subparts C–D (NLM 2 frag 1) |
+| `hospiceLaws.sections.advanceDirectives.polst.paperColorNote` | "In California, the POLST form is recommended to be printed on bright pink (Ultra Pink) paper so emergency responders can locate it quickly. The form is legally valid on any color paper or in electronic form." | "캘리포니아에서는 응급 구조대원이 빠르게 식별할 수 있도록 POLST 양식을 밝은 분홍색(Ultra Pink) 종이에 인쇄하는 것이 권장됩니다. 다른 색상의 종이나 전자 양식도 법적으로 유효합니다." | [capolst.org Provider FAQ](https://capolst.org/wp-content/uploads/2025/10/POLST-FAQ-for-Medical-Providers-Who-Can-Sign-POLST.pdf) |
 | `insurance.sections.cost.p1` | "For most patients, hospice care costs $0. Medicare Part A and Medi-Cal cover the hospice benefit in full when you elect it." | "대부분의 환자에게 호스피스 케어 비용은 $0입니다. 호스피스 베네핏을 선택하면 메디케어 파트 A와 메디캘이 비용을 전액 보장합니다." | NLM 1 frag 55 |
 | `insurance.sections.levels.aggregateCap.value` | "$35,361.44 per beneficiary (FY2026)" | "$35,361.44 / 수혜자당 (2026 회계연도)" | NLM 2 frag 23 |
 | `insurance.sections.levels.sourceNote` | "Source: CMS FY2026 Hospice Wage Index Final Rule, effective October 1, 2025." | "출처: CMS 2026 회계연도 호스피스 임금 지수 최종 규정, 2025년 10월 1일 시행." | NLM 2 frag 21–22 |
@@ -334,12 +359,18 @@ npm run lint           # zero errors
 npm run build          # 6 new routes (3 × 2 locales) appear, no missing-translation warnings
 ```
 
-**Content correctness spot-check:**
-- FY2026 Aggregate Cap value ($35,361.44) matches CMS final rule
-- 2.6% FY2026 increase reported as `3.3% market basket − 0.7% productivity adjustment`
-- Patient rights list has 10 items, each phrased plainly (not regulatory legalese)
-- All California-specific items (POLST pink paper, CDPH complaint line 800-228-1019) flagged as state-jurisdictional, not federal
+**Content correctness spot-check (verified May 2026 against primary sources):**
+- FY2026 Aggregate Cap value ($35,361.44) matches CMS-1835-F final rule ([CMS fact sheet](https://www.cms.gov/newsroom/fact-sheets/fy-2026-hospice-wage-index-and-payment-rate-update-and-hospice-quality-reporting-program))
+- 2.6% FY2026 increase — confirm the exact decomposition (market basket − productivity adjustment) against CMS-1835-F before publishing the breakdown; CMS publishes the topline 2.6% but the component figures vary year to year
+- Patient rights list has 10 items, each phrased plainly (not regulatory legalese), paraphrased from [42 CFR §418.52](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418/subpart-C/section-418.52)
+- POLST pink-paper wording matches [California POLST Provider FAQ](https://capolst.org/wp-content/uploads/2025/10/POLST-FAQ-for-Medical-Providers-Who-Can-Sign-POLST.pdf) — "recommended" not "required"; valid on any color paper
+- CDPH complaint line **(800) 228-1019** verified against [cdph.ca.gov contact page](https://www.cdph.ca.gov/Pages/contact_us.aspx); Medicare ombudsman is **1-800-MEDICARE (1-800-633-4227)**
+- All California-specific items flagged as state-jurisdictional, not federal
+- **Page copy does not cite a specific CoP count** (e.g. "23") unless an implementer has counted the CoPs in [eCFR Part 418 Subparts C–D](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418) and confirmed it; safer default is to reference "the federal Conditions of Participation" without a number
 - Educational disclaimer appears above the fold on every Day 3 page
+- Medicare hospice election structure: **two 90-day periods, then unlimited 60-day periods** (verified — [42 CFR Part 418 Subpart B](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418/subpart-B/))
+- Drug copay capped at $5; respite coinsurance 5% of Medicare-approved rate ([42 CFR Part 418 Subpart H](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-418/subpart-H))
+- Medi-Cal room and board ≥95% of NF rate (revenue code 0658) verified against DHCS guidance
 
 **Lighthouse target per page:** Perf ≥ 90, A11y ≥ 95, Best Practices ≥ 95, SEO ≥ 95.
 
@@ -355,7 +386,11 @@ npm run build          # 6 new routes (3 × 2 locales) appear, no missing-transl
 | **Coverage table oversimplifies** | Each cell stays factual; "Family pays" cell explicitly references the drug co-pay (up to $5) and respite co-pay (5% of Medicare-approved rate). Sidebar callout reminds the reader to verify their specific plan. |
 | **Sidebar sticky behavior buggy on long pages** | Use plain `sticky top-24`; if sticky stacking issues appear, fall back to non-sticky — the sidebar still functions as a footer-block on each page. |
 | **Korean medical terminology mistranslated** | Day 3 ships *drafts*. Day 7 native review will catch incorrect Korean medical/legal terms. Critical terms (Medicare, Medi-Cal, hospice, POLST) should remain in English even in KO copy where Korean equivalents could mislead, e.g. `"메디케어 파트 A (Medicare Part A)"`. |
-| **Anchor links collide with sticky header offset** | `scroll-margin-top: 6rem` on `<h2>` in `globals.css` (Step 4). |
+| **Anchor links collide with sticky header offset** | Scoped `.long-form h2 { scroll-margin-top: 6rem }` in `globals.css` (Step 4). Measure actual `<Header>` height first and tune `top-` + `scroll-margin-top` together. |
+| **POLST "printed on pink" overstated as a legal requirement** | Wording softened to "recommended … to be printed on bright pink paper; valid on any color or electronically." Single source of truth in `hospiceLaws.sections.advanceDirectives.polst.paperColorNote`. |
+| **CoP-count claim ("23") not directly attributable to a single CMS page** | Page copy references "the federal Conditions of Participation" without a count; verification step in spot-check list. If the client insists on a number, count Subparts C–D sections in eCFR Part 418 before publishing. |
+| **Caregivers print these pages and get a broken layout** | Print stylesheet added in Step 4 — hides nav/sidebar/CTAs, expands main, expands URLs after links for paper readability. |
+| **`NLM frag N` source pointers unverifiable in future audits** | Optional: dump a `messages/SOURCES.md` with the quoted snippets from notebooks 1 and 2 next to each translation key. Adds maintenance but makes the regulatory provenance reviewable without re-querying NotebookLM. |
 | **3 pages in one day is aggressive** | Per `7-day-plan.md` Day 3 contingency: if time runs short, ship Understanding + Insurance first; push Hospice Laws to Day 4 morning. The shared `LongFormPage` shell built today makes Day 4 about 30% faster than starting fresh. |
 
 ---
