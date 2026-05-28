@@ -36,7 +36,7 @@ export function SectionContainer({
       aria-label={ariaLabel}
       className={`${BG_CLASSES[bg]} ${className}`.trim()}
     >
-      <div className={`max-w-content mx-auto px-section-x py-section-y ${innerClassName}`.trim()}>
+      <div className={`max-w-content mx-auto min-w-0 px-section-x py-section-y ${innerClassName}`.trim()}>
         {children}
       </div>
     </section>

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { LongFormPage } from '@/components/layout/LongFormPage';
 import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/layout/PageSidebar';
 import { PageBottomCta } from '@/components/info/PageBottomCta';
@@ -59,8 +59,10 @@ export default function PrivacyPage() {
   const t = useTranslations('privacy');
   const s = useTranslations('privacy.sections');
   const c = useTranslations('common');
+  const locale = useLocale();
   const phoneDisplay = c('phone.display');
   const retentionDays = getRetentionDays();
+  const eyebrow = locale === 'ko' ? '법적 고지' : 'Legal notice';
 
   const anchors: SidebarAnchor[] = SECTION_KEYS.map((k) => ({
     id: k,
@@ -71,6 +73,7 @@ export default function PrivacyPage() {
     <>
       <LongFormPage
         title={t('pageTitle')}
+        eyebrow={eyebrow}
         lastReviewed={t('lastReviewed')}
         introParagraph={t('introParagraph')}
         showDisclaimer={false}

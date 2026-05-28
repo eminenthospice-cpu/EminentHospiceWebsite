@@ -1,6 +1,6 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { SectionContainer } from '@/components/ui/SectionContainer';
-import { Icon, type IconName } from '@/components/ui/Icon';
+import { Reveal } from '@/components/motion/Reveal';
 
 type RoleKey =
   | 'physician'
@@ -12,48 +12,53 @@ type RoleKey =
   | 'bereavement'
   | 'volunteer';
 
-const ROLES: { key: RoleKey; icon: IconName }[] = [
-  { key: 'physician',   icon: 'briefcase' },
-  { key: 'rn',          icon: 'heart' },
-  { key: 'lvn',         icon: 'handHeart' },
-  { key: 'msw',         icon: 'users' },
-  { key: 'chaplain',    icon: 'sparkles' },
-  { key: 'aide',        icon: 'sun' },
-  { key: 'bereavement', icon: 'chat' },
-  { key: 'volunteer',   icon: 'shield' },
+const ROLES: RoleKey[] = [
+  'physician',
+  'rn',
+  'lvn',
+  'msw',
+  'chaplain',
+  'aide',
+  'bereavement',
+  'volunteer',
 ];
 
 export function TeamCallout() {
   const t = useTranslations('home.team');
+  const locale = useLocale();
+  const eyebrow = locale === 'ko' ? '학제간 팀' : 'Interdisciplinary team';
 
   return (
-    <SectionContainer bg="warm" ariaLabelledBy="team-heading">
-      <div className="text-center max-w-prose mx-auto mb-12">
-        <h2
-          id="team-heading"
-          className="font-heading text-3xl md:text-4xl font-semibold text-primary-700 mb-4"
-        >
-          {t('title')}
-        </h2>
-        <p className="text-base md:text-lg text-text-secondary leading-relaxed">
-          {t('intro')}
-        </p>
-      </div>
-
-      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">
-        {ROLES.map(({ key, icon }) => (
-          <li key={key} className="flex gap-4 items-start">
-            <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-primary-50 text-primary-600 flex-shrink-0">
-              <Icon name={icon} className="w-5 h-5" />
+    <SectionContainer
+      bg="warm"
+      ariaLabelledBy="team-heading"
+      innerClassName="!py-section-2xl"
+      className="bg-gradient-paper"
+    >
+      <Reveal>
+        <div className="max-w-prose-wide mb-14 lg:mb-16">
+          <p className="eyebrow mb-4">{eyebrow}</p>
+          <div className="flex flex-wrap items-baseline gap-x-4 gap-y-2 mb-4 min-w-0">
+            <span className="font-heading text-display-xl sm:text-display-2xl text-accent-warm-300 leading-none shrink-0" aria-hidden="true">
+              &
             </span>
-            <div>
-              <h3 className="font-heading text-base font-semibold text-text-primary mb-1">
-                {t(`roles.${key}.name`)}
-              </h3>
-              <p className="text-sm text-text-secondary leading-relaxed">
-                {t(`roles.${key}.desc`)}
-              </p>
-            </div>
+            <h2 id="team-heading" className="font-heading text-display-lg text-ink-900 min-w-0 flex-1">
+              {t('title')}
+            </h2>
+          </div>
+          <p className="lead">{t('intro')}</p>
+        </div>
+      </Reveal>
+
+      <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-10">
+        {ROLES.map((key) => (
+          <li key={key} className="py-5 border-b border-line-soft">
+            <p className="text-eyebrow text-ink-500 mb-2 uppercase tracking-[0.16em]">
+              {t(`roles.${key}.name`)}
+            </p>
+            <p className="font-prose text-base text-ink-700 leading-relaxed">
+              {t(`roles.${key}.desc`)}
+            </p>
           </li>
         ))}
       </ul>

@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import { Phone } from 'lucide-react';
 import { SectionContainer } from '@/components/ui/SectionContainer';
-import { Icon } from '@/components/ui/Icon';
 import { ReferralPhoneFirst } from '@/components/referral/ReferralPhoneFirst';
 import { ReferralFullForm } from '@/components/referral/ReferralFullForm';
 import { ReferralTrustStrip } from '@/components/referral/ReferralTrustStrip';
+import { Reveal } from '@/components/motion/Reveal';
 import { buildAlternates, buildOpenGraph } from '@/lib/seo';
 
 const PATH = '/referral';
@@ -38,46 +39,65 @@ export default function ReferralPage() {
   const t = useTranslations('referral');
   const tPhoneCta = useTranslations('referral.modeB.phoneCta');
   const tPhone = useTranslations('common.phone');
+  const locale = useLocale();
   const phoneDisplay = tPhone('display');
   const phoneTel = tPhone('tel');
+  const eyebrow = locale === 'ko' ? '환자 의뢰' : 'Make a referral';
 
   return (
-    <SectionContainer bg="cream">
-      <header className="max-w-prose mb-10">
-        <h1 className="font-heading text-4xl md:text-5xl text-text-primary leading-tight mb-3">
-          {t('pageTitle')}
-        </h1>
-        <p className="text-lg text-text-secondary leading-relaxed">
-          {t('introParagraph', { phone: phoneDisplay })}
-        </p>
-      </header>
+    <SectionContainer bg="cream" innerClassName="!py-section-y md:!py-section-2xl">
+      <div className="space-y-10 md:space-y-12">
+      <Reveal>
+        <header className="max-w-prose-wide">
+          <p className="eyebrow mb-4">{eyebrow}</p>
+          <h1 className="font-heading text-display-lg md:text-display-xl text-text-primary leading-tight mb-5">
+            {t('pageTitle')}
+          </h1>
+          <p className="font-prose text-lg md:text-xl text-text-secondary leading-relaxed">
+            {t('introParagraph', { phone: phoneDisplay })}
+          </p>
+        </header>
+      </Reveal>
 
       {HAS_BAA ? (
         <>
-          <ReferralTrustStrip />
+          <Reveal delay={0.06}>
+            <ReferralTrustStrip />
+          </Reveal>
 
-          <a
-            href={`tel:${phoneTel}`}
-            className="inline-flex items-center gap-2 mb-8 px-4 py-3 rounded-btn border border-primary-200 bg-white text-primary-700 font-medium hover:bg-primary-50 transition-colors duration-ui focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500"
-          >
-            <Icon name="phone" className="w-5 h-5" />
-            <span>
-              <span className="text-text-muted text-sm mr-2">
-                {tPhoneCta('title')}
+          <Reveal delay={0.1}>
+            <a
+              href={`tel:${phoneTel}`}
+              className="group inline-flex items-center gap-3 min-h-11 px-5 py-4 rounded-card
+                card-paper bg-white text-primary-700 font-medium hover:shadow-card-md transition-all duration-fast
+                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500"
+            >
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-primary-50 text-primary-700">
+                <Phone className="w-5 h-5" aria-hidden="true" strokeWidth={2} />
               </span>
-              <span className="font-semibold">
-                {tPhoneCta('callLabel', { phone: phoneDisplay })}
+              <span>
+                <span className="block text-text-muted text-xs uppercase tracking-wide font-semibold">
+                  {tPhoneCta('title')}
+                </span>
+                <span className="block font-heading text-lg font-semibold text-primary-700">
+                  {tPhoneCta('callLabel', { phone: phoneDisplay })}
+                </span>
               </span>
-            </span>
-          </a>
+            </a>
+          </Reveal>
 
-          <div className="rounded-card bg-white border border-neutral-200 p-6 lg:p-8 shadow-card">
-            <ReferralFullForm retentionDays={RETENTION_DAYS} />
-          </div>
+          <Reveal delay={0.16}>
+            <div className="card-paper p-6 lg:p-10 bg-white">
+              <ReferralFullForm retentionDays={RETENTION_DAYS} />
+            </div>
+          </Reveal>
         </>
       ) : (
-        <ReferralPhoneFirst />
+        <Reveal delay={0.06}>
+          <ReferralPhoneFirst />
+        </Reveal>
       )}
+      </div>
     </SectionContainer>
   );
 }

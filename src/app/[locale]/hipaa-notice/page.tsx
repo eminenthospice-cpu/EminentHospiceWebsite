@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { LongFormPage } from '@/components/layout/LongFormPage';
 import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/layout/PageSidebar';
 import { Icon } from '@/components/ui/Icon';
@@ -42,8 +42,10 @@ export default function HipaaNoticePage() {
   const t = useTranslations('hipaaNotice');
   const s = useTranslations('hipaaNotice.sections');
   const c = useTranslations('common');
+  const locale = useLocale();
   const phoneDisplay = c('phone.display');
   const phoneTel = c('phone.tel');
+  const eyebrow = locale === 'ko' ? 'HIPAA 고지' : 'HIPAA notice';
 
   const anchors: SidebarAnchor[] = SECTION_KEYS.map((k) => ({
     id: k,
@@ -53,6 +55,7 @@ export default function HipaaNoticePage() {
   return (
     <LongFormPage
       title={t('pageTitle')}
+      eyebrow={eyebrow}
       lastReviewed={t('lastReviewed')}
       introParagraph={t('introParagraph')}
       showDisclaimer={false}

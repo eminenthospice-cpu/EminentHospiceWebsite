@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { LongFormPage } from '@/components/layout/LongFormPage';
 import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/layout/PageSidebar';
 import { PageBottomCta } from '@/components/info/PageBottomCta';
@@ -44,6 +44,8 @@ const RELATED_LINKS: RelatedLink[] = [
 export default function HospiceLawsPage() {
   const t = useTranslations('hospiceLaws');
   const s = useTranslations('hospiceLaws.sections');
+  const locale = useLocale();
+  const eyebrow = locale === 'ko' ? '법률 및 환자 권리' : 'Laws & patient rights';
 
   const anchors: SidebarAnchor[] = [
     { id: 'cops', label: s('cops.title') },
@@ -57,6 +59,7 @@ export default function HospiceLawsPage() {
     <>
       <LongFormPage
         title={t('pageTitle')}
+        eyebrow={eyebrow}
         lastReviewed={t('lastReviewed')}
         introParagraph={t('introParagraph')}
         sidebar={<PageSidebar anchors={anchors} relatedLinks={RELATED_LINKS} />}

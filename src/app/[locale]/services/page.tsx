@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { LongFormPage } from '@/components/layout/LongFormPage';
 import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/layout/PageSidebar';
@@ -48,6 +48,8 @@ export default function ServicesPage() {
   const t = useTranslations('services');
   const s = useTranslations('services.sections');
   const phone = useTranslations('common.phone');
+  const locale = useLocale();
+  const eyebrow = locale === 'ko' ? '서비스' : 'Hospice services';
 
   const anchors: SidebarAnchor[] = [
     { id: 'offer', label: s('offer.title') },
@@ -63,6 +65,8 @@ export default function ServicesPage() {
     <>
       <LongFormPage
         title={t('pageTitle')}
+        eyebrow={eyebrow}
+        heroImageKey="servicesHero"
         introParagraph={t('introParagraph')}
         showDisclaimer={false}
         sidebar={<PageSidebar anchors={anchors} relatedLinks={RELATED_LINKS} />}

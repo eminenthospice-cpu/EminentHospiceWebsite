@@ -47,12 +47,16 @@ export function LevelsDetail() {
         ))}
       </div>
       <p className="mt-5 text-sm text-text-muted leading-relaxed">
-        <Link
-          href="/insurance"
-          className="text-primary-600 hover:text-primary-700 underline font-medium"
-        >
-          {t('costFootnote')}
-        </Link>
+        {t.rich('costFootnote', {
+          link: (chunks) => (
+            <Link
+              href="/insurance"
+              className="text-primary-600 hover:text-primary-700 underline font-medium"
+            >
+              {chunks}
+            </Link>
+          ),
+        })}
       </p>
     </>
   );

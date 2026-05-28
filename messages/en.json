@@ -10,6 +10,8 @@
     "faq": "FAQ",
     "contact": "Contact Us",
     "referral": "Referral Form",
+    "resources": "Resources",
+    "resourcesAriaLabel": "Open resources menu",
     "mainNav": "Main navigation",
     "mobileNav": "Mobile navigation",
     "skipToMain": "Skip to main content",
@@ -19,6 +21,7 @@
     "switchLanguage": "Switch to {lang}"
   },
   "footer": {
+    "flourish": "A Tradition of Compassion.",
     "tagline": "Providing compassionate, expert hospice care to patients and families throughout Los Angeles County.",
     "footerNav": "Footer navigation",
     "quickLinksHeading": "Quick Links",
@@ -30,7 +33,7 @@
     "referral": "Referral Form",
     "contactHeading": "Contact Us",
     "address": "Los Angeles, California",
-    "phone": "(XXX) XXX-XXXX",
+    "phone": "(310) 555-1234",
     "email": "info@eminentHospice.com",
     "hours": "Available 24 hours a day, 7 days a week",
     "copyright": "© {year} Eminent Hospice Care Inc. All rights reserved.",
@@ -51,12 +54,20 @@
       "heading": "Care With Dignity.\nComfort With Compassion.",
       "subtext": "Eminent Hospice Care walks alongside patients and families throughout Los Angeles County during life's most challenging moments — with skilled medical care, emotional support, and an unwavering commitment to dignity at home.",
       "ctaPrimary": "Learn About Hospice",
-      "ctaSecondary": "Contact Us"
+      "ctaSecondary": "Contact Us",
+      "caption": "Medicare-certified · Los Angeles County"
+    },
+    "byTheNumbers": {
+      "ariaLabel": "Trust indicators",
+      "stat1": { "value": "24/7", "label": "Care availability" },
+      "stat2": { "value": "2", "label": "Languages spoken" },
+      "stat3": { "value": "100%", "label": "Medicare-certified" }
     },
     "philosophy": {
       "title": "Care Focused on Comfort, Dignity, and Family",
       "paragraph1": "Hospice is comfort-focused care for individuals with a life expectancy of six months or less. Rather than pursuing a cure, our team focuses on relieving pain, managing symptoms, and preserving dignity in the place you call home.",
-      "paragraph2": "We care for the whole person — body, mind, and spirit — and surround families with the practical, emotional, and spiritual support they need so no one has to walk this journey alone."
+      "paragraph2": "We care for the whole person — body, mind, and spirit — and surround families with the practical, emotional, and spiritual support they need so no one has to walk this journey alone.",
+      "marginalia": "Dignity is not a luxury at the end of life — it is the standard we hold ourselves to, every visit."
     },
     "levels": {
       "title": "Four Levels of Care",
@@ -133,8 +144,10 @@
       }
     },
     "testimonial": {
+      "provenance": "Testimonial · Los Angeles",
       "quote": "The Eminent team treated my mother — and our whole family — with extraordinary tenderness. They explained every step, answered the phone at three in the morning, and made sure she was comfortable until her very last breath.",
-      "attribution": "— Family Member, Los Angeles"
+      "attributionName": "Family Member",
+      "attributionRelation": "Los Angeles"
     },
     "finalCta": {
       "title": "Available 24/7 to Support Your Family",
@@ -638,7 +651,7 @@
           "clinical": "Respite Care provides up to five consecutive days of inpatient stay to give the primary family caregiver a needed break. The patient is cared for in a Medicare-certified facility; the family rests.",
           "atHome": "Respite is planned, not reactive — families schedule it in advance. We arrange the bed, the transfer, and the return home. Caregivers come back rested and the patient's care does not skip a beat."
         },
-        "costFootnote": "For coverage and what families pay, see our [Insurance & Medicare page](/insurance)."
+        "costFootnote": "For coverage and what families pay, see our <link>Insurance & Medicare page</link>."
       },
       "team": {
         "title": "Your Interdisciplinary Team",

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { LongFormPage } from '@/components/layout/LongFormPage';
 import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/layout/PageSidebar';
 import { buildAlternates, buildOpenGraph } from '@/lib/seo';
@@ -54,7 +54,9 @@ export default function TermsPage() {
   const t = useTranslations('terms');
   const s = useTranslations('terms.sections');
   const c = useTranslations('common');
+  const locale = useLocale();
   const phoneDisplay = c('phone.display');
+  const eyebrow = locale === 'ko' ? '이용 약관' : 'Terms of use';
 
   const anchors: SidebarAnchor[] = SECTION_KEYS.map((k) => ({
     id: k,
@@ -64,6 +66,7 @@ export default function TermsPage() {
   return (
     <LongFormPage
       title={t('pageTitle')}
+      eyebrow={eyebrow}
       lastReviewed={t('lastReviewed')}
       introParagraph={t('introParagraph')}
       showDisclaimer={false}

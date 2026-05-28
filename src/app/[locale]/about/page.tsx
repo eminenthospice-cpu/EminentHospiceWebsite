@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { LongFormPage } from '@/components/layout/LongFormPage';
 import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/layout/PageSidebar';
@@ -47,6 +47,8 @@ export default function AboutPage() {
   const t = useTranslations('about');
   const s = useTranslations('about.sections');
   const links = useTranslations('common.relatedPages.links');
+  const locale = useLocale();
+  const eyebrow = locale === 'ko' ? '저희를 소개합니다' : 'About Eminent';
 
   const anchors: SidebarAnchor[] = [
     { id: 'mission', label: s('mission.title') },
@@ -64,6 +66,8 @@ export default function AboutPage() {
 
       <LongFormPage
         title={t('pageTitle')}
+        eyebrow={eyebrow}
+        heroImageKey="aboutHero"
         introParagraph={t('introParagraph')}
         showDisclaimer={false}
         sidebar={<PageSidebar anchors={anchors} relatedLinks={RELATED_LINKS} />}

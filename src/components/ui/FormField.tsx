@@ -32,9 +32,16 @@ export function FormField<T extends FieldValues>({
 
   if (hidden) {
     return (
-      <div aria-hidden="true" style={{ position: 'absolute', left: '-9999px', top: 'auto' }}>
+      <div className="sr-only" aria-hidden="true">
         <label htmlFor={id}>{label}</label>
-        <input id={id} type="text" tabIndex={-1} autoComplete="off" {...register(name)} />
+        <input
+          id={id}
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          {...register(name)}
+        />
       </div>
     );
   }

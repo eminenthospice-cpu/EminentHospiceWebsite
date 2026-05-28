@@ -3,33 +3,155 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    /* Motion tokens (also exposed for non-Tailwind consumers) */
+    --motion-fast: 180ms;
+    --motion-base: 280ms;
+    --motion-slow: 480ms;
+    --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+    --ease-snap: cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Baseline 8px vertical rhythm */
+    --rhythm: 0.5rem;
+  }
+
   html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
+    overflow-x: clip;
   }
 
   body {
-    @apply bg-neutral-warm text-text-primary font-body;
+    @apply bg-surface-paper text-text-primary font-body;
     font-size: 1rem;
     line-height: 1.75;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  /* Display headings: prevent long words / flex siblings from forcing horizontal scroll */
+  h1, h2, h3 {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading font-semibold text-text-primary;
-    line-height: 1.25;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+  }
+
+  /* Korean line-break safety on display-size headings.
+     `word-break: keep-all` prevents mid-syllable wraps; `overflow-wrap: anywhere`
+     remains the safety net for very long URLs/words. */
+  :lang(ko) h1, :lang(ko) h2, :lang(ko) h3 {
+    word-break: keep-all;
+    overflow-wrap: break-word;
   }
 
   :focus-visible {
-    @apply outline-none ring-2 ring-primary-500 ring-offset-2;
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2 ring-offset-surface-paper;
   }
 
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
       animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
       transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
     }
     html { scroll-behavior: auto; }
+  }
+}
+
+@layer components {
+  /* Editorial section opener: eyebrow label above oversized heading */
+  .eyebrow {
+    @apply text-eyebrow uppercase font-body font-semibold text-primary-600;
+  }
+
+  /* Pull-quote treatment for testimonials / philosophy bands */
+  .pull-quote {
+    @apply font-heading text-pull-quote text-text-primary leading-snug;
+    quotes: '“' '”';
+  }
+  .pull-quote::before { content: open-quote; @apply text-accent-warm-400 mr-1; }
+  .pull-quote::after  { content: close-quote; @apply text-accent-warm-400 ml-1; }
+
+  /* Paper-card aesthetic for editorial content panels */
+  .card-paper {
+    @apply bg-surface-paper border border-neutral-200 rounded-card shadow-paper;
+  }
+
+  .callout-marginalia {
+    @apply border-l-2 border-accent-warm-300 pl-5 font-prose text-marginalia text-ink-700;
+  }
+
+  .lead {
+    @apply font-prose text-lead text-ink-700 max-w-prose;
+  }
+
+  .rule-hair {
+    @apply border-t border-line-soft;
+  }
+
+  .numeral-wall {
+    @apply font-heading text-numeral-xl text-ink-900;
+    font-variant-numeric: oldstyle-nums tabular-nums;
+    font-feature-settings: 'ss01';
+  }
+
+  .lift-card {
+    transition:
+      transform 320ms var(--ease-editorial),
+      box-shadow 320ms var(--ease-editorial);
+  }
+
+  .press-tap:active {
+    transform: scale(0.985);
+    transition-duration: 80ms;
+  }
+
+  .underline-grow {
+    @apply relative inline-block;
+  }
+
+  .underline-grow::after {
+    content: '';
+    @apply absolute left-0 -bottom-0.5 h-px w-full bg-current origin-left scale-x-0;
+    transition: transform 260ms var(--ease-editorial);
+  }
+
+  .underline-grow:hover::after,
+  .underline-grow:focus-visible::after {
+    @apply scale-x-100;
+  }
+
+  /* Skip link: off-screen until focused, with a full 44px target (WCAG 2.5.8) */
+  .skip-link {
+    @apply absolute left-4 z-modal px-4 py-3 min-h-11 min-w-11 rounded-btn bg-primary-500 text-white font-semibold text-sm;
+    top: -100%;
+  }
+
+  .skip-link:focus,
+  .skip-link:focus-visible {
+    top: 0.75rem;
+  }
+
+  /* Footer / sidebar text links: comfortable touch target without changing visual scale much */
+  .link-target {
+    @apply inline-flex items-center min-h-11 py-2;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lift-card {
+    transition: opacity 200ms var(--ease-editorial);
+  }
+
+  .lift-card:hover {
+    transform: none;
   }
 }
 
@@ -45,18 +167,25 @@
     white-space: nowrap;
     border-width: 0;
   }
+
+  /* Editorial number style for ordered editorial lists */
+  .numeral-editorial {
+    @apply font-heading text-display-lg text-accent-warm-500 leading-none;
+    font-variant-numeric: oldstyle-nums;
+  }
 }
 
-/* Long-form informational pages (Day 3+): sidebar anchors land below the sticky header.
-   Header height is h-16 (4rem) mobile / h-20 (5rem) desktop; 6rem gives comfortable clearance. */
-.long-form h2 {
-  scroll-margin-top: 6rem;
+/* Long-form informational pages: sidebar anchors land below the sticky header.
+   Header height is h-16 (4rem) mobile / h-24 (6rem) desktop with utility bar; 7rem clearance. */
+.long-form h2,
+.long-form h3[id],
+.long-form section[id] {
+  scroll-margin-top: 7rem;
 }
 
-/* Day 5 — FAQ deep links: /faq#q-{key} should land the <details> below the sticky header.
-   Browsers automatically open a <details> whose id matches the URL hash. */
-.long-form details {
-  scroll-margin-top: 6rem;
+.long-form details,
+.long-form [data-radix-accordion-item] {
+  scroll-margin-top: 7rem;
 }
 
 @media print {
@@ -81,8 +210,9 @@
   .long-form table {
     break-inside: avoid;
   }
-  /* Day 5 — FAQ <details> should print expanded regardless of collapsed state. */
-  .long-form details {
+  /* FAQ <details> + Radix Accordion should print expanded regardless of collapsed state. */
+  .long-form details,
+  .long-form [data-radix-accordion-item] {
     break-inside: avoid;
   }
   .long-form details > *:not(summary) {
@@ -94,5 +224,10 @@
   }
   .long-form details summary::-webkit-details-marker {
     display: none;
+  }
+  /* Force Radix accordion content open in print */
+  .long-form [data-radix-accordion-content] {
+    display: block !important;
+    height: auto !important;
   }
 }

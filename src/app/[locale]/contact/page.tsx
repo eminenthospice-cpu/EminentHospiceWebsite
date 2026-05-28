@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { SectionContainer } from '@/components/ui/SectionContainer';
 import { PageBottomCta } from '@/components/info/PageBottomCta';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { ContactInfoCard } from '@/components/contact/ContactInfoCard';
 import { MapCard } from '@/components/contact/MapCard';
+import { Reveal } from '@/components/motion/Reveal';
 import { buildAlternates, buildOpenGraph } from '@/lib/seo';
 
 const PATH = '/contact';
@@ -31,29 +32,36 @@ export async function generateMetadata(
 export default function ContactPage() {
   const t = useTranslations('contact');
   const phone = useTranslations('common.phone');
+  const locale = useLocale();
   const phoneDisplay = phone('display');
+  const eyebrow = locale === 'ko' ? '문의하기' : 'Get in touch';
 
   return (
     <>
-      <SectionContainer bg="cream">
-        <header className="max-w-prose mb-10">
-          <h1 className="font-heading text-4xl md:text-5xl text-text-primary leading-tight mb-3">
-            {t('pageTitle')}
-          </h1>
-          <p className="text-lg text-text-secondary leading-relaxed">
-            {t('introParagraph', { phone: phoneDisplay })}
-          </p>
-        </header>
+      <SectionContainer bg="cream" innerClassName="!py-section-y md:!py-section-2xl">
+        <Reveal>
+          <header className="max-w-prose-wide mb-12">
+            <p className="eyebrow mb-4">{eyebrow}</p>
+            <h1 className="font-heading text-display-lg md:text-display-xl text-text-primary leading-tight mb-5">
+              {t('pageTitle')}
+            </h1>
+            <p className="font-prose text-lg md:text-xl text-text-secondary leading-relaxed max-w-prose-wide">
+              {t('introParagraph', { phone: phoneDisplay })}
+            </p>
+          </header>
+        </Reveal>
 
         <div className="lg:grid lg:grid-cols-[1.5fr_1fr] lg:gap-10">
-          <div className="rounded-card bg-white border border-neutral-200 p-6 lg:p-8 shadow-card">
-            <ContactForm />
-          </div>
+          <Reveal delay={0.06}>
+            <div className="card-paper p-6 lg:p-10 bg-white">
+              <ContactForm />
+            </div>
+          </Reveal>
 
-          <aside className="mt-8 lg:mt-0 space-y-6">
+          <Reveal delay={0.12} as="aside" className="mt-8 lg:mt-0 space-y-6">
             <ContactInfoCard />
             <MapCard />
-          </aside>
+          </Reveal>
         </div>
       </SectionContainer>
 

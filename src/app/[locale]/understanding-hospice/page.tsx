@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { LongFormPage } from '@/components/layout/LongFormPage';
 import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/layout/PageSidebar';
 import { PageBottomCta } from '@/components/info/PageBottomCta';
@@ -45,6 +45,8 @@ const RELATED_LINKS: RelatedLink[] = [
 export default function UnderstandingHospicePage() {
   const t = useTranslations('understandingHospice');
   const s = useTranslations('understandingHospice.sections');
+  const locale = useLocale();
+  const eyebrow = locale === 'ko' ? '호스피스 케어 이해하기' : 'Understanding hospice';
 
   const anchors: SidebarAnchor[] = [
     { id: 'what-is-hospice', label: s('whatIsHospice.title') },
@@ -59,6 +61,7 @@ export default function UnderstandingHospicePage() {
     <>
       <LongFormPage
         title={t('pageTitle')}
+        eyebrow={eyebrow}
         lastReviewed={t('lastReviewed')}
         introParagraph={t('introParagraph')}
         sidebar={<PageSidebar anchors={anchors} relatedLinks={RELATED_LINKS} />}

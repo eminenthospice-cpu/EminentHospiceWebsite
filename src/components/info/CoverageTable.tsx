@@ -12,8 +12,8 @@ export function CoverageTable() {
   const t = useTranslations('insurance.sections.comparison');
 
   return (
-    <div className="overflow-x-auto -mx-4 md:mx-0">
-      <table className="w-full min-w-[640px] border-collapse text-sm">
+    <div className="not-prose w-full min-w-0 max-w-full overflow-x-auto overscroll-x-contain rounded-card border border-neutral-200">
+      <table className="w-full min-w-[36rem] border-collapse text-sm">
         <caption className="sr-only">{t('tableCaption')}</caption>
         <thead>
           <tr className="border-b-2 border-primary-200 bg-primary-50/60">

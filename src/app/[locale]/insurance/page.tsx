@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { LongFormPage } from '@/components/layout/LongFormPage';
 import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/layout/PageSidebar';
@@ -45,6 +45,8 @@ export default function InsurancePage() {
   const t = useTranslations('insurance');
   const s = useTranslations('insurance.sections');
   const steps = s.raw('election.steps') as string[];
+  const locale = useLocale();
+  const eyebrow = locale === 'ko' ? '보험 및 메디케어' : 'Insurance & Medicare';
 
   const anchors: SidebarAnchor[] = [
     { id: 'cost', label: s('cost.title') },
@@ -60,6 +62,7 @@ export default function InsurancePage() {
     <>
       <LongFormPage
         title={t('pageTitle')}
+        eyebrow={eyebrow}
         lastReviewed={t('lastReviewed')}
         introParagraph={t('introParagraph')}
         sidebar={<PageSidebar anchors={anchors} relatedLinks={RELATED_LINKS} />}

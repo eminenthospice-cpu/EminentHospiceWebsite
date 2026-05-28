@@ -25,9 +25,9 @@ export function LocaleSwitcher() {
       onClick={handleSwitch}
       disabled={isPending}
       aria-label={t('switchLanguage', { lang: label })}
-      className="px-3 py-1.5 text-sm font-medium rounded-btn border border-primary-200 text-primary-600
+      className="whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-btn border border-primary-200 text-primary-600
         hover:bg-primary-50 hover:border-primary-400 transition-colors duration-ui
-        disabled:opacity-50 disabled:cursor-not-allowed min-h-[44px] min-w-[44px]"
+        disabled:opacity-50 disabled:cursor-not-allowed min-h-[44px]"
     >
       {label}
     </button>

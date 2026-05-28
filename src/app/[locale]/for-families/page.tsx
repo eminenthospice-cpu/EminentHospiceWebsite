@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { LongFormPage } from '@/components/layout/LongFormPage';
 import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/layout/PageSidebar';
@@ -46,6 +46,8 @@ const RELATED_LINKS: RelatedLink[] = [
 export default function ForFamiliesPage() {
   const t = useTranslations('forFamilies');
   const s = useTranslations('forFamilies.sections');
+  const locale = useLocale();
+  const eyebrow = locale === 'ko' ? '가족과 돌봄 제공자를 위해' : 'For families & caregivers';
 
   const anchors: SidebarAnchor[] = [
     { id: 'expect', label: s('expect.title') },
@@ -61,6 +63,8 @@ export default function ForFamiliesPage() {
     <>
       <LongFormPage
         title={t('pageTitle')}
+        eyebrow={eyebrow}
+        heroImageKey="familiesHero"
         lastReviewed={t('lastReviewed')}
         introParagraph={t('introParagraph')}
         disclaimerVariant="medical"

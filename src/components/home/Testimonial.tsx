@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { SectionContainer } from '@/components/ui/SectionContainer';
+import { Reveal } from '@/components/motion/Reveal';
 
 export function Testimonial() {
   const t = useTranslations('home.testimonial');
@@ -8,25 +9,23 @@ export function Testimonial() {
     <SectionContainer
       bg="white"
       ariaLabel="Family testimonial"
-      className="bg-primary-50"
-      innerClassName="!py-16 md:!py-20"
+      className="bg-surface-paper"
+      innerClassName="!py-section-2xl"
     >
-      <figure className="max-w-3xl mx-auto text-center">
-        <span
-          aria-hidden="true"
-          className="block font-heading text-6xl md:text-7xl leading-none text-primary-300 mb-4 select-none"
-        >
-          “
-        </span>
-        <blockquote className="font-heading italic text-xl md:text-2xl text-text-primary leading-relaxed mb-6">
-          {t('quote')}
-        </blockquote>
-        <figcaption>
-          <cite className="not-italic text-sm font-medium text-text-secondary tracking-wide">
-            {t('attribution')}
-          </cite>
-        </figcaption>
-      </figure>
+      <Reveal>
+        <figure className="max-w-3xl">
+          <p className="rule-hair pt-4 text-eyebrow text-ink-500 mb-6">{t('provenance')}</p>
+          <blockquote className="font-heading italic text-display-lg text-ink-900 leading-snug mb-8 max-w-prose">
+            {t('quote')}
+          </blockquote>
+          <figcaption className="callout-marginalia max-w-xs">
+            <cite className="not-italic text-eyebrow text-ink-500 uppercase tracking-[0.14em]">
+              {t('attributionName')}
+            </cite>
+            <p className="mt-1 italic text-ink-700">{t('attributionRelation')}</p>
+          </figcaption>
+        </figure>
+      </Reveal>
     </SectionContainer>
   );
 }

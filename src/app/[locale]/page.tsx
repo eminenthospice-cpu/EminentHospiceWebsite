@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { Hero } from '@/components/home/Hero';
+import { ByTheNumbers } from '@/components/home/ByTheNumbers';
 import { PhilosophyBand } from '@/components/home/PhilosophyBand';
 import { LevelsOfCare } from '@/components/home/LevelsOfCare';
 import { TeamCallout } from '@/components/home/TeamCallout';
@@ -39,6 +40,7 @@ export default function HomePage() {
     <>
       <LocalBusinessJsonLd />
       <Hero />
+      <ByTheNumbers />
       <PhilosophyBand />
       <LevelsOfCare />
       <TeamCallout />

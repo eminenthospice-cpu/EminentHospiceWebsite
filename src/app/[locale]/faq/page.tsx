@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { LongFormPage } from '@/components/layout/LongFormPage';
 import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/layout/PageSidebar';
 import { PageBottomCta } from '@/components/info/PageBottomCta';
@@ -70,6 +70,8 @@ const RELATED_LINKS: RelatedLink[] = [
 export default function FaqPage() {
   const t = useTranslations('faq');
   const c = useTranslations('faq.categories');
+  const locale = useLocale();
+  const eyebrow = locale === 'ko' ? '자주 묻는 질문' : 'Frequently asked questions';
 
   // Sidebar lists the 5 categories, not all 25 questions (too noisy).
   // Individual questions remain deep-linkable via /faq#q-{itemKey}.
@@ -82,14 +84,15 @@ export default function FaqPage() {
     <>
       <LongFormPage
         title={t('pageTitle')}
+        eyebrow={eyebrow}
         lastReviewed={t('lastReviewed')}
         introParagraph={t('introParagraph')}
         sidebar={<PageSidebar anchors={anchors} relatedLinks={RELATED_LINKS} />}
       >
         <FaqPageJsonLd categories={FAQ_CATEGORIES} />
 
-        {FAQ_CATEGORIES.map((cat) => (
-          <FaqCategory key={cat.key} categoryKey={cat.key} itemKeys={cat.itemKeys} />
+        {FAQ_CATEGORIES.map((cat, i) => (
+          <FaqCategory key={cat.key} categoryKey={cat.key} itemKeys={cat.itemKeys} index={i} />
         ))}
       </LongFormPage>
 
