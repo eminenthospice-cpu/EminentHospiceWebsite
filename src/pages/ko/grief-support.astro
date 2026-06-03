@@ -1,0 +1,133 @@
+---
+import LongFormLayout from '../../layouts/LongFormLayout.astro';
+import PageSidebar from '../../components/layout/PageSidebar.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+import koData from '../../i18n/ko.json';
+
+const lang = 'ko' as const;
+const lp = (p: string) => localizedPath(p, lang);
+
+const gs = koData.griefSupport;
+const ff = koData.forFamilies;
+const svc = koData.services;
+const common = koData.common;
+
+const callLabel = gs.sections.cta.callLabel.replace('{phone}', CONTACT.phone.display);
+
+const programCards = [
+  { icon: 'phone' as const, title: '전화 안부', body: '사별 돌봄 코디네이터가 정기적으로 전화하여 안부를 묻고 지원합니다.' },
+  { icon: 'users' as const, title: '지원 모임 안내', body: '지역 사회와 온라인의 슬픔 지원 모임을 연결해 드립니다.' },
+  { icon: 'calendar' as const, title: '기일 연락', body: '고인의 기일 즈음에 개인적인 전화나 카드를 보내드립니다.' },
+];
+
+const anchors = [
+  { id: 'program',     label: '13개월 프로그램' },
+  { id: 'grief',       label: '슬픔의 다양한 모습' },
+  { id: 'coordinator', label: '담당 코디네이터' },
+  { id: 'help',        label: '추가 도움이 필요할 때' },
+  { id: 'reach-out',   label: '연락하기' },
+];
+
+const relatedLinks = [
+  { href: '/for-families', label: common.relatedPages.links.forFamilies },
+  { href: '/services',     label: common.relatedPages.links.services },
+  { href: '/contact',      label: common.relatedPages.links.contact },
+];
+---
+
+<LongFormLayout
+  title={gs.pageTitle}
+  description={gs.metaDescription}
+  lang={lang}
+  path="/grief-support"
+  eyebrow={gs.eyebrow}
+  introParagraph={gs.introParagraph}
+>
+  <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
+
+  <section id="program" class="scroll-mt-24">
+    <h2>{gs.sections.program.title}</h2>
+    <p>{gs.sections.program.intro}</p>
+
+    <div class="not-prose mt-6 grid sm:grid-cols-3 gap-4">
+      {programCards.map(item => (
+        <div class="rounded-card border border-line-soft bg-white p-5 shadow-soft">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="rounded-full bg-primary-50 p-2 flex-shrink-0">
+              <Icon name={item.icon} class="w-5 h-5 text-primary-600" />
+            </div>
+            <h3 class="font-heading text-base text-ink-900">{item.title}</h3>
+          </div>
+          <p class="text-sm text-ink-600 leading-relaxed">{item.body}</p>
+        </div>
+      ))}
+    </div>
+
+    <p class="mt-4">{ff.sections.bereavement.programNote}</p>
+  </section>
+
+  <section id="grief" class="scroll-mt-24">
+    <h2>{ff.sections.bereavement.griefIs.title}</h2>
+    <p>{ff.sections.bereavement.griefIs.body}</p>
+  </section>
+
+  <section id="coordinator" class="scroll-mt-24">
+    <h2>{gs.sections.coordinator.title}</h2>
+    <p>{gs.sections.coordinator.body}</p>
+
+    <div class="not-prose mt-5 rounded-card border border-line-soft bg-primary-50 p-6">
+      <div class="flex items-start gap-4">
+        <div class="rounded-full bg-white p-3 flex-shrink-0 shadow-soft">
+          <Icon name="heart" class="w-7 h-7 text-primary-600" />
+        </div>
+        <div>
+          <h3 class="font-heading text-lg text-ink-900 mb-1">{svc.sections.team.bereavement.role}</h3>
+          <p class="text-ink-700 leading-relaxed font-prose text-sm">{svc.sections.team.bereavement.body}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="help" class="scroll-mt-24">
+    <h2>{ff.sections.bereavement.whenToSeekHelp.title}</h2>
+    <p>{ff.sections.bereavement.whenToSeekHelp.body}</p>
+
+    <div class="not-prose mt-4 rounded-card border-l-4 border-amber-400 bg-amber-50 px-5 py-4">
+      <p class="text-sm font-medium text-ink-800 mb-1">
+        {ff.sections.bereavement.whenToSeekHelp.lifelineLabel}
+      </p>
+      <p class="text-sm text-ink-700 font-semibold">
+        {ff.sections.bereavement.whenToSeekHelp.lifelineNumber}
+      </p>
+    </div>
+  </section>
+
+  <section id="reach-out" class="scroll-mt-24">
+    <h2>{gs.sections.cta.title}</h2>
+    <p>{gs.sections.cta.body}</p>
+
+    <div class="not-prose mt-6 flex flex-col sm:flex-row gap-3">
+      <a
+        href={`tel:${CONTACT.phone.tel}`}
+        class="inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3
+               rounded-btn bg-primary-500 text-white font-medium hover:bg-primary-600
+               transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2
+               focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+      >
+        <Icon name="phone" class="w-4 h-4" />
+        {callLabel}
+      </a>
+      <a
+        href={lp('/contact')}
+        class="inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3
+               rounded-btn border border-primary-300 text-primary-700 font-medium hover:bg-primary-50
+               transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2
+               focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+      >
+        {gs.sections.cta.contactLabel}
+      </a>
+    </div>
+  </section>
+</LongFormLayout>

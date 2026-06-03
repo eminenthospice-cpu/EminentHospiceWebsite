@@ -1,0 +1,44 @@
+---
+import { useTranslations } from '../../i18n/utils';
+import SectionContainer from '../ui/SectionContainer.astro';
+
+export interface Props {
+  lang: 'en' | 'ko';
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const eyebrow = lang === 'ko' ? '우리가 돕는 분들' : 'Who we serve';
+
+const items = [
+  { key: 'area',      num: '01' },
+  { key: 'languages', num: '02' },
+  { key: 'coverage',  num: '03' },
+] as const;
+---
+
+<SectionContainer bg="white" ariaLabelledBy="who-we-serve-heading">
+  <div class="reveal">
+    <div class="mb-10 max-w-prose-wide">
+      <p class="eyebrow mb-4">{eyebrow}</p>
+      <h2
+        id="who-we-serve-heading"
+        class="font-heading text-4xl md:text-5xl text-ink-900 mb-4 leading-tight"
+      >
+        {t('home.whoWeServe.title')}
+      </h2>
+    </div>
+  </div>
+
+  <div class="border-t border-line-soft pt-6">
+    <ul class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+      {items.map(({ key, num }, i) => (
+        <li class={`reveal [--reveal-delay:${i * 80}ms] text-left`}>
+          <p class="font-heading text-2xl tabular-nums text-accent-warm-500 leading-none mb-3">{num}</p>
+          <h3 class="font-heading text-xl text-ink-900 mb-2">{t(`home.whoWeServe.${key}.title`)}</h3>
+          <p class="font-prose text-base text-ink-700 leading-relaxed">{t(`home.whoWeServe.${key}.desc`)}</p>
+        </li>
+      ))}
+    </ul>
+  </div>
+</SectionContainer>

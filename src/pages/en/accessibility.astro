@@ -1,0 +1,104 @@
+---
+import LongFormLayout from '../../layouts/LongFormLayout.astro';
+import PageSidebar from '../../components/layout/PageSidebar.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+import enData from '../../i18n/en.json';
+
+const lang = 'en' as const;
+const lp = (p: string) => localizedPath(p, lang);
+const d = enData.accessibility;
+const s = d.sections;
+const common = enData.common;
+
+const anchors = [
+  { id: 'commitment',  label: 'Our Commitment' },
+  { id: 'conformance', label: 'Conformance Status' },
+  { id: 'features',    label: 'Features in Place' },
+  { id: 'issues',      label: 'Known Limitations' },
+  { id: 'report',      label: 'How to Report' },
+];
+const relatedLinks = [
+  { href: '/contact', label: common.relatedPages.links.contact },
+  { href: '/terms',   label: common.relatedPages.links.terms },
+];
+---
+
+<LongFormLayout
+  title={d.pageTitle}
+  description={d.metaDescription}
+  lang={lang}
+  path="/accessibility"
+  eyebrow="Accessibility"
+  introParagraph={d.introParagraph}
+  lastReviewed={d.lastReviewed}
+>
+  <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
+
+  <section id="commitment" class="scroll-mt-24">
+    <h2>{s.commitment.title}</h2>
+    <p>{s.commitment.body}</p>
+  </section>
+
+  <section id="conformance" class="scroll-mt-24">
+    <h2>{s.conformance.title}</h2>
+    <div class="not-prose mb-4 inline-flex items-center gap-2 rounded-full border border-primary-200 bg-primary-50 px-4 py-1.5">
+      <Icon name="shieldCheck" class="w-4 h-4 text-primary-600" />
+      <span class="text-sm font-medium text-primary-700">{s.conformance.level}</span>
+    </div>
+    <p>{s.conformance.body}</p>
+  </section>
+
+  <section id="features" class="scroll-mt-24">
+    <h2>{s.features.title}</h2>
+    <p>{s.features.intro}</p>
+    <ul class="not-prose mt-4 space-y-2">
+      {s.features.items.map(item => (
+        <li class="flex items-start gap-3">
+          <div class="rounded-full bg-primary-100 p-1 flex-shrink-0 mt-1">
+            <Icon name="check" class="w-3.5 h-3.5 text-primary-700" />
+          </div>
+          <span class="text-sm text-ink-700 leading-relaxed font-prose">{item}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section id="issues" class="scroll-mt-24">
+    <h2>{s.knownIssues.title}</h2>
+    <p>{s.knownIssues.intro}</p>
+    <ul class="not-prose mt-4 space-y-2">
+      {s.knownIssues.items.map(item => (
+        <li class="flex items-start gap-3">
+          <div class="rounded-full bg-amber-100 p-1 flex-shrink-0 mt-1">
+            <svg class="w-3.5 h-3.5 text-amber-700" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
+            </svg>
+          </div>
+          <span class="text-sm text-ink-700 leading-relaxed font-prose">{item}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section id="report" class="scroll-mt-24">
+    <h2>{s.howToReport.title}</h2>
+    <p>{s.howToReport.body}</p>
+    <div class="not-prose mt-4 space-y-3">
+      <a href={`mailto:${s.howToReport.email}`}
+        class="flex items-center gap-3 text-ink-700 hover:text-primary-600 transition-colors duration-100
+               focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
+        <Icon name="mail" class="w-5 h-5 text-primary-600 flex-shrink-0" />
+        <span class="text-sm">{s.howToReport.emailLabel}: {s.howToReport.email}</span>
+      </a>
+      <a href={`tel:${CONTACT.phone.tel}`}
+        class="flex items-center gap-3 text-ink-700 hover:text-primary-600 transition-colors duration-100
+               focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
+        <Icon name="phone" class="w-5 h-5 text-primary-600 flex-shrink-0" />
+        <span class="text-sm">{s.howToReport.phoneLabel}: {CONTACT.phone.display}</span>
+      </a>
+    </div>
+    <p class="not-prose mt-4 text-sm text-ink-500 italic">{s.howToReport.responseTime}</p>
+  </section>
+</LongFormLayout>

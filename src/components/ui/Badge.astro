@@ -1,0 +1,26 @@
+---
+export interface Props {
+  variant?: 'primary' | 'warm' | 'sage' | 'ink' | 'neutral';
+  class?: string;
+}
+
+const { variant = 'primary', class: className = '' } = Astro.props;
+
+const variants: Record<string, string> = {
+  primary: 'bg-primary-50 text-primary-700 border border-primary-100',
+  warm:    'bg-accent-warm-50 text-accent-warm-700 border border-accent-warm-100',
+  sage:    'bg-accent-sage-50 text-accent-sage-700 border border-accent-sage-100',
+  ink:     'bg-primary-900 text-white border border-primary-800',
+  neutral: 'bg-neutral-100 text-ink-700 border border-neutral-200',
+};
+
+const classes = [
+  'inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium tracking-wide whitespace-nowrap font-body',
+  variants[variant],
+  className,
+].join(' ');
+---
+
+<span class={classes}>
+  <slot />
+</span>

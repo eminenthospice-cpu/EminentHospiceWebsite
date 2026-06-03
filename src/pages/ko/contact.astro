@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContactForm from '../../components/forms/ContactForm.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { useTranslations, localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+
+const lang = 'ko' as const;
+const t = useTranslations(lang);
+const lp = (p: string) => localizedPath(p, lang);
+
+const directionsUrl = `https://www.google.com/maps?q=${encodeURIComponent(CONTACT.address.display)}`;
+---
+
+<BaseLayout
+  title={t('contact.pageTitle')}
+  description={t('contact.metaDescription')}
+  lang={lang}
+  path="/contact"
+>
+  <div class="bg-surface-paper">
+    <div class="max-w-[90rem] mx-auto px-6 md:px-12 lg:px-16 py-14 md:py-20">
+
+      <div class="reveal mb-12 max-w-prose-wide">
+        <p class="eyebrow text-primary-600 mb-3">문의하기</p>
+        <h1 class="font-heading text-display-lg md:text-display-xl text-ink-900 leading-tight mb-5">
+          {t('contact.pageTitle')}
+        </h1>
+        <p class="font-prose text-lg md:text-xl text-ink-600 leading-relaxed max-w-prose-wide">
+          {t('contact.introParagraph').replace('{phone}', CONTACT.phone.display)}
+        </p>
+      </div>
+
+      <div class="lg:grid lg:grid-cols-[1.5fr_1fr] lg:gap-10 items-start">
+
+        <div class="reveal card-paper p-6 lg:p-10 bg-white">
+          <ContactForm {lang} />
+        </div>
+
+        <aside class="mt-8 lg:mt-0 space-y-6 reveal [--reveal-delay:80ms]">
+
+          <div class="rounded-card border border-line-soft bg-white p-6 shadow-soft">
+            <h2 class="font-heading text-2xl text-ink-900 mb-4">{t('contact.info.heading')}</h2>
+            <dl class="space-y-4 text-ink-600">
+              <div class="flex items-start gap-3">
+                <Icon name="phone" class="w-5 h-5 mt-0.5 text-primary-600 flex-shrink-0" />
+                <div>
+                  <dt class="text-xs font-medium uppercase tracking-wide text-ink-400">
+                    {t('contact.info.phoneLabel')}
+                  </dt>
+                  <dd>
+                    <a
+                      href={`tel:${CONTACT.phone.tel}`}
+                      class="text-ink-900 font-semibold hover:text-primary-600 transition-colors duration-100
+                             focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
+                    >
+                      {CONTACT.phone.display}
+                    </a>
+                  </dd>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <Icon name="mail" class="w-5 h-5 mt-0.5 text-primary-600 flex-shrink-0" />
+                <div>
+                  <dt class="text-xs font-medium uppercase tracking-wide text-ink-400">
+                    {t('contact.info.emailLabel')}
+                  </dt>
+                  <dd>
+                    <a
+                      href={`mailto:${t('contact.info.emailValue')}`}
+                      class="text-ink-900 hover:text-primary-600 transition-colors duration-100
+                             focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm break-all"
+                    >
+                      {t('contact.info.emailValue')}
+                    </a>
+                  </dd>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <Icon name="calendar" class="w-5 h-5 mt-0.5 text-primary-600 flex-shrink-0" />
+                <div>
+                  <dt class="text-xs font-medium uppercase tracking-wide text-ink-400">
+                    {t('contact.info.hoursLabel')}
+                  </dt>
+                  <dd class="text-ink-900">{t('contact.info.hoursValue')}</dd>
+                </div>
+              </div>
+            </dl>
+          </div>
+
+          <div class="rounded-card border border-line-soft bg-white p-6 shadow-soft">
+            <div class="flex items-start gap-3">
+              <Icon name="mapPin" class="w-5 h-5 mt-0.5 text-primary-600 flex-shrink-0" />
+              <div class="flex-1">
+                <h3 class="text-xs font-medium uppercase tracking-wide text-ink-400 mb-1">
+                  {t('contact.info.addressLabel')}
+                </h3>
+                <p class="text-ink-900 mb-3">{CONTACT.address.display}</p>
+                <a
+                  href={directionsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-sm
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
+                >
+                  {t('contact.info.getDirectionsLabel')}
+                  <Icon name="arrowRight" class="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </aside>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="bg-white border-t border-line-soft">
+    <div class="max-w-[90rem] mx-auto px-6 md:px-12 lg:px-16 py-10 flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+      <p class="font-prose text-ink-700 leading-relaxed flex-1">환자를 의뢰하시겠어요?</p>
+      <a
+        href={lp('/referral')}
+        class="inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3
+               rounded-btn bg-primary-500 text-white font-medium hover:bg-primary-600
+               transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2
+               focus-visible:ring-primary-500 focus-visible:ring-offset-2 whitespace-nowrap"
+      >
+        {t('common.relatedPages.links.referral')}
+      </a>
+    </div>
+  </div>
+</BaseLayout>

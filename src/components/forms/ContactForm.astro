@@ -1,0 +1,265 @@
+---
+/**
+ * ContactForm.astro — Formspree-backed contact form.
+ * Progressive enhancement: AJAX submit, honeypot, success/error states.
+ * No backend required; posts to FORMS.contactEndpoint.
+ */
+import { FORMS, CONTACT } from '../../data/site-config';
+import { useTranslations } from '../../i18n/utils';
+
+export interface Props {
+  lang: 'en' | 'ko';
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
+const subjectKeys = ['general', 'insurance', 'volunteer', 'career', 'other'] as const;
+---
+
+<div id="contact-form-wrapper">
+  <!-- Success state (hidden until submission) -->
+  <div id="contact-success" class="hidden p-6 text-center" role="status" aria-live="polite">
+    <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary-50 mb-4">
+      <svg class="w-8 h-8 text-primary-600" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+      </svg>
+    </div>
+    <h3 class="font-heading text-xl text-ink-900 mb-2">{t('contact.success.title')}</h3>
+    <p class="text-ink-600 leading-relaxed font-prose" id="contact-success-body"></p>
+  </div>
+
+  <!-- Form -->
+  <form
+    id="contact-form"
+    action={FORMS.contactEndpoint}
+    method="POST"
+    novalidate
+    class="space-y-5"
+  >
+    <h2 class="font-heading text-2xl text-ink-900">{t('contact.form.heading')}</h2>
+
+    <!-- Honeypot — bots fill this; server ignores the submission -->
+    <input
+      type="text"
+      name="_gotcha"
+      tabindex="-1"
+      autocomplete="off"
+      aria-hidden="true"
+      style="display:none !important; position:absolute; left:-9999px;"
+    />
+
+    <!-- Name -->
+    <div class="space-y-1">
+      <label for="cf-name" class="block text-sm font-medium text-ink-800">
+        {t('contact.form.nameLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      </label>
+      <input
+        type="text"
+        id="cf-name"
+        name="name"
+        required
+        autocomplete="name"
+        placeholder={t('contact.form.namePlaceholder')}
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+               placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
+               focus:border-transparent transition-shadow duration-100 bg-white min-h-[44px]"
+        aria-describedby="cf-name-err"
+      />
+      <p id="cf-name-err" class="hidden text-xs text-red-600 mt-1" role="alert"></p>
+    </div>
+
+    <!-- Email -->
+    <div class="space-y-1">
+      <label for="cf-email" class="block text-sm font-medium text-ink-800">
+        {t('contact.form.emailLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      </label>
+      <input
+        type="email"
+        id="cf-email"
+        name="email"
+        required
+        autocomplete="email"
+        placeholder={t('contact.form.emailPlaceholder')}
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+               placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
+               focus:border-transparent transition-shadow duration-100 bg-white min-h-[44px]"
+        aria-describedby="cf-email-err"
+      />
+      <p id="cf-email-err" class="hidden text-xs text-red-600 mt-1" role="alert"></p>
+    </div>
+
+    <!-- Phone (optional) -->
+    <div class="space-y-1">
+      <label for="cf-phone" class="block text-sm font-medium text-ink-800">
+        {t('contact.form.phoneLabel')}
+      </label>
+      <p class="text-xs text-ink-500">{t('contact.form.phoneHint')}</p>
+      <input
+        type="tel"
+        id="cf-phone"
+        name="phone"
+        autocomplete="tel"
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+               placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
+               focus:border-transparent transition-shadow duration-100 bg-white min-h-[44px]"
+      />
+    </div>
+
+    <!-- Subject -->
+    <div class="space-y-1">
+      <label for="cf-subject" class="block text-sm font-medium text-ink-800">
+        {t('contact.form.subjectLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      </label>
+      <select
+        id="cf-subject"
+        name="subject"
+        required
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+               focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent
+               transition-shadow duration-100 bg-white min-h-[44px]"
+      >
+        {subjectKeys.map((key) => (
+          <option value={key}>{t(`contact.form.subjectOptions.${key}`)}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Message -->
+    <div class="space-y-1">
+      <label for="cf-message" class="block text-sm font-medium text-ink-800">
+        {t('contact.form.messageLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      </label>
+      <textarea
+        id="cf-message"
+        name="message"
+        required
+        rows="5"
+        placeholder={t('contact.form.messagePlaceholder')}
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+               placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
+               focus:border-transparent transition-shadow duration-100 bg-white resize-y"
+        aria-describedby="cf-message-err"
+      ></textarea>
+      <p id="cf-message-err" class="hidden text-xs text-red-600 mt-1" role="alert"></p>
+    </div>
+
+    <!-- Privacy note -->
+    <p class="text-xs text-ink-500 leading-relaxed">
+      {lang === 'ko'
+        ? '제출하시면 당사의 개인정보 처리방침에 동의하시는 것입니다. 제공하신 정보는 귀하의 문의에 응답하는 목적으로만 사용됩니다.'
+        : 'By submitting, you agree to our Privacy Policy. We use your information only to respond to your inquiry.'}
+    </p>
+
+    <!-- Server error -->
+    <div id="cf-server-err" class="hidden" role="alert" aria-live="polite">
+      <p class="text-sm text-red-600"></p>
+    </div>
+
+    <button
+      type="submit"
+      id="cf-submit"
+      class="inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3
+             rounded-btn bg-primary-500 text-white font-medium text-base
+             hover:bg-primary-600 active:bg-primary-700 transition-colors duration-150
+             focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500
+             focus-visible:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed
+             w-full sm:w-auto"
+    >
+      <span id="cf-submit-label">{t('contact.form.submitLabel')}</span>
+    </button>
+  </form>
+</div>
+
+<script define:vars={{ endpoint: FORMS.contactEndpoint, phoneDisplay: CONTACT.phone.display, successBody: '', lang }}>
+  const form = document.getElementById('contact-form');
+  const wrapper = document.getElementById('contact-form-wrapper');
+  const successEl = document.getElementById('contact-success');
+  const successBodyEl = document.getElementById('contact-success-body');
+  const submitBtn = document.getElementById('cf-submit');
+  const submitLabel = document.getElementById('cf-submit-label');
+  const serverErrEl = document.getElementById('cf-server-err');
+  const pendingLabel = lang === 'ko' ? '전송 중…' : 'Sending…';
+  const submitDefaultLabel = submitLabel?.textContent ?? '';
+
+  function showFieldError(fieldId, message) {
+    const errEl = document.getElementById(`${fieldId}-err`);
+    const input = document.getElementById(fieldId.replace('cf-', 'cf-'));
+    if (errEl) { errEl.textContent = message; errEl.classList.remove('hidden'); }
+    if (input) { input.setAttribute('aria-invalid', 'true'); }
+  }
+
+  function clearFieldErrors() {
+    document.querySelectorAll('[id$="-err"]').forEach((el) => {
+      el.classList.add('hidden');
+      el.textContent = '';
+    });
+    document.querySelectorAll('[aria-invalid]').forEach((el) => {
+      el.removeAttribute('aria-invalid');
+    });
+    if (serverErrEl) serverErrEl.classList.add('hidden');
+  }
+
+  function validate(data) {
+    let valid = true;
+    const name = data.get('name')?.toString().trim();
+    const email = data.get('email')?.toString().trim();
+    const message = data.get('message')?.toString().trim();
+    if (!name) { showFieldError('cf-name', lang === 'ko' ? '이름을 입력해 주세요.' : 'Name is required.'); valid = false; }
+    if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      showFieldError('cf-email', lang === 'ko' ? '유효한 이메일 주소를 입력해 주세요.' : 'Please enter a valid email address.');
+      valid = false;
+    }
+    if (!message) { showFieldError('cf-message', lang === 'ko' ? '메시지를 입력해 주세요.' : 'Message is required.'); valid = false; }
+    return valid;
+  }
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    clearFieldErrors();
+    const data = new FormData(form);
+    if (!validate(data)) return;
+
+    submitBtn?.setAttribute('disabled', '');
+    if (submitLabel) submitLabel.textContent = pendingLabel;
+
+    try {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        body: data,
+        headers: { Accept: 'application/json' },
+      });
+
+      if (res.ok) {
+        // Show success
+        const body = lang === 'ko'
+          ? `메시지를 받았습니다. 1 영업일 이내에 연락드리겠습니다. 긴급한 사항은 ${phoneDisplay}으로 전화해 주세요.`
+          : `We have received your message and will be in touch within one business day. For anything urgent, please call us at ${phoneDisplay}.`;
+        if (successBodyEl) successBodyEl.textContent = body;
+        form.classList.add('hidden');
+        successEl?.classList.remove('hidden');
+      } else {
+        const json = await res.json().catch(() => ({}));
+        const errMsg = lang === 'ko'
+          ? `오류가 발생했습니다. ${phoneDisplay}으로 전화해 주세요.`
+          : `Something went wrong. Please call us at ${phoneDisplay}.`;
+        if (serverErrEl) {
+          serverErrEl.querySelector('p').textContent = json?.error ?? errMsg;
+          serverErrEl.classList.remove('hidden');
+        }
+        submitBtn?.removeAttribute('disabled');
+        if (submitLabel) submitLabel.textContent = submitDefaultLabel;
+      }
+    } catch {
+      const errMsg = lang === 'ko'
+        ? `오류가 발생했습니다. ${phoneDisplay}으로 전화해 주세요.`
+        : `Something went wrong. Please call us at ${phoneDisplay}.`;
+      if (serverErrEl) {
+        serverErrEl.querySelector('p').textContent = errMsg;
+        serverErrEl.classList.remove('hidden');
+      }
+      submitBtn?.removeAttribute('disabled');
+      if (submitLabel) submitLabel.textContent = submitDefaultLabel;
+    }
+  });
+</script>

@@ -1,0 +1,93 @@
+---
+/**
+ * BaseLayout.astro — The master layout for every page.
+ * Handles <head> (SEO, OG, hreflang), fonts, global CSS,
+ * scroll reveal, Header, and Footer.
+ */
+import '../styles/global.css';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import { buildAlternates } from '../i18n/utils';
+import { SITE, BRAND } from '../data/site-config';
+
+export interface Props {
+  title: string;
+  description: string;
+  lang: 'en' | 'ko';
+  path: string;                // canonical path, e.g. '/about'
+  ogImage?: string;
+  noIndex?: boolean;
+}
+
+const {
+  title,
+  description,
+  lang,
+  path,
+  ogImage = BRAND.ogImageDefault,
+  noIndex = false,
+} = Astro.props;
+
+// Normalize: /en + / → /en, /en + /about → /en/about
+const normalizedPath = path === '/' ? '' : path;
+const canonicalUrl = `${SITE.url}/${lang}${normalizedPath}`;
+const alternates   = buildAlternates(path);
+const ogImageAbs   = ogImage.startsWith('http') ? ogImage : `${SITE.url}${ogImage}`;
+---
+
+<!doctype html>
+<html lang={lang} class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href={BRAND.favicon} />
+
+    <!-- SEO -->
+    <title>{title} | {SITE.name}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    {noIndex && <meta name="robots" content="noindex, nofollow" />}
+
+    <!-- hreflang alternates -->
+    {alternates.map(({ lang: l, href }) => (
+      <link rel="alternate" hreflang={l} href={href} />
+    ))}
+
+    <!-- Open Graph -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:url"         content={canonicalUrl} />
+    <meta property="og:title"       content={`${title} | ${SITE.name}`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image"       content={ogImageAbs} />
+    <meta property="og:site_name"   content={SITE.name} />
+    <meta property="og:locale"      content={lang === 'ko' ? 'ko_KR' : 'en_US'} />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:title"       content={`${title} | ${SITE.name}`} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image"       content={ogImageAbs} />
+  </head>
+
+  <body>
+    <!-- Skip to main content — accessibility -->
+    <a href="#main-content" class="skip-link">
+      {lang === 'ko' ? '본문으로 바로 가기' : 'Skip to main content'}
+    </a>
+
+    <Header lang={lang} currentPath={path} />
+
+    <main id="main-content" tabindex="-1">
+      <slot />
+    </main>
+
+    <Footer lang={lang} />
+
+    <!-- Scroll reveal — runs after paint -->
+    <script>
+      import '../components/motion/reveal.ts';
+    </script>
+  </body>
+</html>

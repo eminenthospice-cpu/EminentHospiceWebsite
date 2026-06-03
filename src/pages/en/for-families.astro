@@ -1,0 +1,296 @@
+---
+import LongFormLayout from '../../layouts/LongFormLayout.astro';
+import PageSidebar from '../../components/layout/PageSidebar.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { useTranslations, localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+
+const lang = 'en' as const;
+const t = useTranslations(lang);
+const lp = (p: string) => localizedPath(p, lang);
+
+const FIRST_HOURS_KEYS = ['adminVisit', 'carePlan', 'medsDme', 'oncallLine', 'idgCadence'] as const;
+const BASICS_KEYS = ['medications', 'oxygen', 'equipment', 'hygiene', 'eating'] as const;
+const WHEN_TO_CALL_KEYS = ['1', '2', '3', '4', '5', '6', '7'] as const;
+const BURNOUT_KEYS = ['1', '2', '3', '4', '5', '6'] as const;
+const WHO_TO_CALL_KEYS = ['hospice', 'socialWorker', 'chaplain', 'lifeline', 'nineEleven'] as const;
+const HAVE_READY_KEYS = ['1', '2', '3', '4'] as const;
+
+const DYING_PROCESS_TIERS = [
+  { key: 'weeks', signKeys: ['1', '2', '3', '4'] as const },
+  { key: 'days',  signKeys: ['1', '2', '3', '4', '5'] as const },
+  { key: 'hours', signKeys: ['1', '2', '3', '4', '5'] as const },
+] as const;
+
+const anchors = [
+  { id: 'expect',        label: t('forFamilies.sections.expect.title') },
+  { id: 'basics',        label: t('forFamilies.sections.basics.title') },
+  { id: 'dying-process', label: t('forFamilies.sections.dyingProcess.title') },
+  { id: 'symptoms',      label: t('forFamilies.sections.symptoms.title') },
+  { id: 'wellness',      label: t('forFamilies.sections.wellness.title') },
+  { id: 'bereavement',   label: t('forFamilies.sections.bereavement.title') },
+  { id: 'quick-ref',     label: t('forFamilies.sections.quickRef.title') },
+];
+
+const relatedLinks = [
+  { href: '/',                      label: t('common.relatedPages.links.home') },
+  { href: '/services',              label: t('common.relatedPages.links.services') },
+  { href: '/understanding-hospice', label: t('common.relatedPages.links.understandingHospice') },
+  { href: '/faq',                   label: t('common.relatedPages.links.faq') },
+  { href: '/contact',               label: t('common.relatedPages.links.contact') },
+  { href: '/referral',              label: t('common.relatedPages.links.referral') },
+];
+---
+
+<LongFormLayout
+  title={t('forFamilies.pageTitle')}
+  description={t('forFamilies.metaDescription')}
+  lang={lang}
+  path="/for-families"
+  eyebrow="For families & caregivers"
+  introParagraph={t('forFamilies.introParagraph')}
+  lastReviewed={t('forFamilies.lastReviewed')}
+  disclaimerVariant="medical"
+>
+  <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
+
+  <!-- What to Expect -->
+  <section id="expect" aria-labelledby="expect-h" class="reveal scroll-mt-24">
+    <h2 id="expect-h">{t('forFamilies.sections.expect.title')}</h2>
+    <p class="mb-4">{t('forFamilies.sections.expect.body1')}</p>
+    <p class="mb-5">{t('forFamilies.sections.expect.body2')}</p>
+
+    <div class="bg-white rounded-card shadow-soft p-5 not-prose">
+      <h3 class="font-heading font-semibold text-lg text-ink-900 mb-3">
+        {t('forFamilies.sections.expect.firstHours.title')}
+      </h3>
+      <ul class="space-y-2">
+        {FIRST_HOURS_KEYS.map((key) => (
+          <li class="flex gap-2 items-start text-ink-600 leading-relaxed">
+            <span aria-hidden class="mt-2 inline-block w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0"></span>
+            <span class="font-prose text-sm">{t(`forFamilies.sections.expect.firstHours.items.${key}`)}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Caring at Home — Basics -->
+  <section id="basics" aria-labelledby="basics-h" class="reveal scroll-mt-24">
+    <h2 id="basics-h">{t('forFamilies.sections.basics.title')}</h2>
+    <p class="mb-5">{t('forFamilies.sections.basics.intro')}</p>
+
+    <div class="space-y-4 not-prose">
+      {BASICS_KEYS.map((key) => (
+        <div class="bg-white rounded-card shadow-soft p-5">
+          <h3 class="font-heading font-semibold text-lg text-ink-900 mb-2">
+            {t(`forFamilies.sections.basics.${key}.title`)}
+          </h3>
+          <p class="leading-relaxed font-prose text-ink-700">
+            {t(`forFamilies.sections.basics.${key}.body`)}
+          </p>
+          {key === 'medications' && (
+            <p class="mt-3 pt-3 border-t border-neutral-200 text-sm text-ink-600 italic leading-relaxed font-prose">
+              {t('forFamilies.sections.basics.medications.neverGiveNote')}
+            </p>
+          )}
+          {key === 'oxygen' && (
+            <>
+              <p class="mt-3 text-sm bg-amber-50 border-l-4 border-amber-400 rounded-r-card px-3 py-2 leading-relaxed font-prose text-ink-700">
+                {t('forFamilies.sections.basics.oxygen.safetyNote')}
+              </p>
+              <p class="mt-3 text-sm text-ink-600 leading-relaxed font-prose">
+                {t('forFamilies.sections.basics.oxygen.powerOutageNote')}
+              </p>
+              <p class="mt-3 text-sm text-ink-500 italic leading-relaxed font-prose">
+                {t('forFamilies.sections.basics.oxygen.bedsideTeachingNote')}
+              </p>
+            </>
+          )}
+          {key === 'eating' && (
+            <p class="mt-3 pt-3 border-t border-neutral-200 text-sm text-ink-600 italic leading-relaxed font-prose">
+              {t('forFamilies.sections.basics.eating.gentleNote')}
+            </p>
+          )}
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Dying Process Timeline -->
+  <section id="dying-process" aria-labelledby="dying-process-h" class="reveal scroll-mt-24">
+    <h2 id="dying-process-h">{t('forFamilies.sections.dyingProcess.title')}</h2>
+    <p class="mb-3">{t('forFamilies.sections.dyingProcess.intro')}</p>
+    <p class="mb-5 text-sm text-ink-500 italic">{t('forFamilies.sections.dyingProcess.gentleNote')}</p>
+
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 not-prose">
+      {DYING_PROCESS_TIERS.map((tier) => (
+        <div class="bg-white rounded-card shadow-soft p-5 border-t-4 border-primary-300">
+          <h3 class="font-heading font-semibold text-lg text-ink-900 mb-3">
+            {t(`forFamilies.sections.dyingProcess.${tier.key}.title`)}
+          </h3>
+          <ul class="space-y-2">
+            {tier.signKeys.map((sk) => (
+              <li class="flex gap-2 items-start text-sm text-ink-600 leading-relaxed">
+                <span aria-hidden class="mt-2 inline-block w-1 h-1 rounded-full bg-primary-400 flex-shrink-0"></span>
+                <span class="font-prose">{t(`forFamilies.sections.dyingProcess.${tier.key}.signs.${sk}`)}</span>
+              </li>
+            ))}
+          </ul>
+          {tier.key === 'hours' && (
+            <p class="mt-4 pt-3 border-t border-neutral-200 text-sm text-ink-600 italic leading-relaxed font-prose">
+              {t('forFamilies.sections.dyingProcess.hours.hearingNote')}
+            </p>
+          )}
+        </div>
+      ))}
+    </div>
+    <p class="mt-5">{t('forFamilies.sections.dyingProcess.variabilityNote')}</p>
+  </section>
+
+  <!-- Symptoms — When to Call -->
+  <section id="symptoms" aria-labelledby="symptoms-h" class="reveal scroll-mt-24">
+    <h2 id="symptoms-h">{t('forFamilies.sections.symptoms.title')}</h2>
+    <p class="mb-5">{t('forFamilies.sections.symptoms.body')}</p>
+
+    <div class="bg-white rounded-card shadow-soft p-5 mb-4 not-prose">
+      <h3 class="font-heading font-semibold text-lg text-ink-900 mb-3">
+        {t('forFamilies.sections.symptoms.whenToCall.title')}
+      </h3>
+      <ul class="space-y-2">
+        {WHEN_TO_CALL_KEYS.map((key) => (
+          <li class="flex gap-2 items-start text-ink-600 leading-relaxed">
+            <span aria-hidden class="mt-2 inline-block w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0"></span>
+            <span class="font-prose text-sm">{t(`forFamilies.sections.symptoms.whenToCall.items.${key}`)}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <p class="text-sm leading-relaxed bg-amber-50 border-l-4 border-amber-400 rounded-r-card px-4 py-3 not-prose font-prose text-ink-700">
+      {t('forFamilies.sections.symptoms.do_not_911_note')}
+    </p>
+  </section>
+
+  <!-- Caregiver Wellness -->
+  <section id="wellness" aria-labelledby="wellness-h" class="reveal scroll-mt-24">
+    <h2 id="wellness-h">{t('forFamilies.sections.wellness.title')}</h2>
+    <p class="mb-5">{t('forFamilies.sections.wellness.body')}</p>
+
+    <div class="bg-white rounded-card shadow-soft p-5 mb-5 not-prose">
+      <h3 class="font-heading font-semibold text-lg text-ink-900 mb-3">
+        {t('forFamilies.sections.wellness.burnoutSigns.title')}
+      </h3>
+      <ul class="space-y-2">
+        {BURNOUT_KEYS.map((key) => (
+          <li class="flex gap-2 items-start text-ink-600 leading-relaxed">
+            <span aria-hidden class="mt-2 inline-block w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0"></span>
+            <span class="font-prose text-sm">{t(`forFamilies.sections.wellness.burnoutSigns.items.${key}`)}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <h3 class="font-heading font-semibold text-lg text-ink-900 mb-2 not-prose">
+      {t('forFamilies.sections.wellness.askForHelp.title')}
+    </h3>
+    <p class="mb-3">{t('forFamilies.sections.wellness.askForHelp.body')}</p>
+    <ul class="space-y-2 mb-3 not-prose">
+      <li class="flex gap-2 items-start text-ink-600 leading-relaxed">
+        <span aria-hidden class="mt-2 inline-block w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0"></span>
+        <a href={lp('/services#level-respite')} class="font-prose text-sm text-primary-600 hover:text-primary-700 hover:underline">
+          {t('forFamilies.sections.wellness.askForHelp.respiteLinkLabel')}
+        </a>
+      </li>
+      <li class="flex gap-2 items-start text-ink-600 leading-relaxed">
+        <span aria-hidden class="mt-2 inline-block w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0"></span>
+        <a href={lp('/services#role-volunteer')} class="font-prose text-sm text-primary-600 hover:text-primary-700 hover:underline">
+          {t('forFamilies.sections.wellness.askForHelp.volunteerLinkLabel')}
+        </a>
+      </li>
+    </ul>
+    <p class="text-sm text-ink-600 leading-relaxed not-prose font-prose">
+      {t('forFamilies.sections.wellness.askForHelp.socialWorkerNote')}
+    </p>
+  </section>
+
+  <!-- Bereavement -->
+  <section id="bereavement" aria-labelledby="bereavement-h" class="reveal scroll-mt-24">
+    <h2 id="bereavement-h">{t('forFamilies.sections.bereavement.title')}</h2>
+    <p class="mb-4">{t('forFamilies.sections.bereavement.body')}</p>
+
+    <p class="mb-5 leading-relaxed bg-primary-50 border-l-4 border-primary-500 rounded-r-card px-4 py-3 not-prose font-prose text-ink-800">
+      {t('forFamilies.sections.bereavement.programNote')}
+      {' '}
+      <a href={lp('/services#role-bereavement')} class="text-primary-600 hover:text-primary-700 underline">→</a>
+    </p>
+
+    <h3 class="font-heading font-semibold text-lg text-ink-900 mb-2 not-prose">
+      {t('forFamilies.sections.bereavement.griefIs.title')}
+    </h3>
+    <p class="mb-5">{t('forFamilies.sections.bereavement.griefIs.body')}</p>
+
+    <h3 class="font-heading font-semibold text-lg text-ink-900 mb-2 not-prose">
+      {t('forFamilies.sections.bereavement.whenToSeekHelp.title')}
+    </h3>
+    <p class="mb-4">{t('forFamilies.sections.bereavement.whenToSeekHelp.body')}</p>
+    <p class="text-sm leading-relaxed bg-amber-50 border-l-4 border-amber-400 rounded-r-card px-4 py-3 not-prose font-prose text-ink-700">
+      <strong class="block mb-1">{t('forFamilies.sections.bereavement.whenToSeekHelp.lifelineLabel')}</strong>
+      {t('forFamilies.sections.bereavement.whenToSeekHelp.lifelineNumber')}
+    </p>
+  </section>
+
+  <!-- Quick Reference / Caregiver Checklist -->
+  <section id="quick-ref" aria-labelledby="quick-ref-h" class="reveal scroll-mt-24">
+    <h2 id="quick-ref-h">{t('forFamilies.sections.quickRef.title')}</h2>
+    <p class="mb-5">{t('forFamilies.sections.quickRef.intro')}</p>
+
+    <div class="grid gap-6 md:grid-cols-2 not-prose">
+      <!-- Who to Call -->
+      <div class="bg-white rounded-card shadow-soft p-5">
+        <h3 class="flex items-center gap-2 font-heading font-semibold text-lg text-ink-900 mb-4">
+          <Icon name="phone" class="w-5 h-5 text-primary-600" />
+          {t('forFamilies.sections.quickRef.whoToCall.title')}
+        </h3>
+        <dl class="space-y-3">
+          {WHO_TO_CALL_KEYS.map((key) => (
+            <div>
+              <dt class="font-semibold text-ink-900 text-sm mb-0.5">
+                {key === 'hospice' ? (
+                  <a href={`tel:${CONTACT.phone.tel}`} class="text-primary-600 hover:text-primary-700 hover:underline">
+                    {t(`forFamilies.sections.quickRef.whoToCall.items.${key}.label`)} — {CONTACT.phone.display}
+                  </a>
+                ) : (
+                  t(`forFamilies.sections.quickRef.whoToCall.items.${key}.label`)
+                )}
+              </dt>
+              <dd class="text-sm text-ink-600 leading-relaxed font-prose">
+                {t(`forFamilies.sections.quickRef.whoToCall.items.${key}.value`)}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </div>
+
+      <!-- Have Ready -->
+      <div class="bg-white rounded-card shadow-soft p-5">
+        <h3 class="flex items-center gap-2 font-heading font-semibold text-lg text-ink-900 mb-4">
+          <Icon name="book" class="w-5 h-5 text-primary-600" />
+          {t('forFamilies.sections.quickRef.haveReady.title')}
+        </h3>
+        <ul class="space-y-2">
+          {HAVE_READY_KEYS.map((key) => (
+            <li class="flex gap-2 items-start text-sm text-ink-600 leading-relaxed">
+              <Icon name="check" class="w-4 h-4 mt-1 flex-shrink-0 text-primary-500" />
+              <span class="font-prose">{t(`forFamilies.sections.quickRef.haveReady.items.${key}`)}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <p class="mt-5 text-sm text-ink-500 italic not-prose font-prose">
+      {t('forFamilies.sections.quickRef.printNote')}
+    </p>
+  </section>
+</LongFormLayout>

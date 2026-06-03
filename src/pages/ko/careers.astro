@@ -1,0 +1,118 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CareersForm from '../../components/forms/CareersForm.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+import koData from '../../i18n/ko.json';
+
+const lang = 'ko' as const;
+const lp = (p: string) => localizedPath(p, lang);
+
+const c = koData.careers;
+const contact = koData.contact;
+const common = koData.common;
+---
+
+<BaseLayout
+  title={c.pageTitle}
+  description={c.metaDescription}
+  lang={lang}
+  path="/careers"
+>
+  <div class="bg-surface-paper">
+    <div class="max-w-[90rem] mx-auto px-6 md:px-12 lg:px-16 py-14 md:py-20">
+
+      <header class="reveal mb-12 max-w-prose-wide">
+        <p class="eyebrow text-primary-600 mb-3">{c.eyebrow}</p>
+        <h1 class="font-heading text-display-lg md:text-display-xl text-ink-900 leading-tight mb-5">
+          {c.pageTitle}
+        </h1>
+        <p class="font-prose text-lg md:text-xl text-ink-600 leading-relaxed">
+          {c.introParagraph}
+        </p>
+      </header>
+
+      <div class="lg:grid lg:grid-cols-[1fr_420px] lg:gap-12 xl:gap-16 items-start">
+
+        <div class="space-y-10">
+
+          <section class="reveal">
+            <h2 class="font-heading text-2xl text-ink-900 mb-4">{c.sections.why.title}</h2>
+            <ul class="space-y-3">
+              {c.sections.why.points.map(point => (
+                <li class="flex items-start gap-3">
+                  <div class="rounded-full bg-primary-100 p-1 flex-shrink-0 mt-0.5">
+                    <Icon name="check" class="w-4 h-4 text-primary-700" />
+                  </div>
+                  <span class="text-ink-700 font-prose leading-relaxed">{point}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <section class="reveal [--reveal-delay:60ms]">
+            <h2 class="font-heading text-2xl text-ink-900 mb-2">{c.sections.roles.title}</h2>
+            <p class="font-prose text-ink-600 mb-5">{c.sections.roles.intro}</p>
+            <div class="grid sm:grid-cols-2 gap-3">
+              {c.sections.roles.list.map(role => (
+                <div class="flex items-center gap-3 rounded-card border border-line-soft bg-white px-4 py-3 shadow-soft">
+                  <Icon name="briefcase" class="w-4 h-4 text-primary-500 flex-shrink-0" />
+                  <span class="text-sm font-medium text-ink-800">{role}</span>
+                </div>
+              ))}
+            </div>
+          </section>
+
+        </div>
+
+        <aside class="mt-10 lg:mt-0 reveal [--reveal-delay:80ms]">
+          <div class="rounded-card border border-line-soft bg-white p-6 lg:p-8 shadow-soft sticky top-24">
+            <CareersForm {lang} />
+          </div>
+
+          <div class="mt-6 rounded-card border border-line-soft bg-white p-6 shadow-soft">
+            <h3 class="font-heading text-lg text-ink-900 mb-3">직접 연락하고 싶으시다면?</h3>
+            <div class="space-y-3">
+              <a
+                href={`tel:${CONTACT.phone.tel}`}
+                class="flex items-center gap-3 text-ink-700 hover:text-primary-600 transition-colors duration-100
+                       focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
+              >
+                <Icon name="phone" class="w-5 h-5 text-primary-600 flex-shrink-0" />
+                <span class="font-semibold">{CONTACT.phone.display}</span>
+              </a>
+              <a
+                href={`mailto:${contact.info.emailValue}`}
+                class="flex items-center gap-3 text-ink-700 hover:text-primary-600 transition-colors duration-100
+                       focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm break-all"
+              >
+                <Icon name="mail" class="w-5 h-5 text-primary-600 flex-shrink-0" />
+                <span>{contact.info.emailValue}</span>
+              </a>
+            </div>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white border-t border-line-soft">
+    <div class="max-w-[90rem] mx-auto px-6 md:px-12 lg:px-16 py-10 flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+      <p class="font-prose text-ink-700 leading-relaxed flex-1">
+        지원 전에 저희의 업무에 대해 더 알고 싶으시다면?
+      </p>
+      <a
+        href={lp('/services')}
+        class="inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3
+               rounded-btn border border-primary-300 text-primary-700 font-medium hover:bg-primary-50
+               transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2
+               focus-visible:ring-primary-500 focus-visible:ring-offset-2 whitespace-nowrap"
+      >
+        {common.relatedPages.links.services}
+        <Icon name="arrowRight" class="w-4 h-4" />
+      </a>
+    </div>
+  </div>
+</BaseLayout>

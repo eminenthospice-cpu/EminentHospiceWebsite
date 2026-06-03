@@ -1,0 +1,118 @@
+---
+/**
+ * LongFormLayout.astro — For legal/info pages (Privacy, HIPAA, Terms,
+ * Understanding Hospice, Hospice Laws, etc.).
+ * Provides a constrained reading column with optional sidebar.
+ */
+import BaseLayout from './BaseLayout.astro';
+import { SITE } from '../data/site-config';
+
+export interface Props {
+  title: string;
+  description: string;
+  lang: 'en' | 'ko';
+  path: string;
+  eyebrow?: string;
+  introParagraph?: string;
+  lastReviewed?: string;
+  disclaimerVariant?: 'medical';
+  noIndex?: boolean;
+}
+
+const { title, description, lang, path, eyebrow, introParagraph, lastReviewed, disclaimerVariant, noIndex } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} lang={lang} path={path} noIndex={noIndex}>
+  <div class="bg-surface-paper min-h-screen">
+    <!-- Page header -->
+    <div class="bg-white border-b border-line-soft">
+      <div class="max-w-[90rem] mx-auto px-6 md:px-12 lg:px-16 py-12 md:py-16">
+        <div class="max-w-3xl">
+          <slot name="header">
+            {eyebrow && <p class="eyebrow text-primary-600 mb-3">{eyebrow}</p>}
+            <h1 class="font-heading text-display-lg text-ink-900 mb-4">{title}</h1>
+            {lastReviewed && (
+              <p class="eyebrow text-ink-400 mb-3">
+                {lang === 'ko' ? '최종 검토일' : 'Last reviewed'}: {lastReviewed}
+              </p>
+            )}
+            {introParagraph && (
+              <p class="lead text-ink-700 max-w-prose">{introParagraph}</p>
+            )}
+            {disclaimerVariant === 'medical' && (
+              <div class="mt-4 px-4 py-3 bg-amber-50 border-l-4 border-amber-400 rounded-r-card text-sm text-ink-700 leading-relaxed">
+                {lang === 'ko'
+                  ? '이 페이지의 정보는 교육 목적으로 제공되며 의료 조언을 대체하지 않습니다. 구체적인 상황에 대해서는 항상 호스피스 간호사에게 연락하세요.'
+                  : 'This page provides general education and does not substitute for medical advice. For anything specific to your loved one, call your hospice nurse first.'}
+              </div>
+            )}
+          </slot>
+        </div>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="max-w-[90rem] mx-auto px-6 md:px-12 lg:px-16 py-12 md:py-16">
+      <div class="lg:grid lg:grid-cols-[1fr_280px] lg:gap-16 xl:gap-24">
+        <!-- Main prose column -->
+        <article class="max-w-3xl prose-longform">
+          <slot />
+        </article>
+
+        <!-- Optional sidebar -->
+        <aside class="hidden lg:block">
+          <slot name="sidebar" />
+        </aside>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .prose-longform :global(h2) {
+    font-family: var(--font-heading);
+    font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+    color: var(--color-ink-900);
+    margin-top: 3rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.25;
+  }
+  .prose-longform :global(h3) {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    color: var(--color-ink-900);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .prose-longform :global(p) {
+    font-family: var(--font-prose);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-ink-700);
+    margin-bottom: 1.25rem;
+  }
+  .prose-longform :global(ul),
+  .prose-longform :global(ol) {
+    font-family: var(--font-prose);
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: var(--color-ink-700);
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+  }
+  .prose-longform :global(li) {
+    margin-bottom: 0.375rem;
+  }
+  .prose-longform :global(a) {
+    color: var(--color-primary-600);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .prose-longform :global(a:hover) {
+    color: var(--color-primary-700);
+  }
+  .prose-longform :global(strong) {
+    font-weight: 600;
+    color: var(--color-ink-900);
+  }
+</style>

@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ReferralCallbackForm from '../../components/forms/ReferralCallbackForm.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { useTranslations } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+
+const lang = 'en' as const;
+const t = useTranslations(lang);
+
+const introParagraph = t('referral.introParagraph').replace('{phone}', CONTACT.phone.display);
+---
+
+<BaseLayout
+  title={t('referral.pageTitle')}
+  description={t('referral.metaDescription')}
+  lang={lang}
+  path="/referral"
+>
+  <div class="bg-surface-paper">
+    <div class="max-w-[90rem] mx-auto px-6 md:px-12 lg:px-16 py-14 md:py-20">
+      <div class="max-w-2xl space-y-10 md:space-y-12">
+
+        <!-- Page header -->
+        <header class="reveal">
+          <p class="eyebrow text-primary-600 mb-4">Make a referral</p>
+          <h1 class="font-heading text-display-lg md:text-display-xl text-ink-900 leading-tight mb-5">
+            {t('referral.pageTitle')}
+          </h1>
+          <p class="font-prose text-lg md:text-xl text-ink-600 leading-relaxed">
+            {introParagraph}
+          </p>
+        </header>
+
+        <!-- Phone CTA — primary action -->
+        <div class="reveal [--reveal-delay:60ms]">
+          <a
+            href={`tel:${CONTACT.phone.tel}`}
+            class="block rounded-card bg-primary-500 text-white p-6 md:p-8 shadow-float
+                   hover:bg-primary-600 transition-colors duration-150
+                   focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+          >
+            <div class="flex items-start gap-4">
+              <div class="rounded-full bg-white/15 p-3 flex-shrink-0">
+                <Icon name="phone" class="w-8 h-8 md:w-10 md:h-10" />
+              </div>
+              <div>
+                <h2 class="font-heading text-2xl md:text-3xl mb-1">
+                  {t('referral.modeA.phoneCta.title')}
+                </h2>
+                <p class="text-primary-100 mb-3 font-prose">{t('referral.modeA.phoneCta.subtitle')}</p>
+                <p class="text-xl md:text-2xl font-semibold font-heading">
+                  {t('referral.modeA.phoneCta.callLabel').replace('{phone}', CONTACT.phone.display)}
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Why phone? -->
+        <section aria-labelledby="why-phone-h" class="reveal [--reveal-delay:100ms] max-w-prose">
+          <h3 id="why-phone-h" class="font-heading text-xl text-ink-900 mb-2">
+            {t('referral.modeA.whyPhone.title')}
+          </h3>
+          <p class="font-prose text-ink-600 leading-relaxed">{t('referral.modeA.whyPhone.body')}</p>
+        </section>
+
+        <!-- Callback form -->
+        <section
+          id="callback"
+          aria-labelledby="callback-h"
+          class="rounded-card bg-white border border-line-soft p-6 lg:p-8 shadow-soft reveal [--reveal-delay:130ms]"
+        >
+          <ReferralCallbackForm {lang} />
+        </section>
+
+      </div>
+    </div>
+  </div>
+</BaseLayout>

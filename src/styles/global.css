@@ -1,0 +1,379 @@
+/* Eminent Hospice — Global Design Tokens & Utilities
+   Tailwind v4 uses CSS @theme instead of tailwind.config.js
+   Ported from EminentHospiceWebsite/tailwind.config.ts + src/app/globals.css
+   ─────────────────────────────────────────────────────── */
+
+/* ── Fonts ──────────────────────────────────────────────── */
+@import '@fontsource-variable/fraunces/index.css';
+@import '@fontsource/newsreader/400.css';
+@import '@fontsource/newsreader/400-italic.css';
+@import '@fontsource/newsreader/500.css';
+@import '@fontsource/newsreader/600.css';
+@import '@fontsource-variable/inter/index.css';
+@import '@fontsource/noto-sans-kr/400.css';
+@import '@fontsource/noto-sans-kr/500.css';
+@import '@fontsource/noto-sans-kr/700.css';
+@import '@fontsource/noto-serif-kr/400.css';
+@import '@fontsource/noto-serif-kr/500.css';
+
+/* ── Tailwind base ───────────────────────────────────────── */
+@import 'tailwindcss';
+
+/* ── Design tokens ───────────────────────────────────────── */
+@theme {
+  /* Color — brand */
+  --color-primary:        #2C5F8A;
+  --color-primary-50:     #EBF3FA;
+  --color-primary-100:    #C8DFF0;
+  --color-primary-200:    #A5CBE6;
+  --color-primary-300:    #82B7DC;
+  --color-primary-400:    #5FA3D2;
+  --color-primary-500:    #2C5F8A;
+  --color-primary-600:    #245079;
+  --color-primary-700:    #1C4168;
+  --color-primary-800:    #143257;
+  --color-primary-900:    #0C2346;
+
+  /* Color — warm accent (terracotta) */
+  --color-accent-warm-50:  #FBF4E8;
+  --color-accent-warm-100: #F4E4C9;
+  --color-accent-warm-200: #E8D5B7;
+  --color-accent-warm-300: #D7BC8E;
+  --color-accent-warm-400: #C6A465;
+  --color-accent-warm-500: #B08458;
+  --color-accent-warm-600: #8A6645;
+  --color-accent-warm-700: #604631;
+
+  /* Color — sage accent */
+  --color-accent-sage-50:  #EEF5EF;
+  --color-accent-sage-100: #D4E4D8;
+  --color-accent-sage-200: #B6D2BC;
+  --color-accent-sage-300: #94BB9C;
+  --color-accent-sage-400: #72A37C;
+  --color-accent-sage-500: #4A7C59;
+  --color-accent-sage-600: #3B6347;
+  --color-accent-sage-700: #2A4733;
+
+  /* Color — ink (text) */
+  --color-ink-900: #1F2A37;
+  --color-ink-700: #3D4A5C;
+  --color-ink-500: #5F6B7A;
+  --color-ink-300: #94A0AE;
+
+  /* Color — tint */
+  --color-tint-ivory: #FEFCF7;
+  --color-tint-dust:  #EFEBE4;
+
+  /* Color — line */
+  --color-line-hairline: rgba(31,42,55,0.08);
+  --color-line-soft:     rgba(31,42,55,0.14);
+
+  /* Color — surface */
+  --color-surface-paper:    #FBF8F3;
+  --color-surface-elevated: #FFFFFF;
+  --color-surface-ink:      #1A2B3C;
+  --color-surface-canvas:   #FAF6F0;
+
+  /* Color — neutral */
+  --color-neutral-warm:  #F8F6F2;
+  --color-neutral-cream: #FDF9F5;
+  --color-neutral-100:   #F1EDE8;
+  --color-neutral-200:   #E2DDD7;
+  --color-neutral-300:   #C8C2BB;
+
+  /* Color — semantic */
+  --color-success: #4A9B6F;
+  --color-warning: #C27D2A;
+  --color-error:   #B94040;
+
+  /* Typography — font families */
+  --font-heading: 'Fraunces Variable', 'Georgia', serif;
+  --font-prose:   'Newsreader', 'Georgia', serif;
+  --font-body:    'Inter Variable', 'Noto Sans KR', system-ui, sans-serif;
+  --font-mono:    ui-monospace, 'SFMono-Regular', monospace;
+
+  /* Spacing — section rhythm */
+  --spacing-section-y:   5rem;
+  --spacing-section-2xl: 6.5rem;
+  --spacing-section-3xl: 8rem;
+  --spacing-section-x:   1.5rem;
+
+  /* Border radius */
+  --radius-card:    0.75rem;
+  --radius-btn:     0.375rem;
+  --radius-organic: 1.25rem;
+
+  /* Shadows */
+  --shadow-soft:       0 2px 8px -2px rgb(31 42 55 / 0.06), 0 8px 24px -8px rgb(31 42 55 / 0.08);
+  --shadow-float:      0 4px 16px -4px rgb(31 42 55 / 0.1), 0 16px 40px -12px rgb(31 42 55 / 0.12);
+  --shadow-card:       0 1px 3px 0 rgb(0 0 0 / 0.08), 0 1px 2px -1px rgb(0 0 0 / 0.04);
+  --shadow-inset-line: inset 0 1px 0 0 rgb(31 42 55 / 0.06);
+
+  /* Transitions */
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-snap:      cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ── Base styles ──────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-surface-paper);
+  color: var(--color-ink-900);
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+/* Korean: keep whole syllables together */
+:lang(ko) h1,
+:lang(ko) h2,
+:lang(ko) h3,
+:lang(ko) h4,
+:lang(ko) .heading {
+  word-break: keep-all;
+}
+
+/* Prevent orphans on headings */
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+/* ── Skip link ───────────────────────────────────────────── */
+.skip-link {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.75rem 1.25rem;
+  background: var(--color-surface-ink);
+  color: var(--color-tint-ivory);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: var(--radius-btn);
+  text-decoration: none;
+  transform: translateY(-200%);
+  transition: transform 200ms var(--ease-editorial);
+}
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+/* ── Screen-reader only ──────────────────────────────────── */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ── Focus rings ─────────────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-primary-500);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ── Typography utilities ────────────────────────────────── */
+
+.eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-ink-500);
+}
+
+.lead {
+  font-family: var(--font-prose);
+  font-size: 1.375rem;
+  line-height: 1.6;
+  letter-spacing: -0.005em;
+  color: var(--color-ink-700);
+  max-width: 65ch;
+}
+
+.pull-quote {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--color-ink-900);
+}
+
+.marginalia {
+  font-family: var(--font-prose);
+  font-size: 0.8125rem;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: var(--color-ink-500);
+}
+
+.numeral-wall {
+  font-family: var(--font-heading);
+  font-size: clamp(5rem, 11vw, 9rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  font-variant-numeric: oldstyle-nums tabular-nums;
+  font-feature-settings: "ss01";
+  color: var(--color-ink-900);
+}
+
+.callout-marginalia {
+  border-left: 2px solid var(--color-accent-warm-300);
+  padding-left: 1rem;
+  font-family: var(--font-prose);
+  font-size: 0.8125rem;
+  color: var(--color-ink-700);
+}
+
+.rule-hair {
+  border: none;
+  border-top: 1px solid var(--color-line-soft);
+  margin: 0;
+}
+
+/* ── Card / surface ──────────────────────────────────────── */
+.card-paper {
+  background: var(--color-surface-paper);
+  border: 1px solid var(--color-line-hairline);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+/* ── Motion utilities ────────────────────────────────────── */
+.lift-card {
+  transition:
+    transform 280ms var(--ease-editorial),
+    box-shadow 280ms var(--ease-editorial);
+}
+.lift-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-float);
+}
+
+.press-tap:active {
+  transform: scale(0.985);
+  transition-duration: 80ms;
+}
+
+.underline-grow {
+  position: relative;
+  text-decoration: none;
+}
+.underline-grow::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 280ms var(--ease-editorial);
+}
+.underline-grow:hover::after,
+.underline-grow:focus-visible::after {
+  transform: scaleX(1);
+}
+
+/* IntersectionObserver reveal — driven by reveal.ts */
+.reveal {
+  opacity: 0;
+  transform: translateY(14px);
+  transition:
+    opacity 480ms var(--ease-editorial),
+    transform 480ms var(--ease-editorial);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal[data-delay="1"] { transition-delay:  80ms; }
+.reveal[data-delay="2"] { transition-delay: 160ms; }
+.reveal[data-delay="3"] { transition-delay: 240ms; }
+.reveal[data-delay="4"] { transition-delay: 320ms; }
+.reveal[data-delay="5"] { transition-delay: 400ms; }
+
+.scale-in {
+  opacity: 0;
+  transform: scale(0.96);
+  transform-origin: bottom center;
+  transition:
+    opacity 480ms var(--ease-editorial),
+    transform 480ms var(--ease-editorial);
+}
+.scale-in.is-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ── Reduced motion ──────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .scale-in,
+  .lift-card,
+  .underline-grow::after {
+    transition: none !important;
+    animation: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+  .press-tap:active {
+    transform: none !important;
+  }
+  /* Skip-link reveal */
+  .skip-link {
+    transition: none !important;
+  }
+  /* FAQ accordion chevron & nav dropdown chevron */
+  details summary svg,
+  [aria-haspopup] svg {
+    transition: none !important;
+  }
+}
+
+/* ── Layout helpers ──────────────────────────────────────── */
+.container-content {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: var(--spacing-section-x);
+}
+
+.container-wide {
+  width: 100%;
+  max-width: 90rem;
+  margin-inline: auto;
+  padding-inline: var(--spacing-section-x);
+}
+
+.section-pad    { padding-block: var(--spacing-section-y); }
+.section-pad-lg { padding-block: var(--spacing-section-2xl); }
+.section-pad-xl { padding-block: var(--spacing-section-3xl); }
+
+/* ── Background surfaces ─────────────────────────────────── */
+.bg-warm   { background-color: var(--color-surface-paper); }
+.bg-canvas { background-color: var(--color-surface-canvas); }
+.bg-ink    { background-color: var(--color-surface-ink); }

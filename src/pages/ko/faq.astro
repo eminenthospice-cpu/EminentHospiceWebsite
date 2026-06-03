@@ -1,0 +1,75 @@
+---
+import LongFormLayout from '../../layouts/LongFormLayout.astro';
+import PageSidebar from '../../components/layout/PageSidebar.astro';
+import { localizedPath } from '../../i18n/utils';
+import koData from '../../i18n/ko.json';
+
+const lang = 'ko' as const;
+const lp = (p: string) => localizedPath(p, lang);
+const d = koData.faq;
+const common = koData.common;
+
+const catOrder = ['gettingStarted', 'aboutHospice', 'insurance', 'families', 'rights'] as const;
+const catAnchors: Record<string, string> = {
+  gettingStarted: 'getting-started',
+  aboutHospice:   'about-hospice',
+  insurance:      'insurance',
+  families:       'families',
+  rights:         'rights',
+};
+
+const anchors = catOrder.map(key => ({
+  id: catAnchors[key],
+  label: d.categories[key].title,
+}));
+
+const relatedLinks = [
+  { href: '/understanding-hospice', label: common.relatedPages.links.understandingHospice },
+  { href: '/insurance',             label: common.relatedPages.links.insurance },
+  { href: '/hospice-laws',          label: common.relatedPages.links.hospiceLaws },
+  { href: '/contact',               label: common.relatedPages.links.contact },
+];
+---
+
+<LongFormLayout
+  title={d.pageTitle}
+  description={d.metaDescription}
+  lang={lang}
+  path="/faq"
+  eyebrow="자주 묻는 질문"
+  introParagraph={d.introParagraph}
+  lastReviewed={d.lastReviewed}
+>
+  <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
+
+  {catOrder.map(catKey => {
+    const cat = d.categories[catKey];
+    return (
+      <section id={catAnchors[catKey]} class="scroll-mt-24">
+        <h2>{cat.title}</h2>
+        <div class="not-prose mt-4 space-y-3">
+          {Object.values(cat.items).map(item => (
+            <details class="group rounded-card border border-line-soft bg-white shadow-soft overflow-hidden">
+              <summary
+                class="flex items-center justify-between gap-4 px-5 py-4 cursor-pointer font-heading text-ink-900
+                       hover:bg-surface-paper transition-colors duration-100
+                       focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-500"
+              >
+                <span class="text-base leading-snug">{item.q}</span>
+                <svg
+                  class="w-5 h-5 text-ink-400 flex-shrink-0 transition-transform duration-200 group-open:rotate-180"
+                  fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                </svg>
+              </summary>
+              <div class="px-5 pb-5 pt-1 border-t border-line-soft">
+                <p class="text-ink-700 text-sm leading-relaxed font-prose">{item.a}</p>
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
+    );
+  })}
+</LongFormLayout>

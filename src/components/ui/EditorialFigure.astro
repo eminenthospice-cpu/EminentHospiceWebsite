@@ -1,0 +1,67 @@
+---
+import { imageSlots, type ImageSlotKey } from '../../data/images';
+
+export interface Props {
+  slot: ImageSlotKey;
+  aspect: '3/4' | '4/5' | '4/3' | '5/6';
+  lang?: 'en' | 'ko';
+  caption?: string;
+  bleed?: 'none' | 'left' | 'right';
+  sizes?: string;
+  priority?: boolean;
+  class?: string;
+  imageClass?: string;
+}
+
+const {
+  slot: slotKey,
+  aspect,
+  lang = 'en',
+  caption,
+  bleed = 'none',
+  sizes = '(min-width: 1024px) 42vw, 100vw',
+  priority = false,
+  class: className = '',
+  imageClass = '',
+} = Astro.props;
+
+const image = imageSlots[slotKey];
+const alt = lang === 'ko' ? image.alt.ko : image.alt.en;
+
+const aspectClass: Record<string, string> = {
+  '3/4': 'aspect-[3/4]',
+  '4/5': 'aspect-[4/5]',
+  '4/3': 'aspect-[4/3]',
+  '5/6': 'aspect-[5/6]',
+};
+
+const bleedClass: Record<string, string> = {
+  none:  '',
+  left:  'xl:-ml-8',
+  right: 'xl:-mr-8',
+};
+
+const figureClass = [bleedClass[bleed], className].join(' ').trim();
+const wrapClass = ['relative overflow-hidden rounded-[1.25rem] bg-neutral-100 shadow-soft', aspectClass[aspect]].join(' ');
+---
+
+<figure class={figureClass}>
+  <div class={wrapClass}>
+    <img
+      src={image.src}
+      alt={alt}
+      width={image.width}
+      height={image.height}
+      sizes={sizes}
+      loading={priority ? 'eager' : 'lazy'}
+      decoding="async"
+      class={`object-cover absolute inset-0 w-full h-full ${imageClass}`}
+    />
+  </div>
+  {caption && (
+    <figcaption class="mt-3 pt-3 border-t border-line-soft">
+      <p class="marginalia uppercase tracking-[0.14em] text-ink-500 font-body">{caption}</p>
+      {image.credit && <p class="mt-1 marginalia text-ink-300">{image.credit}</p>}
+    </figcaption>
+  )}
+</figure>

@@ -1,0 +1,151 @@
+---
+import LongFormLayout from '../../layouts/LongFormLayout.astro';
+import PageSidebar from '../../components/layout/PageSidebar.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+import koData from '../../i18n/ko.json';
+
+const lang = 'ko' as const;
+const lp = (p: string) => localizedPath(p, lang);
+const d = koData.understandingHospice;
+const s = d.sections;
+const common = koData.common;
+
+const conditionIcons: Record<string, 'heart' | 'sun' | 'briefcase' | 'users' | 'shield' | 'globe'> = {
+  cancer: 'shield', heart: 'heart', dementia: 'sun', copd: 'globe', als: 'briefcase', kidney: 'users',
+};
+const locationIcons: Record<string, 'home' | 'hospital' | 'users' | 'briefcase'> = {
+  home: 'home', assistedLiving: 'users', snf: 'hospital', inpatient: 'briefcase',
+};
+
+const anchors = [
+  { id: 'what-is-hospice', label: '호스피스란?' },
+  { id: 'who-qualifies',   label: '자격 조건' },
+  { id: 'myths',           label: '흔한 오해' },
+  { id: 'what-to-expect',  label: '등록 후 기대할 것' },
+  { id: 'where',           label: '케어 장소' },
+  { id: 'stopping',        label: '호스피스 중단' },
+];
+const relatedLinks = [
+  { href: '/services',    label: common.relatedPages.links.services },
+  { href: '/for-families',label: common.relatedPages.links.forFamilies },
+  { href: '/insurance',   label: common.relatedPages.links.insurance },
+  { href: '/faq',         label: common.relatedPages.links.faq },
+];
+---
+
+<LongFormLayout
+  title={d.pageTitle}
+  description={d.metaDescription}
+  lang={lang}
+  path="/understanding-hospice"
+  eyebrow="호스피스 케어 이해하기"
+  introParagraph={d.introParagraph}
+  lastReviewed={d.lastReviewed}
+>
+  <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
+
+  <section id="what-is-hospice" class="scroll-mt-24">
+    <h2>{s.whatIsHospice.title}</h2>
+    <p>{s.whatIsHospice.p1}</p>
+    <p>{s.whatIsHospice.p2}</p>
+  </section>
+
+  <section id="who-qualifies" class="scroll-mt-24">
+    <h2>{s.whoQualifies.title}</h2>
+    <p>{s.whoQualifies.intro}</p>
+    <h3>{s.whoQualifies.conditionsHeading}</h3>
+    <div class="not-prose grid sm:grid-cols-2 gap-4 mt-4">
+      {Object.entries(s.whoQualifies.conditions).map(([key, cond]) => (
+        <div class="rounded-card border border-line-soft bg-white p-4 shadow-soft flex items-start gap-3">
+          <div class="rounded-full bg-primary-50 p-2 flex-shrink-0">
+            <Icon name={conditionIcons[key] ?? 'shield'} class="w-4 h-4 text-primary-600" />
+          </div>
+          <div>
+            <p class="font-heading text-sm font-semibold text-ink-900 mb-0.5">{cond.name}</p>
+            <p class="text-xs text-ink-600 leading-relaxed">{cond.desc}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+    <div class="not-prose mt-5 rounded-card border-l-4 border-primary-300 bg-primary-50 px-5 py-4">
+      <p class="text-sm text-ink-700 leading-relaxed">{s.whoQualifies.prognosisNote}</p>
+    </div>
+  </section>
+
+  <section id="myths" class="scroll-mt-24">
+    <h2>{s.myths.title}</h2>
+    <p>{s.myths.intro}</p>
+    <div class="not-prose mt-4 space-y-4">
+      {s.myths.items.map(item => (
+        <div class="rounded-card border border-line-soft bg-white p-5 shadow-soft">
+          <div class="flex items-start gap-3 mb-3">
+            <span class="inline-block rounded-full bg-red-100 text-red-700 text-xs font-semibold px-2.5 py-0.5 flex-shrink-0 mt-0.5">
+              {s.myths.mythLabel}
+            </span>
+            <p class="font-medium text-ink-800 italic leading-snug">{item.myth}</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="inline-block rounded-full bg-green-100 text-green-700 text-xs font-semibold px-2.5 py-0.5 flex-shrink-0 mt-0.5">
+              {s.myths.factLabel}
+            </span>
+            <p class="text-ink-700 text-sm leading-relaxed">{item.fact}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section id="what-to-expect" class="scroll-mt-24">
+    <h2>{s.whatToExpect.title}</h2>
+    <p>{s.whatToExpect.p1}</p>
+    <p>{s.whatToExpect.p2}</p>
+    <p>{s.whatToExpect.p3}</p>
+  </section>
+
+  <section id="where" class="scroll-mt-24">
+    <h2>{s.whereCareHappens.title}</h2>
+    <p>{s.whereCareHappens.intro}</p>
+    <div class="not-prose mt-4 grid sm:grid-cols-2 gap-4">
+      {Object.entries(s.whereCareHappens.options).map(([key, opt]) => (
+        <div class="rounded-card border border-line-soft bg-white p-5 shadow-soft">
+          <div class="flex items-center gap-3 mb-2">
+            <div class="rounded-full bg-primary-50 p-2 flex-shrink-0">
+              <Icon name={locationIcons[key] ?? 'home'} class="w-5 h-5 text-primary-600" />
+            </div>
+            <h3 class="font-heading text-base text-ink-900">{opt.name}</h3>
+          </div>
+          <p class="text-sm text-ink-600 leading-relaxed">{opt.desc}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section id="stopping" class="scroll-mt-24">
+    <h2>{s.stoppingHospice.title}</h2>
+    <p>{s.stoppingHospice.p1}</p>
+  </section>
+
+  <div class="not-prose mt-12 rounded-card bg-primary-500 text-white p-6 md:p-8">
+    <h2 class="font-heading text-xl mb-2">{common.pageBottomCta.title}</h2>
+    <p class="font-prose text-primary-100 mb-5 leading-relaxed">{common.pageBottomCta.subtitle}</p>
+    <div class="flex flex-col sm:flex-row gap-3">
+      <a href={`tel:${CONTACT.phone.tel}`}
+        class="inline-flex items-center justify-center gap-2 min-h-[44px] px-5 py-2.5
+               rounded-btn bg-white text-primary-700 font-medium hover:bg-primary-50
+               transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2
+               focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary-500">
+        <Icon name="phone" class="w-4 h-4" />
+        {common.pageBottomCta.call}
+      </a>
+      <a href={lp('/referral')}
+        class="inline-flex items-center justify-center gap-2 min-h-[44px] px-5 py-2.5
+               rounded-btn border border-white/40 text-white font-medium hover:bg-white/10
+               transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2
+               focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary-500">
+        {common.pageBottomCta.refer}
+      </a>
+    </div>
+  </div>
+</LongFormLayout>

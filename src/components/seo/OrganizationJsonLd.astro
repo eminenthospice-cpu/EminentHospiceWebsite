@@ -1,0 +1,25 @@
+---
+import { SITE, CONTACT, BRAND } from '../../data/site-config';
+
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: SITE.name,
+  legalName: SITE.legalName,
+  url: SITE.url,
+  logo: `${SITE.url}${BRAND.logo}`,
+  contactPoint: {
+    '@type': 'ContactPoint',
+    telephone: CONTACT.phone.tel,
+    contactType: 'customer service',
+    availableLanguage: ['English', 'Korean'],
+    hoursAvailable: {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],
+    },
+  },
+  sameAs: [],
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />

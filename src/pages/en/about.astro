@@ -1,0 +1,228 @@
+---
+import LongFormLayout from '../../layouts/LongFormLayout.astro';
+import PageSidebar from '../../components/layout/PageSidebar.astro';
+import OrganizationJsonLd from '../../components/seo/OrganizationJsonLd.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { useTranslations, localizedPath } from '../../i18n/utils';
+
+const lang = 'en' as const;
+const t = useTranslations(lang);
+const lp = (p: string) => localizedPath(p, lang);
+
+const VALUES = [
+  { key: 'compassion',         accentBg: 'bg-accent-warm-50',  accentText: 'text-accent-warm-700', icon: 'heart'        },
+  { key: 'dignity',            accentBg: 'bg-primary-50',       accentText: 'text-primary-700',     icon: 'shieldCheck'  },
+  { key: 'culturalHumility',   accentBg: 'bg-accent-sage-50',   accentText: 'text-accent-sage-700', icon: 'globe'        },
+  { key: 'clinicalExcellence', accentBg: 'bg-primary-50',       accentText: 'text-primary-700',     icon: 'sparkles'     },
+] as const;
+
+const REGIONS = ['southBay', 'sanFernandoValley', 'sanGabrielValley', 'greaterLA'] as const;
+const CC_BULLETS = ['bilingual', 'koreanStaff', 'traditions', 'chaplainCoord'] as const;
+const DISTINCTIVES = ['certified', 'sameDay', 'pharmacy', 'oncall', 'bilingual'] as const;
+
+const ROLES = [
+  { key: 'physician',   icon: 'briefcase'  },
+  { key: 'rn',          icon: 'heart'      },
+  { key: 'lvn',         icon: 'handHeart'  },
+  { key: 'msw',         icon: 'users'      },
+  { key: 'chaplain',    icon: 'sparkles'   },
+  { key: 'aide',        icon: 'sun'        },
+  { key: 'bereavement', icon: 'chat'       },
+  { key: 'volunteer',   icon: 'shield'     },
+] as const;
+
+const anchors = [
+  { id: 'mission',              label: t('about.sections.mission.title') },
+  { id: 'values',               label: t('about.sections.values.title') },
+  { id: 'story',                label: t('about.sections.story.title') },
+  { id: 'service-area',         label: t('about.sections.serviceArea.title') },
+  { id: 'cultural-competence',  label: t('about.sections.culturalCompetence.title') },
+  { id: 'team',                 label: t('about.sections.team.title') },
+  { id: 'distinctives',         label: t('about.sections.distinctives.title') },
+];
+
+const relatedLinks = [
+  { href: '/',                    label: t('common.relatedPages.links.home') },
+  { href: '/services',            label: t('common.relatedPages.links.services') },
+  { href: '/understanding-hospice', label: t('common.relatedPages.links.understandingHospice') },
+  { href: '/faq',                 label: t('common.relatedPages.links.faq') },
+  { href: '/contact',             label: t('common.relatedPages.links.contact') },
+  { href: '/referral',            label: t('common.relatedPages.links.referral') },
+];
+---
+
+<LongFormLayout
+  title={t('about.pageTitle')}
+  description={t('about.metaDescription')}
+  lang={lang}
+  path="/about"
+  eyebrow="About Eminent"
+  introParagraph={t('about.introParagraph')}
+>
+  <OrganizationJsonLd slot="head" />
+
+  <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
+
+  <!-- Mission -->
+  <section id="mission" aria-labelledby="mission-h" class="reveal scroll-mt-24">
+    <h2 id="mission-h">{t('about.sections.mission.title')}</h2>
+    <p>{t('about.sections.mission.body')}</p>
+  </section>
+
+  <!-- Values -->
+  <section id="values" aria-labelledby="values-h" class="reveal scroll-mt-24">
+    <h2 id="values-h">{t('about.sections.values.title')}</h2>
+    <p class="font-prose text-base md:text-lg text-ink-600 leading-relaxed mb-6">
+      {t('about.sections.values.intro')}
+    </p>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5 not-prose">
+      {VALUES.map(({ key, accentBg, accentText, icon }) => (
+        <li class="card-paper p-6 flex gap-4 items-start">
+          <span class={`inline-flex items-center justify-center w-11 h-11 rounded-full flex-shrink-0 ${accentBg} ${accentText}`}>
+            <Icon name={icon} class="w-5 h-5" />
+          </span>
+          <div>
+            <h3 class="font-heading text-lg font-semibold text-ink-900 mb-1.5">
+              {t(`about.sections.values.items.${key}.title`)}
+            </h3>
+            <p class="text-sm text-ink-600 leading-relaxed">
+              {t(`about.sections.values.items.${key}.body`)}
+            </p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <!-- Story -->
+  <section id="story" aria-labelledby="story-h" class="reveal scroll-mt-24">
+    <h2 id="story-h">{t('about.sections.story.title')}</h2>
+    <p>{t('about.sections.story.body')}</p>
+  </section>
+
+  <!-- Service Area -->
+  <section id="service-area" aria-labelledby="service-area-h" class="reveal scroll-mt-24">
+    <h2 id="service-area-h">{t('about.sections.serviceArea.title')}</h2>
+    <p class="mb-5">{t('about.sections.serviceArea.body')}</p>
+
+    <h3 class="font-heading font-semibold text-ink-900 mb-3 flex items-center gap-2 not-prose">
+      <Icon name="mapPin" class="w-5 h-5 text-primary-600" />
+      {t('about.sections.serviceArea.regionsHeading')}
+    </h3>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-5 not-prose">
+      {REGIONS.map((key) => (
+        <li class="bg-white rounded-card shadow-soft px-4 py-3 text-sm text-ink-600">
+          {t(`about.sections.serviceArea.regions.${key}`)}
+        </li>
+      ))}
+    </ul>
+
+    <p class="text-sm text-ink-500 leading-relaxed bg-neutral-100 rounded-card px-4 py-3 flex items-start gap-2 not-prose">
+      <Icon name="calendar" class="w-4 h-4 mt-0.5 text-primary-600 flex-shrink-0" />
+      <span>{t('about.sections.serviceArea.hoursNote')}</span>
+    </p>
+  </section>
+
+  <!-- Cultural Competence -->
+  <section id="cultural-competence" aria-labelledby="cultural-competence-h" class="reveal scroll-mt-24">
+    <h2 id="cultural-competence-h">{t('about.sections.culturalCompetence.title')}</h2>
+    <div class="bg-primary-50 rounded-card px-6 py-5 border-l-4 border-primary-500 not-prose">
+      <p lang="ko" class="text-sm text-primary-900/80 mb-3 leading-relaxed font-prose">
+        {t('about.sections.culturalCompetence.koreanIntro')}
+      </p>
+      <p class="mb-4 leading-relaxed text-ink-800 font-prose">
+        {t('about.sections.culturalCompetence.intro')}
+      </p>
+      <ul class="space-y-3 mb-4">
+        {CC_BULLETS.map((key) => (
+          <li class="flex gap-3 items-start">
+            <Icon name="check" class="w-5 h-5 mt-0.5 text-primary-600 flex-shrink-0" />
+            <span class="text-sm text-ink-600 leading-relaxed">
+              {t(`about.sections.culturalCompetence.bullets.${key}`)}
+            </span>
+          </li>
+        ))}
+      </ul>
+      <p class="text-sm text-ink-500 leading-relaxed italic font-prose">
+        {t('about.sections.culturalCompetence.note')}
+      </p>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section id="team" aria-labelledby="team-h" class="reveal scroll-mt-24">
+    <h2 id="team-h">{t('about.sections.team.title')}</h2>
+    <p class="mb-5">{t('about.sections.team.intro')}</p>
+    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5 not-prose">
+      {ROLES.map(({ key, icon }) => (
+        <li>
+          <a
+            href={lp(`/services#role-${key}`)}
+            class="group block bg-white rounded-card shadow-soft p-4
+                   hover:shadow-float transition-shadow duration-150
+                   focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:outline-none"
+          >
+            <div class="flex gap-3 items-start">
+              <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-primary-50 text-primary-600 flex-shrink-0">
+                <Icon name={icon} class="w-4 h-4" />
+              </span>
+              <div class="flex-1 min-w-0">
+                <h3 class="font-heading font-semibold text-ink-900 text-sm mb-0.5">
+                  {t(`home.team.roles.${key}.name`)}
+                </h3>
+                <p class="text-xs text-ink-600 leading-relaxed">{t(`home.team.roles.${key}.desc`)}</p>
+              </div>
+              <Icon name="arrowRight" class="w-4 h-4 mt-1 text-primary-600 transition-transform duration-100 group-hover:translate-x-0.5 flex-shrink-0" />
+            </div>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p>
+      <a href={lp('/services')} class="inline-flex items-center gap-1 text-sm font-medium text-primary-600 hover:text-primary-700 hover:underline">
+        {t('about.sections.team.viewServicesLink')}
+      </a>
+    </p>
+  </section>
+
+  <!-- Distinctives -->
+  <section id="distinctives" aria-labelledby="distinctives-h" class="reveal scroll-mt-24">
+    <h2 id="distinctives-h">{t('about.sections.distinctives.title')}</h2>
+    <p class="mb-5">{t('about.sections.distinctives.intro')}</p>
+    <ul class="space-y-2 not-prose">
+      {DISTINCTIVES.map((key) => (
+        <li class="flex gap-2 items-start text-ink-600 leading-relaxed">
+          <span aria-hidden class="mt-2 inline-block w-1.5 h-1.5 rounded-full bg-primary-500 flex-shrink-0"></span>
+          <span class="font-prose text-base">{t(`about.sections.distinctives.items.${key}`)}</span>
+        </li>
+      ))}
+    </ul>
+    <p class="mt-5 text-sm text-ink-500">
+      <a href={lp('/hospice-laws')} class="text-primary-600 hover:text-primary-700 underline">
+        {t('common.relatedPages.links.hospiceLaws')} →
+      </a>
+    </p>
+  </section>
+
+  <!-- Bottom CTA band -->
+  <div class="not-prose mt-10 pt-8 border-t border-line-soft flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+    <a
+      href={lp('/contact')}
+      class="inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3
+             rounded-btn bg-primary-500 text-white font-medium hover:bg-primary-600
+             transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2
+             focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+    >
+      {t('common.relatedPages.links.contact')}
+    </a>
+    <a
+      href={lp('/referral')}
+      class="inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3
+             rounded-btn border-2 border-primary-500 text-primary-600 font-medium
+             hover:bg-primary-50 transition-colors duration-150 focus-visible:outline-none
+             focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+    >
+      {t('common.relatedPages.links.referral')}
+    </a>
+  </div>
+</LongFormLayout>

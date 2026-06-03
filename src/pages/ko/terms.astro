@@ -1,0 +1,102 @@
+---
+import LongFormLayout from '../../layouts/LongFormLayout.astro';
+import PageSidebar from '../../components/layout/PageSidebar.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+import koData from '../../i18n/ko.json';
+
+const lang = 'ko' as const;
+const lp = (p: string) => localizedPath(p, lang);
+const d = koData.terms;
+const s = d.sections;
+const common = koData.common;
+
+const sectionOrder = [
+  'acceptance', 'useOfSite', 'notMedicalAdvice', 'notServiceContract',
+  'intellectualProperty', 'externalLinks', 'disclaimers',
+  'limitationOfLiability', 'governingLaw', 'changes',
+] as const;
+
+const anchors = [
+  { id: 'acceptance',  label: '동의' },
+  { id: 'use',         label: '사이트 이용' },
+  { id: 'not-medical', label: '의료 조언 아님' },
+  { id: 'disclaimers', label: '면책 조항' },
+  { id: 'contact',     label: '문의하기' },
+];
+const relatedLinks = [
+  { href: '/privacy',      label: common.relatedPages.links.privacy },
+  { href: '/hipaa-notice', label: common.relatedPages.links.hipaaNotice },
+  { href: '/accessibility',label: common.relatedPages.links.accessibility },
+];
+
+const sectionIds: Record<string, string> = {
+  acceptance: 'acceptance',
+  useOfSite: 'use',
+  notMedicalAdvice: 'not-medical',
+  notServiceContract: 'not-service',
+  intellectualProperty: 'ip',
+  externalLinks: 'external-links',
+  disclaimers: 'disclaimers',
+  limitationOfLiability: 'liability',
+  governingLaw: 'governing-law',
+  changes: 'changes',
+};
+---
+
+<LongFormLayout
+  title={d.pageTitle}
+  description={d.metaDescription}
+  lang={lang}
+  path="/terms"
+  eyebrow="이용약관"
+  introParagraph={d.introParagraph}
+  lastReviewed={d.lastReviewed}
+  noIndex={true}
+>
+  <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
+
+  {sectionOrder.map(key => {
+    const sec = s[key];
+    const secId = sectionIds[key];
+    return (
+      <section id={secId} class="scroll-mt-24">
+        <h2>{sec.title}</h2>
+        {'body' in sec && <p>{sec.body}</p>}
+        {'intro' in sec && <p>{sec.intro}</p>}
+        {'bullets' in sec && (
+          <ul class="not-prose mt-3 space-y-2">
+            {(sec.bullets as string[]).map(b => (
+              <li class="flex items-start gap-3">
+                <div class="rounded-full bg-primary-100 p-1 flex-shrink-0 mt-1">
+                  <Icon name="check" class="w-3.5 h-3.5 text-primary-700" />
+                </div>
+                <span class="text-sm text-ink-700 leading-relaxed font-prose">{b}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
+    );
+  })}
+
+  <section id="contact" class="scroll-mt-24">
+    <h2>{s.contact.title}</h2>
+    <p>{s.contact.body}</p>
+    <div class="not-prose mt-4 space-y-3">
+      <a href={`mailto:${s.contact.email}`}
+        class="flex items-center gap-3 text-ink-700 hover:text-primary-600 transition-colors duration-100
+               focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
+        <Icon name="mail" class="w-5 h-5 text-primary-600 flex-shrink-0" />
+        <span class="text-sm">{s.contact.emailLabel}: {s.contact.email}</span>
+      </a>
+      <a href={`tel:${CONTACT.phone.tel}`}
+        class="flex items-center gap-3 text-ink-700 hover:text-primary-600 transition-colors duration-100
+               focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
+        <Icon name="phone" class="w-5 h-5 text-primary-600 flex-shrink-0" />
+        <span class="text-sm">{s.contact.phoneLabel}: {CONTACT.phone.display}</span>
+      </a>
+    </div>
+  </section>
+</LongFormLayout>

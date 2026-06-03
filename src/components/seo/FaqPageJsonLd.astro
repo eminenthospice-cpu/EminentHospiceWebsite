@@ -1,0 +1,27 @@
+---
+export interface FaqEntry {
+  question: string;
+  answer: string;
+}
+
+export interface Props {
+  items: FaqEntry[];
+}
+
+const { items } = Astro.props;
+
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: items.map(({ question, answer }) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: answer,
+    },
+  })),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />

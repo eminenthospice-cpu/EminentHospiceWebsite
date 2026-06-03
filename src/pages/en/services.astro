@@ -1,0 +1,204 @@
+---
+import LongFormLayout from '../../layouts/LongFormLayout.astro';
+import PageSidebar from '../../components/layout/PageSidebar.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { useTranslations, localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+
+const lang = 'en' as const;
+const t = useTranslations(lang);
+const lp = (p: string) => localizedPath(p, lang);
+
+const LEVELS = [
+  { key: 'routine',    icon: 'home'     },
+  { key: 'continuous', icon: 'heart'    },
+  { key: 'gip',        icon: 'hospital' },
+  { key: 'respite',    icon: 'calendar' },
+] as const;
+
+const ROLES = [
+  { key: 'physician',   icon: 'briefcase' },
+  { key: 'rn',          icon: 'heart'     },
+  { key: 'lvn',         icon: 'handHeart' },
+  { key: 'msw',         icon: 'users'     },
+  { key: 'chaplain',    icon: 'sparkles'  },
+  { key: 'aide',        icon: 'sun'       },
+  { key: 'bereavement', icon: 'chat'      },
+  { key: 'volunteer',   icon: 'shield'    },
+] as const;
+
+const ADDITIONAL = [
+  { key: 'oncall',      icon: 'phone'     },
+  { key: 'meds',        icon: 'document'  },
+  { key: 'dme',         icon: 'briefcase' },
+  { key: 'bereavement', icon: 'chat'      },
+  { key: 'volunteer',   icon: 'shield'    },
+] as const;
+
+const STEPS = ['1', '2', '3'] as const;
+
+const costFootnoteRaw = t('services.sections.levels.costFootnote');
+const costFootnote = costFootnoteRaw
+  .replace('<link>', `<a href="${lp('/insurance')}" class="text-primary-600 hover:text-primary-700 underline font-medium">`)
+  .replace('</link>', '</a>');
+
+const anchors = [
+  { id: 'offer',        label: t('services.sections.offer.title') },
+  { id: 'levels',       label: t('services.sections.levels.title') },
+  { id: 'team',         label: t('services.sections.team.title') },
+  { id: 'additional',   label: t('services.sections.additional.title') },
+  { id: 'how-to-start', label: t('services.sections.howToStart.title') },
+];
+
+const relatedLinks = [
+  { href: '/',                      label: t('common.relatedPages.links.home') },
+  { href: '/about',                 label: t('common.relatedPages.links.about') },
+  { href: '/understanding-hospice', label: t('common.relatedPages.links.understandingHospice') },
+  { href: '/insurance',             label: t('common.relatedPages.links.insurance') },
+  { href: '/for-families',          label: t('common.relatedPages.links.forFamilies') },
+  { href: '/faq',                   label: t('common.relatedPages.links.faq') },
+  { href: '/contact',               label: t('common.relatedPages.links.contact') },
+  { href: '/referral',              label: t('common.relatedPages.links.referral') },
+];
+---
+
+<LongFormLayout
+  title={t('services.pageTitle')}
+  description={t('services.metaDescription')}
+  lang={lang}
+  path="/services"
+  eyebrow="Hospice services"
+  introParagraph={t('services.introParagraph')}
+>
+  <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
+
+  <!-- What We Offer -->
+  <section id="offer" aria-labelledby="offer-h" class="reveal scroll-mt-24">
+    <h2 id="offer-h">{t('services.sections.offer.title')}</h2>
+    <p class="mb-3">{t('services.sections.offer.body')}</p>
+    <p>
+      <a href={lp('/understanding-hospice')} class="inline-flex items-center gap-1 text-sm font-medium text-primary-600 hover:text-primary-700 hover:underline">
+        {t('services.sections.offer.linkToUnderstanding')}
+      </a>
+    </p>
+  </section>
+
+  <!-- Four Levels of Care -->
+  <section id="levels" aria-labelledby="levels-h" class="reveal scroll-mt-24">
+    <h2 id="levels-h">{t('services.sections.levels.title')}</h2>
+    <p class="mb-6">{t('services.sections.levels.intro')}</p>
+    <div class="space-y-6 not-prose">
+      {LEVELS.map(({ key, icon }) => (
+        <article
+          id={`level-${key}`}
+          class="bg-white rounded-card shadow-soft p-6 scroll-mt-24"
+          aria-labelledby={`level-${key}-h`}
+        >
+          <div class="flex gap-3 items-start mb-3">
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-primary-50 text-primary-600 flex-shrink-0">
+              <Icon name={icon} class="w-5 h-5" />
+            </span>
+            <h3 id={`level-${key}-h`} class="font-heading text-xl font-semibold text-ink-900 pt-1">
+              {t(`services.sections.levels.${key}.title`)}
+            </h3>
+          </div>
+          <p class="mb-3 leading-relaxed font-prose text-ink-800">{t(`services.sections.levels.${key}.summary`)}</p>
+          <p class="mb-3 leading-relaxed font-prose text-ink-600">{t(`services.sections.levels.${key}.clinical`)}</p>
+          <p class="text-sm text-ink-500 leading-relaxed font-prose">{t(`services.sections.levels.${key}.atHome`)}</p>
+        </article>
+      ))}
+    </div>
+    <p class="mt-5 text-sm text-ink-500 leading-relaxed font-prose not-prose" set:html={costFootnote} />
+  </section>
+
+  <!-- Interdisciplinary Team -->
+  <section id="team" aria-labelledby="team-h" class="reveal scroll-mt-24">
+    <h2 id="team-h">{t('services.sections.team.title')}</h2>
+    <p class="mb-6">{t('services.sections.team.intro')}</p>
+    <div class="space-y-5 not-prose">
+      {ROLES.map(({ key, icon }) => (
+        <article
+          id={`role-${key}`}
+          class="bg-white rounded-card shadow-soft p-5 scroll-mt-24"
+          aria-labelledby={`role-${key}-h`}
+        >
+          <div class="flex gap-3 items-start mb-2">
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-primary-50 text-primary-600 flex-shrink-0">
+              <Icon name={icon} class="w-5 h-5" />
+            </span>
+            <h3 id={`role-${key}-h`} class="font-heading text-lg font-semibold text-ink-900 pt-1">
+              {t(`services.sections.team.${key}.role`)}
+            </h3>
+          </div>
+          <p class="leading-relaxed font-prose text-ink-600">{t(`services.sections.team.${key}.body`)}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <!-- Additional Services -->
+  <section id="additional" aria-labelledby="additional-h" class="reveal scroll-mt-24">
+    <h2 id="additional-h">{t('services.sections.additional.title')}</h2>
+    <p class="mb-6">{t('services.sections.additional.intro')}</p>
+    <dl class="space-y-3 not-prose">
+      {ADDITIONAL.map(({ key, icon }) => (
+        <div class="bg-white rounded-card shadow-soft p-4 flex gap-3 items-start">
+          <span class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-primary-50 text-primary-600 flex-shrink-0">
+            <Icon name={icon} class="w-4 h-4" />
+          </span>
+          <div>
+            <dt class="font-heading font-semibold text-ink-900 mb-1">
+              {t(`services.sections.additional.${key}.title`)}
+            </dt>
+            <dd class="text-sm text-ink-600 leading-relaxed font-prose">
+              {t(`services.sections.additional.${key}.body`)}
+            </dd>
+          </div>
+        </div>
+      ))}
+    </dl>
+  </section>
+
+  <!-- How to Start -->
+  <section id="how-to-start" aria-labelledby="how-to-start-h" class="reveal scroll-mt-24">
+    <h2 id="how-to-start-h">{t('services.sections.howToStart.title')}</h2>
+    <p class="mb-5">{t('services.sections.howToStart.intro')}</p>
+    <ol class="space-y-3 mb-6 not-prose">
+      {STEPS.map((n, i) => (
+        <li class="flex gap-3 items-start bg-white rounded-card shadow-soft p-4">
+          <span
+            aria-hidden
+            class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-primary-500 text-white font-heading font-semibold text-sm flex-shrink-0"
+          >
+            {i + 1}
+          </span>
+          <span class="leading-relaxed font-prose text-ink-600 pt-0.5">
+            {t(`services.sections.howToStart.steps.${n}`)}
+          </span>
+        </li>
+      ))}
+    </ol>
+    <div class="flex flex-col sm:flex-row gap-3 not-prose">
+      <a
+        href={`tel:${CONTACT.phone.tel}`}
+        class="inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3
+               rounded-btn bg-primary-500 text-white font-medium hover:bg-primary-600
+               transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2
+               focus-visible:ring-primary-500 focus-visible:ring-offset-2 w-full sm:w-auto"
+      >
+        <Icon name="phone" class="w-5 h-5" />
+        {t('services.sections.howToStart.callCta')}
+      </a>
+      <a
+        href={lp('/referral')}
+        class="inline-flex items-center justify-center min-h-[44px] px-6 py-3
+               rounded-btn border-2 border-primary-500 text-primary-600 font-medium
+               hover:bg-primary-50 transition-colors duration-150 focus-visible:outline-none
+               focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2
+               w-full sm:w-auto"
+      >
+        {t('services.sections.howToStart.referCta')}
+      </a>
+    </div>
+  </section>
+</LongFormLayout>

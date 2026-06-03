@@ -1,0 +1,259 @@
+---
+/**
+ * ReferralCallbackForm.astro — No-PHI callback request form.
+ * Collects: name, phone, email (optional), best time, referrer type.
+ * NO patient health information collected here — referral taken by phone.
+ * Posts to FORMS.referralEndpoint via Formspree.
+ */
+import { FORMS, CONTACT } from '../../data/site-config';
+import { useTranslations } from '../../i18n/utils';
+
+export interface Props {
+  lang: 'en' | 'ko';
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
+const bestTimeKeys = ['morning', 'afternoon', 'evening', 'any'] as const;
+const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] as const;
+---
+
+<div id="referral-form-wrapper">
+  <!-- Success state -->
+  <div id="referral-success" class="hidden p-6 text-center" role="status" aria-live="polite">
+    <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary-50 mb-4">
+      <svg class="w-8 h-8 text-primary-600" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+      </svg>
+    </div>
+    <h3 class="font-heading text-xl text-ink-900 mb-2">{t('referral.success.modeA.title')}</h3>
+    <p class="text-ink-600 leading-relaxed font-prose" id="referral-success-body"></p>
+  </div>
+
+  <!-- Form -->
+  <form
+    id="referral-form"
+    action={FORMS.referralEndpoint}
+    method="POST"
+    novalidate
+    class="space-y-5"
+  >
+    <header>
+      <h2 class="font-heading text-2xl text-ink-900 mb-1">{t('referral.modeA.callbackForm.title')}</h2>
+      <p class="text-ink-600 text-sm leading-relaxed">{t('referral.modeA.callbackForm.intro')}</p>
+    </header>
+
+    <!-- Honeypot -->
+    <input
+      type="text"
+      name="_gotcha"
+      tabindex="-1"
+      autocomplete="off"
+      aria-hidden="true"
+      style="display:none !important; position:absolute; left:-9999px;"
+    />
+
+    <!-- Caller name -->
+    <div class="space-y-1">
+      <label for="rf-name" class="block text-sm font-medium text-ink-800">
+        {t('referral.modeA.callbackForm.nameLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      </label>
+      <input
+        type="text"
+        id="rf-name"
+        name="referrerName"
+        required
+        autocomplete="name"
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+               placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
+               focus:border-transparent bg-white min-h-[44px]"
+        aria-describedby="rf-name-err"
+      />
+      <p id="rf-name-err" class="hidden text-xs text-red-600 mt-1" role="alert"></p>
+    </div>
+
+    <!-- Phone -->
+    <div class="space-y-1">
+      <label for="rf-phone" class="block text-sm font-medium text-ink-800">
+        {t('referral.modeA.callbackForm.phoneLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      </label>
+      <input
+        type="tel"
+        id="rf-phone"
+        name="referrerPhone"
+        required
+        autocomplete="tel"
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+               placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
+               focus:border-transparent bg-white min-h-[44px]"
+        aria-describedby="rf-phone-err"
+      />
+      <p id="rf-phone-err" class="hidden text-xs text-red-600 mt-1" role="alert"></p>
+    </div>
+
+    <!-- Email (optional) -->
+    <div class="space-y-1">
+      <label for="rf-email" class="block text-sm font-medium text-ink-800">
+        {t('referral.modeA.callbackForm.emailLabel')}
+      </label>
+      <p class="text-xs text-ink-500">{t('referral.modeA.callbackForm.emailHint')}</p>
+      <input
+        type="email"
+        id="rf-email"
+        name="referrerEmail"
+        autocomplete="email"
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+               placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
+               focus:border-transparent bg-white min-h-[44px]"
+      />
+    </div>
+
+    <!-- Best time -->
+    <div class="space-y-1">
+      <label for="rf-besttime" class="block text-sm font-medium text-ink-800">
+        {t('referral.modeA.callbackForm.bestTimeLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      </label>
+      <select
+        id="rf-besttime"
+        name="bestTimeToCall"
+        required
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+               focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent
+               bg-white min-h-[44px]"
+      >
+        {bestTimeKeys.map((key) => (
+          <option value={key}>{t(`referral.modeA.callbackForm.bestTimeOptions.${key}`)}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Referrer type -->
+    <div class="space-y-1">
+      <label for="rf-type" class="block text-sm font-medium text-ink-800">
+        {t('referral.modeA.callbackForm.referrerTypeLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      </label>
+      <select
+        id="rf-type"
+        name="referrerType"
+        required
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+               focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent
+               bg-white min-h-[44px]"
+      >
+        {referrerTypeKeys.map((key) => (
+          <option value={key}>{t(`referral.modeA.callbackForm.referrerTypeOptions.${key}`)}</option>
+        ))}
+      </select>
+    </div>
+
+    <!-- Privacy note -->
+    <p class="text-xs text-ink-500 leading-relaxed bg-surface-warm rounded-card px-4 py-3">
+      {t('referral.modeA.privacyNote')}
+    </p>
+
+    <!-- Server error -->
+    <div id="rf-server-err" class="hidden" role="alert" aria-live="polite">
+      <p class="text-sm text-red-600"></p>
+    </div>
+
+    <button
+      type="submit"
+      id="rf-submit"
+      class="inline-flex items-center justify-center gap-2 min-h-[44px] px-6 py-3
+             rounded-btn bg-primary-500 text-white font-medium text-base
+             hover:bg-primary-600 active:bg-primary-700 transition-colors duration-150
+             focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500
+             focus-visible:ring-offset-2 disabled:opacity-60 disabled:cursor-not-allowed
+             w-full sm:w-auto"
+    >
+      <span id="rf-submit-label">{t('referral.modeA.callbackForm.submitLabel')}</span>
+    </button>
+  </form>
+</div>
+
+<script define:vars={{ endpoint: FORMS.referralEndpoint, phoneDisplay: CONTACT.phone.display, lang }}>
+  const form = document.getElementById('referral-form');
+  const successEl = document.getElementById('referral-success');
+  const successBodyEl = document.getElementById('referral-success-body');
+  const submitBtn = document.getElementById('rf-submit');
+  const submitLabel = document.getElementById('rf-submit-label');
+  const serverErrEl = document.getElementById('rf-server-err');
+  const pendingLabel = lang === 'ko' ? '전송 중…' : 'Sending…';
+  const submitDefaultLabel = submitLabel?.textContent ?? '';
+
+  function showFieldError(id, msg) {
+    const el = document.getElementById(id);
+    if (el) { el.textContent = msg; el.classList.remove('hidden'); }
+  }
+
+  function clearErrors() {
+    ['rf-name-err', 'rf-phone-err'].forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) { el.textContent = ''; el.classList.add('hidden'); }
+    });
+    if (serverErrEl) serverErrEl.classList.add('hidden');
+  }
+
+  function validate(data) {
+    let valid = true;
+    const name = data.get('referrerName')?.toString().trim();
+    const phone = data.get('referrerPhone')?.toString().trim();
+    if (!name) {
+      showFieldError('rf-name-err', lang === 'ko' ? '이름을 입력해 주세요.' : 'Name is required.');
+      valid = false;
+    }
+    if (!phone) {
+      showFieldError('rf-phone-err', lang === 'ko' ? '전화번호를 입력해 주세요.' : 'Phone number is required.');
+      valid = false;
+    }
+    return valid;
+  }
+
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    clearErrors();
+    const data = new FormData(form);
+    if (!validate(data)) return;
+
+    submitBtn?.setAttribute('disabled', '');
+    if (submitLabel) submitLabel.textContent = pendingLabel;
+
+    try {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        body: data,
+        headers: { Accept: 'application/json' },
+      });
+
+      if (res.ok) {
+        const body = lang === 'ko'
+          ? `콜백 요청을 받았습니다. 케어 코디네이터가 1 영업일 이내에 연락드립니다. 긴급한 경우 ${phoneDisplay}으로 전화해 주세요.`
+          : `We have received your callback request. A care coordinator will call within one business day. For anything urgent, please call us at ${phoneDisplay}.`;
+        if (successBodyEl) successBodyEl.textContent = body;
+        form.classList.add('hidden');
+        successEl?.classList.remove('hidden');
+      } else {
+        const errMsg = lang === 'ko'
+          ? `오류가 발생했습니다. ${phoneDisplay}으로 전화해 주세요.`
+          : `Something went wrong. Please call us at ${phoneDisplay}.`;
+        if (serverErrEl) {
+          serverErrEl.querySelector('p').textContent = errMsg;
+          serverErrEl.classList.remove('hidden');
+        }
+        submitBtn?.removeAttribute('disabled');
+        if (submitLabel) submitLabel.textContent = submitDefaultLabel;
+      }
+    } catch {
+      const errMsg = lang === 'ko'
+        ? `오류가 발생했습니다. ${phoneDisplay}으로 전화해 주세요.`
+        : `Something went wrong. Please call us at ${phoneDisplay}.`;
+      if (serverErrEl) {
+        serverErrEl.querySelector('p').textContent = errMsg;
+        serverErrEl.classList.remove('hidden');
+      }
+      submitBtn?.removeAttribute('disabled');
+      if (submitLabel) submitLabel.textContent = submitDefaultLabel;
+    }
+  });
+</script>

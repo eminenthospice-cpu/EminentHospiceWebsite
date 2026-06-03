@@ -1,0 +1,151 @@
+---
+import LongFormLayout from '../../layouts/LongFormLayout.astro';
+import PageSidebar from '../../components/layout/PageSidebar.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+import enData from '../../i18n/en.json';
+
+const lang = 'en' as const;
+const lp = (p: string) => localizedPath(p, lang);
+const d = enData.privacy;
+const s = d.sections;
+const common = enData.common;
+
+const dataItems = [
+  s.dataCollected.contactForm,
+  s.dataCollected.referralFormModeA,
+  s.dataCollected.referralFormModeB,
+  s.dataCollected.serverLogs,
+  s.dataCollected.cookies,
+];
+
+const ccpaBody = s.rights.ccpa.body;
+const ccpaHowToExercise = (s.rights.ccpa as any).howToExercise?.replace('{phone}', CONTACT.phone.display) ?? '';
+
+const anchors = [
+  { id: 'overview',     label: 'Overview' },
+  { id: 'collected',    label: 'Data We Collect' },
+  { id: 'use',          label: 'How We Use It' },
+  { id: 'sharing',      label: 'How We Share It' },
+  { id: 'retention',    label: 'Retention' },
+  { id: 'security',     label: 'Security' },
+  { id: 'rights',       label: 'Your Rights' },
+  { id: 'contact',      label: 'Contact Us' },
+];
+const relatedLinks = [
+  { href: '/hipaa-notice', label: common.relatedPages.links.hipaaNotice },
+  { href: '/terms',        label: common.relatedPages.links.terms },
+];
+---
+
+<LongFormLayout
+  title={d.pageTitle}
+  description={d.metaDescription}
+  lang={lang}
+  path="/privacy"
+  eyebrow="Privacy Policy"
+  introParagraph={d.introParagraph}
+  lastReviewed={d.lastReviewed}
+  noIndex={true}
+>
+  <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
+
+  <section id="overview" class="scroll-mt-24">
+    <h2>{s.overview.title}</h2>
+    <p>{s.overview.body}</p>
+  </section>
+
+  <section id="collected" class="scroll-mt-24">
+    <h2>{s.dataCollected.title}</h2>
+    <p>{s.dataCollected.intro}</p>
+    <div class="not-prose mt-4 space-y-4">
+      {dataItems.map(item => (
+        <div class="rounded-card border border-line-soft bg-white p-5 shadow-soft">
+          <h3 class="font-heading text-base text-ink-900 mb-1">{item.title}</h3>
+          <p class="text-sm text-ink-600 leading-relaxed">{item.body}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section id="use" class="scroll-mt-24">
+    <h2>{s.howWeUse.title}</h2>
+    <p>{s.howWeUse.body}</p>
+    <ul class="not-prose mt-3 space-y-2">
+      {s.howWeUse.bullets.map(b => (
+        <li class="flex items-start gap-3">
+          <div class="rounded-full bg-primary-100 p-1 flex-shrink-0 mt-1">
+            <Icon name="check" class="w-3.5 h-3.5 text-primary-700" />
+          </div>
+          <span class="text-sm text-ink-700 leading-relaxed font-prose">{b}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section id="sharing" class="scroll-mt-24">
+    <h2>{s.howWeShare.title}</h2>
+    <p>{s.howWeShare.body}</p>
+  </section>
+
+  <section id="retention" class="scroll-mt-24">
+    <h2>{s.retention.title}</h2>
+    <p>{s.retention.body}</p>
+  </section>
+
+  <section id="security" class="scroll-mt-24">
+    <h2>{s.security.title}</h2>
+    <p>{s.security.body}</p>
+  </section>
+
+  <section id="rights" class="scroll-mt-24">
+    <h2>{s.rights.title}</h2>
+
+    <h3>{s.rights.ccpa.title ?? 'California Residents (CCPA)'}</h3>
+    <p>{ccpaBody}</p>
+    {ccpaHowToExercise && <p>{ccpaHowToExercise}</p>}
+
+    <h3>{s.rights.hipaa?.title ?? 'HIPAA Rights'}</h3>
+    <p>{(s.rights.hipaa as any)?.body}</p>
+    {(s.rights.hipaa as any)?.noticeLink && (
+      <p class="not-prose mt-2">
+        <a href={lp('/hipaa-notice')}
+          class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-sm
+                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
+          {common.relatedPages.links.hipaaNotice}
+          <Icon name="arrowRight" class="w-4 h-4" />
+        </a>
+      </p>
+    )}
+  </section>
+
+  <section class="scroll-mt-24">
+    <h2>{s.children.title}</h2>
+    <p>{s.children.body}</p>
+  </section>
+
+  <section class="scroll-mt-24">
+    <h2>{s.changes.title}</h2>
+    <p>{s.changes.body}</p>
+  </section>
+
+  <section id="contact" class="scroll-mt-24">
+    <h2>{s.contact.title}</h2>
+    <p>{s.contact.body}</p>
+    <div class="not-prose mt-4 space-y-3">
+      <a href={`mailto:${s.contact.email}`}
+        class="flex items-center gap-3 text-ink-700 hover:text-primary-600 transition-colors duration-100
+               focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
+        <Icon name="mail" class="w-5 h-5 text-primary-600 flex-shrink-0" />
+        <span class="text-sm">{s.contact.emailLabel}: {s.contact.email}</span>
+      </a>
+      <a href={`tel:${CONTACT.phone.tel}`}
+        class="flex items-center gap-3 text-ink-700 hover:text-primary-600 transition-colors duration-100
+               focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
+        <Icon name="phone" class="w-5 h-5 text-primary-600 flex-shrink-0" />
+        <span class="text-sm">{s.contact.phoneLabel}: {CONTACT.phone.display}</span>
+      </a>
+    </div>
+  </section>
+</LongFormLayout>

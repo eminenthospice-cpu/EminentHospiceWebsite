@@ -1,0 +1,18 @@
+---
+export interface Props {
+  lift?: boolean;
+  class?: string;
+}
+
+const { lift = false, class: className = '' } = Astro.props;
+
+const classes = [
+  'card-paper',
+  lift ? 'lift-card' : '',
+  className,
+].join(' ');
+---
+
+<div class={classes}>
+  <slot />
+</div>

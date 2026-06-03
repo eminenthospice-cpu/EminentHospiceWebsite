@@ -1,0 +1,18 @@
+---
+export interface Props {
+  sticky?: boolean;
+  class?: string;
+}
+
+const { sticky = false, class: className = '' } = Astro.props;
+
+const classes = [
+  'callout-marginalia',
+  sticky ? 'lg:sticky lg:top-32' : '',
+  className,
+].join(' ');
+---
+
+<aside class={classes}>
+  <slot />
+</aside>

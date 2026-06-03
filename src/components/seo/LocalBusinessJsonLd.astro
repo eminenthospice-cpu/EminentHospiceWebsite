@@ -1,0 +1,36 @@
+---
+import { SITE, CONTACT } from '../../data/site-config';
+
+export interface Props {
+  lang?: 'en' | 'ko';
+}
+const { lang = 'en' } = Astro.props;
+
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalBusiness',
+  name: SITE.name,
+  legalName: SITE.legalName,
+  url: SITE.url,
+  telephone: CONTACT.phone.tel,
+  email: CONTACT.email,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: CONTACT.address.street,
+    addressLocality: CONTACT.address.city,
+    addressRegion: CONTACT.address.state,
+    postalCode: CONTACT.address.zip,
+    addressCountry: CONTACT.address.country,
+  },
+  openingHours: 'Mo-Su 00:00-24:00',
+  areaServed: {
+    '@type': 'AdministrativeArea',
+    name: CONTACT.regions,
+  },
+  priceRange: 'Insurance & Medicare Accepted',
+  medicalSpecialty: 'Hospice & Palliative Care',
+  availableLanguage: ['English', 'Korean'],
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />

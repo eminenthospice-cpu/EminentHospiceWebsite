@@ -1,0 +1,71 @@
+---
+import LongFormLayout from '../../layouts/LongFormLayout.astro';
+import PageSidebar from '../../components/layout/PageSidebar.astro';
+import Icon from '../../components/ui/Icon.astro';
+import { localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+import koData from '../../i18n/ko.json';
+
+const lang = 'ko' as const;
+const lp = (p: string) => localizedPath(p, lang);
+const d = koData.hipaaNotice;
+const s = d.sections;
+const common = koData.common;
+
+const callToObtain = s.interim.callToObtain.replace('{phone}', CONTACT.phone.display);
+const interimBody = s.interim.body.replace('{phone}', CONTACT.phone.display);
+
+const anchors = [
+  { id: 'about',   label: '본 고지에 대하여' },
+  { id: 'interim', label: '고지서 준비 중' },
+];
+const relatedLinks = [
+  { href: '/privacy',      label: common.relatedPages.links.privacy },
+  { href: '/hospice-laws', label: common.relatedPages.links.hospiceLaws },
+  { href: '/contact',      label: common.relatedPages.links.contact },
+];
+---
+
+<LongFormLayout
+  title={d.pageTitle}
+  description={d.metaDescription}
+  lang={lang}
+  path="/hipaa-notice"
+  eyebrow="HIPAA"
+  introParagraph={d.introParagraph}
+  lastReviewed={d.lastReviewed}
+  noIndex={true}
+>
+  <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
+
+  <section id="about" class="scroll-mt-24">
+    <h2>{s.overview.title}</h2>
+    <p>{s.overview.body}</p>
+  </section>
+
+  <section id="interim" class="scroll-mt-24">
+    <h2>{s.interim.title}</h2>
+    <p>{interimBody}</p>
+
+    <div class="not-prose mt-6 rounded-card border border-line-soft bg-surface-paper p-6 shadow-soft">
+      <div class="flex items-start gap-4">
+        <div class="rounded-full bg-primary-100 p-3 flex-shrink-0">
+          <Icon name="phone" class="w-6 h-6 text-primary-700" />
+        </div>
+        <div>
+          <p class="font-heading text-lg text-ink-900 mb-2">{callToObtain}</p>
+          <a
+            href={`tel:${CONTACT.phone.tel}`}
+            class="inline-flex items-center justify-center gap-2 min-h-[44px] px-5 py-2.5
+                   rounded-btn bg-primary-500 text-white font-medium hover:bg-primary-600
+                   transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2
+                   focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+          >
+            <Icon name="phone" class="w-4 h-4" />
+            {CONTACT.phone.display}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</LongFormLayout>

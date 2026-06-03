@@ -1,0 +1,320 @@
+---
+/**
+ * Header — Editorial nav with phone, locale switcher, Resources dropdown,
+ * and mobile full-screen drawer. CSS transitions throughout; minimal JS
+ * only for mobile toggle and scroll shrink.
+ */
+import { useTranslations, localizedPath, type Locale } from '../../i18n/utils';
+import { CONTACT, SITE } from '../../data/site-config';
+
+interface Props {
+  lang: Locale;
+  currentPath: string;
+}
+const { lang, currentPath } = Astro.props;
+const t = useTranslations(lang);
+
+const primaryLinks = [
+  { key: 'home',            href: localizedPath('/',        lang), label: t('nav.home') },
+  { key: 'about',           href: localizedPath('/about',   lang), label: t('nav.aboutUs') },
+  { key: 'services',        href: localizedPath('/services',lang), label: t('nav.hospiceServices') },
+];
+
+const resourceLinks = [
+  { href: localizedPath('/understanding-hospice', lang), label: t('nav.understandingHospice') },
+  { href: localizedPath('/hospice-laws',          lang), label: t('nav.hospiceLaws') },
+  { href: localizedPath('/for-families',          lang), label: t('nav.forFamilies') },
+  { href: localizedPath('/insurance',             lang), label: t('nav.insurance') },
+  { href: localizedPath('/faq',                   lang), label: t('nav.faq') },
+  { href: localizedPath('/grief-support',         lang), label: lang === 'ko' ? '슬픔 지원' : 'Grief Support' },
+];
+
+const mobileLinks = [
+  ...primaryLinks,
+  ...resourceLinks,
+  { href: localizedPath('/contact',  lang), label: t('nav.contact') },
+  { href: localizedPath('/careers',  lang), label: lang === 'ko' ? '채용' : 'Careers' },
+  { href: localizedPath('/referral', lang), label: t('nav.referral') },
+];
+
+const otherLang: Locale = lang === 'en' ? 'ko' : 'en';
+const otherLangPath = `/${otherLang}${currentPath}`;
+
+function isActive(href: string): boolean {
+  const clean = href.replace(/^\/en|^\/ko/, '');
+  return clean === '' ? currentPath === '/' : currentPath.startsWith(clean || '/');
+}
+---
+
+<header
+  id="site-header"
+  class="sticky top-0 z-50 transition-shadow duration-300"
+  style="background-color: var(--color-surface-paper);"
+>
+  <!-- Utility bar: phone + 24/7 label -->
+  <div
+    id="utility-bar"
+    class="border-b transition-all duration-300 overflow-hidden"
+    style="border-color: var(--color-line-hairline); background-color: var(--color-surface-ink); color: var(--color-tint-ivory);"
+  >
+    <div class="container-content flex items-center justify-between py-2 text-sm">
+      <a
+        href={`tel:${CONTACT.phone.tel}`}
+        class="flex items-center gap-2 font-semibold tracking-wide hover:opacity-80 transition-opacity"
+        style="color: var(--color-tint-ivory); min-height: 44px;"
+        aria-label={`Call us: ${CONTACT.phone.display}`}
+      >
+        <!-- Phone icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6.26 6.26l.85-.85a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        {CONTACT.phone.display}
+      </a>
+      <div class="flex items-center gap-4">
+        <span class="text-xs opacity-75 hidden sm:block">
+          {lang === 'ko' ? '24시간 연중무휴' : '24/7 Care Available'}
+        </span>
+        <!-- Locale switcher -->
+        <a
+          href={otherLangPath}
+          class="inline-flex items-center text-xs font-medium uppercase tracking-widest opacity-75 hover:opacity-100 transition-opacity px-2"
+          style="color: var(--color-tint-ivory); min-height: 44px;"
+          hreflang={otherLang}
+          aria-label={otherLang === 'ko' ? '한국어로 보기' : 'View in English'}
+        >
+          {otherLang === 'ko' ? '한국어' : 'English'}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main nav bar -->
+  <nav
+    id="main-nav"
+    class="border-b transition-all duration-300"
+    style="border-color: var(--color-line-hairline);"
+    aria-label={lang === 'ko' ? '기본 탐색' : 'Main navigation'}
+  >
+    <div class="container-content flex items-center justify-between" style="height: 5rem;">
+
+      <!-- Logo / wordmark -->
+      <a
+        href={localizedPath('/', lang)}
+        class="flex flex-col leading-tight hover:opacity-80 transition-opacity flex-shrink-0"
+        aria-label={`${SITE.name} — Home`}
+      >
+        <span class="font-heading font-bold text-xl" style="color: var(--color-ink-900);">{SITE.name}</span>
+        <span class="text-xs tracking-wide" style="color: var(--color-ink-500);">{SITE.tagline}</span>
+      </a>
+
+      <!-- Desktop links -->
+      <div class="hidden lg:flex items-center gap-1 font-body text-sm" style="color: var(--color-ink-700);">
+        {primaryLinks.map(({ href, label, key }) => (
+          <a
+            href={href}
+            class:list={[
+              'underline-grow px-3 py-2 rounded-sm hover:text-ink-900 transition-colors duration-200',
+              { 'font-semibold': isActive(href) }
+            ]}
+            style={isActive(href) ? `color: var(--color-ink-900);` : ''}
+            aria-current={isActive(href) ? 'page' : undefined}
+          >
+            {label}
+          </a>
+        ))}
+
+        <!-- Resources dropdown -->
+        <div class="relative group">
+          <button
+            class="underline-grow flex items-center gap-1 px-3 py-2 rounded-sm hover:text-ink-900 transition-colors duration-200 cursor-default"
+            aria-haspopup="true"
+            aria-expanded="false"
+            type="button"
+          >
+            {lang === 'ko' ? '자료' : 'Resources'}
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true" class="transition-transform duration-200 group-hover:rotate-180">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+
+          <!-- Dropdown panel -->
+          <div
+            class="absolute top-full left-0 mt-1 rounded-card border shadow-soft
+                   opacity-0 invisible group-hover:opacity-100 group-hover:visible
+                   group-focus-within:opacity-100 group-focus-within:visible
+                   transition-all duration-200 z-50 min-w-56"
+            style="background: var(--color-surface-elevated); border-color: var(--color-line-hairline);"
+          >
+            <div class="py-2">
+              {resourceLinks.map(({ href, label }) => (
+                <a
+                  href={href}
+                  class="block px-4 py-2 text-sm hover:opacity-80 transition-opacity"
+                  style="color: var(--color-ink-700);"
+                  aria-current={isActive(href) ? 'page' : undefined}
+                >
+                  {label}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <a
+          href={localizedPath('/contact', lang)}
+          class="underline-grow px-3 py-2 hover:text-ink-900 transition-colors duration-200"
+          aria-current={isActive('/contact') ? 'page' : undefined}
+        >
+          {t('nav.contact')}
+        </a>
+      </div>
+
+      <!-- CTA + Mobile toggle -->
+      <div class="flex items-center gap-3">
+        <!-- Primary CTA — desktop -->
+        <a
+          href={localizedPath('/referral', lang)}
+          class="press-tap hidden sm:inline-flex items-center gap-2 px-4 py-2.5 text-sm font-semibold rounded-btn transition-all duration-200"
+          style="background: var(--color-accent-warm-500); color: #fff; min-height: 44px;"
+        >
+          {t('nav.referral')}
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+          </svg>
+        </a>
+
+        <!-- Mobile hamburger -->
+        <button
+          id="mobile-menu-btn"
+          type="button"
+          aria-label={lang === 'ko' ? '메뉴 열기' : 'Open menu'}
+          aria-controls="mobile-drawer"
+          aria-expanded="false"
+          class="lg:hidden flex items-center justify-center rounded-sm transition-colors"
+          style="color: var(--color-ink-700); width: 44px; height: 44px;"
+        >
+          <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+          <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="hidden">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div
+    id="mobile-drawer"
+    role="dialog"
+    aria-label={lang === 'ko' ? '사이트 탐색' : 'Site navigation'}
+    aria-modal="true"
+    class="lg:hidden fixed inset-0 z-40 hidden"
+    style="top: 0; padding-top: 9rem; background: var(--color-surface-paper);"
+  >
+    <nav class="container-content py-8 flex flex-col gap-1" style="color: var(--color-ink-700);">
+      {mobileLinks.map(({ href, label }) => (
+        <a
+          href={href}
+          class="block py-3 text-lg font-medium border-b hover:opacity-70 transition-opacity"
+          style="border-color: var(--color-line-hairline);"
+          aria-current={isActive(href) ? 'page' : undefined}
+        >
+          {label}
+        </a>
+      ))}
+      <!-- Phone CTA -->
+      <div class="mt-6">
+        <a
+          href={`tel:${CONTACT.phone.tel}`}
+          class="flex items-center gap-3 py-3 text-lg font-semibold"
+          style="color: var(--color-accent-warm-500);"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.85a16 16 0 0 0 6.26 6.26l.85-.85a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          {CONTACT.phone.display}
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // Mobile menu toggle
+  const btn    = document.getElementById('mobile-menu-btn');
+  const drawer = document.getElementById('mobile-drawer');
+  const iconMenu  = document.getElementById('icon-menu');
+  const iconClose = document.getElementById('icon-close');
+
+  function openMenu() {
+    drawer?.classList.remove('hidden');
+    btn?.setAttribute('aria-expanded', 'true');
+    btn?.setAttribute('aria-label', 'Close menu');
+    iconMenu?.classList.add('hidden');
+    iconClose?.classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    drawer?.classList.add('hidden');
+    btn?.setAttribute('aria-expanded', 'false');
+    btn?.setAttribute('aria-label', 'Open menu');
+    iconMenu?.classList.remove('hidden');
+    iconClose?.classList.add('hidden');
+    document.body.style.overflow = '';
+  }
+
+  btn?.addEventListener('click', () => {
+    const isOpen = btn.getAttribute('aria-expanded') === 'true';
+    isOpen ? closeMenu() : openMenu();
+  });
+
+  // Close drawer on Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeMenu();
+  });
+
+  // Close drawer when a nav link is clicked
+  drawer?.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', closeMenu);
+  });
+
+  // Scroll: shrink utility bar when scrolled past 80px
+  const utilityBar = document.getElementById('utility-bar');
+  const header     = document.getElementById('site-header');
+  let lastY = 0;
+
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    if (utilityBar) {
+      if (y > 80) {
+        utilityBar.style.maxHeight = '0';
+        utilityBar.style.paddingTop = '0';
+        utilityBar.style.paddingBottom = '0';
+        utilityBar.style.borderWidth = '0';
+      } else {
+        utilityBar.style.maxHeight = '';
+        utilityBar.style.paddingTop = '';
+        utilityBar.style.paddingBottom = '';
+        utilityBar.style.borderWidth = '';
+      }
+    }
+    if (header) {
+      header.style.boxShadow = y > 4 ? '0 1px 0 0 rgb(0 0 0 / 0.06)' : 'none';
+    }
+    lastY = y;
+  }, { passive: true });
+</script>
