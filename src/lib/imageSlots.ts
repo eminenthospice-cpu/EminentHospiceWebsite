@@ -32,8 +32,8 @@ export const imageSlots = {
     // TODO: client photo — hands meeting on linen, 3:4, late-afternoon side-light
     src: 'https://images.unsplash.com/photo-1653370205143-d07cbf28d668?auto=format&fit=crop&w=1500&h=2000&q=80',
     alt: {
-      en: 'Two hands meeting gently on soft linen fabric in warm daylight',
-      ko: '따뜻한 햇살 아래 부드러운 린넨 위에서 맞잡은 두 손',
+      en: 'A caregiver gently holding a patient’s hand in comfort',
+      ko: '환자의 손을 따뜻하게 감싸 쥔 보호자의 손',
     },
     blurDataURL: DEFAULT_BLUR,
     credit: '',
@@ -42,11 +42,11 @@ export const imageSlots = {
   },
   homePhilosophyPortrait: {
     // TODO: client photo — window-lit chair, person from behind, 4:5
-    // Temporary: sunlit interior vignette matches the contemplative brief while we wait for real photography.
-    src: 'https://images.unsplash.com/photo-1573856631239-eb02c9fd8c1d?auto=format&fit=crop&w=1200&h=1500&q=80',
+    // Temporary: warm armchair in late-day window light matches the contemplative brief while we wait for real photography.
+    src: 'https://images.unsplash.com/photo-1723804685588-b8e95b2044f3?auto=format&fit=crop&w=1200&h=1500&q=80',
     alt: {
-      en: 'A sunlit corner of a quiet room with soft natural light',
-      ko: '조용한 방의 햇살 가득한 구석',
+      en: 'A warm armchair in soft late-afternoon window light',
+      ko: '늦은 오후 창가의 부드러운 빛이 비치는 안락의자',
     },
     blurDataURL: DEFAULT_BLUR,
     credit: '',
@@ -57,8 +57,8 @@ export const imageSlots = {
     // TODO: client photo — hands holding tea, object vignette 4:3
     src: 'https://images.unsplash.com/photo-1454875392665-2ac2c85e8d3e?auto=format&fit=crop&w=1000&h=750&q=80',
     alt: {
-      en: 'Hands gently holding a cup of tea in soft natural light',
-      ko: '부드러운 자연광 속에서 차 한 잔을 든 손',
+      en: 'An elderly person’s hands folded gently in their lap',
+      ko: '무릎 위에 가지런히 모은 어르신의 두 손',
     },
     blurDataURL: DEFAULT_BLUR,
     credit: '',
@@ -67,10 +67,10 @@ export const imageSlots = {
   },
   homeLevelContinuous: {
     // TODO: client photo — open book and reading glasses, 4:3
-    src: 'https://images.unsplash.com/photo-1455849318743-b2233052fcff?auto=format&fit=crop&w=1000&h=750&q=80',
+    src: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=1000&h=750&q=80',
     alt: {
-      en: 'An open book and reading glasses on a sunlit table',
-      ko: '햇살이 비치는 탁자 위의 펼쳐진 책과 돋보기 안경',
+      en: 'Reading glasses resting on a closed book',
+      ko: '책 위에 놓인 돋보기 안경',
     },
     blurDataURL: DEFAULT_BLUR,
     credit: '',
@@ -79,10 +79,10 @@ export const imageSlots = {
   },
   homeLevelInpatient: {
     // TODO: client photo — sunlit bedroom corner, 4:3
-    src: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=1000&h=750&q=80',
+    src: 'https://images.unsplash.com/photo-1703783010857-9bd7a7b97c50?auto=format&fit=crop&w=1000&h=750&q=80',
     alt: {
-      en: 'A sunlit corner of a quiet bedroom with soft curtains',
-      ko: '부드러운 커튼이 있는 조용한 침실의 햇살 가득한 구석',
+      en: 'A quiet bedroom with a warm lamp glowing beside the bed',
+      ko: '침대 곁 따뜻한 조명이 켜진 조용한 침실',
     },
     blurDataURL: DEFAULT_BLUR,
     credit: '',
@@ -113,10 +113,10 @@ export const imageSlots = {
   // ─── About ─────────────────────────────────────────────────────────────
   aboutHero: {
     // TODO: replace with founder/team photo when client provides
-    src: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=1600&q=80',
+    src: 'https://images.unsplash.com/photo-1728066909157-b9697e3822d2?auto=format&fit=crop&w=1600&q=80',
     alt: {
-      en: 'A garden pathway lit by warm afternoon sun',
-      ko: '따뜻한 오후 햇살이 비치는 정원 산책로',
+      en: 'A garden pathway winding through flowers and greenery',
+      ko: '꽃과 푸른 나무 사이로 이어지는 정원 산책로',
     },
     blurDataURL: DEFAULT_BLUR,
     credit: '',
@@ -127,10 +127,10 @@ export const imageSlots = {
   // ─── Services ──────────────────────────────────────────────────────────
   servicesHero: {
     // TODO: replace
-    src: 'https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=1600&q=80',
+    src: 'https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=1600&q=80',
     alt: {
-      en: 'A serene window with soft natural light filling a quiet room',
-      ko: '조용한 방을 가득 채우는 부드러운 자연광',
+      en: 'Two hands clasped warmly in sunlight, one holding the other in comfort',
+      ko: '햇살 아래 서로를 따뜻하게 감싸 쥔 두 손',
     },
     blurDataURL: DEFAULT_BLUR,
     credit: '',
@@ -141,10 +141,10 @@ export const imageSlots = {
   // ─── Understanding Hospice ─────────────────────────────────────────────
   understandingHero: {
     // TODO: replace
-    src: 'https://images.unsplash.com/photo-1455849318743-b2233052fcff?auto=format&fit=crop&w=1600&q=80',
+    src: 'https://images.unsplash.com/photo-1518461845661-a2640bd93759?auto=format&fit=crop&w=1600&q=80',
     alt: {
-      en: 'An open book resting on a sunlit table',
-      ko: '햇살이 비치는 탁자 위에 펼쳐진 책',
+      en: 'An open book with pages turning in soft outdoor light',
+      ko: '부드러운 빛 속에 책장이 넘어가는 펼쳐진 책',
     },
     blurDataURL: DEFAULT_BLUR,
     credit: '',
@@ -157,8 +157,8 @@ export const imageSlots = {
     // TODO: replace
     src: 'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?auto=format&fit=crop&w=1600&q=80',
     alt: {
-      en: 'Soft natural fabric folded in still light',
-      ko: '고요한 빛 아래 접힌 부드러운 천',
+      en: 'A statue of Lady Justice holding balanced scales',
+      ko: '균형 잡힌 저울을 든 정의의 여신상',
     },
     blurDataURL: DEFAULT_BLUR,
     credit: '',
@@ -169,10 +169,10 @@ export const imageSlots = {
   // ─── Families ──────────────────────────────────────────────────────────
   familiesHero: {
     // TODO: replace
-    src: 'https://images.unsplash.com/photo-1471864190281-a93a3070b6de?auto=format&fit=crop&w=1600&q=80',
+    src: 'https://images.unsplash.com/photo-1609260840244-22b52bfc6664?auto=format&fit=crop&w=1600&q=80',
     alt: {
-      en: 'Three generations sharing a quiet moment at home',
-      ko: '집에서 조용한 시간을 나누는 삼대 가족',
+      en: 'Three generations of a family gathered together at home',
+      ko: '집 앞에 함께 모인 삼대 가족',
     },
     blurDataURL: DEFAULT_BLUR,
     credit: '',
@@ -209,10 +209,10 @@ export const imageSlots = {
   // ─── Contact ───────────────────────────────────────────────────────────
   contactHero: {
     // TODO: replace
-    src: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1600&q=80',
+    src: 'https://images.unsplash.com/photo-1714836982299-7a3b6930e2f5?auto=format&fit=crop&w=1600&q=80',
     alt: {
-      en: 'Welcoming front porch in daylight',
-      ko: '햇살이 비치는 환영하는 듯한 현관 입구',
+      en: 'A welcoming front porch with blossoming shrubs in daylight',
+      ko: '꽃나무가 어우러진 환영하는 듯한 현관 입구',
     },
     blurDataURL: DEFAULT_BLUR,
     credit: '',

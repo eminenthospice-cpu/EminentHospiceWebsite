@@ -4,8 +4,10 @@ import { Icon } from '@/components/ui/Icon';
 export function ContactInfoCard() {
   const t = useTranslations('contact.info');
   const phone = useTranslations('common.phone');
+  const fax = useTranslations('common.fax');
   const phoneDisplay = phone('display');
   const phoneTel = phone('tel');
+  const faxDisplay = fax('display');
   const emailValue = t('emailValue');
 
   return (
@@ -26,6 +28,15 @@ export function ContactInfoCard() {
                 {phoneDisplay}
               </a>
             </dd>
+          </div>
+        </div>
+        <div className="flex items-start gap-3">
+          <Icon name="printer" className="w-5 h-5 mt-0.5 text-primary-600 shrink-0" />
+          <div>
+            <dt className="text-xs font-medium uppercase tracking-wide text-text-muted">
+              {t('faxLabel')}
+            </dt>
+            <dd className="text-text-primary">{faxDisplay}</dd>
           </div>
         </div>
         <div className="flex items-start gap-3">

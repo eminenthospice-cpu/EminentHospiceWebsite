@@ -22,7 +22,7 @@
   },
   "footer": {
     "flourish": "A Tradition of Compassion.",
-    "tagline": "Providing compassionate, expert hospice care to patients and families throughout Los Angeles County.",
+    "tagline": "Providing compassionate, expert hospice care to patients and families across Los Angeles, Orange, San Bernardino, Riverside, and Ventura Counties.",
     "footerNav": "Footer navigation",
     "quickLinksHeading": "Quick Links",
     "home": "Home",
@@ -32,9 +32,9 @@
     "contact": "Contact Us",
     "referral": "Referral Form",
     "contactHeading": "Contact Us",
-    "address": "Los Angeles, California",
-    "phone": "(310) 555-1234",
-    "email": "info@eminentHospice.com",
+    "address": "10999 Riverside Dr Ste 306, North Hollywood, CA 91602",
+    "phone": "(818) 824-3702",
+    "email": "admin@eminenthospice.com",
     "hours": "Available 24 hours a day, 7 days a week",
     "copyright": "© {year} Eminent Hospice Care Inc. All rights reserved.",
     "licensedInCalifornia": "Licensed in the State of California",
@@ -49,13 +49,13 @@
   },
   "home": {
     "pageTitle": "Compassionate Hospice Care in Los Angeles",
-    "metaDescription": "Eminent Hospice Care delivers comfort-focused, dignified end-of-life care to patients and families throughout Los Angeles County. Bilingual English & Korean care, available 24/7.",
+    "metaDescription": "Eminent Hospice Care delivers comfort-focused, dignified end-of-life care to patients and families across Southern California. Bilingual English & Korean care, available 24/7.",
     "hero": {
       "heading": "Care With Dignity.\nComfort With Compassion.",
-      "subtext": "Eminent Hospice Care walks alongside patients and families throughout Los Angeles County during life's most challenging moments — with skilled medical care, emotional support, and an unwavering commitment to dignity at home.",
+      "subtext": "Eminent Hospice Care walks alongside patients and families across Southern California during life's most challenging moments — with skilled medical care, emotional support, and an unwavering commitment to dignity at home.",
       "ctaPrimary": "Learn About Hospice",
       "ctaSecondary": "Contact Us",
-      "caption": "Medicare-certified · Los Angeles County"
+      "caption": "Medicare-certified · Joint Commission Accredited · Southern California"
     },
     "byTheNumbers": {
       "ariaLabel": "Trust indicators",
@@ -132,7 +132,7 @@
       "title": "Who We Serve",
       "area": {
         "title": "Service Area",
-        "desc": "Throughout Los Angeles County — from the South Bay to the San Fernando Valley."
+        "desc": "Five Southern California counties — Los Angeles, Orange, San Bernardino, Riverside, and Ventura."
       },
       "languages": {
         "title": "Languages",
@@ -155,8 +155,8 @@
       "call": "Call Now",
       "contact": "Contact Us",
       "refer": "Make a Referral",
-      "phoneNumberTel": "+13105551234",
-      "phoneNumberDisplay": "(310) 555-1234"
+      "phoneNumberTel": "+18188243702",
+      "phoneNumberDisplay": "(818) 824-3702"
     }
   },
   "common": {
@@ -194,16 +194,19 @@
       "refer": "Make a Referral"
     },
     "phone": {
-      "display": "(310) 555-1234",
-      "tel": "+13105551234"
+      "display": "(818) 824-3702",
+      "tel": "+18188243702"
+    },
+    "fax": {
+      "display": "(818) 824-3712"
     },
     "address": {
-      "street": "",
-      "locality": "Los Angeles",
+      "street": "10999 Riverside Dr Ste 306",
+      "locality": "North Hollywood",
       "region": "CA",
-      "postalCode": "",
+      "postalCode": "91602",
       "country": "US",
-      "displayMultiline": "Los Angeles, California"
+      "displayMultiline": "10999 Riverside Dr Ste 306\nNorth Hollywood, CA 91602"
     },
     "formErrors": {
       "required": "This field is required.",
@@ -229,7 +232,7 @@
   },
   "understandingHospice": {
     "pageTitle": "Understanding Hospice Care",
-    "metaDescription": "What hospice care is, who qualifies, common myths corrected, and what to expect after enrollment. A plain-language guide for patients and families in Los Angeles County.",
+    "metaDescription": "What hospice care is, who qualifies, common myths corrected, and what to expect after enrollment. A plain-language guide for patients and families in Southern California.",
     "lastReviewed": "2026-05-01",
     "introParagraph": "Hospice is one of the most misunderstood parts of modern medicine. This page is a plain-language guide to what hospice actually is, who qualifies, and what happens after you enroll.",
     "sections": {
@@ -461,7 +464,7 @@
       },
       "comparison": {
         "title": "Medicare vs. Medi-Cal vs. Private Insurance",
-        "intro": "A side-by-side look at what each pays for. For most patients in Los Angeles County, Medicare or Medi-Cal will be the primary coverage.",
+        "intro": "A side-by-side look at what each pays for. For most patients in Southern California, Medicare or Medi-Cal will be the primary coverage.",
         "tableCaption": "Hospice coverage comparison across the three most common payers.",
         "headers": {
           "service": "What's covered",
@@ -524,50 +527,61 @@
   },
   "about": {
     "pageTitle": "About Eminent Hospice Care",
-    "metaDescription": "Eminent Hospice Care delivers compassionate, culturally aware end-of-life care across Los Angeles County. Learn our mission, values, interdisciplinary team, and bilingual EN/KO commitment to Korean-American families.",
-    "introParagraph": "Eminent Hospice Care is a Medicare-certified hospice serving Los Angeles County with a particular commitment to bilingual care for Korean-American families. We exist for one reason: to walk alongside patients and the people who love them through life's final chapter.",
+    "metaDescription": "Eminent Hospice Care delivers compassionate, culturally aware end-of-life care across five Southern California counties. Learn our mission, values, interdisciplinary team, and bilingual EN/KO commitment to Korean-American families.",
+    "introParagraph": "Eminent Hospice Care is a Medicare-certified, Joint Commission–accredited hospice serving five Southern California counties with a particular commitment to bilingual care for Korean-American families. We exist for one reason: to walk alongside patients and the people who love them through life's final chapter.",
     "sections": {
       "mission": {
         "title": "Our Mission",
-        "body": "Our mission is to walk alongside patients and families through life's final chapter — with skilled medical care, gentle presence, and respect for the language, traditions, and choices that make each family who they are. We deliver every level of hospice care defined by Medicare, in the place each person calls home, twenty-four hours a day, seven days a week."
+        "body": "Eminent Hospice Care, Inc provides an individualized program of physical, emotional, spiritual, and psychosocial care for people in the last phases of a life-limiting illness. We aim to alleviate as much pain, worry, and inconvenience from our patients' lives as possible — creating a peaceful, supportive space where each person can focus on what matters most. We deliver every level of hospice care defined by Medicare, in the place each person calls home, twenty-four hours a day, seven days a week."
       },
       "values": {
         "title": "Our Values",
-        "intro": "Four commitments shape every visit, every conversation, every plan of care we write.",
+        "intro": "Five commitments shape every visit, every conversation, every plan of care we write.",
         "items": {
+          "respect": {
+            "title": "Respect",
+            "body": "We protect each person's right to be seen, heard, and treated with dignity — at every visit, in every decision, in every language."
+          },
           "compassion": {
-            "title": "Compassion",
+            "title": "Compassion & Empathy",
             "body": "We meet every patient and family where they are, with patience and gentleness. We listen first."
           },
-          "dignity": {
-            "title": "Dignity",
-            "body": "We protect each person's right to be seen, heard, and treated with respect — at every visit, in every decision."
+          "teamwork": {
+            "title": "Teamwork",
+            "body": "Physicians, nurses, aides, social workers, chaplains, and volunteers coordinate as one team — so nothing falls between the visits."
           },
-          "culturalHumility": {
-            "title": "Cultural Humility",
-            "body": "We listen to each family's language, faith, and traditions, and we let those guide care rather than impose our own."
+          "accountability": {
+            "title": "Accountability",
+            "body": "We hold ourselves to the federal Conditions of Participation and the Joint Commission's standards — and to the higher bar of what families would want for their own."
           },
-          "clinicalExcellence": {
-            "title": "Clinical Excellence",
-            "body": "We hold ourselves to the federal Conditions of Participation — and to the higher bar of what families would want for their own."
+          "serviceExcellence": {
+            "title": "Service Excellence",
+            "body": "From same-day admissions to a nurse answering the on-call line at 3 a.m., excellence means showing up — skillfully, reliably, every time."
           }
         }
       },
       "story": {
         "title": "A Brief Story",
-        "body": "Eminent Hospice Care was founded to bring compassionate, culturally aware end-of-life care to Los Angeles County, with a particular commitment to the Korean-American community whose families have long needed care delivered in their own language. Our team comes from across hospice nursing, social work, chaplaincy, and family caregiving — and what we share is a belief that the last weeks and months of life deserve as much skill, planning, and gentleness as the first."
+        "body": "Eminent Hospice Care was founded to bring compassionate, culturally aware end-of-life care to Southern California, with a particular commitment to the Korean-American community whose families have long needed care delivered in their own language. Our team comes from across hospice nursing, social work, chaplaincy, and family caregiving — and what we share is a belief that the last weeks and months of life deserve as much skill, planning, and gentleness as the first."
       },
       "serviceArea": {
         "title": "Service Area",
-        "body": "We serve Los Angeles County, with patients and families across the region. Our team coordinates visits, on-call coverage, and medication delivery anywhere within our service area.",
+        "body": "We serve patients and families across five Southern California counties. Our team coordinates visits, on-call coverage, and medication delivery anywhere within our service area.",
         "regionsHeading": "Where we deliver care",
         "regions": {
-          "southBay": "South Bay",
-          "sanFernandoValley": "San Fernando Valley",
-          "sanGabrielValley": "San Gabriel Valley",
-          "greaterLA": "Greater Los Angeles"
+          "losAngeles": "Los Angeles County",
+          "orange": "Orange County",
+          "sanBernardino": "San Bernardino County",
+          "riverside": "Riverside County",
+          "ventura": "Ventura County"
         },
         "hoursNote": "Available 24 hours a day, 7 days a week — a registered nurse answers our on-call line at every hour."
+      },
+      "accreditation": {
+        "title": "Accreditation & Certification",
+        "body": "Eminent Hospice Care is Medicare-certified and has earned The Gold Seal of Approval® from The Joint Commission — an independent accreditation that recognizes an organization's commitment to holding itself accountable to a high bar for quality and safety.",
+        "sealLabel": "The Gold Seal of Approval® · Accredited by The Joint Commission",
+        "medicareLabel": "Medicare-certified · Surveyed against the federal Conditions of Participation"
       },
       "culturalCompetence": {
         "title": "Care for Korean-American Families",
@@ -601,27 +615,30 @@
     }
   },
   "aboutJsonLd": {
-    "name": "Eminent Hospice Care Inc.",
+    "name": "Eminent Hospice Care, Inc",
     "url": "https://www.eminenthospice.com/en/about",
-    "telephone": "+13105551234",
+    "telephone": "+18188243702",
+    "faxNumber": "+18188243712",
+    "email": "admin@eminenthospice.com",
     "address": {
-      "streetAddress": "",
-      "addressLocality": "Los Angeles",
+      "streetAddress": "10999 Riverside Dr Ste 306",
+      "addressLocality": "North Hollywood",
       "addressRegion": "CA",
-      "postalCode": "",
+      "postalCode": "91602",
       "addressCountry": "US"
     },
     "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
-    "areaServed": "Los Angeles County, CA"
+    "areaServed": "Los Angeles, Orange, San Bernardino, Riverside, and Ventura Counties, CA",
+    "award": "The Gold Seal of Approval® — Accredited by The Joint Commission"
   },
   "services": {
     "pageTitle": "Hospice Services",
-    "metaDescription": "All four Medicare-defined levels of hospice care, an eight-discipline interdisciplinary team, 24/7 on-call nursing, and medication + equipment delivery — delivered throughout Los Angeles County, in English and Korean.",
+    "metaDescription": "All four Medicare-defined levels of hospice care, an eight-discipline interdisciplinary team, 24/7 on-call nursing, and medication + equipment delivery — across Southern California, in English and Korean.",
     "introParagraph": "Hospice is a comprehensive benefit, not a single service. This page walks through every level of care we deliver, every discipline on our team, and the supporting services that make care work day-to-day at home.",
     "sections": {
       "offer": {
         "title": "What We Offer",
-        "body": "All four Medicare-defined levels of hospice care, delivered by a full interdisciplinary team, twenty-four hours a day, seven days a week, anywhere a patient calls home in Los Angeles County. New to hospice?",
+        "body": "All four Medicare-defined levels of hospice care, delivered by a full interdisciplinary team, twenty-four hours a day, seven days a week, anywhere a patient calls home across Los Angeles, Orange, San Bernardino, Riverside, and Ventura Counties. New to hospice?",
         "linkToUnderstanding": "Start with our Understanding Hospice Care guide →"
       },
       "levels": {
@@ -904,6 +921,28 @@
           }
         },
         "printNote": "To print: use your browser's print function (Ctrl-P on Windows, Cmd-P on Mac). The header, sidebar, and bottom buttons will be hidden automatically."
+      },
+      "videos": {
+        "title": "How-To Videos (한국어)",
+        "intro": "Our team recorded these short caregiver training videos in Korean, demonstrating the equipment and medications most families use at home. An English-speaking nurse walks through the same skills at the bedside during admission — and you can call us anytime with questions.",
+        "items": {
+          "oxygen": {
+            "title": "Using the Oxygen Concentrator",
+            "koreanTitle": "호스피스에서 사용하는 산소호흡기 사용방법 소개"
+          },
+          "medications": {
+            "title": "Emergency Comfort Medications",
+            "koreanTitle": "호스피스에서 사용하는 응급약들 소개"
+          },
+          "suction": {
+            "title": "Using the Suction Device",
+            "koreanTitle": "흡입기(Suction) 사용법"
+          },
+          "nebulizer": {
+            "title": "Using the Nebulizer",
+            "koreanTitle": "네뷸라이져(Nebulizer) 사용법"
+          }
+        }
       }
     }
   },
@@ -1069,8 +1108,9 @@
     "info": {
       "heading": "Reach us directly",
       "phoneLabel": "Phone",
+      "faxLabel": "Fax",
       "emailLabel": "Email",
-      "emailValue": "info@eminenthospice.com",
+      "emailValue": "admin@eminenthospice.com",
       "hoursLabel": "Hours",
       "hoursValue": "Available 24 hours a day, 7 days a week",
       "addressLabel": "Address",
@@ -1209,7 +1249,7 @@
   },
   "meta": {
     "siteName": "Eminent Hospice Care Inc.",
-    "ogDescription": "Compassionate, culturally competent hospice care serving Los Angeles County, including the Korean-American community. Available 24/7 in English and Korean.",
+    "ogDescription": "Compassionate, culturally competent hospice care serving Southern California, including the Korean-American community. Available 24/7 in English and Korean.",
     "ogImageAlt": "Eminent Hospice Care — compassionate hospice care in Los Angeles",
     "titleTemplate": "%s | Eminent Hospice Care Inc."
   },
@@ -1291,7 +1331,7 @@
         "ccpa": {
           "title": "California Consumer Privacy Act (CCPA / CPRA)",
           "body": "If you are a California resident, you have the right to know what personal information we have collected about you, to request that we delete it, to correct inaccurate information, and to be free from discrimination for exercising these rights. We do not sell or share your personal information for cross-context behavioral advertising, so there is no \"Do Not Sell or Share My Personal Information\" link on this site.",
-          "howToExercise": "To exercise any of these rights, email us at info@eminenthospice.com or call us at {phone}. We may ask for limited information to verify your identity before we act on your request."
+          "howToExercise": "To exercise any of these rights, email us at admin@eminenthospice.com or call us at {phone}. We may ask for limited information to verify your identity before we act on your request."
         },
         "hipaa": {
           "title": "HIPAA",
@@ -1310,7 +1350,7 @@
         "title": "Contact us about privacy",
         "body": "If you have questions about this Privacy Policy or how we handle your information, please contact us:",
         "emailLabel": "Email",
-        "email": "info@eminenthospice.com",
+        "email": "admin@eminenthospice.com",
         "phoneLabel": "Phone"
       }
     }
@@ -1373,7 +1413,7 @@
         "title": "How to report an accessibility issue",
         "body": "If you encounter a barrier on this website, please tell us. We want to fix it.",
         "emailLabel": "Email",
-        "email": "info@eminenthospice.com",
+        "email": "admin@eminenthospice.com",
         "phoneLabel": "Phone",
         "responseTime": "We aim to respond within five business days."
       }
@@ -1434,7 +1474,7 @@
         "title": "Contact us",
         "body": "If you have questions about these terms, please contact us:",
         "emailLabel": "Email",
-        "email": "info@eminenthospice.com",
+        "email": "admin@eminenthospice.com",
         "phoneLabel": "Phone"
       }
     }

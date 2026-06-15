@@ -1,14 +1,15 @@
 import { useTranslations } from 'next-intl';
-import { Heart, ShieldCheck, Globe, Sparkles, type LucideIcon } from 'lucide-react';
+import { Heart, ShieldCheck, Users, ClipboardCheck, Sparkles, type LucideIcon } from 'lucide-react';
 import { Stagger, StaggerItem } from '@/components/motion/Stagger';
 
-type ValueKey = 'compassion' | 'dignity' | 'culturalHumility' | 'clinicalExcellence';
+type ValueKey = 'respect' | 'compassion' | 'teamwork' | 'accountability' | 'serviceExcellence';
 
 const VALUES: { key: ValueKey; Icon: LucideIcon; accent: string }[] = [
-  { key: 'compassion',          Icon: Heart,       accent: 'bg-accent-warm-50 text-accent-warm-700 ring-accent-warm-100' },
-  { key: 'dignity',             Icon: ShieldCheck, accent: 'bg-primary-50 text-primary-700 ring-primary-100' },
-  { key: 'culturalHumility',    Icon: Globe,       accent: 'bg-accent-sage-50 text-accent-sage-700 ring-accent-sage-100' },
-  { key: 'clinicalExcellence',  Icon: Sparkles,    accent: 'bg-secondary-500/15 text-primary-700 ring-secondary-500/20' },
+  { key: 'respect',           Icon: ShieldCheck,    accent: 'bg-primary-50 text-primary-700 ring-primary-100' },
+  { key: 'compassion',        Icon: Heart,          accent: 'bg-accent-warm-50 text-accent-warm-700 ring-accent-warm-100' },
+  { key: 'teamwork',          Icon: Users,          accent: 'bg-accent-sage-50 text-accent-sage-700 ring-accent-sage-100' },
+  { key: 'accountability',    Icon: ClipboardCheck, accent: 'bg-secondary-500/15 text-primary-700 ring-secondary-500/20' },
+  { key: 'serviceExcellence', Icon: Sparkles,       accent: 'bg-accent-warm-50 text-accent-warm-700 ring-accent-warm-100' },
 ];
 
 export function MissionValues() {

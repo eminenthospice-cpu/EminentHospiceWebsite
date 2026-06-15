@@ -1,5 +1,5 @@
 import { useTranslations, useLocale } from 'next-intl';
-import { localizedUrl } from '@/lib/seo';
+import { localizedUrl, absoluteUrl } from '@/lib/seo';
 
 export function LocalBusinessJsonLd() {
   const t = useTranslations('aboutJsonLd');
@@ -28,10 +28,15 @@ export function LocalBusinessJsonLd() {
     '@id': homeUrl,
     name: t('name'),
     url: homeUrl,
+    logo: absoluteUrl('/images/logo.png'),
+    image: absoluteUrl('/images/logo.png'),
     telephone: t('telephone'),
+    faxNumber: t('faxNumber'),
+    email: t('email'),
     address,
     openingHours: t('openingHours'),
     areaServed: t('areaServed'),
+    award: t('award'),
     priceRange: 'Free for Medicare and Medi-Cal beneficiaries',
   };
 

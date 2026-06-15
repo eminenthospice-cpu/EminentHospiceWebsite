@@ -5,7 +5,7 @@ export function MapCard() {
   const t = useTranslations('contact.info');
   const addr = useTranslations('common.address');
   const display = addr('displayMultiline');
-  const directionsUrl = `https://www.google.com/maps?q=${encodeURIComponent(display)}`;
+  const directionsUrl = `https://www.google.com/maps?q=${encodeURIComponent(display.replace(/\n/g, ', '))}`;
 
   return (
     <div className="rounded-card border border-neutral-200 bg-white p-6 shadow-card">

@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Icon } from '@/components/ui/Icon';
 
-const REGIONS = ['southBay', 'sanFernandoValley', 'sanGabrielValley', 'greaterLA'] as const;
+const REGIONS = ['losAngeles', 'orange', 'sanBernardino', 'riverside', 'ventura'] as const;
 
 export function ServiceArea() {
   const t = useTranslations('about.sections.serviceArea');

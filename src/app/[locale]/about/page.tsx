@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { useTranslations, useLocale } from 'next-intl';
+import { Award, ShieldCheck } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 import { LongFormPage } from '@/components/layout/LongFormPage';
 import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/layout/PageSidebar';
@@ -55,6 +56,7 @@ export default function AboutPage() {
     { id: 'values', label: s('values.title') },
     { id: 'story', label: s('story.title') },
     { id: 'service-area', label: s('serviceArea.title') },
+    { id: 'accreditation', label: s('accreditation.title') },
     { id: 'cultural-competence', label: s('culturalCompetence.title') },
     { id: 'team', label: s('team.title') },
     { id: 'distinctives', label: s('distinctives.title') },
@@ -98,6 +100,23 @@ export default function AboutPage() {
             {s('serviceArea.title')}
           </h2>
           <ServiceArea />
+        </section>
+
+        <section id="accreditation" aria-labelledby="accreditation-h">
+          <h2 id="accreditation-h" className="font-heading text-2xl md:text-3xl text-text-primary mb-4">
+            {s('accreditation.title')}
+          </h2>
+          <p className="mb-5 leading-relaxed">{s('accreditation.body')}</p>
+          <ul className="space-y-3">
+            <li className="bg-white rounded-card shadow-card px-4 py-3 text-sm text-text-secondary flex items-start gap-2">
+              <Award className="w-5 h-5 mt-0.5 text-accent-warm-700 shrink-0" aria-hidden="true" strokeWidth={1.75} />
+              <span>{s('accreditation.sealLabel')}</span>
+            </li>
+            <li className="bg-white rounded-card shadow-card px-4 py-3 text-sm text-text-secondary flex items-start gap-2">
+              <ShieldCheck className="w-5 h-5 mt-0.5 text-primary-600 shrink-0" aria-hidden="true" strokeWidth={1.75} />
+              <span>{s('accreditation.medicareLabel')}</span>
+            </li>
+          </ul>
         </section>
 
         <section id="cultural-competence" aria-labelledby="cultural-competence-h">

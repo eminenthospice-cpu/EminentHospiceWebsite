@@ -24,6 +24,7 @@ import {
   Flag,
   BookOpen,
   Mail,
+  Printer,
   type LucideProps,
 } from 'lucide-react';
 
@@ -59,7 +60,8 @@ export type IconName =
   | 'target'
   | 'flag'
   | 'book'
-  | 'mail';
+  | 'mail'
+  | 'printer';
 
 const REGISTRY: Record<IconName, ComponentType<LucideProps>> = {
   home: Home,
@@ -86,6 +88,7 @@ const REGISTRY: Record<IconName, ComponentType<LucideProps>> = {
   flag: Flag,
   book: BookOpen,
   mail: Mail,
+  printer: Printer,
 };
 
 type IconProps = Omit<SVGProps<SVGSVGElement>, 'ref'> & {

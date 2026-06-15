@@ -6,11 +6,12 @@ const isProd = process.env.NODE_ENV === 'production';
 
 const cspDirectives = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com",
+  // Dev builds need 'unsafe-eval' for webpack eval source maps; production must not allow it.
+  `script-src 'self' 'unsafe-inline'${isProd ? '' : " 'unsafe-eval'"} https://challenges.cloudflare.com`,
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com",
   "img-src 'self' data: blob: https://images.unsplash.com",
-  "frame-src https://challenges.cloudflare.com",
+  "frame-src https://challenges.cloudflare.com https://www.youtube-nocookie.com",
   "connect-src 'self' https://challenges.cloudflare.com https://images.unsplash.com",
   "form-action 'self'",
   "base-uri 'self'",

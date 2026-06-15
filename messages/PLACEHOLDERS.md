@@ -4,17 +4,18 @@ This file tracks every translation key in `messages/en.json` and `messages/ko.js
 
 > Update this file whenever a placeholder is replaced with final content — remove the row once approved.
 
-## Phone Number
+## Phone / Fax / Email / Address — RESOLVED (2026-06-10)
 
-The phone number is a fictional placeholder. It is used in four places (display + tel link). All must be updated together.
+Real values pulled from the live eminenthospice.com site and applied to all keys in `en.json` + `ko.json`:
 
-| Key | Current value | Notes |
-|---|---|---|
-| `home.finalCta.phoneNumberDisplay` (en + ko) | `(310) 555-1234` | Human-readable, shown to user. |
-| `home.finalCta.phoneNumberTel` (en + ko) | `+13105551234` | Used in `href="tel:…"`. Must be E.164 format (no spaces, no parens, leading `+`). |
-| `common.phone.display` (en + ko) | `(310) 555-1234` | **NEW in Day 3** — used by `PageSidebar` and `PageBottomCta`. Day 7 cleanup: fold `home.finalCta.phoneNumber*` and `footer.phone` into this single source. |
-| `common.phone.tel` (en + ko) | `+13105551234` | **NEW in Day 3** — same as above for `tel:` href. |
-| `footer.phone` (en + ko) | `(XXX) XXX-XXXX` | Day 7 cleanup: unify with the `common.phone.*` pair. For now, update all four together. |
+- Phone: `(818) 824-3702` / `+18188243702` (`common.phone.*`, `home.finalCta.phoneNumber*`, `footer.phone`)
+- Fax: `(818) 824-3712` (`common.fax.display`, `contact.info.faxLabel`, `aboutJsonLd.faxNumber`)
+- Email: `admin@eminenthospice.com` (footer, contact card, legal pages, JSON-LD)
+- Address: `10999 Riverside Dr Ste 306, North Hollywood, CA 91602` (`common.address.*`, `footer.address`, `aboutJsonLd.address.*`)
+- Service area: 5 counties (Los Angeles, Orange, San Bernardino, Riverside, Ventura) per the live site's Services page
+- Accreditation: Joint Commission Gold Seal of Approval® (About page, footer cert strip, home hero caption, JSON-LD `award`)
+- Mission + 5 core values (Respect, Compassion/Empathy, Teamwork, Accountability, Service Excellence) folded into `about.sections.mission/values` from the live About page
+- Korean how-to videos (4 YouTube embeds) added to `/for-families` (`forFamilies.sections.videos.*`)
 
 ## Testimonial
 
@@ -85,26 +86,13 @@ All three Day 3 pages stamp `lastReviewed: 2026-05-01`. Per `7-day-plan.md` Risk
 |---|---|---|
 | `about.sections.culturalCompetence.bullets.koreanStaff` (en + ko) | "Korean-speaking team members on the clinical and admissions teams." | Confirm specific roles/headcount with client; until then, no number. |
 
-### JSON-LD address values
+### JSON-LD address values — RESOLVED (2026-06-10)
 
-`aboutJsonLd.address.*` holds **placeholder** values for the `MedicalOrganization` structured data emitted on `/[locale]/about`. The JSON-LD is wired and renders, but the address values must be filled before launch. Schema fields below.
+All `aboutJsonLd.*` values filled from the live site: name `Eminent Hospice Care, Inc`, phone/fax E.164, full North Hollywood address, 5-county `areaServed`, Joint Commission `award`. Domain `eminenthospice.com` confirmed live (the client's existing site).
 
-| Key | Current value | Source / notes |
-|---|---|---|
-| `aboutJsonLd.name` | `Eminent Hospice Care Inc.` | Confirm legal entity name. |
-| `aboutJsonLd.url` | `https://www.eminenthospice.com/{locale}/about` | Confirm canonical domain (currently a guess). |
-| `aboutJsonLd.telephone` | E.164 — pulls from same value as `common.phone.tel` | Update with `common.phone.tel` simultaneously. |
-| `aboutJsonLd.address.streetAddress` | empty string | Client confirms. |
-| `aboutJsonLd.address.addressLocality` | `Los Angeles` | Confirm. |
-| `aboutJsonLd.address.addressRegion` | `CA` | Confirm. |
-| `aboutJsonLd.address.postalCode` | empty string | Client confirms. |
-| `aboutJsonLd.address.addressCountry` | `US` | Confirm. |
-| `aboutJsonLd.openingHours` | `Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59` | Schema.org compact 24/7 format — verified syntax. |
-| `aboutJsonLd.areaServed` | `Los Angeles County, CA` | Confirm formal area description. |
+### Logo for JSON-LD — RESOLVED (2026-06-10)
 
-### Logo for JSON-LD
-
-`OrganizationJsonLd` currently **omits** the `logo` field rather than emit a broken URL. When a client logo PNG arrives (per `requirements.md` §3.2), add the file at `public/images/logo.png` and add a `"logo": "/images/logo.png"` field to the JSON-LD payload in `src/components/about/OrganizationJsonLd.tsx`.
+Logo downloaded from the live site's CDN to `public/images/logo.png` (479×174 PNG, white background) and wired into `OrganizationJsonLd.tsx` + `LocalBusinessJsonLd.tsx`. Favicon (`src/app/icon.png`, 32×32) and apple-touch icon (`src/app/apple-icon.png`, 180×180) generated from the logo mark. The Header keeps the text wordmark — the CDN logo has a white background that clashes with the cream header; request a transparent-background vector/PNG from the client if they want the graphic logo in the header.
 
 ## Day 5 — For Families & Caregivers + FAQ pages
 
@@ -167,16 +155,16 @@ The Korean translations are drafted from the NotebookLM Korean source. A native-
 |---|---|---|
 | `RESEND_API_KEY` | unset | Required for real email delivery. |
 | `RESEND_FROM_EMAIL` | `Eminent Hospice <no-reply@example.com>` | Must be a verified Resend sender on a domain the client owns. |
-| `CONTACT_TO_EMAIL` | unset | Inbox for Contact submissions. Confirm with client. |
-| `REFERRAL_TO_EMAIL` | unset | Inbox for Referral submissions. Confirm with client; may equal `CONTACT_TO_EMAIL`. |
+| `CONTACT_TO_EMAIL` | unset | Inbox for Contact submissions. Live site uses `admin@eminenthospice.com` — confirm with client at deploy. |
+| `REFERRAL_TO_EMAIL` | unset | Inbox for Referral submissions. Likely also `admin@eminenthospice.com` (only inbox on the live site) — confirm with client. |
 | `HAS_BAA` | `false` | Flip to `true` only after a Business Associate Agreement (BAA) is signed with the email vendor. Requires a redeploy on Vercel. |
 | `NEXT_PUBLIC_TURNSTILE_SITE_KEY` | unset | Public site key for Cloudflare Turnstile. |
 | `TURNSTILE_SECRET_KEY` | unset | Server-only secret. In dev only, the literal token `dev-bypass` is accepted when the secret is unset. |
 | `PHI_RETENTION_DAYS` | `30` | Interpolated into the Mode B privacy snippet via `{days}`. Set to operational value. |
 
-### Address
+### Address — RESOLVED (2026-06-10)
 
-`common.address.*` and the Contact page address card display "Los Angeles, California" only. Client must confirm the office street + ZIP before launch. Update `common.address.street`, `common.address.postalCode`, `common.address.displayMultiline`, and the matching `aboutJsonLd.address.*` keys together.
+Full office address (10999 Riverside Dr Ste 306, North Hollywood, CA 91602) applied to `common.address.*` and `aboutJsonLd.address.*` from the live site's Contact page.
 
 ### Rate limit storage
 
@@ -226,9 +214,9 @@ A formal native-reviewer pass remains available as a pre-launch enhancement — 
 
 The locale-aware OG image is generated at `/[locale]/opengraph-image` from `src/app/[locale]/opengraph-image.tsx`. It renders a 1200×630 PNG with brand colors and the locale-correct site name + tagline. If the client later delivers a branded OG asset (e.g. with the official logo), drop the PNG at `public/og-default.png` and override via per-page or layout `metadata.openGraph.images`.
 
-### Logo files — still pending
+### Logo files — RESOLVED (2026-06-10)
 
-If the client provides `logo.png` (any reasonable size), drop it at `public/images/logo.png` and add `"logo": "/images/logo.png"` to the JSON-LD payload in `src/components/about/OrganizationJsonLd.tsx` and `src/components/home/LocalBusinessJsonLd.tsx`. Drop `icon.png` (32×32) at `src/app/icon.png` and `apple-icon.png` (180×180) at `src/app/apple-icon.png` — Next.js conventions auto-wire them.
+Logo pulled from the live site CDN → `public/images/logo.png`, wired into both JSON-LD components; `src/app/icon.png` + `src/app/apple-icon.png` generated from the logo mark. Optional upgrade: ask the client for a higher-resolution, transparent-background original (current file is 479×174 with a white background, fine for structured data and favicons, not ideal for the header).
 
 ### Analytics — deferred, gated on client decision
 

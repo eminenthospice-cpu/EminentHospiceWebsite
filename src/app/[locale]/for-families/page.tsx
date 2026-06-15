@@ -7,6 +7,7 @@ import { PageSidebar, type SidebarAnchor, type RelatedLink } from '@/components/
 import { PageBottomCta } from '@/components/info/PageBottomCta';
 import { DyingProcessTimeline } from '@/components/families/DyingProcessTimeline';
 import { CaregiverChecklist } from '@/components/families/CaregiverChecklist';
+import { HowToVideos } from '@/components/families/HowToVideos';
 import { buildAlternates, buildOpenGraph } from '@/lib/seo';
 
 const PATH = '/for-families';
@@ -52,6 +53,7 @@ export default function ForFamiliesPage() {
   const anchors: SidebarAnchor[] = [
     { id: 'expect', label: s('expect.title') },
     { id: 'basics', label: s('basics.title') },
+    { id: 'videos', label: s('videos.title') },
     { id: 'dying-process', label: s('dyingProcess.title') },
     { id: 'symptoms', label: s('symptoms.title') },
     { id: 'wellness', label: s('wellness.title') },
@@ -137,6 +139,14 @@ export default function ForFamiliesPage() {
               </div>
             ))}
           </div>
+        </section>
+
+        <section id="videos" aria-labelledby="videos-h">
+          <h2 id="videos-h" className="font-heading text-2xl md:text-3xl text-text-primary mb-4">
+            {s('videos.title')}
+          </h2>
+          <p className="mb-5 leading-relaxed">{s('videos.intro')}</p>
+          <HowToVideos />
         </section>
 
         <section id="dying-process" aria-labelledby="dying-process-h">

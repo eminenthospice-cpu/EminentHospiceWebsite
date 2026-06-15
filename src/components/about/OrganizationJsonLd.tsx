@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { absoluteUrl } from '@/lib/seo';
 
 export function OrganizationJsonLd() {
   const t = useTranslations('aboutJsonLd');
@@ -21,10 +22,14 @@ export function OrganizationJsonLd() {
     '@id': t('url'),
     name: t('name'),
     url: t('url'),
+    logo: absoluteUrl('/images/logo.png'),
     telephone: t('telephone'),
+    faxNumber: t('faxNumber'),
+    email: t('email'),
     address,
     openingHours: t('openingHours'),
     areaServed: t('areaServed'),
+    award: t('award'),
     sameAs: [] as string[],
   };
 

@@ -29,7 +29,7 @@ function EditorialHeadline({ text }: { text: string }) {
 export function Hero() {
   const t = useTranslations('home.hero');
   const locale = useLocale();
-  const eyebrow = locale === 'ko' ? '로스앤젤레스 호스피스 케어' : 'Hospice Care · Los Angeles County';
+  const eyebrow = locale === 'ko' ? '남가주 호스피스 케어' : 'Hospice Care · Southern California';
 
   return (
     <SectionContainer

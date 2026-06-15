@@ -1,5 +1,5 @@
 import { useTranslations, useLocale } from 'next-intl';
-import { ShieldCheck, Heart, Languages, Phone, Mail, MapPin } from 'lucide-react';
+import { ShieldCheck, Heart, Languages, Phone, Mail, MapPin, Award } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 
 export function Footer() {
@@ -29,6 +29,7 @@ export function Footer() {
 
   const certifications = [
     { Icon: ShieldCheck, label: locale === 'ko' ? '메디케어 인증' : 'Medicare Certified' },
+    { Icon: Award,       label: locale === 'ko' ? '조인트 커미션 인증' : 'Joint Commission Accredited' },
     { Icon: Heart,       label: locale === 'ko' ? '연중무휴 24시간 상담' : '24/7 Care Available' },
     { Icon: Languages,   label: locale === 'ko' ? '이중언어 (영어/한국어)' : 'English & Korean' },
   ];
@@ -38,7 +39,7 @@ export function Footer() {
       {/* Certification strip */}
       <div className="border-b border-primary-800/60">
         <div className="max-w-content mx-auto px-section-x py-6">
-          <ul className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-primary-100">
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm text-primary-100">
             {certifications.map(({ Icon, label }) => (
               <li key={label} className="flex items-center justify-center sm:justify-start gap-2.5">
                 <span className="inline-flex items-center justify-center text-accent-warm-200">
@@ -126,7 +127,7 @@ export function Footer() {
               <p className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 text-primary-300 shrink-0" aria-hidden="true" strokeWidth={2} />
                 <a
-                  href="mailto:info@eminentHospice.com"
+                  href={`mailto:${t('email')}`}
                   className="link-target underline-grow hover:text-white transition-colors duration-fast focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-sm break-all"
                 >
                   {t('email')}

@@ -82,7 +82,7 @@ export default async function Image({ params }: { params: { locale: string } }) 
             color: '#A5CBE6',
           }}
         >
-          <div>Los Angeles County · {params.locale === 'ko' ? '24시간 응대' : 'Available 24/7'}</div>
+          <div>Southern California · {params.locale === 'ko' ? '24시간 응대' : 'Available 24/7'}</div>
           <div style={{ display: 'flex', gap: '12px' }}>
             <span>EN</span>
             <span>·</span>
