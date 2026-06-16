@@ -1,0 +1,50 @@
+---
+/**
+ * 404.astro — Not Found page.
+ * Astro emits this as dist/404.html, which Cloudflare Pages serves
+ * (with a 404 status) for any route that doesn't match a built page.
+ * Defaults to English; offers a path back to both locales.
+ */
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Button from '../components/ui/Button.astro';
+import { CONTACT } from '../data/site-config';
+
+const lang = 'en' as const;
+---
+
+<BaseLayout
+  title="Page Not Found"
+  description="The page you were looking for could not be found."
+  lang={lang}
+  path="/404"
+  noIndex={true}
+>
+  <section class="mx-auto flex min-h-[60vh] max-w-2xl flex-col items-center justify-center px-6 py-24 text-center">
+    <p class="font-display text-6xl font-semibold text-primary-300">404</p>
+    <h1 class="mt-4 font-display text-3xl font-semibold text-ink-900 sm:text-4xl">
+      We couldn't find that page
+    </h1>
+    <p class="mt-4 max-w-md font-prose text-base leading-relaxed text-ink-600">
+      The page may have moved or no longer exists. Let's get you back to
+      something helpful.
+    </p>
+
+    <div class="mt-8 flex flex-col items-center gap-3 sm:flex-row">
+      <Button href="/en" variant="primary" size="lg">Return home</Button>
+      <Button href="/en/contact" variant="secondary" size="lg">Contact us</Button>
+    </div>
+
+    <p class="mt-8 font-prose text-sm text-ink-500">
+      Need to reach us now? Call
+      <a
+        href={`tel:${CONTACT.phone.tel}`}
+        class="font-medium text-primary-600 underline-offset-4 hover:underline"
+      >{CONTACT.phone.display}</a>
+      &middot;
+      <a
+        href="/ko"
+        class="font-medium text-primary-600 underline-offset-4 hover:underline"
+      >한국어</a>
+    </p>
+  </section>
+</BaseLayout>

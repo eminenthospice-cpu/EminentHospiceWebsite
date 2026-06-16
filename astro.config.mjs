@@ -8,6 +8,13 @@ export default defineConfig({
   site: 'https://www.eminenthospice.com', // TODO: update to production domain
   trailingSlash: 'never',
 
+  // Emit `en.html` instead of `en/index.html` so Cloudflare Pages serves
+  // no-slash URLs (/en, /en/services) at 200 — matching trailingSlash:'never'
+  // and the no-slash canonical tags, avoiding 308 redirect hops.
+  build: {
+    format: 'file',
+  },
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ko'],
