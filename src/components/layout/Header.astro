@@ -38,7 +38,9 @@ const mobileLinks = [
 ];
 
 const otherLang: Locale = lang === 'en' ? 'ko' : 'en';
-const otherLangPath = `/${otherLang}${currentPath}`;
+// Build the other-locale URL without a trailing slash (site is trailingSlash:'never').
+// On the home page currentPath is '/', which must map to '/ko' not '/ko/'.
+const otherLangPath = currentPath === '/' ? `/${otherLang}` : `/${otherLang}${currentPath}`;
 
 function isActive(href: string): boolean {
   const clean = href.replace(/^\/en|^\/ko/, '');
@@ -76,14 +78,21 @@ function isActive(href: string): boolean {
         <span class="text-xs opacity-75 hidden sm:block">
           {lang === 'ko' ? '24시간 연중무휴' : '24/7 Care Available'}
         </span>
-        <!-- Locale switcher -->
+        <!-- Locale switcher — high-contrast pill, always visible in the dark bar -->
         <a
           href={otherLangPath}
-          class="inline-flex items-center text-xs font-medium uppercase tracking-widest opacity-75 hover:opacity-100 transition-opacity px-2"
-          style="color: var(--color-tint-ivory); min-height: 44px;"
+          class="press-tap inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border px-3 py-1 text-xs font-semibold tracking-wide transition-colors duration-200 hover:bg-white/15"
+          style="border-color: var(--color-tint-ivory); color: var(--color-tint-ivory); min-height: 32px;"
           hreflang={otherLang}
-          aria-label={otherLang === 'ko' ? '한국어로 보기' : 'View in English'}
+          aria-label={otherLang === 'ko' ? '한국어로 번역' : 'Translate to English'}
+          title={otherLang === 'ko' ? '한국어로 보기' : 'View in English'}
         >
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/><path d="M2 12h20"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
           {otherLang === 'ko' ? '한국어' : 'English'}
         </a>
       </div>
@@ -174,7 +183,27 @@ function isActive(href: string): boolean {
       </div>
 
       <!-- CTA + Mobile toggle -->
-      <div class="flex items-center gap-3">
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Language toggle — prominent, sticky pill (tablet/desktop).
+             On mobile the top-bar pill + drawer toggle handle this, so it's hidden
+             below sm to avoid crowding the wordmark. -->
+        <a
+          href={otherLangPath}
+          class="press-tap hidden sm:inline-flex items-center gap-1.5 whitespace-nowrap rounded-btn border-2 border-accent-warm-500 px-2.5 py-2 text-sm font-semibold text-accent-warm-600 transition-colors duration-200 hover:bg-accent-warm-500 hover:text-white"
+          style="min-height: 44px;"
+          hreflang={otherLang}
+          aria-label={otherLang === 'ko' ? '한국어로 번역' : 'Translate to English'}
+          title={otherLang === 'ko' ? '한국어로 보기' : 'View in English'}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/><path d="M2 12h20"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          {otherLang === 'ko' ? '한국어' : 'English'}
+        </a>
+
         <!-- Primary CTA — desktop -->
         <a
           href={localizedPath('/referral', lang)}
@@ -223,6 +252,21 @@ function isActive(href: string): boolean {
     style="top: 0; padding-top: 9rem; background: var(--color-surface-paper);"
   >
     <nav class="container-content py-8 flex flex-col gap-1" style="color: var(--color-ink-700);">
+      <!-- Language toggle — full-width, top of the drawer so it's the first thing seen -->
+      <a
+        href={otherLangPath}
+        class="press-tap mb-4 flex items-center justify-center gap-2 rounded-btn border-2 border-accent-warm-500 py-3.5 text-lg font-semibold text-accent-warm-600 transition-colors duration-200 hover:bg-accent-warm-500 hover:text-white"
+        hreflang={otherLang}
+        aria-label={otherLang === 'ko' ? '한국어로 번역' : 'Translate to English'}
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/><path d="M2 12h20"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        {otherLang === 'ko' ? '한국어로 보기' : 'View in English'}
+      </a>
       {mobileLinks.map(({ href, label }) => (
         <a
           href={href}
