@@ -29,7 +29,7 @@ export const CONTACT = {
     display:  '10999 Riverside Dr., Ste 306, North Hollywood, CA 91602',
   },
   hours:   'Available 24 hours a day, 7 days a week',
-  regions: 'Los Angeles County, CA',               // TODO: confirm full service area
+  regions: 'Los Angeles County, CA',
 } as const;
 
 export const BRAND = {
