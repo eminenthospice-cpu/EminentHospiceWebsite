@@ -1,0 +1,14 @@
+# Cloudflare Pages — caching rules. More specific paths win.
+#
+# HTML pages must revalidate so new deploys/content show immediately instead
+# of being served stale from the edge for up to a week.
+/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Astro's build output is content-hashed → safe to cache forever.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Self-hosted media: cache a day, revalidate after.
+/images/*
+  Cache-Control: public, max-age=86400, must-revalidate
