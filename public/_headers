@@ -12,3 +12,7 @@
 # Self-hosted media: cache a day, revalidate after.
 /images/*
   Cache-Control: public, max-age=86400, must-revalidate
+
+# Self-hosted videos: large + rarely change → cache a week, revalidate after.
+/videos/*
+  Cache-Control: public, max-age=604800, must-revalidate

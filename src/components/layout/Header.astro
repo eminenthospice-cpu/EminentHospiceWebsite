@@ -302,6 +302,19 @@ function isActive(href: string): boolean {
   </div>
 </header>
 
+<style>
+  /* Collapsed utility bar — driven by the scroll handler below.
+     A fixed max-height keeps the collapse animatable (auto→0 doesn't transition)
+     and matches the bar's natural height. */
+  #utility-bar {
+    max-height: 4rem;
+  }
+  #utility-bar.is-collapsed {
+    max-height: 0;
+    border-width: 0;
+  }
+</style>
+
 <script>
   // Mobile menu toggle
   const btn    = document.getElementById('mobile-menu-btn');
@@ -374,29 +387,47 @@ function isActive(href: string): boolean {
     link.addEventListener('click', closeMenu);
   });
 
-  // Scroll: shrink utility bar when scrolled past 80px
+  // Scroll: collapse the utility bar once scrolled down, expand near the top.
+  //
+  // Hysteresis matters here: collapsing the bar removes ~40px of sticky
+  // header, which shifts layout and can nudge scrollY back across a single
+  // threshold — making the bar flip-flop and stutter right around that point
+  // (most noticeable while scrolling up). Using separate collapse/expand
+  // thresholds with a dead-zone breaks that feedback loop. We also batch DOM
+  // writes into rAF and only touch the DOM when the state actually changes.
   const utilityBar = document.getElementById('utility-bar');
   const header     = document.getElementById('site-header');
-  let lastY = 0;
+
+  const COLLAPSE_AT = 100; // collapse once scrolled past this
+  const EXPAND_AT   = 40;  // only re-expand once back above this
+  let collapsed = false;
+  let shadowed  = false;
+  let ticking   = false;
+
+  function applyScrollState() {
+    const y = window.scrollY;
+
+    if (!collapsed && y > COLLAPSE_AT) {
+      collapsed = true;
+      utilityBar?.classList.add('is-collapsed');
+    } else if (collapsed && y < EXPAND_AT) {
+      collapsed = false;
+      utilityBar?.classList.remove('is-collapsed');
+    }
+
+    const wantShadow = y > 4;
+    if (wantShadow !== shadowed) {
+      shadowed = wantShadow;
+      if (header) header.style.boxShadow = wantShadow ? '0 1px 0 0 rgb(0 0 0 / 0.06)' : 'none';
+    }
+
+    ticking = false;
+  }
 
   window.addEventListener('scroll', () => {
-    const y = window.scrollY;
-    if (utilityBar) {
-      if (y > 80) {
-        utilityBar.style.maxHeight = '0';
-        utilityBar.style.paddingTop = '0';
-        utilityBar.style.paddingBottom = '0';
-        utilityBar.style.borderWidth = '0';
-      } else {
-        utilityBar.style.maxHeight = '';
-        utilityBar.style.paddingTop = '';
-        utilityBar.style.paddingBottom = '';
-        utilityBar.style.borderWidth = '';
-      }
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(applyScrollState);
     }
-    if (header) {
-      header.style.boxShadow = y > 4 ? '0 1px 0 0 rgb(0 0 0 / 0.06)' : 'none';
-    }
-    lastY = y;
   }, { passive: true });
 </script>
