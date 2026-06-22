@@ -204,8 +204,8 @@
       "refer": "환자 의뢰하기"
     },
     "phone": {
-      "display": "(310) 555-1234",
-      "tel": "+13105551234"
+      "display": "(818) 824-3702",
+      "tel": "+18188243702"
     },
     "address": {
       "street": "",
@@ -613,7 +613,7 @@
   "aboutJsonLd": {
     "name": "Eminent Hospice Care Inc.",
     "url": "https://eminenthospicewebsite.pages.dev/ko/about",
-    "telephone": "+13105551234",
+    "telephone": "+18188243702",
     "address": {
       "streetAddress": "",
       "addressLocality": "Los Angeles",

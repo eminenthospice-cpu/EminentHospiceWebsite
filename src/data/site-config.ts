@@ -56,7 +56,7 @@ export const TURNSTILE = {
    *      npx wrangler pages secret put TURNSTILE_SECRET_KEY --project-name=eminenthospicewebsite
    * The server-side check lives in functions/api/submit.js.
    */
-  siteKey: '1x00000000000000000000AA',
+  siteKey: '0x4AAAAAADpPbjFtS1-557HJ',
 } as const;
 
 export const ACCREDITATIONS = [
