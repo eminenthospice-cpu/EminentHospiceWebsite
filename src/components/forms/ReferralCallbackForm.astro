@@ -3,9 +3,10 @@
  * ReferralCallbackForm.astro — No-PHI callback request form.
  * Collects: name, phone, email (optional), best time, referrer type.
  * NO patient health information collected here — referral taken by phone.
- * Posts to FORMS.referralEndpoint via Formspree.
+ * Posts to /api/submit (Pages Function), which verifies the Turnstile token
+ * server-side and forwards to Formspree.
  */
-import { FORMS, CONTACT } from '../../data/site-config';
+import { CONTACT, TURNSTILE } from '../../data/site-config';
 import { useTranslations } from '../../i18n/utils';
 
 export interface Props {
@@ -34,7 +35,7 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
   <!-- Form -->
   <form
     id="referral-form"
-    action={FORMS.referralEndpoint}
+    action="/api/submit"
     method="POST"
     novalidate
     class="space-y-5"
@@ -43,6 +44,9 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
       <h2 class="font-heading text-2xl text-ink-900 mb-1">{t('referral.modeA.callbackForm.title')}</h2>
       <p class="text-ink-600 text-sm leading-relaxed">{t('referral.modeA.callbackForm.intro')}</p>
     </header>
+
+    <!-- Routes the submission to the referral Formspree endpoint server-side -->
+    <input type="hidden" name="form" value="referral" />
 
     <!-- Honeypot -->
     <input
@@ -152,6 +156,14 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
       {t('referral.modeA.privacyNote')}
     </p>
 
+    <!-- Cloudflare Turnstile (bot protection). Token is verified server-side. -->
+    <div
+      class="cf-turnstile"
+      data-sitekey={TURNSTILE.siteKey}
+      data-appearance="interaction-only"
+      data-theme="light"
+    ></div>
+
     <!-- Server error -->
     <div id="rf-server-err" class="hidden" role="alert" aria-live="polite">
       <p class="text-sm text-red-600"></p>
@@ -172,7 +184,9 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
   </form>
 </div>
 
-<script define:vars={{ endpoint: FORMS.referralEndpoint, phoneDisplay: CONTACT.phone.display, lang }}>
+<script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+<script define:vars={{ endpoint: '/api/submit', phoneDisplay: CONTACT.phone.display, lang }}>
   const form = document.getElementById('referral-form');
   const successEl = document.getElementById('referral-success');
   const successBodyEl = document.getElementById('referral-success-body');
@@ -210,11 +224,39 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
     return valid;
   }
 
+  const genericError = lang === 'ko'
+    ? `오류가 발생했습니다. ${phoneDisplay}으로 전화해 주세요.`
+    : `Something went wrong. Please call us at ${phoneDisplay}.`;
+  const turnstileMissing = lang === 'ko'
+    ? '보안 확인을 완료해 주세요.'
+    : 'Please complete the security check.';
+  const turnstileFailed = lang === 'ko'
+    ? `보안 확인에 실패했습니다. 새로고침 후 다시 시도하시거나 ${phoneDisplay}으로 전화해 주세요.`
+    : `The security check failed. Please reload and try again — or call us at ${phoneDisplay}.`;
+
+  function showServerError(msg) {
+    if (!serverErrEl) return;
+    serverErrEl.querySelector('p').textContent = msg;
+    serverErrEl.classList.remove('hidden');
+  }
+
+  function resetSubmit() {
+    submitBtn?.removeAttribute('disabled');
+    if (submitLabel) submitLabel.textContent = submitDefaultLabel;
+    if (window.turnstile) window.turnstile.reset();
+  }
+
   form?.addEventListener('submit', async (e) => {
     e.preventDefault();
     clearErrors();
     const data = new FormData(form);
     if (!validate(data)) return;
+
+    // Turnstile token is injected into the form by the widget once solved.
+    if (!data.get('cf-turnstile-response')) {
+      showServerError(turnstileMissing);
+      return;
+    }
 
     submitBtn?.setAttribute('disabled', '');
     if (submitLabel) submitLabel.textContent = pendingLabel;
@@ -234,26 +276,16 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
         form.classList.add('hidden');
         successEl?.classList.remove('hidden');
       } else {
-        const errMsg = lang === 'ko'
-          ? `오류가 발생했습니다. ${phoneDisplay}으로 전화해 주세요.`
-          : `Something went wrong. Please call us at ${phoneDisplay}.`;
-        if (serverErrEl) {
-          serverErrEl.querySelector('p').textContent = errMsg;
-          serverErrEl.classList.remove('hidden');
-        }
-        submitBtn?.removeAttribute('disabled');
-        if (submitLabel) submitLabel.textContent = submitDefaultLabel;
+        const json = await res.json().catch(() => ({}));
+        const code = json?.error;
+        showServerError(
+          code === 'turnstile-missing' || code === 'turnstile-failed' ? turnstileFailed : genericError
+        );
+        resetSubmit();
       }
     } catch {
-      const errMsg = lang === 'ko'
-        ? `오류가 발생했습니다. ${phoneDisplay}으로 전화해 주세요.`
-        : `Something went wrong. Please call us at ${phoneDisplay}.`;
-      if (serverErrEl) {
-        serverErrEl.querySelector('p').textContent = errMsg;
-        serverErrEl.classList.remove('hidden');
-      }
-      submitBtn?.removeAttribute('disabled');
-      if (submitLabel) submitLabel.textContent = submitDefaultLabel;
+      showServerError(genericError);
+      resetSubmit();
     }
   });
 </script>

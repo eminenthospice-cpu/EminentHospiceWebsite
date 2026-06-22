@@ -29,7 +29,7 @@ export const CONTACT = {
     display:  '10999 Riverside Dr., Ste 306, North Hollywood, CA 91602',
   },
   hours:   'Available 24 hours a day, 7 days a week',
-  regions: 'Los Angeles County, CA',
+  regions: 'North Hollywood and the greater Los Angeles area',
 } as const;
 
 export const BRAND = {
@@ -41,6 +41,22 @@ export const BRAND = {
 export const FORMS = {
   contactEndpoint:  'https://formspree.io/f/mqevkdog',
   referralEndpoint: 'https://formspree.io/f/mlgyewka',
+} as const;
+
+export const TURNSTILE = {
+  /**
+   * Cloudflare Turnstile site key (public, safe to commit).
+   *
+   * Default is Cloudflare's official TEST key, which always passes — the form
+   * flow works end-to-end immediately. For real bot protection:
+   *   1. Create a widget at dash.cloudflare.com → Turnstile (add domains
+   *      eminenthospicewebsite.pages.dev + any custom domain).
+   *   2. Replace `siteKey` below with the real site key.
+   *   3. Set the matching secret on the Pages project (NOT committed):
+   *      npx wrangler pages secret put TURNSTILE_SECRET_KEY --project-name=eminenthospicewebsite
+   * The server-side check lives in functions/api/submit.js.
+   */
+  siteKey: '1x00000000000000000000AA',
 } as const;
 
 export const ACCREDITATIONS = [

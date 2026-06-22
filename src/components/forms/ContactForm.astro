@@ -1,10 +1,11 @@
 ---
 /**
- * ContactForm.astro — Formspree-backed contact form.
+ * ContactForm.astro — contact form with Cloudflare Turnstile.
  * Progressive enhancement: AJAX submit, honeypot, success/error states.
- * No backend required; posts to FORMS.contactEndpoint.
+ * Posts to /api/submit (Pages Function), which verifies the Turnstile token
+ * server-side and forwards to Formspree.
  */
-import { FORMS, CONTACT } from '../../data/site-config';
+import { CONTACT, TURNSTILE } from '../../data/site-config';
 import { useTranslations } from '../../i18n/utils';
 
 export interface Props {
@@ -32,12 +33,15 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
   <!-- Form -->
   <form
     id="contact-form"
-    action={FORMS.contactEndpoint}
+    action="/api/submit"
     method="POST"
     novalidate
     class="space-y-5"
   >
     <h2 class="font-heading text-2xl text-ink-900">{t('contact.form.heading')}</h2>
+
+    <!-- Routes the submission to the contact Formspree endpoint server-side -->
+    <input type="hidden" name="form" value="contact" />
 
     <!-- Honeypot — bots fill this; server ignores the submission -->
     <input
@@ -151,6 +155,14 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
         : 'By submitting, you agree to our Privacy Policy. We use your information only to respond to your inquiry.'}
     </p>
 
+    <!-- Cloudflare Turnstile (bot protection). Token is verified server-side. -->
+    <div
+      class="cf-turnstile"
+      data-sitekey={TURNSTILE.siteKey}
+      data-appearance="interaction-only"
+      data-theme="light"
+    ></div>
+
     <!-- Server error -->
     <div id="cf-server-err" class="hidden" role="alert" aria-live="polite">
       <p class="text-sm text-red-600"></p>
@@ -171,7 +183,9 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
   </form>
 </div>
 
-<script define:vars={{ endpoint: FORMS.contactEndpoint, phoneDisplay: CONTACT.phone.display, successBody: '', lang }}>
+<script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+<script define:vars={{ endpoint: '/api/submit', phoneDisplay: CONTACT.phone.display, lang }}>
   const form = document.getElementById('contact-form');
   const wrapper = document.getElementById('contact-form-wrapper');
   const successEl = document.getElementById('contact-success');
@@ -214,11 +228,39 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
     return valid;
   }
 
+  const genericError = lang === 'ko'
+    ? `오류가 발생했습니다. ${phoneDisplay}으로 전화해 주세요.`
+    : `Something went wrong. Please call us at ${phoneDisplay}.`;
+  const turnstileMissing = lang === 'ko'
+    ? '보안 확인을 완료해 주세요.'
+    : 'Please complete the security check.';
+  const turnstileFailed = lang === 'ko'
+    ? `보안 확인에 실패했습니다. 새로고침 후 다시 시도하시거나 ${phoneDisplay}으로 전화해 주세요.`
+    : `The security check failed. Please reload and try again — or call us at ${phoneDisplay}.`;
+
+  function showServerError(msg) {
+    if (!serverErrEl) return;
+    serverErrEl.querySelector('p').textContent = msg;
+    serverErrEl.classList.remove('hidden');
+  }
+
+  function resetSubmit() {
+    submitBtn?.removeAttribute('disabled');
+    if (submitLabel) submitLabel.textContent = submitDefaultLabel;
+    if (window.turnstile) window.turnstile.reset();
+  }
+
   form?.addEventListener('submit', async (e) => {
     e.preventDefault();
     clearFieldErrors();
     const data = new FormData(form);
     if (!validate(data)) return;
+
+    // Turnstile token is injected into the form by the widget once solved.
+    if (!data.get('cf-turnstile-response')) {
+      showServerError(turnstileMissing);
+      return;
+    }
 
     submitBtn?.setAttribute('disabled', '');
     if (submitLabel) submitLabel.textContent = pendingLabel;
@@ -231,7 +273,6 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
       });
 
       if (res.ok) {
-        // Show success
         const body = lang === 'ko'
           ? `메시지를 받았습니다. 1 영업일 이내에 연락드리겠습니다. 긴급한 사항은 ${phoneDisplay}으로 전화해 주세요.`
           : `We have received your message and will be in touch within one business day. For anything urgent, please call us at ${phoneDisplay}.`;
@@ -240,26 +281,15 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
         successEl?.classList.remove('hidden');
       } else {
         const json = await res.json().catch(() => ({}));
-        const errMsg = lang === 'ko'
-          ? `오류가 발생했습니다. ${phoneDisplay}으로 전화해 주세요.`
-          : `Something went wrong. Please call us at ${phoneDisplay}.`;
-        if (serverErrEl) {
-          serverErrEl.querySelector('p').textContent = json?.error ?? errMsg;
-          serverErrEl.classList.remove('hidden');
-        }
-        submitBtn?.removeAttribute('disabled');
-        if (submitLabel) submitLabel.textContent = submitDefaultLabel;
+        const code = json?.error;
+        showServerError(
+          code === 'turnstile-missing' || code === 'turnstile-failed' ? turnstileFailed : genericError
+        );
+        resetSubmit();
       }
     } catch {
-      const errMsg = lang === 'ko'
-        ? `오류가 발생했습니다. ${phoneDisplay}으로 전화해 주세요.`
-        : `Something went wrong. Please call us at ${phoneDisplay}.`;
-      if (serverErrEl) {
-        serverErrEl.querySelector('p').textContent = errMsg;
-        serverErrEl.classList.remove('hidden');
-      }
-      submitBtn?.removeAttribute('disabled');
-      if (submitLabel) submitLabel.textContent = submitDefaultLabel;
+      showServerError(genericError);
+      resetSubmit();
     }
   });
 </script>
