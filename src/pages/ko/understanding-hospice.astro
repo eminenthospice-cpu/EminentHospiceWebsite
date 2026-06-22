@@ -77,6 +77,24 @@ const relatedLinks = [
   <section id="myths" class="scroll-mt-24">
     <h2>{s.myths.title}</h2>
     <p>{s.myths.intro}</p>
+    <div class="not-prose mt-6 overflow-hidden rounded-card border border-line-soft bg-white shadow-soft">
+      <video
+        class="block w-full aspect-video bg-ink-950"
+        controls
+        preload="metadata"
+        playsinline
+        aria-label="Korean hospice myths education video with English subtitles"
+      >
+        <source src="/videos/hospice-myths-korean-english-subtitles.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="px-5 py-4">
+        <p class="font-heading text-sm font-semibold text-ink-900">Hospice myths video</p>
+        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+          Korean narration with English subtitles, presented by Kim Jeong Ah, Nurse Practitioner.
+        </p>
+      </div>
+    </div>
     <div class="not-prose mt-4 space-y-4">
       {s.myths.items.map(item => (
         <div class="rounded-card border border-line-soft bg-white p-5 shadow-soft">

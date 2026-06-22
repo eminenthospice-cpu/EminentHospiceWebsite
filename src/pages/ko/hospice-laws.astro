@@ -96,6 +96,42 @@ const relatedLinks = [
     <div class="not-prose mt-2 rounded-card border-l-4 border-amber-400 bg-amber-50 px-5 py-3">
       <p class="text-sm text-ink-700">{s.advanceDirectives.polst.paperColorNote}</p>
     </div>
+    <div class="not-prose mt-6 overflow-hidden rounded-card border border-line-soft bg-white shadow-soft">
+      <video
+        class="block w-full aspect-video bg-ink-950"
+        controls
+        preload="metadata"
+        playsinline
+        aria-label="Korean POLST education video with English subtitles"
+      >
+        <source src="/videos/polst-korean-english-subtitles.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="px-5 py-4">
+        <p class="font-heading text-sm font-semibold text-ink-900">POLST education video</p>
+        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+          Korean narration with English subtitles, presented by Kim Jeong Ah, Nurse Practitioner.
+        </p>
+      </div>
+    </div>
+    <div class="not-prose mt-6 overflow-hidden rounded-card border border-line-soft bg-white shadow-soft">
+      <video
+        class="block w-full aspect-video bg-ink-950"
+        controls
+        preload="metadata"
+        playsinline
+        aria-label="Korean after death outside hospice and POLST education video with English subtitles"
+      >
+        <source src="/videos/after-death-non-hospice-polst-korean-english-subtitles.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="px-5 py-4">
+        <p class="font-heading text-sm font-semibold text-ink-900">When death occurs outside hospice</p>
+        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+          Korean narration with English subtitles, presented by Kim Jeong Ah, Nurse Practitioner.
+        </p>
+      </div>
+    </div>
 
     <h3>{s.advanceDirectives.dpoa.title}</h3>
     <p>{s.advanceDirectives.dpoa.body}</p>

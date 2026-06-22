@@ -142,6 +142,60 @@ const relatedLinks = [
   <section id="team" aria-labelledby="team-h" class="reveal scroll-mt-24">
     <h2 id="team-h">{t('about.sections.team.title')}</h2>
     <p class="mb-5">{t('about.sections.team.intro')}</p>
+    <div class="not-prose mb-6 overflow-hidden rounded-card border border-line-soft bg-white shadow-soft">
+      <video
+        class="block w-full aspect-video bg-ink-950"
+        controls
+        preload="metadata"
+        playsinline
+        aria-label="Korean hospice team interview with English subtitles"
+      >
+        <source src="/videos/hospice-team-interview-younghee-kim-korean-english-subtitles.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="px-5 py-4">
+        <p class="font-heading text-sm font-semibold text-ink-900">Hospice team interview</p>
+        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+          Korean interview with English subtitles, featuring Younghee Kim sharing her hospice care experience.
+        </p>
+      </div>
+    </div>
+    <div class="not-prose mb-6 overflow-hidden rounded-card border border-line-soft bg-white shadow-soft">
+      <video
+        class="block w-full aspect-video bg-ink-950"
+        controls
+        preload="metadata"
+        playsinline
+        aria-label="Korean hospice nurse interview with English subtitles"
+      >
+        <source src="/videos/hospice-nurse-interview-janice-korean-english-subtitles.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="px-5 py-4">
+        <p class="font-heading text-sm font-semibold text-ink-900">Hospice nurse interview</p>
+        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+          Korean interview with English subtitles, featuring Janice sharing what hospice nurses do and memorable patient care moments.
+        </p>
+      </div>
+    </div>
+    <div class="not-prose mb-6 overflow-hidden rounded-card border border-line-soft bg-white shadow-soft">
+      <video
+        class="block w-full aspect-video bg-ink-950"
+        controls
+        preload="metadata"
+        playsinline
+        aria-label="Korean hospice social work and bereavement interview with English subtitles"
+      >
+        <source src="/videos/hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="px-5 py-4">
+        <p class="font-heading text-sm font-semibold text-ink-900">Hospice social work and bereavement interview</p>
+        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+          Korean interview with English subtitles, featuring Peter Park explaining spiritual counseling, bereavement counseling, and hospice support.
+        </p>
+      </div>
+    </div>
     <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5 not-prose">
       {ROLES.map(({ key, icon }) => (
         <li>
