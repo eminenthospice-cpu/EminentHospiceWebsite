@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://www.eminenthospice.com', // TODO: update to production domain
+  site: 'https://eminenthospicewebsite.pages.dev', // Cloudflare Pages URL (no custom domain yet)
   trailingSlash: 'never',
 
   // Emit `en.html` instead of `en/index.html` so Cloudflare Pages serves

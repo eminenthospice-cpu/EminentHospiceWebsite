@@ -10,7 +10,7 @@ export const SITE = {
   name:     'Eminent Hospice Care',
   legalName:'Eminent Hospice Care, Inc.',
   tagline:  'Comfort. Dignity. Compassion.',
-  url:      'https://www.eminenthospice.com',       // TODO: confirm production domain
+  url:      'https://eminenthospicewebsite.pages.dev', // Cloudflare Pages URL (swap to custom domain when acquired)
   locale:   'en-US',
 } as const;
 
