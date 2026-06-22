@@ -38,14 +38,10 @@ with a `// TODO: confirm full service area`. Confirm the real coverage area
 with the owner, update the string, and remove the TODO. If unknown, leave as-is
 and flag it — don't invent regions for a healthcare provider.
 
-## Task 2b — Flip logo path to PNG (handoff from Track A, HIGH, 1 line)
+## Task 2b — Flip logo path to PNG ✅ DONE (Track A)
 
-Track A replaced the bloated 1.5 MB `logo.svg` with a 40 KB
-`public/images/logo.png` (used only as the JSON-LD `logo` URL — never rendered
-on-page). Update `src/data/site-config.ts:36`:
-`BRAND.logo: '/images/logo.svg'` → `'/images/logo.png'`.
-After this lands, the now-unused `public/images/logo.svg` can be deleted
-(leave it until the path is switched so the JSON-LD URL never dangles).
+`BRAND.logo` now points at `/images/logo.png` (40 KB, replaced the 1.5 MB SVG)
+and the old `logo.svg` has been removed.
 
 ## Task 3 — Custom domain swap (BLOCKED on domain purchase)
 

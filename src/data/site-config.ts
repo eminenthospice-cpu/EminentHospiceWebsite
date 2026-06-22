@@ -33,7 +33,7 @@ export const CONTACT = {
 } as const;
 
 export const BRAND = {
-  logo:          '/images/logo.svg',
+  logo:          '/images/logo.png',
   favicon:       '/favicon.svg',
   ogImageDefault:'/og-default.png',
 } as const;
