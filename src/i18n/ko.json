@@ -190,8 +190,7 @@
         "hipaaNotice": "HIPAA 개인정보 보호 고지",
         "accessibility": "접근성",
         "terms": "이용약관",
-        "griefSupport": "슬픔과 사별 돌봄 지원",
-        "careers": "채용"
+        "griefSupport": "슬픔과 사별 돌봄 지원"
       }
     },
     "sidebarContactTitle": "케어 팀과 상담하세요",
@@ -1069,7 +1068,6 @@
         "general": "일반 문의",
         "insurance": "보험 관련 문의",
         "volunteer": "자원봉사",
-        "career": "채용 문의",
         "other": "기타"
       },
       "messageLabel": "메시지",
@@ -1470,69 +1468,6 @@
         "callLabel": "{phone}로 전화하기",
         "contactLabel": "메시지 보내기"
       }
-    }
-  },
-  "careers": {
-    "pageTitle": "함께 일하실 분을 찾습니다",
-    "metaDescription": "에미넌트 호스피스에 합류하세요 — 편안함과 존엄 중심의 케어를 믿는 열정적인 임상 전문가와 지원 인력을 찾습니다.",
-    "eyebrow": "채용",
-    "introParagraph": "에미넌트에서 모든 역할은 — 임상이든 행정이든 — 환자와 가족이 삶에서 가장 중요한 시간을 보내는 동안 직접 도움을 드립니다. 실력과 마음을 함께 가져오시는 분을 찾습니다.",
-    "sections": {
-      "why": {
-        "title": "저희와 함께하는 이유",
-        "points": [
-          "소규모의 긴밀한 팀 — 당신의 역할이 선명하게 보입니다",
-          "이중 언어 케어 환경 — 영어와 한국어",
-          "관리 가능한 케이스로드와 유연한 스케줄",
-          "환자 케어 현장에서 성장한 리더십",
-          "매일 의미 있는 일"
-        ]
-      },
-      "roles": {
-        "title": "자주 채용하는 직군",
-        "intro": "다음 분야의 자격을 갖춘 분들의 연락을 언제나 환영합니다:",
-        "list": [
-          "정식 간호사 (RN)",
-          "Licensed Vocational Nurse (LVN)",
-          "호스피스 에이드 / CNA",
-          "의료 사회복지사 (MSW / LCSW)",
-          "원목 / 영적 돌봄",
-          "사별 돌봄 코디네이터",
-          "자원봉사 코디네이터",
-          "행정 / 입원 접수"
-        ]
-      }
-    },
-    "form": {
-      "heading": "지원 또는 문의",
-      "intro": "아래 양식을 작성해 주시면 팀에서 연락드리겠습니다. 전화나 이메일로 직접 연락하셔도 됩니다.",
-      "nameLabel": "성명",
-      "namePlaceholder": "이름을 입력해 주세요",
-      "emailLabel": "이메일",
-      "emailPlaceholder": "you@example.com",
-      "phoneLabel": "전화번호",
-      "phonePlaceholder": "(555) 000-0000",
-      "positionLabel": "희망 직군",
-      "positionOptions": {
-        "rn": "정식 간호사 (RN)",
-        "lvn": "Licensed Vocational Nurse (LVN)",
-        "aide": "호스피스 에이드 / CNA",
-        "msw": "의료 사회복지사 (MSW / LCSW)",
-        "chaplain": "원목 / 영적 돌봄",
-        "bereavement": "사별 돌봄 코디네이터",
-        "volunteer": "자원봉사 코디네이터",
-        "admin": "행정 / 입원 접수",
-        "other": "기타 / 일반 문의"
-      },
-      "messageLabel": "자기소개",
-      "messagePlaceholder": "경력, 면허, 호스피스 케어에 관심을 갖게 된 계기를 알려 주세요.",
-      "submitLabel": "지원서 보내기",
-      "submitPendingLabel": "전송 중…",
-      "privacyNote": "귀하의 정보는 문의 답변 목적으로만 사용됩니다. 데이터를 판매하지 않습니다."
-    },
-    "success": {
-      "title": "지원서가 접수되었습니다",
-      "body": "팀 합류에 관심 가져주셔서 감사합니다. 내용을 검토하고 영업일 기준 며칠 안에 연락드리겠습니다."
     }
   }
 }

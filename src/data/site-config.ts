@@ -39,14 +39,8 @@ export const BRAND = {
 } as const;
 
 export const FORMS = {
-  /**
-   * Formspree endpoint placeholder.
-   * 1. Create a free form at https://formspree.io
-   * 2. Replace both values with your real endpoint IDs.
-   */
   contactEndpoint:  'https://formspree.io/f/mqevkdog',
   referralEndpoint: 'https://formspree.io/f/mlgyewka',
-  careersEndpoint:  'https://formspree.io/f/REPLACE_ME_CAREERS',
 } as const;
 
 export const ACCREDITATIONS = [

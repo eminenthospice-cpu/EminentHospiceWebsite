@@ -190,8 +190,7 @@
         "hipaaNotice": "HIPAA Notice",
         "accessibility": "Accessibility",
         "terms": "Terms of Use",
-        "griefSupport": "Grief & Bereavement Support",
-        "careers": "Careers"
+        "griefSupport": "Grief & Bereavement Support"
       }
     },
     "sidebarContactTitle": "Speak with our team",
@@ -1069,7 +1068,6 @@
         "general": "General question",
         "insurance": "Insurance question",
         "volunteer": "Volunteering",
-        "career": "Career inquiry",
         "other": "Other"
       },
       "messageLabel": "Message",
@@ -1470,69 +1468,6 @@
         "callLabel": "Call {phone}",
         "contactLabel": "Send a message"
       }
-    }
-  },
-  "careers": {
-    "pageTitle": "Join Our Team",
-    "metaDescription": "Join Eminent Hospice Care — we are always looking for compassionate clinicians and support staff who believe in comfort-focused, dignity-centered care.",
-    "eyebrow": "Careers",
-    "introParagraph": "At Eminent, every role — clinical or administrative — directly supports a patient and family through one of the most important seasons of their life. We look for people who show up with both skill and heart.",
-    "sections": {
-      "why": {
-        "title": "Why work with us",
-        "points": [
-          "Small, tight-knit interdisciplinary team — your work is visible and valued",
-          "Bilingual care environment — English and Korean",
-          "Flexible scheduling with manageable caseloads",
-          "Leadership that came up through patient care",
-          "Meaningful work, every single day"
-        ]
-      },
-      "roles": {
-        "title": "Roles we frequently hire",
-        "intro": "We are always interested in hearing from qualified candidates in the following disciplines:",
-        "list": [
-          "Registered Nurse (RN)",
-          "Licensed Vocational Nurse (LVN)",
-          "Hospice Aide / CNA",
-          "Medical Social Worker (MSW / LCSW)",
-          "Chaplain / Spiritual Care",
-          "Bereavement Coordinator",
-          "Volunteer Coordinator",
-          "Administrative / Intake"
-        ]
-      }
-    },
-    "form": {
-      "heading": "Apply or Inquire",
-      "intro": "Fill out the form below and our team will be in touch. You can also call or email us directly.",
-      "nameLabel": "Full name",
-      "namePlaceholder": "Your name",
-      "emailLabel": "Email",
-      "emailPlaceholder": "you@example.com",
-      "phoneLabel": "Phone",
-      "phonePlaceholder": "(555) 000-0000",
-      "positionLabel": "Position of interest",
-      "positionOptions": {
-        "rn": "Registered Nurse (RN)",
-        "lvn": "Licensed Vocational Nurse (LVN)",
-        "aide": "Hospice Aide / CNA",
-        "msw": "Medical Social Worker (MSW / LCSW)",
-        "chaplain": "Chaplain / Spiritual Care",
-        "bereavement": "Bereavement Coordinator",
-        "volunteer": "Volunteer Coordinator",
-        "admin": "Administrative / Intake",
-        "other": "Other / General inquiry"
-      },
-      "messageLabel": "Tell us about yourself",
-      "messagePlaceholder": "Share your experience, licensure, and what draws you to hospice care.",
-      "submitLabel": "Send application",
-      "submitPendingLabel": "Sending…",
-      "privacyNote": "We use your information only to follow up on your inquiry. We do not sell your data."
-    },
-    "success": {
-      "title": "Application received",
-      "body": "Thank you for your interest in joining our team. We will review your message and be in touch within a few business days."
     }
   }
 }
