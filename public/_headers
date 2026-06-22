@@ -1,9 +1,15 @@
 # Cloudflare Pages — caching rules. More specific paths win.
 #
-# HTML pages must revalidate so new deploys/content show immediately instead
-# of being served stale from the edge for up to a week.
-/*
-  Cache-Control: public, max-age=0, must-revalidate
+# NOTE: we deliberately do NOT define a catch-all `/*` Cache-Control rule.
+# Cloudflare Pages already serves HTML with `public, max-age=0, must-revalidate`
+# by default (and purges the edge cache on every deploy), so a `/*` rule is
+# redundant for HTML — and worse, Pages MERGES matching rules, so a `/*` rule
+# would concatenate into `/videos/*` producing a malformed double Cache-Control
+# (two max-age values). That stops the edge from caching the video, which forces
+# a permanent cache MISS where Cloudflare returns the whole file as 200 and never
+# serves HTTP range (206) requests — breaking in-video seeking. Keeping the
+# video header single + cacheable lets the edge serve 206 so users can seek
+# (travel) to any point in the video instantly.
 
 # Astro's build output is content-hashed → safe to cache forever.
 /_astro/*
@@ -13,6 +19,6 @@
 /images/*
   Cache-Control: public, max-age=86400, must-revalidate
 
-# Self-hosted videos: large + rarely change → cache a week, revalidate after.
+# Self-hosted videos: cacheable so the edge serves 206 range requests (seeking).
 /videos/*
   Cache-Control: public, max-age=604800, must-revalidate
