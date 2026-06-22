@@ -1,6 +1,7 @@
 ---
 import LongFormLayout from '../../layouts/LongFormLayout.astro';
 import PageSidebar from '../../components/layout/PageSidebar.astro';
+import FaqPageJsonLd from '../../components/seo/FaqPageJsonLd.astro';
 import { localizedPath } from '../../i18n/utils';
 import enData from '../../i18n/en.json';
 
@@ -29,6 +30,13 @@ const relatedLinks = [
   { href: '/hospice-laws',          label: common.relatedPages.links.hospiceLaws },
   { href: '/contact',               label: common.relatedPages.links.contact },
 ];
+
+const faqJsonLdItems = catOrder.flatMap(catKey =>
+  Object.values(d.categories[catKey].items).map(item => ({
+    question: item.q,
+    answer: item.a,
+  }))
+);
 ---
 
 <LongFormLayout
@@ -40,6 +48,8 @@ const relatedLinks = [
   introParagraph={d.introParagraph}
   lastReviewed={d.lastReviewed}
 >
+  <FaqPageJsonLd slot="head" items={faqJsonLdItems} />
+
   <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
 
   {catOrder.map(catKey => {

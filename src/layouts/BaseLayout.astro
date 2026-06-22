@@ -69,6 +69,8 @@ const ogImageAbs   = ogImage.startsWith('http') ? ogImage : `${SITE.url}${ogImag
     <meta name="twitter:title"       content={`${title} | ${SITE.name}`} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image"       content={ogImageAbs} />
+
+    <slot name="head" />
   </head>
 
   <body>

@@ -29,6 +29,10 @@ export default defineConfig({
 
   integrations: [
     sitemap({
+      filter: (page) => ![
+        'https://eminenthospicewebsite.pages.dev',
+        'https://eminenthospicewebsite.pages.dev/',
+      ].includes(page),
       i18n: {
         defaultLocale: 'en',
         locales: {

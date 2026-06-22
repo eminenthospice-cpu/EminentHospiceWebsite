@@ -1079,7 +1079,7 @@
       "heading": "직접 연락하기",
       "phoneLabel": "전화",
       "emailLabel": "이메일",
-      "emailValue": "info@eminenthospice.com",
+      "emailValue": "eminenthospice@gmail.com",
       "hoursLabel": "운영 시간",
       "hoursValue": "연중무휴 24시간 상시 응대",
       "addressLabel": "주소",
@@ -1289,7 +1289,7 @@
       },
       "retention": {
         "title": "정보 보관 기간",
-        "body": "제출물은 이메일 벤더에 약 {retentionDays}일 동안 보관되며, 직원 메일함에는 최대 90일까지 보관된 후 삭제됩니다. 서버 로그는 표준 운영 보관 기간을 따릅니다. 더 일찍 삭제를 요청하시는 경우, 법률 또는 호스피스 케어 계획상 보관 의무가 없는 한 삭제해 드립니다."
+        "body": "제출물은 이메일 벤더에 약 90일 동안 보관되며, 직원 메일함에는 최대 90일까지 보관된 후 삭제됩니다. 서버 로그는 표준 운영 보관 기간을 따릅니다. 더 일찍 삭제를 요청하시는 경우, 법률 또는 호스피스 케어 계획상 보관 의무가 없는 한 삭제해 드립니다."
       },
       "security": {
         "title": "정보 보호 방식",
@@ -1300,7 +1300,7 @@
         "ccpa": {
           "title": "캘리포니아 소비자 개인정보 보호법 (CCPA / CPRA)",
           "body": "캘리포니아 거주자께는 저희가 수집한 개인정보를 알 권리, 삭제를 요청할 권리, 부정확한 정보를 정정할 권리, 그리고 이러한 권리 행사로 인해 차별받지 않을 권리가 있습니다. 저희는 교차 행동 광고 목적으로 개인정보를 판매하거나 공유하지 않으므로, 본 사이트에는 '개인정보 판매·공유 거부(Do Not Sell or Share)' 링크가 없습니다.",
-          "howToExercise": "권리를 행사하시려면 info@eminenthospice.com으로 이메일을 보내시거나 {phone}으로 전화해 주세요. 요청 처리를 위해 본인 확인용 정보를 최소한으로 요청드릴 수 있습니다."
+          "howToExercise": "권리를 행사하시려면 eminenthospice@gmail.com으로 이메일을 보내시거나 {phone}으로 전화해 주세요. 요청 처리를 위해 본인 확인용 정보를 최소한으로 요청드릴 수 있습니다."
         },
         "hipaa": {
           "title": "HIPAA",
@@ -1319,7 +1319,7 @@
         "title": "개인정보 관련 문의",
         "body": "본 개인정보 처리방침이나 정보 처리에 관해 궁금하신 점이 있으시면 연락해 주세요:",
         "emailLabel": "이메일",
-        "email": "info@eminenthospice.com",
+        "email": "eminenthospice@gmail.com",
         "phoneLabel": "전화"
       }
     }
@@ -1382,7 +1382,7 @@
         "title": "접근성 문제 신고 방법",
         "body": "본 웹사이트에서 장벽을 발견하시면 알려 주세요. 저희가 개선하겠습니다.",
         "emailLabel": "이메일",
-        "email": "info@eminenthospice.com",
+        "email": "eminenthospice@gmail.com",
         "phoneLabel": "전화",
         "responseTime": "영업일 기준 5일 이내에 답변드립니다."
       }
@@ -1443,7 +1443,7 @@
         "title": "문의하기",
         "body": "본 약관에 관해 궁금하신 점이 있으시면 연락해 주세요:",
         "emailLabel": "이메일",
-        "email": "info@eminenthospice.com",
+        "email": "eminenthospice@gmail.com",
         "phoneLabel": "전화"
       }
     }

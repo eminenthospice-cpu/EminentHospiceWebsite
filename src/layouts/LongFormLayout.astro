@@ -23,6 +23,8 @@ const { title, description, lang, path, eyebrow, introParagraph, lastReviewed, d
 ---
 
 <BaseLayout title={title} description={description} lang={lang} path={path} noIndex={noIndex}>
+  <slot name="head" slot="head" />
+
   <div class="bg-surface-paper min-h-screen">
     <!-- Page header -->
     <div class="bg-white border-b border-line-soft">

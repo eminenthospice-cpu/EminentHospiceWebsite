@@ -39,7 +39,9 @@ const mobileLinks = [
 const otherLang: Locale = lang === 'en' ? 'ko' : 'en';
 // Build the other-locale URL without a trailing slash (site is trailingSlash:'never').
 // On the home page currentPath is '/', which must map to '/ko' not '/ko/'.
-const otherLangPath = currentPath === '/' ? `/${otherLang}` : `/${otherLang}${currentPath}`;
+const otherLangPath = currentPath === '/404'
+  ? `/${otherLang}`
+  : currentPath === '/' ? `/${otherLang}` : `/${otherLang}${currentPath}`;
 
 function isActive(href: string): boolean {
   const clean = href.replace(/^\/en|^\/ko/, '');
@@ -134,28 +136,31 @@ function isActive(href: string): boolean {
         ))}
 
         <!-- Resources dropdown -->
-        <div class="relative group">
+        <div class="relative group" data-resources-dropdown>
           <button
-            class="underline-grow flex items-center gap-1 px-3 py-2 rounded-sm hover:text-ink-900 transition-colors duration-200 cursor-default"
+            id="resources-menu-btn"
+            class="underline-grow flex items-center gap-1 px-3 py-2 rounded-sm hover:text-ink-900 transition-colors duration-200 cursor-pointer"
             aria-haspopup="true"
             aria-expanded="false"
+            aria-controls="resources-menu"
             type="button"
+            data-resources-button
           >
             {lang === 'ko' ? '자료' : 'Resources'}
             <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
               fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" aria-hidden="true" class="transition-transform duration-200 group-hover:rotate-180">
+              stroke-linejoin="round" aria-hidden="true" class="transition-transform duration-200" data-resources-chevron>
               <polyline points="6 9 12 15 18 9"/>
             </svg>
           </button>
 
           <!-- Dropdown panel -->
           <div
+            id="resources-menu"
             class="absolute top-full left-0 mt-1 rounded-card border shadow-soft
-                   opacity-0 invisible group-hover:opacity-100 group-hover:visible
-                   group-focus-within:opacity-100 group-focus-within:visible
-                   transition-all duration-200 z-50 min-w-56"
+                   opacity-0 invisible transition-all duration-200 z-50 min-w-56"
             style="background: var(--color-surface-elevated); border-color: var(--color-line-hairline);"
+            data-resources-menu
           >
             <div class="py-2">
               {resourceLinks.map(({ href, label }) => (
@@ -224,6 +229,8 @@ function isActive(href: string): boolean {
           aria-label={lang === 'ko' ? '메뉴 열기' : 'Open menu'}
           aria-controls="mobile-drawer"
           aria-expanded="false"
+          data-open-label={lang === 'ko' ? 'ë©”ë‰´ ì—´ê¸°' : 'Open menu'}
+          data-close-label={lang === 'ko' ? 'ë©”ë‰´ ë‹«ê¸°' : 'Close menu'}
           class="lg:hidden flex items-center justify-center rounded-sm transition-colors"
           style="color: var(--color-ink-700); width: 44px; height: 44px;"
         >
@@ -301,11 +308,40 @@ function isActive(href: string): boolean {
   const drawer = document.getElementById('mobile-drawer');
   const iconMenu  = document.getElementById('icon-menu');
   const iconClose = document.getElementById('icon-close');
+  const menuOpenLabel = btn?.dataset.openLabel ?? 'Open menu';
+  const menuCloseLabel = btn?.dataset.closeLabel ?? 'Close menu';
+
+  const resourcesDropdown = document.querySelector('[data-resources-dropdown]');
+  const resourcesButton = document.querySelector('[data-resources-button]');
+  const resourcesMenu = document.querySelector('[data-resources-menu]');
+  const resourcesChevron = document.querySelector('[data-resources-chevron]');
+
+  function setResourcesMenu(open) {
+    resourcesButton?.setAttribute('aria-expanded', open ? 'true' : 'false');
+    resourcesMenu?.classList.toggle('opacity-0', !open);
+    resourcesMenu?.classList.toggle('invisible', !open);
+    resourcesMenu?.classList.toggle('opacity-100', open);
+    resourcesMenu?.classList.toggle('visible', open);
+    resourcesChevron?.classList.toggle('rotate-180', open);
+  }
+
+  resourcesButton?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    setResourcesMenu(resourcesButton.getAttribute('aria-expanded') !== 'true');
+  });
+
+  resourcesMenu?.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => setResourcesMenu(false));
+  });
+
+  document.addEventListener('click', (e) => {
+    if (e.target instanceof Node && !resourcesDropdown?.contains(e.target)) setResourcesMenu(false);
+  });
 
   function openMenu() {
     drawer?.classList.remove('hidden');
     btn?.setAttribute('aria-expanded', 'true');
-    btn?.setAttribute('aria-label', 'Close menu');
+    btn?.setAttribute('aria-label', menuCloseLabel);
     iconMenu?.classList.add('hidden');
     iconClose?.classList.remove('hidden');
     document.body.style.overflow = 'hidden';
@@ -314,7 +350,7 @@ function isActive(href: string): boolean {
   function closeMenu() {
     drawer?.classList.add('hidden');
     btn?.setAttribute('aria-expanded', 'false');
-    btn?.setAttribute('aria-label', 'Open menu');
+    btn?.setAttribute('aria-label', menuOpenLabel);
     iconMenu?.classList.remove('hidden');
     iconClose?.classList.add('hidden');
     document.body.style.overflow = '';
@@ -327,7 +363,10 @@ function isActive(href: string): boolean {
 
   // Close drawer on Escape
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeMenu();
+    if (e.key === 'Escape') {
+      closeMenu();
+      setResourcesMenu(false);
+    }
   });
 
   // Close drawer when a nav link is clicked

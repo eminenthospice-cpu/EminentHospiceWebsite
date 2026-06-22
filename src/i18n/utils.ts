@@ -53,6 +53,7 @@ export function useTranslations(lang: Locale) {
 /** Localized path helper — prepends /en or /ko */
 export function localizedPath(path: string, lang: Locale): string {
   const clean = path.startsWith('/') ? path : `/${path}`;
+  if (clean === '/') return `/${lang}`;
   return `/${lang}${clean}`;
 }
 

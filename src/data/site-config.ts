@@ -47,13 +47,9 @@ export const TURNSTILE = {
   /**
    * Cloudflare Turnstile site key (public, safe to commit).
    *
-   * Default is Cloudflare's official TEST key, which always passes — the form
-   * flow works end-to-end immediately. For real bot protection:
-   *   1. Create a widget at dash.cloudflare.com → Turnstile (add domains
-   *      eminenthospicewebsite.pages.dev + any custom domain).
-   *   2. Replace `siteKey` below with the real site key.
-   *   3. Set the matching secret on the Pages project (NOT committed):
-   *      npx wrangler pages secret put TURNSTILE_SECRET_KEY --project-name=eminenthospicewebsite
+   * Production uses the real widget key below. Also set the matching secret on
+   * the Pages project (NOT committed):
+   *   npx wrangler pages secret put TURNSTILE_SECRET_KEY --project-name=eminenthospicewebsite
    * The server-side check lives in functions/api/submit.js.
    */
   siteKey: '0x4AAAAAADpPbjFtS1-557HJ',

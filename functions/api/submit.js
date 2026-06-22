@@ -17,11 +17,6 @@ const ENDPOINTS = {
   referral: 'https://formspree.io/f/mlgyewka',
 };
 
-// Cloudflare's documented TEST secret (always passes). Used only when
-// TURNSTILE_SECRET_KEY is not configured, so the flow works before real keys
-// are set. Replace by setting the secret on the Pages project.
-const TEST_SECRET = '1x0000000000000000000000000000000AA';
-
 const SITEVERIFY = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
 
 function json(status, body) {
@@ -48,12 +43,16 @@ export async function onRequestPost({ request, env }) {
   const token = form.get('cf-turnstile-response');
   if (!token) return json(400, { error: 'turnstile-missing' });
 
+  if (!env.TURNSTILE_SECRET_KEY) {
+    return json(500, { error: 'turnstile-not-configured' });
+  }
+
   // Verify the Turnstile token.
   const verify = await fetch(SITEVERIFY, {
     method: 'POST',
     headers: { 'content-type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams({
-      secret: env.TURNSTILE_SECRET_KEY || TEST_SECRET,
+      secret: env.TURNSTILE_SECRET_KEY,
       response: token,
       remoteip: request.headers.get('CF-Connecting-IP') || '',
     }),

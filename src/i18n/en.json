@@ -1079,7 +1079,7 @@
       "heading": "Reach us directly",
       "phoneLabel": "Phone",
       "emailLabel": "Email",
-      "emailValue": "info@eminenthospice.com",
+      "emailValue": "eminenthospice@gmail.com",
       "hoursLabel": "Hours",
       "hoursValue": "Available 24 hours a day, 7 days a week",
       "addressLabel": "Address",
@@ -1289,7 +1289,7 @@
       },
       "retention": {
         "title": "How long we keep your information",
-        "body": "Submissions are retained at our email vendor for approximately {retentionDays} days, and in our staff mailboxes for up to 90 days, after which they are deleted. Server logs follow standard operational retention. If you ask us to delete your information sooner, we will do so unless we are required by law or by your hospice care plan to retain it."
+        "body": "Submissions are retained at our email vendor for approximately 90 days, and in our staff mailboxes for up to 90 days, after which they are deleted. Server logs follow standard operational retention. If you ask us to delete your information sooner, we will do so unless we are required by law or by your hospice care plan to retain it."
       },
       "security": {
         "title": "How we protect your information",
@@ -1300,7 +1300,7 @@
         "ccpa": {
           "title": "California Consumer Privacy Act (CCPA / CPRA)",
           "body": "If you are a California resident, you have the right to know what personal information we have collected about you, to request that we delete it, to correct inaccurate information, and to be free from discrimination for exercising these rights. We do not sell or share your personal information for cross-context behavioral advertising, so there is no \"Do Not Sell or Share My Personal Information\" link on this site.",
-          "howToExercise": "To exercise any of these rights, email us at info@eminenthospice.com or call us at {phone}. We may ask for limited information to verify your identity before we act on your request."
+          "howToExercise": "To exercise any of these rights, email us at eminenthospice@gmail.com or call us at {phone}. We may ask for limited information to verify your identity before we act on your request."
         },
         "hipaa": {
           "title": "HIPAA",
@@ -1319,7 +1319,7 @@
         "title": "Contact us about privacy",
         "body": "If you have questions about this Privacy Policy or how we handle your information, please contact us:",
         "emailLabel": "Email",
-        "email": "info@eminenthospice.com",
+        "email": "eminenthospice@gmail.com",
         "phoneLabel": "Phone"
       }
     }
@@ -1382,7 +1382,7 @@
         "title": "How to report an accessibility issue",
         "body": "If you encounter a barrier on this website, please tell us. We want to fix it.",
         "emailLabel": "Email",
-        "email": "info@eminenthospice.com",
+        "email": "eminenthospice@gmail.com",
         "phoneLabel": "Phone",
         "responseTime": "We aim to respond within five business days."
       }
@@ -1443,7 +1443,7 @@
         "title": "Contact us",
         "body": "If you have questions about these terms, please contact us:",
         "emailLabel": "Email",
-        "email": "info@eminenthospice.com",
+        "email": "eminenthospice@gmail.com",
         "phoneLabel": "Phone"
       }
     }
