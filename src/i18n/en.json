@@ -22,7 +22,7 @@
   },
   "footer": {
     "flourish": "A Tradition of Compassion.",
-    "tagline": "Providing compassionate, expert hospice care to patients and families throughout Los Angeles County.",
+    "tagline": "Providing compassionate, expert hospice care to patients and families throughout Los Angeles and Orange County.",
     "footerNav": "Footer navigation",
     "quickLinksHeading": "Quick Links",
     "home": "Home",
@@ -49,13 +49,13 @@
   },
   "home": {
     "pageTitle": "Compassionate Hospice Care in Los Angeles",
-    "metaDescription": "Eminent Hospice Care delivers comfort-focused, dignified end-of-life care to patients and families throughout Los Angeles County. Bilingual English & Korean care, available 24/7.",
+    "metaDescription": "Eminent Hospice Care delivers comfort-focused, dignified end-of-life care to patients and families throughout Los Angeles and Orange County. Bilingual English & Korean care, available 24/7.",
     "hero": {
       "heading": "Care With Dignity.\nComfort With Compassion.",
-      "subtext": "Eminent Hospice Care walks alongside patients and families throughout Los Angeles County during life's most challenging moments — with skilled medical care, emotional support, and an unwavering commitment to dignity at home.",
+      "subtext": "Eminent Hospice Care walks alongside patients and families throughout Los Angeles and Orange County during life's most challenging moments or periods — with skilled medical care, emotional support, and an unwavering commitment to dignity at home.",
       "ctaPrimary": "Learn About Hospice",
       "ctaSecondary": "Contact Us",
-      "caption": "Medicare-certified · Los Angeles County"
+      "caption": "Medicare-certified · Los Angeles & Orange County"
     },
     "byTheNumbers": {
       "ariaLabel": "Trust indicators",
@@ -65,7 +65,7 @@
       },
       "stat2": {
         "value": "2",
-        "label": "Languages spoken"
+        "label": "Languages spoken (English / Korean)"
       },
       "stat3": {
         "value": "100%",
@@ -80,7 +80,7 @@
     },
     "levels": {
       "title": "Four Levels of Care",
-      "subtitle": "Medicare defines four levels of hospice care to match each patient's needs as they change. We deliver every level, seamlessly.",
+      "subtitle": "Medicare defines four levels of hospice care to match each patient's needs as they change. We deliver every level, with care.",
       "learnMore": "Learn more",
       "routine": {
         "title": "Routine Home Care",
@@ -88,11 +88,11 @@
       },
       "continuous": {
         "title": "Continuous Home Care",
-        "desc": "Around-the-clock nursing during periods of acute symptom crisis, so the patient can stay home through difficult moments."
+        "desc": "Around-the-clock nursing care during periods of acute symptom crisis, so the patient can stay home through difficult moments."
       },
       "inpatient": {
         "title": "General Inpatient Care",
-        "desc": "Short-term inpatient stays when pain or symptoms can no longer be safely managed at home."
+        "desc": "Inpatient stays (limited days) when pain or symptoms can no longer be safely managed at home."
       },
       "respite": {
         "title": "Respite Care",
@@ -141,7 +141,7 @@
       "title": "Who We Serve",
       "area": {
         "title": "Service Area",
-        "desc": "Throughout Los Angeles County — from the South Bay to the San Fernando Valley."
+        "desc": "Throughout Los Angeles and Orange County — from the South Bay to the San Fernando Valley."
       },
       "languages": {
         "title": "Languages",
@@ -239,14 +239,14 @@
   },
   "understandingHospice": {
     "pageTitle": "Understanding Hospice Care",
-    "metaDescription": "What hospice care is, who qualifies, common myths corrected, and what to expect after enrollment. A plain-language guide for patients and families in Los Angeles County.",
+    "metaDescription": "What hospice care is, who qualifies, common myths corrected, and what to expect after enrollment. A plain-language guide for patients and families in Los Angeles and Orange County.",
     "lastReviewed": "2026-05-01",
     "introParagraph": "Hospice is one of the most misunderstood parts of modern medicine. This page is a plain-language guide to what hospice actually is, who qualifies, and what happens after you enroll.",
     "sections": {
       "whatIsHospice": {
         "title": "What Is Hospice?",
         "p1": "Hospice is comfort-focused care for patients facing a serious, life-limiting illness when curative treatments are no longer effective or no longer wanted. Rather than trying to cure the illness, hospice focuses on relieving pain, managing symptoms, and supporting the patient's emotional, spiritual, and family well-being.",
-        "p2": "Hospice is a benefit you elect — you choose comfort care as your goal, and an interdisciplinary team comes to wherever you call home to deliver it. Most patients receive hospice at home; care can also happen in an assisted living community, skilled nursing facility, or a hospice inpatient setting."
+        "p2": "Hospice is a benefit you elect — you choose comfort care as your goal, and an interdisciplinary team comes to wherever you call home to deliver it. Most patients receive hospice at home (some in a skilled nursing facility or assisted-living community); care can also happen in an assisted living community, skilled nursing facility, or a hospice inpatient setting."
       },
       "whoQualifies": {
         "title": "Who Qualifies?",
@@ -288,31 +288,31 @@
         "items": [
           {
             "myth": "Hospice means giving up.",
-            "fact": "Hospice is choosing comfort and dignity, not death. Many patients feel relief, regain their appetite, and find time for what matters most once aggressive treatments are set aside."
+            "fact": "No — hospice is not giving up; it is finding quality of life for the days that remain. Hospice is choosing comfort and dignity, not death. Many patients feel relief, regain their appetite, and find time for what matters most once aggressive treatments are set aside."
           },
           {
             "myth": "Hospice hastens death.",
-            "fact": "Research consistently shows hospice patients often live as long as, or longer than, similar patients who do not enroll. Better symptom control, fewer hospitalizations, and emotional support all contribute."
+            "fact": "No. Research consistently shows hospice patients often live as long as, or longer than, similar patients who do not enroll. Better symptom control, fewer hospitalizations, and emotional support all contribute."
           },
           {
             "myth": "You have to stop all your medications.",
-            "fact": "Hospice continues medications that relieve symptoms — pain, nausea, anxiety, shortness of breath. Only treatments aimed at curing the terminal illness are paused; comfort medications are not."
+            "fact": "No. Hospice continues medications that relieve symptoms — pain, nausea, anxiety, shortness of breath. Only treatments aimed at curing the terminal illness are paused; comfort medications are not. Patients often continue medications that maintain quality of life — for example for high blood pressure or diabetes — when medically safe."
           },
           {
             "myth": "Hospice is only for cancer patients.",
-            "fact": "Any terminal illness with a six-month prognosis qualifies — including heart disease, lung disease, dementia, kidney failure, ALS, and many others."
+            "fact": "No. Any terminal illness with a six-month prognosis qualifies — including heart disease, lung disease, dementia, kidney failure, ALS, and many others."
           },
           {
             "myth": "Hospice is only for the very last days.",
-            "fact": "Hospice is most beneficial when started early — weeks or months before the end of life, not days. Earlier enrollment means more time for symptom control, family preparation, and meaningful moments together."
+            "fact": "No. Hospice is most beneficial when started early — weeks or months before the end of life, not days. Earlier enrollment means more time for symptom control, family preparation, and meaningful moments together."
           }
         ]
       },
       "whatToExpect": {
         "title": "What to Expect After You Enroll",
-        "p1": "Within 48 hours of admission, an RN case manager visits to complete an initial assessment, set up the care plan with you, and arrange any medications or equipment you need. Most equipment — hospital beds, oxygen, wheelchairs, commodes — is delivered to your home at no cost.",
-        "p2": "Your interdisciplinary team — physician, nurses, hospice aide, medical social worker, chaplain, and bereavement coordinator — meets every two weeks to review your care plan. RN visits are typically one to three times a week, with aide and other team members on a schedule that fits your needs. A nurse is on call 24 hours a day, 7 days a week.",
-        "p3": "The plan of care is yours. If something isn't working, tell us — we adjust. If a symptom gets worse, call the on-call nurse. If comfort can't be achieved at home, we can move you temporarily to an inpatient facility for more intensive care, then back home when stable."
+        "p1": "An RN case manager visits to complete an initial assessment, set up the care plan with you, and arrange any medications or equipment you need. Most equipment — hospital beds, oxygen, wheelchairs, commodes — is delivered to your home at no cost.",
+        "p2": "Your interdisciplinary team — physician, nurses, hospice aide, medical social worker, chaplain, and bereavement coordinator — meets every two weeks to review your care plan. RN visits are typically one to three times per two weeks, with aide and other team members on a schedule that fits your needs. A nurse is on call 24 hours a day, 7 days a week.",
+        "p3": "The plan of care is yours. If something isn't working, tell us — we adjust. If a symptom gets worse, call the on-call nurse."
       },
       "whereCareHappens": {
         "title": "Where Hospice Happens",
@@ -332,13 +332,13 @@
           },
           "inpatient": {
             "name": "Inpatient Hospice",
-            "desc": "For short periods of acute symptom management, care can shift to an inpatient hospice setting until the patient is stable enough to return home."
+            "desc": "For short periods of acute symptom management, care can shift to an inpatient hospice setting until the patient is stable enough to return home. (Limited availability depending on service area.)"
           }
         }
       },
       "stoppingHospice": {
         "title": "You Can Stop or Pause Hospice",
-        "p1": "Electing hospice is not a one-way door. If you decide to pursue curative treatment again, you can revoke the hospice benefit at any time and return to standard Medicare or your other insurance. You can also re-elect hospice later if your situation changes. There is no penalty and no waiting period."
+        "p1": "Electing hospice is not a one-way door. If you decide to pursue curative treatment again, you can revoke the hospice benefit at any time and return to standard Medicare or your other insurance. You can also re-elect hospice later if your situation changes. There is no penalty and no waiting period. That said, Medicare often reviews revocation cases to confirm eligibility, so revocation should be considered carefully."
       }
     }
   },
@@ -425,7 +425,7 @@
       "cost": {
         "title": "Quick Answer: What Does Hospice Cost?",
         "p1": "For most patients, hospice care costs $0. Medicare Part A and Medi-Cal cover hospice services in full when you elect the hospice benefit. There are no deductibles or coinsurance for hospice services themselves.",
-        "footnote": "Small Medicare cost-sharing applies in two narrow cases: outpatient drugs related to your terminal illness (up to $5 per prescription) and inpatient respite care (5% of the Medicare-approved rate, capped at the annual inpatient hospital deductible). Both caps are set by federal regulation; you will never be billed more than these limits."
+        "footnote": "Small Medicare cost-sharing applies in two narrow cases: outpatient drugs related to your terminal illness (up to $5 per prescription) and inpatient respite care (5% of the Medicare-approved rate, capped at the annual inpatient hospital deductible). Both caps are set by federal regulation; you will never be billed more than these limits. The patient or family will be notified of any additional cost by the hospice agency."
       },
       "medicare": {
         "title": "Medicare Part A Hospice Benefit",
@@ -471,7 +471,7 @@
       },
       "comparison": {
         "title": "Medicare vs. Medi-Cal vs. Private Insurance",
-        "intro": "A side-by-side look at what each pays for. For most patients in Los Angeles County, Medicare or Medi-Cal will be the primary coverage.",
+        "intro": "A side-by-side look at what each pays for. For most patients in Los Angeles and Orange County, Medicare or Medi-Cal will be the primary coverage.",
         "tableCaption": "Hospice coverage comparison across the three most common payers.",
         "headers": {
           "service": "What's covered",
@@ -534,8 +534,8 @@
   },
   "about": {
     "pageTitle": "About Eminent Hospice Care",
-    "metaDescription": "Eminent Hospice Care delivers compassionate, culturally aware end-of-life care across Los Angeles County. Learn our mission, values, interdisciplinary team, and bilingual EN/KO commitment to Korean-American families.",
-    "introParagraph": "Eminent Hospice Care is a Medicare-certified hospice serving Los Angeles County with a particular commitment to bilingual care for Korean-American families. We exist for one reason: to walk alongside patients and the people who love them through life's final chapter.",
+    "metaDescription": "Eminent Hospice Care delivers compassionate, culturally aware end-of-life care across Los Angeles and Orange County. Learn our mission, values, interdisciplinary team, and bilingual EN/KO commitment to Korean-American families.",
+    "introParagraph": "Eminent Hospice Care is a Medicare-certified hospice serving Los Angeles and Orange County with a particular commitment to bilingual care for Korean-American families. We exist for one reason: to walk alongside patients and the people who love them through life's final chapter.",
     "sections": {
       "mission": {
         "title": "Our Mission",
@@ -565,17 +565,18 @@
       },
       "story": {
         "title": "A Brief Story",
-        "body": "Founded in 2018, Eminent Hospice Care provides an individualized program of physical, emotional, spiritual, and psychosocial care for people in the last phases of a life-limiting illness, with an emphasis on control of pain and other symptoms. Under the leadership of current owner Hanna Cha, our team works to alleviate as much pain, worry, and inconvenience as possible for patients and families facing serious illness — with a particular commitment to the Korean-American community of greater Los Angeles, whose families have long needed care delivered in their own language."
+        "body": "Founded in 2018, Eminent Hospice Care provides an individualized program of physical, emotional, spiritual, and psychosocial care for people in the last phases of a life-limiting illness, with an emphasis on control of pain and other symptoms. Under the leadership of current owner Hanna Cha, our team works to alleviate as much pain, worry, and inconvenience as possible for patients and families facing serious illness — with a particular commitment to the Korean-American community of greater Los Angeles and Orange County, whose families have long needed care delivered in their own language."
       },
       "serviceArea": {
         "title": "Service Area",
-        "body": "We serve Los Angeles County, with patients and families across the region. Our team coordinates visits, on-call coverage, and medication delivery anywhere within our service area.",
+        "body": "We serve Los Angeles and Orange County, with patients and families across the region. Our team coordinates visits, on-call coverage, and medication delivery anywhere within our service area.",
         "regionsHeading": "Where we deliver care",
         "regions": {
           "southBay": "South Bay",
           "sanFernandoValley": "San Fernando Valley",
           "sanGabrielValley": "San Gabriel Valley",
-          "greaterLA": "Greater Los Angeles"
+          "greaterLA": "Greater Los Angeles",
+          "orangeCounty": "Orange County"
         },
         "hoursNote": "Available 24 hours a day, 7 days a week — a registered nurse answers our on-call line at every hour."
       },
@@ -622,38 +623,38 @@
       "addressCountry": "US"
     },
     "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 00:00-23:59",
-    "areaServed": "Los Angeles County, CA"
+    "areaServed": "Los Angeles County and Orange County, CA"
   },
   "services": {
     "pageTitle": "Hospice Services",
-    "metaDescription": "All four Medicare-defined levels of hospice care, an eight-discipline interdisciplinary team, 24/7 on-call nursing, and medication + equipment delivery — delivered throughout Los Angeles County, in English and Korean.",
+    "metaDescription": "All four Medicare-defined levels of hospice care, an eight-discipline interdisciplinary team, 24/7 on-call nursing, and medication + equipment delivery — delivered throughout Los Angeles and Orange County, in English and Korean.",
     "introParagraph": "Hospice is a comprehensive benefit, not a single service. This page walks through every level of care we deliver, every discipline on our team, and the supporting services that make care work day-to-day at home.",
     "sections": {
       "offer": {
         "title": "What We Offer",
-        "body": "All four Medicare-defined levels of hospice care, delivered by a full interdisciplinary team, twenty-four hours a day, seven days a week, anywhere a patient calls home in Los Angeles County. New to hospice?",
+        "body": "All four Medicare-defined levels of hospice care, delivered by a full interdisciplinary team, twenty-four hours a day, seven days a week, anywhere a patient calls home in Los Angeles and Orange County. New to hospice?",
         "linkToUnderstanding": "Start with our Understanding Hospice Care guide →"
       },
       "levels": {
         "title": "The Four Levels of Care",
-        "intro": "Your level of care can change day to day depending on what you need. We deliver every level, seamlessly. For coverage and payment details, see our Insurance & Medicare page.",
+        "intro": "Your level of care can change day to day depending on what you need. We deliver every level, with care. For coverage and payment details, see our Insurance & Medicare page.",
         "routine": {
           "title": "Routine Home Care",
           "summary": "Scheduled visits from your hospice team — nursing, aide, social worker, chaplain — to wherever you live. The most common level, used by most patients most of the time.",
           "clinical": "Routine Home Care is appropriate when symptoms are stable and the patient and family can manage day-to-day at home with scheduled team support. This is the level most hospice patients use most of the time.",
-          "atHome": "Visit frequencies are individualized: typically an RN one to three times per week, an aide several times per week, and the social worker and chaplain on a schedule that fits the family's needs. Visits change as the patient changes."
+          "atHome": "Visit frequencies are individualized: typically a skilled nursing visit one to three times per week, an aide several times per week, and the social worker and chaplain on a schedule that fits the family's needs. Visits change as the patient changes."
         },
         "continuous": {
           "title": "Continuous Home Care",
           "summary": "Nursing presence at home during an acute symptom crisis, so the patient can stay home through a difficult stretch instead of going to the hospital.",
           "clinical": "Continuous Home Care provides nursing presence for stretches of eight or more hours within a twenty-four-hour period during an acute symptom crisis — pain that is not yet controlled, severe shortness of breath, or another situation that would otherwise lead to a hospital visit. The goal is to manage the crisis at home.",
-          "atHome": "An RN (and often an LVN) stays at the home until the symptom is brought under control. Once the crisis is resolved, care returns to the Routine Home Care level."
+          "atHome": "An RN (and often an LVN or other staff) stays at the home until the symptom is brought under control. Hours and staffing vary depending on symptoms and the patient's needs. Once the crisis is resolved, care returns to the Routine Home Care level."
         },
         "gip": {
           "title": "General Inpatient Care",
           "summary": "Short-term inpatient care for symptoms that cannot be safely managed at home. Patients return home as soon as symptoms are stable.",
           "clinical": "General Inpatient Care is short-term care at a contracted facility — hospital, freestanding hospice inpatient unit, or skilled nursing facility — used when symptoms cannot be safely managed at home. Patients return home as soon as symptoms are stable.",
-          "atHome": "We coordinate the transfer, communicate with the facility's clinical team, and stay involved during the inpatient stay. As soon as symptoms are managed, we coordinate the return home."
+          "atHome": "We coordinate the transfer, communicate with the facility's clinical team, and stay involved during the inpatient stay."
         },
         "respite": {
           "title": "Inpatient Respite Care",
@@ -672,7 +673,7 @@
         },
         "rn": {
           "role": "Registered Nurse (RN)",
-          "body": "The clinical lead. Conducts the initial assessment, sets up the care plan with the patient and family, and leads symptom management at every subsequent visit. Typical visit frequency is one to three times per week, with more visits during periods of change. The on-call line is answered by an RN twenty-four hours a day."
+          "body": "The clinical lead. Conducts the initial assessment, sets up the care plan with the patient and family, and leads symptom management at every subsequent visit. Typical visit frequency is one to three times per week, with more visits during periods of change. The on-call line (English and Korean) is answered by an RN twenty-four hours a day — by direct call or text."
         },
         "lvn": {
           "role": "Licensed Vocational Nurse (LVN)",
@@ -680,15 +681,15 @@
         },
         "msw": {
           "role": "Medical Social Worker (MSW)",
-          "body": "Helps families navigate the parts of hospice that are not strictly medical — emotional support, family meetings, advance-directive paperwork, community-resource referrals (transportation, meal services, financial assistance), and care coordination with skilled nursing facilities. Visits on a schedule that fits the family's needs."
+          "body": "Helps families navigate the parts of hospice that are not strictly medical — emotional support, family meetings, advance-directive paperwork, community-resource referrals (transportation, meal services, financial, insurance, and social-services (IHSS) assistance), and care coordination with skilled nursing facilities. Visits on a schedule that fits the family's needs."
         },
         "chaplain": {
           "role": "Spiritual Care / Chaplain",
-          "body": "Offers non-denominational spiritual support honoring the patient's faith and tradition. Coordinates with the family's own clergy when that is preferred. The chaplain is available for ritual, conversation, or simply presence — whichever the family wants."
+          "body": "Offers non-denominational spiritual support honoring the patient's faith and tradition. Coordinates with the family's own clergy when that is preferred. The chaplain is available for ritual, conversation, or simply presence — whichever the family wants. Generally, chaplains visit the patient about once a month."
         },
         "aide": {
           "role": "Hospice Aide",
-          "body": "Assists with bathing, grooming, light meal preparation, and daily personal care — the day-to-day tasks that become harder as illness progresses. Visit frequency is set by the RN and tailored to the family's needs."
+          "body": "Assists with bathing, grooming, light meal preparation, and daily personal care — the day-to-day tasks that become harder as illness progresses. Visit frequency is set by the RN and tailored to the family's needs. Generally, hospice aides visit the patient about twice a week."
         },
         "bereavement": {
           "role": "Bereavement Coordinator",
@@ -704,15 +705,15 @@
         "intro": "The services that make hospice work day-to-day at home.",
         "oncall": {
           "title": "24/7 On-Call Nursing Line",
-          "body": "A registered nurse answers our on-call line at every hour. If a symptom worsens or a family member is worried, calling us is always the right first step."
+          "body": "A registered nurse answers our on-call line at every hour. If a symptom worsens or a family member is worried, calling or texting us is always the right first step."
         },
         "meds": {
           "title": "Medication Delivery",
-          "body": "Comfort medications related to the terminal illness are coordinated by our team and delivered to the home. Families do not chase prescriptions or stand in line at the pharmacy."
+          "body": "All medications related to the terminal illness are coordinated by our team and delivered to the home or residence. Families do not chase prescriptions or stand in line at the pharmacy."
         },
         "dme": {
           "title": "Durable Medical Equipment (DME)",
-          "body": "Hospital bed, oxygen concentrator, wheelchair, commode, and other equipment are ordered and delivered to the home at no additional cost when ordered through our hospice."
+          "body": "Hospital bed, oxygen concentrator, wheelchair, commode, and other equipment are ordered and delivered to the home or residence at no additional cost when ordered through our hospice."
         },
         "bereavement": {
           "title": "Bereavement Support",
@@ -728,8 +729,8 @@
         "intro": "Three steps. Usually a same-day or next-day start.",
         "steps": {
           "1": "Call our 24/7 line or use the Contact form. A team member answers.",
-          "2": "We coordinate with the patient's physician to certify eligibility — most patients can be certified within hours.",
-          "3": "An RN visits within 48 hours (often same-day) to set up the care plan and arrange medications and equipment."
+          "2": "We coordinate with the patient's physician to certify eligibility — most patients can be certified within hours (or up to a few days, depending on the physician's availability).",
+          "3": "An RN visits within 48 hours (often same-day) to evaluate for hospice eligibility and set up the care plan and arrange medications and equipment."
         },
         "callCta": "Call Now",
         "referCta": "Make a Referral"
@@ -744,14 +745,14 @@
     "sections": {
       "expect": {
         "title": "What to Expect When Your Loved One Begins Hospice",
-        "body1": "In the first day or two after admission, a hospice nurse visits to review the plan of care with you, set up medications and equipment, and explain how to reach us 24/7. The pace is intentionally unhurried — we want you to feel oriented, not rushed.",
-        "body2": "Visits then settle into a rhythm tailored to your loved one's needs. Most families will see the nurse one to three times a week, the aide more often for hygiene help, and the social worker and chaplain on a regular cadence. As needs change, the team adjusts.",
+        "body1": "In the first few days — admission scheduled with the family and/or patient — a hospice nurse visits to review the plan of care with you, set up medications and equipment, and explain how to reach us 24/7. The pace is intentionally unhurried — we want you to feel oriented, not rushed.",
+        "body2": "Visits then settle into a rhythm tailored to your loved one's needs. Most families will see the nurse twice a week, the aide more often for hygiene help, and the social worker and chaplain on a regular basis, as scheduled. As needs change, the team adjusts.",
         "firstHours": {
           "title": "The first hours and days",
           "items": {
             "adminVisit": "An admission visit from a registered nurse to review the care plan, answer questions, and orient you and your loved one to hospice.",
             "carePlan": "A written plan of care reflecting your loved one's goals, the family's preferences, and the team's clinical assessment.",
-            "medsDme": "Comfort medications and any needed equipment (hospital bed, oxygen, wheelchair) coordinated and delivered to the home.",
+            "medsDme": "Comfort medications and any needed equipment (hospital bed, oxygen, wheelchair) and supplies (incontinence supplies, or extra nourishment such as Ensure or Glucerna) coordinated and delivered to the home.",
             "oncallLine": "A 24/7 nurse line activated for any question, day or night.",
             "idgCadence": "The interdisciplinary team — nurse, aide, social worker, chaplain — introduced and visit schedules set."
           }
@@ -778,7 +779,7 @@
         },
         "hygiene": {
           "title": "Hygiene & Skin Care",
-          "body": "Hospice aides assist with bathing, dressing, and personal care on a scheduled cadence. Between visits, gentle skin care and repositioning your loved one about every two hours helps prevent pressure injuries. Mouth care — moistening the lips and inside of the mouth — becomes especially important as drinking decreases."
+          "body": "Hospice aides assist with bathing, dressing, and personal care on a regular schedule. Between visits, gentle skin care and repositioning your loved one about every two hours helps prevent pressure injuries. Mouth care — moistening the lips and inside of the mouth — becomes especially important as drinking decreases."
         },
         "eating": {
           "title": "Eating & Drinking Changes",
@@ -1218,7 +1219,7 @@
   },
   "meta": {
     "siteName": "Eminent Hospice Care Inc.",
-    "ogDescription": "Compassionate, culturally competent hospice care serving Los Angeles County, including the Korean-American community. Available 24/7 in English and Korean.",
+    "ogDescription": "Compassionate, culturally competent hospice care serving Los Angeles and Orange County, including the Korean-American community. Available 24/7 in English and Korean.",
     "ogImageAlt": "Eminent Hospice Care — compassionate hospice care in Los Angeles",
     "titleTemplate": "%s | Eminent Hospice Care Inc."
   },
