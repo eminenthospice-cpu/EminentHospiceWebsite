@@ -46,7 +46,7 @@ const relatedLinks = [
     <h2>{s.cost.title}</h2>
     <p>{s.cost.p1}</p>
     <div class="not-prose mt-3 rounded-card border-l-4 border-primary-300 bg-primary-50 px-5 py-3">
-      <p class="text-sm text-ink-700">{s.cost.footnote}</p>
+      <p class="text-base text-ink-700">{s.cost.footnote}</p>
     </div>
   </section>
 
@@ -60,7 +60,7 @@ const relatedLinks = [
       ]).map(item => (
         <div class="rounded-card border border-line-soft bg-white p-5 shadow-soft">
           <p class="eyebrow text-primary-600 mb-1">{item.label}</p>
-          <p class="text-sm text-ink-700 leading-relaxed font-prose">{item.body}</p>
+          <p class="text-base text-ink-700 leading-relaxed font-prose">{item.body}</p>
         </div>
       ))}
     </div>
@@ -75,28 +75,28 @@ const relatedLinks = [
         return (
           <div class="rounded-card border border-line-soft bg-white p-5 shadow-soft">
             <h3 class="font-heading text-base text-ink-900 mb-1">{level.name}</h3>
-            <p class="text-sm text-ink-600 leading-relaxed mb-2">{level.desc}</p>
-            <p class="text-xs text-ink-400 italic">{level.rateNote}</p>
+            <p class="text-base text-ink-600 leading-relaxed mb-2">{level.desc}</p>
+            <p class="text-caption text-ink-400 italic">{level.rateNote}</p>
           </div>
         );
       })}
     </div>
     <div class="not-prose mt-4 rounded-card border border-line-soft bg-surface-paper p-5">
       <div class="flex justify-between flex-wrap gap-2 mb-3">
-        <span class="font-heading text-sm font-semibold text-ink-900">{s.levels.aggregateCap.label}</span>
-        <span class="font-heading text-sm font-semibold text-primary-700">{s.levels.aggregateCap.value}</span>
+        <span class="font-heading text-base font-semibold text-ink-900">{s.levels.aggregateCap.label}</span>
+        <span class="font-heading text-base font-semibold text-primary-700">{s.levels.aggregateCap.value}</span>
       </div>
-      <p class="text-xs text-ink-500">{s.levels.aggregateCap.desc}</p>
-      <p class="text-xs text-ink-400 mt-2 italic">{s.levels.sourceNote}</p>
+      <p class="text-caption text-ink-500">{s.levels.aggregateCap.desc}</p>
+      <p class="text-caption text-ink-400 mt-2 italic">{s.levels.sourceNote}</p>
     </div>
-    <p class="not-prose mt-2 text-xs text-ink-400 italic">{s.levels.fy2026Note}</p>
+    <p class="not-prose mt-2 text-caption text-ink-400 italic">{s.levels.fy2026Note}</p>
   </section>
 
   <section id="medical" class="scroll-mt-24">
     <h2>{s.medical.title}</h2>
     <p>{s.medical.body}</p>
     <div class="not-prose mt-3 rounded-card border-l-4 border-primary-300 bg-primary-50 px-5 py-3">
-      <p class="text-sm text-ink-700">{s.medical.roomAndBoardNote}</p>
+      <p class="text-base text-ink-700">{s.medical.roomAndBoardNote}</p>
     </div>
   </section>
 
@@ -104,7 +104,7 @@ const relatedLinks = [
     <h2>{s.comparison.headers.service} — 비교</h2>
     <p>{s.comparison.intro}</p>
     <div class="not-prose mt-4 overflow-x-auto">
-      <table class="w-full text-sm border-collapse">
+      <table class="w-full text-base border-collapse">
         <thead>
           <tr class="bg-surface-paper">
             <th class="text-left px-4 py-3 font-heading text-ink-700 border border-line-soft">{s.comparison.headers.service}</th>
@@ -133,15 +133,15 @@ const relatedLinks = [
     <ol class="not-prose mt-4 space-y-3">
       {s.election.steps.map((step, i) => (
         <li class="flex items-start gap-4">
-          <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-primary-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">
+          <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-primary-500 text-white text-caption font-bold flex-shrink-0 mt-0.5">
             {i + 1}
           </span>
-          <span class="text-ink-700 font-prose text-sm leading-relaxed">{step}</span>
+          <span class="text-ink-700 font-prose text-base leading-relaxed">{step}</span>
         </li>
       ))}
     </ol>
     <div class="not-prose mt-4 rounded-card border-l-4 border-primary-300 bg-primary-50 px-5 py-3">
-      <p class="text-sm text-ink-700">{s.election.revocationNote}</p>
+      <p class="text-base text-ink-700">{s.election.revocationNote}</p>
     </div>
   </section>
 

@@ -63,14 +63,14 @@ const relatedLinks = [
             <Icon name={conditionIcons[key] ?? 'shield'} class="w-4 h-4 text-primary-600" />
           </div>
           <div>
-            <p class="font-heading text-sm font-semibold text-ink-900 mb-0.5">{cond.name}</p>
-            <p class="text-xs text-ink-600 leading-relaxed">{cond.desc}</p>
+            <p class="font-heading text-base font-semibold text-ink-900 mb-0.5">{cond.name}</p>
+            <p class="text-body-sm text-ink-600 leading-relaxed">{cond.desc}</p>
           </div>
         </div>
       ))}
     </div>
     <div class="not-prose mt-5 rounded-card border-l-4 border-primary-300 bg-primary-50 px-5 py-4">
-      <p class="text-sm text-ink-700 leading-relaxed">{s.whoQualifies.prognosisNote}</p>
+      <p class="text-base text-ink-700 leading-relaxed">{s.whoQualifies.prognosisNote}</p>
     </div>
   </section>
 
@@ -90,8 +90,8 @@ const relatedLinks = [
         Your browser does not support the video tag.
       </video>
       <div class="px-5 py-4">
-        <p class="font-heading text-sm font-semibold text-ink-900">Hospice myths video</p>
-        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+        <p class="font-heading text-base font-semibold text-ink-900">Hospice myths video</p>
+        <p class="mt-1 text-base leading-relaxed text-ink-600">
           Korean narration with English subtitles, presented by Kim Jeong Ah, Nurse Practitioner.
         </p>
       </div>
@@ -100,16 +100,16 @@ const relatedLinks = [
       {s.myths.items.map(item => (
         <div class="rounded-card border border-line-soft bg-white p-5 shadow-soft">
           <div class="flex items-start gap-3 mb-3">
-            <span class="inline-block rounded-full bg-red-100 text-red-700 text-xs font-semibold px-2.5 py-0.5 flex-shrink-0 mt-0.5">
+            <span class="inline-block rounded-full bg-red-100 text-red-700 text-caption font-semibold px-2.5 py-0.5 flex-shrink-0 mt-0.5">
               {s.myths.mythLabel}
             </span>
             <p class="font-medium text-ink-800 italic leading-snug">{item.myth}</p>
           </div>
           <div class="flex items-start gap-3">
-            <span class="inline-block rounded-full bg-green-100 text-green-700 text-xs font-semibold px-2.5 py-0.5 flex-shrink-0 mt-0.5">
+            <span class="inline-block rounded-full bg-green-100 text-green-700 text-caption font-semibold px-2.5 py-0.5 flex-shrink-0 mt-0.5">
               {s.myths.factLabel}
             </span>
-            <p class="text-ink-700 text-sm leading-relaxed">{item.fact}</p>
+            <p class="text-ink-700 text-base leading-relaxed">{item.fact}</p>
           </div>
         </div>
       ))}
@@ -135,7 +135,7 @@ const relatedLinks = [
             </div>
             <h3 class="font-heading text-base text-ink-900">{opt.name}</h3>
           </div>
-          <p class="text-sm text-ink-600 leading-relaxed">{opt.desc}</p>
+          <p class="text-base text-ink-600 leading-relaxed">{opt.desc}</p>
         </div>
       ))}
     </div>

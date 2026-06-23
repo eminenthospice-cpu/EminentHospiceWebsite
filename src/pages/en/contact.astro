@@ -51,7 +51,7 @@ const directionsUrl = `https://www.google.com/maps?q=${encodeURIComponent(CONTAC
               <div class="flex items-start gap-3">
                 <Icon name="phone" class="w-5 h-5 mt-0.5 text-primary-600 flex-shrink-0" />
                 <div>
-                  <dt class="text-xs font-medium uppercase tracking-wide text-ink-400">
+                  <dt class="text-caption font-medium uppercase tracking-wide text-ink-400">
                     {t('contact.info.phoneLabel')}
                   </dt>
                   <dd>
@@ -70,7 +70,7 @@ const directionsUrl = `https://www.google.com/maps?q=${encodeURIComponent(CONTAC
               <div class="flex items-start gap-3">
                 <Icon name="mail" class="w-5 h-5 mt-0.5 text-primary-600 flex-shrink-0" />
                 <div>
-                  <dt class="text-xs font-medium uppercase tracking-wide text-ink-400">
+                  <dt class="text-caption font-medium uppercase tracking-wide text-ink-400">
                     {t('contact.info.emailLabel')}
                   </dt>
                   <dd>
@@ -89,7 +89,7 @@ const directionsUrl = `https://www.google.com/maps?q=${encodeURIComponent(CONTAC
               <div class="flex items-start gap-3">
                 <Icon name="calendar" class="w-5 h-5 mt-0.5 text-primary-600 flex-shrink-0" />
                 <div>
-                  <dt class="text-xs font-medium uppercase tracking-wide text-ink-400">
+                  <dt class="text-caption font-medium uppercase tracking-wide text-ink-400">
                     {t('contact.info.hoursLabel')}
                   </dt>
                   <dd class="text-ink-900">{t('contact.info.hoursValue')}</dd>
@@ -103,7 +103,7 @@ const directionsUrl = `https://www.google.com/maps?q=${encodeURIComponent(CONTAC
             <div class="flex items-start gap-3">
               <Icon name="mapPin" class="w-5 h-5 mt-0.5 text-primary-600 flex-shrink-0" />
               <div class="flex-1">
-                <h3 class="text-xs font-medium uppercase tracking-wide text-ink-400 mb-1">
+                <h3 class="text-caption font-medium uppercase tracking-wide text-ink-400 mb-1">
                   {t('contact.info.addressLabel')}
                 </h3>
                 <p class="text-ink-900 mb-3">{CONTACT.address.display}</p>
@@ -111,7 +111,7 @@ const directionsUrl = `https://www.google.com/maps?q=${encodeURIComponent(CONTAC
                   href={directionsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-sm
+                  class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-base
                          focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
                 >
                   {t('contact.info.getDirectionsLabel')}

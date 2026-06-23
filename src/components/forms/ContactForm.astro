@@ -55,8 +55,8 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
 
     <!-- Name -->
     <div class="space-y-1">
-      <label for="cf-name" class="block text-sm font-medium text-ink-800">
-        {t('contact.form.nameLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      <label for="cf-name" class="block text-body-sm font-medium text-ink-800">
+        {t('contact.form.nameLabel')} <span class="text-accent-gold-700" aria-label="required">*</span>
       </label>
       <input
         type="text"
@@ -65,18 +65,18 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
         required
         autocomplete="name"
         placeholder={t('contact.form.namePlaceholder')}
-        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-base text-ink-900
                placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
                focus:border-transparent transition-shadow duration-100 bg-white min-h-[44px]"
         aria-describedby="cf-name-err"
       />
-      <p id="cf-name-err" class="hidden text-xs text-red-600 mt-1" role="alert"></p>
+      <p id="cf-name-err" class="hidden text-caption text-red-600 mt-1" role="alert"></p>
     </div>
 
     <!-- Email -->
     <div class="space-y-1">
-      <label for="cf-email" class="block text-sm font-medium text-ink-800">
-        {t('contact.form.emailLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      <label for="cf-email" class="block text-body-sm font-medium text-ink-800">
+        {t('contact.form.emailLabel')} <span class="text-accent-gold-700" aria-label="required">*</span>
       </label>
       <input
         type="email"
@@ -85,26 +85,26 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
         required
         autocomplete="email"
         placeholder={t('contact.form.emailPlaceholder')}
-        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-base text-ink-900
                placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
                focus:border-transparent transition-shadow duration-100 bg-white min-h-[44px]"
         aria-describedby="cf-email-err"
       />
-      <p id="cf-email-err" class="hidden text-xs text-red-600 mt-1" role="alert"></p>
+      <p id="cf-email-err" class="hidden text-caption text-red-600 mt-1" role="alert"></p>
     </div>
 
     <!-- Phone (optional) -->
     <div class="space-y-1">
-      <label for="cf-phone" class="block text-sm font-medium text-ink-800">
+      <label for="cf-phone" class="block text-body-sm font-medium text-ink-800">
         {t('contact.form.phoneLabel')}
       </label>
-      <p class="text-xs text-ink-500">{t('contact.form.phoneHint')}</p>
+      <p class="text-caption text-ink-500">{t('contact.form.phoneHint')}</p>
       <input
         type="tel"
         id="cf-phone"
         name="phone"
         autocomplete="tel"
-        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-base text-ink-900
                placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
                focus:border-transparent transition-shadow duration-100 bg-white min-h-[44px]"
       />
@@ -112,14 +112,14 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
 
     <!-- Subject -->
     <div class="space-y-1">
-      <label for="cf-subject" class="block text-sm font-medium text-ink-800">
-        {t('contact.form.subjectLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      <label for="cf-subject" class="block text-body-sm font-medium text-ink-800">
+        {t('contact.form.subjectLabel')} <span class="text-accent-gold-700" aria-label="required">*</span>
       </label>
       <select
         id="cf-subject"
         name="subject"
         required
-        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-base text-ink-900
                focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent
                transition-shadow duration-100 bg-white min-h-[44px]"
       >
@@ -131,8 +131,8 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
 
     <!-- Message -->
     <div class="space-y-1">
-      <label for="cf-message" class="block text-sm font-medium text-ink-800">
-        {t('contact.form.messageLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      <label for="cf-message" class="block text-body-sm font-medium text-ink-800">
+        {t('contact.form.messageLabel')} <span class="text-accent-gold-700" aria-label="required">*</span>
       </label>
       <textarea
         id="cf-message"
@@ -140,16 +140,16 @@ const subjectKeys = ['general', 'insurance', 'volunteer', 'other'] as const;
         required
         rows="5"
         placeholder={t('contact.form.messagePlaceholder')}
-        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-base text-ink-900
                placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
                focus:border-transparent transition-shadow duration-100 bg-white resize-y"
         aria-describedby="cf-message-err"
       ></textarea>
-      <p id="cf-message-err" class="hidden text-xs text-red-600 mt-1" role="alert"></p>
+      <p id="cf-message-err" class="hidden text-caption text-red-600 mt-1" role="alert"></p>
     </div>
 
     <!-- Privacy note -->
-    <p class="text-xs text-ink-500 leading-relaxed">
+    <p class="text-caption text-ink-500 leading-relaxed">
       {lang === 'ko'
         ? '제출하시면 당사의 개인정보 처리방침에 동의하시는 것입니다. 제공하신 정보는 귀하의 문의에 응답하는 목적으로만 사용됩니다.'
         : 'By submitting, you agree to our Privacy Policy. We use your information only to respond to your inquiry.'}

@@ -76,7 +76,7 @@ const relatedLinks = [
     <h2 id="offer-h">{t('services.sections.offer.title')}</h2>
     <p class="mb-3">{t('services.sections.offer.body')}</p>
     <p>
-      <a href={lp('/understanding-hospice')} class="inline-flex items-center gap-1 text-sm font-medium text-primary-600 hover:text-primary-700 hover:underline">
+      <a href={lp('/understanding-hospice')} class="inline-flex items-center gap-1 text-base font-medium text-primary-600 hover:text-primary-700 hover:underline">
         {t('services.sections.offer.linkToUnderstanding')}
       </a>
     </p>
@@ -93,8 +93,8 @@ const relatedLinks = [
         Your browser does not support the video tag.
       </video>
       <div class="px-5 py-4">
-        <p class="font-heading text-sm font-semibold text-ink-900">Hospice core services video</p>
-        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+        <p class="font-heading text-base font-semibold text-ink-900">Hospice core services video</p>
+        <p class="mt-1 text-base leading-relaxed text-ink-600">
           Korean narration with English subtitles, presented by Kim Jeong Ah, Nurse Practitioner.
         </p>
       </div>
@@ -121,11 +121,11 @@ const relatedLinks = [
           </div>
           <p class="mb-3 leading-relaxed font-prose text-ink-800">{t(`services.sections.levels.${key}.summary`)}</p>
           <p class="mb-3 leading-relaxed font-prose text-ink-600">{t(`services.sections.levels.${key}.clinical`)}</p>
-          <p class="text-sm text-ink-500 leading-relaxed font-prose">{t(`services.sections.levels.${key}.atHome`)}</p>
+          <p class="text-base text-ink-500 leading-relaxed font-prose">{t(`services.sections.levels.${key}.atHome`)}</p>
         </article>
       ))}
     </div>
-    <p class="mt-5 text-sm text-ink-500 leading-relaxed font-prose not-prose" set:html={costFootnote} />
+    <p class="mt-5 text-base text-ink-500 leading-relaxed font-prose not-prose" set:html={costFootnote} />
   </section>
 
   <section id="team" aria-labelledby="team-h" class="reveal scroll-mt-24">
@@ -165,7 +165,7 @@ const relatedLinks = [
             <dt class="font-heading font-semibold text-ink-900 mb-1">
               {t(`services.sections.additional.${key}.title`)}
             </dt>
-            <dd class="text-sm text-ink-600 leading-relaxed font-prose">
+            <dd class="text-base text-ink-600 leading-relaxed font-prose">
               {t(`services.sections.additional.${key}.body`)}
             </dd>
           </div>
@@ -182,7 +182,7 @@ const relatedLinks = [
         <li class="flex gap-3 items-start bg-white rounded-card shadow-soft p-4">
           <span
             aria-hidden
-            class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-primary-500 text-white font-heading font-semibold text-sm flex-shrink-0"
+            class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-primary-500 text-white font-heading font-semibold text-base flex-shrink-0"
           >
             {i + 1}
           </span>

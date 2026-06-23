@@ -63,7 +63,7 @@ const relatedLinks = [
       {dataItems.map(item => (
         <div class="rounded-card border border-line-soft bg-white p-5 shadow-soft">
           <h3 class="font-heading text-base text-ink-900 mb-1">{item.title}</h3>
-          <p class="text-sm text-ink-600 leading-relaxed">{item.body}</p>
+          <p class="text-base text-ink-600 leading-relaxed">{item.body}</p>
         </div>
       ))}
     </div>
@@ -78,7 +78,7 @@ const relatedLinks = [
           <div class="rounded-full bg-primary-100 p-1 flex-shrink-0 mt-1">
             <Icon name="check" class="w-3.5 h-3.5 text-primary-700" />
           </div>
-          <span class="text-sm text-ink-700 leading-relaxed font-prose">{b}</span>
+          <span class="text-base text-ink-700 leading-relaxed font-prose">{b}</span>
         </li>
       ))}
     </ul>
@@ -111,7 +111,7 @@ const relatedLinks = [
     {(s.rights.hipaa as any)?.noticeLink && (
       <p class="not-prose mt-2">
         <a href={lp('/hipaa-notice')}
-          class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-sm
+          class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-base
                  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
           {common.relatedPages.links.hipaaNotice}
           <Icon name="arrowRight" class="w-4 h-4" />
@@ -138,13 +138,13 @@ const relatedLinks = [
         class="flex items-center gap-3 text-ink-700 hover:text-primary-600 transition-colors duration-100
                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
         <Icon name="mail" class="w-5 h-5 text-primary-600 flex-shrink-0" />
-        <span class="text-sm">{s.contact.emailLabel}: {s.contact.email}</span>
+        <span class="text-base">{s.contact.emailLabel}: {s.contact.email}</span>
       </a>
       <a href={`tel:${CONTACT.phone.tel}`}
         class="flex items-center gap-3 text-ink-700 hover:text-primary-600 transition-colors duration-100
                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
         <Icon name="phone" class="w-5 h-5 text-primary-600 flex-shrink-0" />
-        <span class="text-sm">{s.contact.phoneLabel}: {CONTACT.phone.display}</span>
+        <span class="text-base">{s.contact.phoneLabel}: {CONTACT.phone.display}</span>
       </a>
     </div>
   </section>

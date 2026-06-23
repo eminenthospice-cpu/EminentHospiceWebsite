@@ -42,7 +42,7 @@ const { title, description, lang, path, eyebrow, introParagraph, lastReviewed, d
               <p class="lead text-ink-700 max-w-prose">{introParagraph}</p>
             )}
             {disclaimerVariant === 'medical' && (
-              <div class="mt-4 px-4 py-3 bg-amber-50 border-l-4 border-amber-400 rounded-r-card text-sm text-ink-700 leading-relaxed">
+              <div class="mt-4 px-4 py-3 bg-amber-50 border-l-4 border-amber-400 rounded-r-card text-base text-ink-700 leading-relaxed">
                 {lang === 'ko'
                   ? '이 페이지의 정보는 교육 목적으로 제공되며 의료 조언을 대체하지 않습니다. 구체적인 상황에 대해서는 항상 호스피스 간호사에게 연락하세요.'
                   : 'This page provides general education and does not substitute for medical advice. For anything specific to your loved one, call your hospice nurse first.'}
@@ -71,9 +71,14 @@ const { title, description, lang, path, eyebrow, introParagraph, lastReviewed, d
 </BaseLayout>
 
 <style>
+  /* Headings clear the sticky header when reached via in-page anchors */
+  .prose-longform :global(h2),
+  .prose-longform :global(h3) {
+    scroll-margin-top: 6rem;
+  }
   .prose-longform :global(h2) {
     font-family: var(--font-heading);
-    font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+    font-size: clamp(1.5rem, 2.2vw, 1.75rem);
     color: var(--color-ink-900);
     margin-top: 3rem;
     margin-bottom: 0.75rem;
@@ -81,23 +86,23 @@ const { title, description, lang, path, eyebrow, introParagraph, lastReviewed, d
   }
   .prose-longform :global(h3) {
     font-family: var(--font-heading);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: var(--color-ink-900);
     margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
   .prose-longform :global(p) {
     font-family: var(--font-prose);
-    font-size: 1.0625rem;
-    line-height: 1.7;
+    font-size: 1.125rem;
+    line-height: 1.75;
     color: var(--color-ink-700);
     margin-bottom: 1.25rem;
   }
   .prose-longform :global(ul),
   .prose-longform :global(ol) {
     font-family: var(--font-prose);
-    font-size: 1.0625rem;
-    line-height: 1.7;
+    font-size: 1.125rem;
+    line-height: 1.75;
     color: var(--color-ink-700);
     margin-bottom: 1.25rem;
     padding-left: 1.5rem;

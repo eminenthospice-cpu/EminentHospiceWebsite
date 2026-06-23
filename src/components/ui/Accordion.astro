@@ -24,12 +24,12 @@ const { items, class: className = '' } = Astro.props;
   {items.map((item) => (
     <details class="group" open={item.open}>
       <summary class="flex items-center justify-between gap-4 py-5 cursor-pointer list-none min-h-[56px]
-        font-heading text-lg text-ink-900 hover:text-primary-700 transition-colors duration-150
+        font-heading text-xl text-ink-900 hover:text-primary-700 transition-colors duration-150
         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
         <span>{item.title}</span>
         <svg
           aria-hidden="true"
-          class="h-4 w-4 shrink-0 text-ink-400 transition-transform duration-200 group-open:rotate-180"
+          class="h-5 w-5 shrink-0 text-ink-500 transition-transform duration-200 group-open:rotate-180"
           fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"
         >
           <path stroke-linecap="round" stroke-linejoin="round" d="m19 9-7 7-7-7" />

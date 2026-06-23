@@ -37,7 +37,7 @@ const levels: Level[] = [
   <div class="hidden md:block border-t border-line-soft">
     {levels.map(({ key, num, slot }) => (
       <div class="reveal grid grid-cols-[auto_1fr_auto] gap-8 lg:gap-12 items-start py-10 border-b border-line-soft">
-        <span class="font-heading text-3xl tabular-nums text-accent-warm-500 leading-none pt-1 w-12 shrink-0">
+        <span class="font-heading text-3xl tabular-nums text-accent-gold-600 leading-none pt-1 w-12 shrink-0">
           {num}
         </span>
         <div>
@@ -47,7 +47,7 @@ const levels: Level[] = [
           </p>
           <a
             href={lp('/services')}
-            class="underline-grow inline-flex items-center gap-1.5 mt-4 py-2 text-sm font-medium text-primary-700 hover:text-primary-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
+            class="underline-grow inline-flex items-center gap-1.5 mt-4 py-2 text-base font-medium text-primary-700 hover:text-primary-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
           >
             {t('home.levels.learnMore')}
             <svg aria-hidden="true" class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -68,7 +68,7 @@ const levels: Level[] = [
       <details class="group border-b border-line-soft" open={i === 0}>
         <summary class="flex items-center gap-4 py-5 cursor-pointer list-none min-h-[64px]
           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm">
-          <span class="font-heading text-xl tabular-nums text-accent-warm-500 w-10 shrink-0">{num}</span>
+          <span class="font-heading text-xl tabular-nums text-accent-gold-600 w-10 shrink-0">{num}</span>
           <span class="font-heading text-lg text-ink-900 flex-1">{t(`home.levels.${key}.title`)}</span>
           <svg aria-hidden="true" class="h-4 w-4 shrink-0 text-ink-400 transition-transform duration-200 group-open:rotate-180" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="m19 9-7 7-7-7" />
@@ -79,7 +79,7 @@ const levels: Level[] = [
           <p class="text-ink-700 leading-relaxed font-prose">{t(`home.levels.${key}.desc`)}</p>
           <a
             href={lp('/services')}
-            class="underline-grow inline-flex items-center gap-1.5 text-sm font-medium text-primary-700"
+            class="underline-grow inline-flex items-center gap-1.5 text-base font-medium text-primary-700"
           >
             {t('home.levels.learnMore')}
             <svg aria-hidden="true" class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">

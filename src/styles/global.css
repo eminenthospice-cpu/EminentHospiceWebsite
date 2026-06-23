@@ -21,43 +21,61 @@
 
 /* ── Design tokens ───────────────────────────────────────── */
 @theme {
-  /* Color — brand */
-  --color-primary:        #2C5F8A;
-  --color-primary-50:     #EBF3FA;
-  --color-primary-100:    #C8DFF0;
-  --color-primary-200:    #A5CBE6;
-  --color-primary-300:    #82B7DC;
-  --color-primary-400:    #5FA3D2;
-  --color-primary-500:    #2C5F8A;
-  --color-primary-600:    #245079;
-  --color-primary-700:    #1C4168;
-  --color-primary-800:    #143257;
-  --color-primary-900:    #0C2346;
+  /* Color — brand primary (logo cerulean blue = trust / primary actions) */
+  --color-primary:        #2E8BC0;
+  --color-primary-50:     #EAF4FA;
+  --color-primary-100:    #C9E3F2;
+  --color-primary-200:    #A3CFE8;
+  --color-primary-300:    #79B8DC;
+  --color-primary-400:    #51A1CF;
+  --color-primary-500:    #2E8BC0;
+  --color-primary-600:    #2572A0;
+  --color-primary-700:    #1D5980;
+  --color-primary-800:    #164463;
+  --color-primary-900:    #0F2F46;
 
-  /* Color — warm accent (terracotta) */
-  --color-accent-warm-50:  #FBF4E8;
-  --color-accent-warm-100: #F4E4C9;
-  --color-accent-warm-200: #E8D5B7;
-  --color-accent-warm-300: #D7BC8E;
-  --color-accent-warm-400: #C6A465;
-  --color-accent-warm-500: #B08458;
-  --color-accent-warm-600: #8A6645;
-  --color-accent-warm-700: #604631;
+  /* Color — gold accent (logo gold = conversion: referral, phone, numerals).
+     Replaces the deprecated terracotta. 600+ are darkened for text on white. */
+  --color-accent-gold-50:  #FDF8E7;
+  --color-accent-gold-100: #FAEEBF;
+  --color-accent-gold-200: #F5E093;
+  --color-accent-gold-300: #F0D165;
+  --color-accent-gold-400: #ECC444;
+  --color-accent-gold-500: #E8B82E;
+  --color-accent-gold-600: #C2960F;
+  --color-accent-gold-700: #94720B;
+  --color-accent-gold-800: #6B5208;
+  --color-accent-gold-900: #463603;
 
-  /* Color — sage accent */
-  --color-accent-sage-50:  #EEF5EF;
-  --color-accent-sage-100: #D4E4D8;
-  --color-accent-sage-200: #B6D2BC;
-  --color-accent-sage-300: #94BB9C;
-  --color-accent-sage-400: #72A37C;
-  --color-accent-sage-500: #4A7C59;
-  --color-accent-sage-600: #3B6347;
-  --color-accent-sage-700: #2A4733;
+  /* Color — warm accent (DEPRECATED terracotta).
+     Aliased to gold during migration so existing accent-warm-* usages
+     pick up the new palette without breaking. Sweep to accent-gold-*,
+     then remove this block. */
+  --color-accent-warm-50:  var(--color-accent-gold-50);
+  --color-accent-warm-100: var(--color-accent-gold-100);
+  --color-accent-warm-200: var(--color-accent-gold-200);
+  --color-accent-warm-300: var(--color-accent-gold-300);
+  --color-accent-warm-400: var(--color-accent-gold-400);
+  --color-accent-warm-500: var(--color-accent-gold-500);
+  --color-accent-warm-600: var(--color-accent-gold-600);
+  --color-accent-warm-700: var(--color-accent-gold-700);
 
-  /* Color — ink (text) */
-  --color-ink-900: #1F2A37;
-  --color-ink-700: #3D4A5C;
-  --color-ink-500: #5F6B7A;
+  /* Color — sage accent (logo grass green = care / section accents) */
+  --color-accent-sage-50:  #EEF7E9;
+  --color-accent-sage-100: #D6ECC9;
+  --color-accent-sage-200: #BBE0A5;
+  --color-accent-sage-300: #9BD07D;
+  --color-accent-sage-400: #7BC05B;
+  --color-accent-sage-500: #5AAF3C;
+  --color-accent-sage-600: #498F30;
+  --color-accent-sage-700: #386E25;
+  --color-accent-sage-800: #2A521C;
+  --color-accent-sage-900: #1C3713;
+
+  /* Color — ink (text). 900 darkened toward AAA on cream surfaces. */
+  --color-ink-900: #1A2430;
+  --color-ink-700: #3A4757;
+  --color-ink-500: #5C6877;
   --color-ink-300: #94A0AE;
 
   /* Color — tint */
@@ -65,14 +83,14 @@
   --color-tint-dust:  #EFEBE4;
 
   /* Color — line */
-  --color-line-hairline: rgba(31,42,55,0.08);
-  --color-line-soft:     rgba(31,42,55,0.14);
+  --color-line-hairline: rgba(26,36,48,0.08);
+  --color-line-soft:     rgba(26,36,48,0.14);
 
   /* Color — surface */
-  --color-surface-paper:    #FBF8F3;
+  --color-surface-paper:    #FAFAF8;
   --color-surface-elevated: #FFFFFF;
-  --color-surface-ink:      #1A2B3C;
-  --color-surface-canvas:   #FAF6F0;
+  --color-surface-ink:      #122E44;
+  --color-surface-canvas:   #F4F6F4;
 
   /* Color — neutral */
   --color-neutral-warm:  #F8F6F2;
@@ -92,10 +110,24 @@
   --font-body:    'Inter Variable', 'Noto Sans KR', system-ui, sans-serif;
   --font-mono:    ui-monospace, 'SFMono-Regular', monospace;
 
-  /* Spacing — section rhythm */
-  --spacing-section-y:   5rem;
-  --spacing-section-2xl: 6.5rem;
-  --spacing-section-3xl: 8rem;
+  /* Typography — senior-readable scale.
+     16px floor for any text that carries meaning; 14px is the absolute
+     minimum, reserved for legal/metadata. Generates text-* utilities. */
+  --text-body:      1.125rem;   /* 18px — default body            */
+  --text-body--line-height: 1.7;
+  --text-body-sm:   1rem;       /* 16px — readable secondary copy */
+  --text-body-sm--line-height: 1.65;
+  --text-caption:   0.875rem;   /* 14px — legal / metadata only   */
+  --text-caption--line-height: 1.5;
+  --text-display-lg: clamp(2.5rem, 5vw, 3.75rem);
+  --text-display-lg--line-height: 1.05;
+  --text-display-xl: clamp(3rem, 6.5vw, 4.5rem);
+  --text-display-xl--line-height: 1.02;
+
+  /* Spacing — section rhythm (more air for larger type) */
+  --spacing-section-y:   5.5rem;
+  --spacing-section-2xl: 7rem;
+  --spacing-section-3xl: 8.5rem;
   --spacing-section-x:   1.5rem;
 
   /* Border radius */
@@ -103,11 +135,11 @@
   --radius-btn:     0.375rem;
   --radius-organic: 1.25rem;
 
-  /* Shadows */
-  --shadow-soft:       0 2px 8px -2px rgb(31 42 55 / 0.06), 0 8px 24px -8px rgb(31 42 55 / 0.08);
-  --shadow-float:      0 4px 16px -4px rgb(31 42 55 / 0.1), 0 16px 40px -12px rgb(31 42 55 / 0.12);
+  /* Shadows — tinted toward new primary hue */
+  --shadow-soft:       0 2px 8px -2px rgb(15 47 70 / 0.06), 0 8px 24px -8px rgb(15 47 70 / 0.08);
+  --shadow-float:      0 4px 16px -4px rgb(15 47 70 / 0.1), 0 16px 40px -12px rgb(15 47 70 / 0.12);
   --shadow-card:       0 1px 3px 0 rgb(0 0 0 / 0.08), 0 1px 2px -1px rgb(0 0 0 / 0.04);
-  --shadow-inset-line: inset 0 1px 0 0 rgb(31 42 55 / 0.06);
+  --shadow-inset-line: inset 0 1px 0 0 rgb(15 47 70 / 0.06);
 
   /* Transitions */
   --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
@@ -134,7 +166,7 @@ body {
   background-color: var(--color-surface-paper);
   color: var(--color-ink-900);
   font-size: 1.125rem;
-  line-height: 1.65;
+  line-height: 1.7;
 }
 
 /* Korean: keep whole syllables together */
@@ -196,17 +228,17 @@ h1, h2, h3, h4 {
 
 .eyebrow {
   font-family: var(--font-body);
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 600;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-ink-500);
 }
 
 .lead {
   font-family: var(--font-prose);
-  font-size: 1.375rem;
-  line-height: 1.6;
+  font-size: 1.5rem;
+  line-height: 1.65;
   letter-spacing: -0.005em;
   color: var(--color-ink-700);
   max-width: 65ch;
@@ -223,9 +255,18 @@ h1, h2, h3, h4 {
 
 .marginalia {
   font-family: var(--font-prose);
-  font-size: 0.8125rem;
-  line-height: 1.45;
+  font-size: 0.9375rem;
+  line-height: 1.5;
   letter-spacing: 0.005em;
+  color: var(--color-ink-500);
+}
+
+/* Stat / figure labels — readable at a glance for older adults */
+.stat-label {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
   color: var(--color-ink-500);
 }
 
@@ -240,10 +281,10 @@ h1, h2, h3, h4 {
 }
 
 .callout-marginalia {
-  border-left: 2px solid var(--color-accent-warm-300);
+  border-left: 2px solid var(--color-accent-gold-400);
   padding-left: 1rem;
   font-family: var(--font-prose);
-  font-size: 0.8125rem;
+  font-size: 0.9375rem;
   color: var(--color-ink-700);
 }
 

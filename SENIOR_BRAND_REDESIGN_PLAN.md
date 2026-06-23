@@ -2,7 +2,7 @@
 
 > **Overview:** A phased redesign of the active `eminent-astro` site that aligns the visual system with the logo's blue/green/gold palette, raises typography and touch targets for older adult readers, and preserves the polished editorial hospice aesthetic — all driven from centralized design tokens rather than one-off page fixes.
 
-**Status:** Planned (not yet implemented)  
+**Status:** Implemented — core system shipped 2026-06-23 (token foundation, primitives, shell, home, page readability sweep). Remaining: logo asset pipeline (blocked, see §2A), Phase 6 content polish, Phase 7 launch-checklist fixes.  
 **Created:** 2026-06-23
 
 ---
@@ -336,13 +336,14 @@ The redesign is complete when:
 
 ## Implementation checklist
 
-- [ ] **tokens-colors** — Define logo-aligned primary/sage/gold scales in `global.css` `@theme`; deprecate accent-warm; retint surfaces and shadows
-- [ ] **tokens-typography** — Add `--text-*` scale, bump `.eyebrow`/`.lead`/`.marginalia`, create `text-body-sm` (16px) utility; port display-lg/xl tokens
-- [ ] **logo-assets** — SVGO logo SVG, update site-config, header img, favicon, apple-touch-icon, og-default.png with new palette
-- [ ] **primitives** — Update Button, Badge, Accordion, Stat, forms, LongFormLayout; add gold variant and CtaBand component
-- [ ] **shell** — Redesign Header (logo, 16px nav, gold referral, dropdown a11y) and Footer (16px links, gold accents)
-- [ ] **home-page** — Apply color and typography pass to all 8 home section components
-- [ ] **inner-pages-t1** — Sweep Tier 1 pages: contact, referral, faq, for-families, services (en + ko)
-- [ ] **inner-pages-t2t3** — Sweep Tier 2–3 pages: understanding-hospice, insurance, hospice-laws, grief-support, about, legal pages
-- [ ] **launch-fixes** — Bundle LAUNCH_CHECKLIST items 4–9 and JSON-LD head slot fix
-- [ ] **qa-senior** — Run Lighthouse/axe, 200% zoom test, touch target audit, KO locale check; update accessibility statement
+- [x] **tokens-colors** — Logo-aligned primary (cerulean) / sage (grass) / gold scales in `global.css` `@theme`; accent-warm aliased to gold (deprecated); surfaces + shadows retinted
+- [x] **tokens-typography** — Added `--text-body`/`-body-sm`/`-caption`/`-display-lg`/`-display-xl`; bumped `.eyebrow` (14px), `.lead` (24px), `.marginalia` (15px); added `.stat-label`; body line-height 1.7
+- [ ] **logo-assets** — BLOCKED: source SVG is a macOS path (`/Users/seonho_kim/Downloads/…`) not present on this machine. Header keeps the colored wordmark until the source is supplied.
+- [x] **primitives** — Button (gold variant, 44px floor, deprecated `warm`→gold), Badge (gold, 14px), Accordion (20px summary/larger chevron), Stat (`.stat-label`), both forms (16px labels/inputs, gold required asterisk), LongFormLayout (18px prose, raised h2 floor, scroll-margin); new `CtaBand.astro` created
+- [x] **shell** — Header (16px nav, 44px targets, gold ink referral CTA, primary language pills, mojibake aria fix) and Footer (16px links + touch targets, 14px legal, sage dot, gold flourish/headings)
+- [x] **home-page** — All 8 sections: sage badge + ampersand, gold-600 numerals, 16px links/attribution, reduced caption tracking, explicit gold FinalCta
+- [x] **inner-pages-t1/t2t3** — Readability sweep across all 15 EN + KO pages: `text-xs`→14px, `text-sm`→16px, content descriptions→16px, TOC sidebar 16px. Terracotta fully resolved via token alias.
+- [ ] **launch-fixes** — NOT DONE: LAUNCH_CHECKLIST items 4–9 + JSON-LD head slot remain (separate from visual redesign)
+- [~] **qa-senior** — Production build green (32 pages); token values verified; KO mobile no-overflow confirmed. Still to do: Lighthouse/axe run, 200% zoom audit, accessibility-statement copy update.
+
+> **Phase 6 content polish** (plain-language intros, wiring `CtaBand` into long pages, sentence-case contact labels) is intentionally deferred — the `CtaBand` component exists but is not yet placed on pages.

@@ -83,7 +83,7 @@ const relatedLinks = [
             <h3 class="font-heading text-lg font-semibold text-ink-900 mb-1.5">
               {t(`about.sections.values.items.${key}.title`)}
             </h3>
-            <p class="text-sm text-ink-600 leading-relaxed">
+            <p class="text-base text-ink-600 leading-relaxed">
               {t(`about.sections.values.items.${key}.body`)}
             </p>
           </div>
@@ -106,12 +106,12 @@ const relatedLinks = [
     </h3>
     <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-5 not-prose">
       {REGIONS.map((key) => (
-        <li class="bg-white rounded-card shadow-soft px-4 py-3 text-sm text-ink-600">
+        <li class="bg-white rounded-card shadow-soft px-4 py-3 text-base text-ink-600">
           {t(`about.sections.serviceArea.regions.${key}`)}
         </li>
       ))}
     </ul>
-    <p class="text-sm text-ink-500 leading-relaxed bg-neutral-100 rounded-card px-4 py-3 flex items-start gap-2 not-prose">
+    <p class="text-base text-ink-500 leading-relaxed bg-neutral-100 rounded-card px-4 py-3 flex items-start gap-2 not-prose">
       <Icon name="calendar" class="w-4 h-4 mt-0.5 text-primary-600 flex-shrink-0" />
       <span>{t('about.sections.serviceArea.hoursNote')}</span>
     </p>
@@ -127,13 +127,13 @@ const relatedLinks = [
         {CC_BULLETS.map((key) => (
           <li class="flex gap-3 items-start">
             <Icon name="check" class="w-5 h-5 mt-0.5 text-primary-600 flex-shrink-0" />
-            <span class="text-sm text-ink-600 leading-relaxed">
+            <span class="text-base text-ink-600 leading-relaxed">
               {t(`about.sections.culturalCompetence.bullets.${key}`)}
             </span>
           </li>
         ))}
       </ul>
-      <p class="text-sm text-ink-500 leading-relaxed italic font-prose">
+      <p class="text-base text-ink-500 leading-relaxed italic font-prose">
         {t('about.sections.culturalCompetence.note')}
       </p>
     </div>
@@ -155,8 +155,8 @@ const relatedLinks = [
         Your browser does not support the video tag.
       </video>
       <div class="px-5 py-4">
-        <p class="font-heading text-sm font-semibold text-ink-900">Hospice team interview</p>
-        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+        <p class="font-heading text-base font-semibold text-ink-900">Hospice team interview</p>
+        <p class="mt-1 text-base leading-relaxed text-ink-600">
           Korean interview with English subtitles, featuring Younghee Kim sharing her hospice care experience.
         </p>
       </div>
@@ -174,8 +174,8 @@ const relatedLinks = [
         Your browser does not support the video tag.
       </video>
       <div class="px-5 py-4">
-        <p class="font-heading text-sm font-semibold text-ink-900">Hospice nurse interview</p>
-        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+        <p class="font-heading text-base font-semibold text-ink-900">Hospice nurse interview</p>
+        <p class="mt-1 text-base leading-relaxed text-ink-600">
           Korean interview with English subtitles, featuring Janice sharing what hospice nurses do and memorable patient care moments.
         </p>
       </div>
@@ -193,8 +193,8 @@ const relatedLinks = [
         Your browser does not support the video tag.
       </video>
       <div class="px-5 py-4">
-        <p class="font-heading text-sm font-semibold text-ink-900">Hospice social work and bereavement interview</p>
-        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+        <p class="font-heading text-base font-semibold text-ink-900">Hospice social work and bereavement interview</p>
+        <p class="mt-1 text-base leading-relaxed text-ink-600">
           Korean interview with English subtitles, featuring Peter Park explaining spiritual counseling, bereavement counseling, and hospice support.
         </p>
       </div>
@@ -213,10 +213,10 @@ const relatedLinks = [
                 <Icon name={icon} class="w-4 h-4" />
               </span>
               <div class="flex-1 min-w-0">
-                <h3 class="font-heading font-semibold text-ink-900 text-sm mb-0.5">
+                <h3 class="font-heading font-semibold text-ink-900 text-base mb-0.5">
                   {t(`home.team.roles.${key}.name`)}
                 </h3>
-                <p class="text-xs text-ink-600 leading-relaxed">{t(`home.team.roles.${key}.desc`)}</p>
+                <p class="text-body-sm text-ink-600 leading-relaxed">{t(`home.team.roles.${key}.desc`)}</p>
               </div>
               <Icon name="arrowRight" class="w-4 h-4 mt-1 text-primary-600 transition-transform duration-100 group-hover:translate-x-0.5 flex-shrink-0" />
             </div>
@@ -225,7 +225,7 @@ const relatedLinks = [
       ))}
     </ul>
     <p>
-      <a href={lp('/services')} class="inline-flex items-center gap-1 text-sm font-medium text-primary-600 hover:text-primary-700 hover:underline">
+      <a href={lp('/services')} class="inline-flex items-center gap-1 text-base font-medium text-primary-600 hover:text-primary-700 hover:underline">
         {t('about.sections.team.viewServicesLink')}
       </a>
     </p>
@@ -242,7 +242,7 @@ const relatedLinks = [
         </li>
       ))}
     </ul>
-    <p class="mt-5 text-sm text-ink-500">
+    <p class="mt-5 text-base text-ink-500">
       <a href={lp('/hospice-laws')} class="text-primary-600 hover:text-primary-700 underline">
         {t('common.relatedPages.links.hospiceLaws')} →
       </a>

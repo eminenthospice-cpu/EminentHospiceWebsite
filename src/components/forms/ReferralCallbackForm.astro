@@ -42,7 +42,7 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
   >
     <header>
       <h2 class="font-heading text-2xl text-ink-900 mb-1">{t('referral.modeA.callbackForm.title')}</h2>
-      <p class="text-ink-600 text-sm leading-relaxed">{t('referral.modeA.callbackForm.intro')}</p>
+      <p class="text-ink-600 text-body-sm leading-relaxed">{t('referral.modeA.callbackForm.intro')}</p>
     </header>
 
     <!-- Routes the submission to the referral Formspree endpoint server-side -->
@@ -60,8 +60,8 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
 
     <!-- Caller name -->
     <div class="space-y-1">
-      <label for="rf-name" class="block text-sm font-medium text-ink-800">
-        {t('referral.modeA.callbackForm.nameLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      <label for="rf-name" class="block text-body-sm font-medium text-ink-800">
+        {t('referral.modeA.callbackForm.nameLabel')} <span class="text-accent-gold-700" aria-label="required">*</span>
       </label>
       <input
         type="text"
@@ -69,18 +69,18 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
         name="referrerName"
         required
         autocomplete="name"
-        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-base text-ink-900
                placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
                focus:border-transparent bg-white min-h-[44px]"
         aria-describedby="rf-name-err"
       />
-      <p id="rf-name-err" class="hidden text-xs text-red-600 mt-1" role="alert"></p>
+      <p id="rf-name-err" class="hidden text-caption text-red-600 mt-1" role="alert"></p>
     </div>
 
     <!-- Phone -->
     <div class="space-y-1">
-      <label for="rf-phone" class="block text-sm font-medium text-ink-800">
-        {t('referral.modeA.callbackForm.phoneLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      <label for="rf-phone" class="block text-body-sm font-medium text-ink-800">
+        {t('referral.modeA.callbackForm.phoneLabel')} <span class="text-accent-gold-700" aria-label="required">*</span>
       </label>
       <input
         type="tel"
@@ -88,26 +88,26 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
         name="referrerPhone"
         required
         autocomplete="tel"
-        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-base text-ink-900
                placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
                focus:border-transparent bg-white min-h-[44px]"
         aria-describedby="rf-phone-err"
       />
-      <p id="rf-phone-err" class="hidden text-xs text-red-600 mt-1" role="alert"></p>
+      <p id="rf-phone-err" class="hidden text-caption text-red-600 mt-1" role="alert"></p>
     </div>
 
     <!-- Email (optional) -->
     <div class="space-y-1">
-      <label for="rf-email" class="block text-sm font-medium text-ink-800">
+      <label for="rf-email" class="block text-body-sm font-medium text-ink-800">
         {t('referral.modeA.callbackForm.emailLabel')}
       </label>
-      <p class="text-xs text-ink-500">{t('referral.modeA.callbackForm.emailHint')}</p>
+      <p class="text-caption text-ink-500">{t('referral.modeA.callbackForm.emailHint')}</p>
       <input
         type="email"
         id="rf-email"
         name="referrerEmail"
         autocomplete="email"
-        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-base text-ink-900
                placeholder:text-ink-400 focus:outline-none focus:ring-2 focus:ring-primary-500
                focus:border-transparent bg-white min-h-[44px]"
       />
@@ -115,14 +115,14 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
 
     <!-- Best time -->
     <div class="space-y-1">
-      <label for="rf-besttime" class="block text-sm font-medium text-ink-800">
-        {t('referral.modeA.callbackForm.bestTimeLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      <label for="rf-besttime" class="block text-body-sm font-medium text-ink-800">
+        {t('referral.modeA.callbackForm.bestTimeLabel')} <span class="text-accent-gold-700" aria-label="required">*</span>
       </label>
       <select
         id="rf-besttime"
         name="bestTimeToCall"
         required
-        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-base text-ink-900
                focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent
                bg-white min-h-[44px]"
       >
@@ -134,14 +134,14 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
 
     <!-- Referrer type -->
     <div class="space-y-1">
-      <label for="rf-type" class="block text-sm font-medium text-ink-800">
-        {t('referral.modeA.callbackForm.referrerTypeLabel')} <span class="text-accent-warm-600" aria-label="required">*</span>
+      <label for="rf-type" class="block text-body-sm font-medium text-ink-800">
+        {t('referral.modeA.callbackForm.referrerTypeLabel')} <span class="text-accent-gold-700" aria-label="required">*</span>
       </label>
       <select
         id="rf-type"
         name="referrerType"
         required
-        class="w-full rounded-card border border-line-soft px-4 py-3 text-sm text-ink-900
+        class="w-full rounded-card border border-line-soft px-4 py-3 text-base text-ink-900
                focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent
                bg-white min-h-[44px]"
       >
@@ -152,7 +152,7 @@ const referrerTypeKeys = ['physician', 'familyMember', 'caseManager', 'other'] a
     </div>
 
     <!-- Privacy note -->
-    <p class="text-xs text-ink-500 leading-relaxed bg-surface-warm rounded-card px-4 py-3">
+    <p class="text-caption text-ink-500 leading-relaxed bg-surface-canvas rounded-card px-4 py-3">
       {t('referral.modeA.privacyNote')}
     </p>
 

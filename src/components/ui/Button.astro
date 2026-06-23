@@ -1,11 +1,15 @@
 ---
 /**
  * Button.astro — variant-driven button primitive.
- * Variants: primary | secondary | ghost | cta | warm | link
+ * Variants: primary | secondary | ghost | cta | gold | warm | link
  * Sizes: sm | md | lg | xl
+ *
+ * `gold` is the conversion variant (referral, phone) — gold fill, ink text
+ * for AA contrast. `warm` is a deprecated alias kept on the same gold style
+ * so existing usages migrate without breaking.
  */
 export interface Props {
-  variant?: 'primary' | 'secondary' | 'ghost' | 'cta' | 'warm' | 'link';
+  variant?: 'primary' | 'secondary' | 'ghost' | 'cta' | 'gold' | 'warm' | 'link';
   size?: 'sm' | 'md' | 'lg' | 'xl';
   href?: string;
   class?: string;
@@ -35,13 +39,16 @@ const variants: Record<string, string> = {
   primary:   'bg-primary-500 text-white shadow-card hover:bg-primary-600 active:bg-primary-700',
   secondary: 'border-2 border-primary-500 text-primary-600 bg-transparent hover:bg-primary-50 active:bg-primary-100',
   ghost:     'text-ink-700 hover:text-primary-600 hover:bg-primary-50 active:bg-primary-100',
-  cta:       'bg-primary-600 text-white shadow-card hover:bg-primary-700 active:bg-primary-800 shadow-[0_8px_24px_-8px_rgba(20,50,87,0.35)]',
-  warm:      'bg-accent-warm-500 text-white shadow-card hover:bg-accent-warm-600 active:bg-accent-warm-700',
+  cta:       'bg-primary-600 text-white shadow-card hover:bg-primary-700 active:bg-primary-800 shadow-[0_8px_24px_-8px_rgba(15,47,70,0.35)]',
+  gold:      'bg-accent-gold-500 text-ink-900 shadow-card hover:bg-accent-gold-400 active:bg-accent-gold-600',
+  warm:      'bg-accent-gold-500 text-ink-900 shadow-card hover:bg-accent-gold-400 active:bg-accent-gold-600',
   link:      'text-primary-600 underline-offset-4 hover:underline px-0 py-0',
 };
 
+// Touch-safe floor: every interactive size meets the 44px minimum the
+// accessibility statement claims. `sm` is retained for tight chrome only.
 const sizes: Record<string, string> = {
-  sm: 'h-9 px-3 text-sm min-h-[36px]',
+  sm: 'h-11 px-4 text-body-sm min-h-[44px]',
   md: 'h-11 px-5 text-base min-h-[44px]',
   lg: 'h-12 px-6 text-base min-h-[48px]',
   xl: 'h-14 px-8 text-lg min-h-[56px]',

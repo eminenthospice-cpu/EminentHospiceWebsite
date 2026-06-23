@@ -3,20 +3,25 @@ export interface Props {
   value: string;
   label: string;
   align?: 'left' | 'center';
+  valueStyle?: 'number' | 'text';
   class?: string;
 }
 
-const { value, label, align = 'left', class: className = '' } = Astro.props;
+const { value, label, align = 'left', valueStyle = 'number', class: className = '' } = Astro.props;
 
 const classes = [
   'flex flex-col',
   align === 'center' ? 'items-center text-center' : '',
   className,
 ].join(' ');
+
+const valueClass = valueStyle === 'text'
+  ? 'font-heading text-4xl md:text-5xl lg:text-6xl leading-tight text-ink-900'
+  : 'numeral-wall';
 ---
 
 <div class={classes}>
   <div class="rule-hair w-full mb-4" aria-hidden="true"></div>
-  <p class="numeral-wall">{value}</p>
-  <p class="mt-3 marginalia text-ink-700 tracking-wide">{label}</p>
+  <p class={valueClass}>{value}</p>
+  <p class="mt-3 stat-label text-ink-700">{label}</p>
 </div>

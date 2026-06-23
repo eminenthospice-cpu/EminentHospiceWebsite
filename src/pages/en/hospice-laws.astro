@@ -45,7 +45,7 @@ const relatedLinks = [
         href={s.cops.cmsLinkUrl}
         target="_blank"
         rel="noopener noreferrer"
-        class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-sm
+        class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-base
                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
       >
         {s.cops.cmsLinkLabel}
@@ -63,7 +63,7 @@ const relatedLinks = [
           <div class="rounded-full bg-primary-100 p-1 flex-shrink-0 mt-1">
             <Icon name="check" class="w-3.5 h-3.5 text-primary-700" />
           </div>
-          <span class="text-ink-700 font-prose leading-relaxed text-sm">{item}</span>
+          <span class="text-ink-700 font-prose leading-relaxed text-base">{item}</span>
         </li>
       ))}
     </ul>
@@ -72,7 +72,7 @@ const relatedLinks = [
         href={s.patientRights.linkUrl}
         target="_blank"
         rel="noopener noreferrer"
-        class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-sm
+        class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-base
                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
       >
         {s.patientRights.linkLabel}
@@ -88,13 +88,13 @@ const relatedLinks = [
     <h3>{s.advanceDirectives.livingWill.title}</h3>
     <p>{s.advanceDirectives.livingWill.body}</p>
     <div class="not-prose mt-2 rounded-card border-l-4 border-primary-300 bg-primary-50 px-5 py-3">
-      <p class="text-sm text-ink-700">{s.advanceDirectives.livingWill.caLawNote}</p>
+      <p class="text-base text-ink-700">{s.advanceDirectives.livingWill.caLawNote}</p>
     </div>
 
     <h3>{s.advanceDirectives.polst.title}</h3>
     <p>{s.advanceDirectives.polst.body}</p>
     <div class="not-prose mt-2 rounded-card border-l-4 border-amber-400 bg-amber-50 px-5 py-3">
-      <p class="text-sm text-ink-700">{s.advanceDirectives.polst.paperColorNote}</p>
+      <p class="text-base text-ink-700">{s.advanceDirectives.polst.paperColorNote}</p>
     </div>
     <div class="not-prose mt-6 overflow-hidden rounded-card border border-line-soft bg-white shadow-soft">
       <video
@@ -109,8 +109,8 @@ const relatedLinks = [
         Your browser does not support the video tag.
       </video>
       <div class="px-5 py-4">
-        <p class="font-heading text-sm font-semibold text-ink-900">POLST education video</p>
-        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+        <p class="font-heading text-base font-semibold text-ink-900">POLST education video</p>
+        <p class="mt-1 text-base leading-relaxed text-ink-600">
           Korean narration with English subtitles, presented by Kim Jeong Ah, Nurse Practitioner.
         </p>
       </div>
@@ -128,8 +128,8 @@ const relatedLinks = [
         Your browser does not support the video tag.
       </video>
       <div class="px-5 py-4">
-        <p class="font-heading text-sm font-semibold text-ink-900">When death occurs outside hospice</p>
-        <p class="mt-1 text-sm leading-relaxed text-ink-600">
+        <p class="font-heading text-base font-semibold text-ink-900">When death occurs outside hospice</p>
+        <p class="mt-1 text-base leading-relaxed text-ink-600">
           Korean narration with English subtitles, presented by Kim Jeong Ah, Nurse Practitioner.
         </p>
       </div>
@@ -147,24 +147,24 @@ const relatedLinks = [
       {Object.entries(s.complaints.paths).map(([, path]) => (
         <div class="rounded-card border border-line-soft bg-white p-5 shadow-soft">
           <h3 class="font-heading text-base text-ink-900 mb-1">{path.name}</h3>
-          <p class="text-sm text-ink-600 leading-relaxed">{path.contact}</p>
+          <p class="text-base text-ink-600 leading-relaxed">{path.contact}</p>
         </div>
       ))}
     </div>
 
     <div class="not-prose mt-4 rounded-card border-l-4 border-primary-300 bg-primary-50 px-5 py-3">
-      <p class="text-sm text-ink-700">{s.complaints.retaliationProtection}</p>
+      <p class="text-base text-ink-700">{s.complaints.retaliationProtection}</p>
     </div>
   </section>
 
   <section id="hipaa" class="scroll-mt-24">
     <h2>{s.hipaa.title}</h2>
     <p>{s.hipaa.body}</p>
-    <p class="not-prose mt-3 text-sm text-ink-500 italic">{s.hipaa.noticeLabel}</p>
+    <p class="not-prose mt-3 text-base text-ink-500 italic">{s.hipaa.noticeLabel}</p>
     <p class="not-prose mt-3">
       <a
         href={lp('/hipaa-notice')}
-        class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-sm
+        class="inline-flex items-center gap-1 text-primary-600 hover:text-primary-700 font-medium text-base
                focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
       >
         {common.relatedPages.links.hipaaNotice}

@@ -1,0 +1,76 @@
+---
+/**
+ * CtaBand.astro — Shared bottom-of-page call-to-action band.
+ * Senior-first: the phone number is the dominant, high-contrast action and
+ * repeats on every long page so readers never have to scroll back to the
+ * header. Uses the gold conversion accent on a primary field.
+ */
+import { CONTACT } from '../../data/site-config';
+import { localizedPath } from '../../i18n/utils';
+import Button from './Button.astro';
+
+export interface Props {
+  lang: 'en' | 'ko';
+  heading?: string;
+  subtitle?: string;
+  /** Show the secondary "Request a referral" button. Default true. */
+  showReferral?: boolean;
+  class?: string;
+}
+
+const { lang, heading, subtitle, showReferral = true, class: className = '' } = Astro.props;
+const lp = (p: string) => localizedPath(p, lang);
+
+const resolvedHeading =
+  heading ?? (lang === 'ko' ? '저희가 도와드리겠습니다' : 'We are here to help');
+const resolvedSubtitle =
+  subtitle ??
+  (lang === 'ko'
+    ? '질문이 있으시거나 지금 시작할 준비가 되셨다면, 케어 팀이 연중무휴 24시간 대기하고 있습니다.'
+    : 'Whether you have a question or are ready to begin, our care team answers 24 hours a day, every day.');
+const callLabel = lang === 'ko' ? '전화하기' : 'Call us';
+const referLabel = lang === 'ko' ? '추천 요청' : 'Request a referral';
+---
+
+<section
+  aria-labelledby="ctaband-heading"
+  class={`bg-primary-700 text-white rounded-organic ${className}`.trim()}
+>
+  <div class="px-6 py-10 md:px-12 md:py-12 lg:px-16 flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+    <div class="max-w-xl">
+      <p class="eyebrow text-accent-gold-200 mb-3">{lang === 'ko' ? '연락하기' : 'Reach out'}</p>
+      <h2 id="ctaband-heading" class="font-heading text-3xl md:text-4xl text-white leading-tight mb-3">
+        {resolvedHeading}
+      </h2>
+      <p class="font-prose text-lg text-primary-100 leading-relaxed">{resolvedSubtitle}</p>
+    </div>
+
+    <div class="flex flex-col gap-3 sm:flex-row lg:flex-col xl:flex-row">
+      <!-- Dominant phone action: gold field, ink text, large tabular number -->
+      <a
+        href={`tel:${CONTACT.phone.tel}`}
+        class="group inline-flex items-center justify-center gap-3 px-7 py-4 rounded-btn shadow-float
+          bg-accent-gold-500 text-ink-900 hover:bg-accent-gold-400
+          transition-[transform,background-color] duration-150 min-h-[52px] press-tap whitespace-nowrap
+          focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary-700"
+      >
+        <svg aria-hidden="true" class="w-5 h-5 transition-transform duration-150 group-hover:scale-110" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 6.75z" />
+        </svg>
+        <span class="font-medium">{callLabel}</span>
+        <span class="font-heading text-2xl tabular-nums tracking-tight leading-none">{CONTACT.phone.display}</span>
+      </a>
+
+      {showReferral && (
+        <Button
+          href={lp('/referral')}
+          variant="secondary"
+          size="lg"
+          class="border-white/50 text-white hover:bg-white/10 hover:text-white hover:border-white"
+        >
+          {referLabel}
+        </Button>
+      )}
+    </div>
+  </div>
+</section>

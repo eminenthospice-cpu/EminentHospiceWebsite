@@ -46,7 +46,7 @@ const copyright = t('footer.copyright').replace('{year}', String(year));
       <ul class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-primary-100">
         {certifications.map(({ label }) => (
           <li class="flex items-center justify-center sm:justify-start gap-2.5">
-            <span class="inline-block w-1.5 h-1.5 rounded-full bg-accent-warm-300 shrink-0" aria-hidden="true"></span>
+            <span class="inline-block w-1.5 h-1.5 rounded-full bg-accent-sage-300 shrink-0" aria-hidden="true"></span>
             <span class="eyebrow text-primary-100">{label}</span>
           </li>
         ))}
@@ -56,7 +56,7 @@ const copyright = t('footer.copyright').replace('{year}', String(year));
 
   <div class="max-w-[90rem] mx-auto px-6 md:px-12 lg:px-16 py-14 lg:py-16">
     <!-- Typographic flourish -->
-    <p class="font-heading italic text-5xl lg:text-6xl text-accent-warm-200 mb-10">{t('footer.flourish')}</p>
+    <p class="font-heading italic text-5xl lg:text-6xl text-accent-gold-300 mb-10">{t('footer.flourish')}</p>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
       <!-- Brand column -->
@@ -64,20 +64,20 @@ const copyright = t('footer.copyright').replace('{year}', String(year));
         <h2 class="font-heading text-2xl font-semibold text-white tracking-tight">
           Eminent Hospice Care
         </h2>
-        <p class="mt-3 text-sm text-primary-200 leading-relaxed max-w-xs">
+        <p class="mt-3 text-base text-primary-200 leading-relaxed max-w-xs">
           {t('footer.tagline')}
         </p>
       </div>
 
       <!-- Care column -->
       <nav aria-label={lang === 'ko' ? '돌봄' : 'Care'}>
-        <h3 class="eyebrow text-accent-warm-200 mb-4">{lang === 'ko' ? '돌봄' : 'Care'}</h3>
+        <h3 class="eyebrow text-accent-gold-300 mb-4">{lang === 'ko' ? '돌봄' : 'Care'}</h3>
         <ul class="flex flex-col gap-2.5">
           {careLinks.map(({ label, href }) => (
             <li>
               <a
                 href={href}
-                class="underline-grow text-sm text-primary-100 hover:text-white transition-colors duration-150 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                class="underline-grow inline-flex items-center min-h-11 text-base text-primary-100 hover:text-white transition-colors duration-150 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
                 {label}
               </a>
@@ -88,13 +88,13 @@ const copyright = t('footer.copyright').replace('{year}', String(year));
 
       <!-- Resources column -->
       <nav aria-label={lang === 'ko' ? '자료' : 'Resources'}>
-        <h3 class="eyebrow text-accent-warm-200 mb-4">{lang === 'ko' ? '자료' : 'Resources'}</h3>
+        <h3 class="eyebrow text-accent-gold-300 mb-4">{lang === 'ko' ? '자료' : 'Resources'}</h3>
         <ul class="flex flex-col gap-2.5">
           {resourceLinks.map(({ label, href }) => (
             <li>
               <a
                 href={href}
-                class="underline-grow text-sm text-primary-100 hover:text-white transition-colors duration-150 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                class="underline-grow inline-flex items-center min-h-11 text-base text-primary-100 hover:text-white transition-colors duration-150 rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
               >
                 {label}
               </a>
@@ -105,8 +105,8 @@ const copyright = t('footer.copyright').replace('{year}', String(year));
 
       <!-- Contact column -->
       <div>
-        <h3 class="eyebrow text-accent-warm-200 mb-4">{t('footer.contactHeading')}</h3>
-        <address class="not-italic text-sm text-primary-100 space-y-3">
+        <h3 class="eyebrow text-accent-gold-300 mb-4">{t('footer.contactHeading')}</h3>
+        <address class="not-italic text-base text-primary-100 space-y-3">
           <p class="flex items-start gap-2">
             <svg class="h-4 w-4 mt-0.5 text-primary-300 shrink-0" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -136,7 +136,7 @@ const copyright = t('footer.copyright').replace('{year}', String(year));
               {t('footer.email')}
             </a>
           </p>
-          <p class="text-primary-300 text-xs pt-1">{t('footer.hours')}</p>
+          <p class="text-primary-300 text-caption pt-1">{t('footer.hours')}</p>
         </address>
       </div>
     </div>
@@ -144,7 +144,7 @@ const copyright = t('footer.copyright').replace('{year}', String(year));
     <!-- Legal row -->
     <div class="mt-12 pt-6 border-t border-primary-800/60 space-y-4">
       <nav aria-label={t('footer.legalLinksHeading')}>
-        <ul class="flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-primary-300">
+        <ul class="flex flex-wrap items-center gap-x-5 gap-y-2 text-caption text-primary-300">
           {legalLinks.map(({ label, href }) => (
             <li>
               <a
@@ -165,7 +165,7 @@ const copyright = t('footer.copyright').replace('{year}', String(year));
           </li>
         </ul>
       </nav>
-      <div class="flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-primary-400">
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-3 text-caption text-primary-400">
         <p>{copyright}</p>
         <p>{t('footer.licensedInCalifornia')}</p>
       </div>
