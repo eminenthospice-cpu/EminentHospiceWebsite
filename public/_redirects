@@ -1,4 +1,0 @@
-# Cloudflare Pages edge redirects
-# Bare root → default locale. Fixes the root "/" 404 on the git-built Pages
-# project (the Astro meta-refresh index stub wasn't being served at the edge).
-/    /en    302
