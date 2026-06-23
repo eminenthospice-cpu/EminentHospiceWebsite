@@ -111,17 +111,17 @@
   --font-mono:    ui-monospace, 'SFMono-Regular', monospace;
 
   /* Typography — senior-readable scale.
-     17px floor for most supporting copy; 16px is reserved for labels,
-     legal text, and compact navigation. Generates text-* utilities. */
-  --text-sm:        1rem;
+     18px floor for most supporting copy; 17px is the absolute minimum,
+     reserved for labels and legal metadata. Generates text-* utilities. */
+  --text-sm:        1.0625rem;  /* 17px — smallest allowed        */
   --text-sm--line-height: 1.55;
-  --text-base:      1.0625rem;
+  --text-base:      1.125rem;   /* 18px                           */
   --text-base--line-height: 1.65;
-  --text-body:      1.125rem;   /* 18px — default body            */
+  --text-body:      1.1875rem;  /* 19px — default body            */
   --text-body--line-height: 1.7;
-  --text-body-sm:   1.0625rem;  /* 17px — readable secondary copy */
+  --text-body-sm:   1.125rem;   /* 18px — readable secondary copy */
   --text-body-sm--line-height: 1.65;
-  --text-caption:   1rem;       /* 16px — labels / legal metadata */
+  --text-caption:   1.0625rem;  /* 17px — labels / legal metadata */
   --text-caption--line-height: 1.55;
   --text-display-lg: clamp(2.5rem, 5vw, 3.75rem);
   --text-display-lg--line-height: 1.05;
@@ -169,7 +169,7 @@ body {
   font-family: var(--font-body);
   background-color: var(--color-surface-paper);
   color: var(--color-ink-900);
-  font-size: 1.125rem;
+  font-size: 1.1875rem;
   line-height: 1.7;
 }
 
@@ -232,7 +232,7 @@ h1, h2, h3, h4 {
 
 .eyebrow {
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 1.0625rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -259,7 +259,7 @@ h1, h2, h3, h4 {
 
 .marginalia {
   font-family: var(--font-prose);
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   line-height: 1.55;
   letter-spacing: 0.005em;
   color: var(--color-ink-500);
@@ -268,7 +268,7 @@ h1, h2, h3, h4 {
 /* Stat / figure labels — readable at a glance for older adults */
 .stat-label {
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 1.0625rem;
   line-height: 1.4;
   letter-spacing: 0.01em;
   color: var(--color-ink-500);
@@ -288,7 +288,7 @@ h1, h2, h3, h4 {
   border-left: 2px solid var(--color-accent-gold-400);
   padding-left: 1rem;
   font-family: var(--font-prose);
-  font-size: 1.0625rem;
+  font-size: 1.125rem;
   color: var(--color-ink-700);
 }
 

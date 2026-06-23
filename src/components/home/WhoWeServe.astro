@@ -10,11 +10,7 @@ const { lang } = Astro.props;
 const t = useTranslations(lang);
 const eyebrow = lang === 'ko' ? '우리가 돕는 분들' : 'Who we serve';
 
-const items = [
-  { key: 'area',      num: '01' },
-  { key: 'languages', num: '02' },
-  { key: 'coverage',  num: '03' },
-] as const;
+const items = ['area', 'languages', 'coverage'] as const;
 ---
 
 <SectionContainer bg="white" ariaLabelledBy="who-we-serve-heading">
@@ -32,11 +28,11 @@ const items = [
 
   <div class="border-t border-line-soft pt-6">
     <ul class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
-      {items.map(({ key, num }, i) => (
+      {items.map((key, i) => (
         <li class={`reveal [--reveal-delay:${i * 80}ms] text-left`}>
-          <p class="font-heading text-2xl tabular-nums text-accent-gold-600 leading-none mb-3">{num}</p>
-          <h3 class="font-heading text-xl text-ink-900 mb-2">{t(`home.whoWeServe.${key}.title`)}</h3>
-          <p class="font-prose text-base text-ink-700 leading-relaxed">{t(`home.whoWeServe.${key}.desc`)}</p>
+          <span class="block w-8 h-1 rounded-full bg-accent-gold-500 mb-4" aria-hidden="true"></span>
+          <h3 class="font-heading text-2xl text-ink-900 mb-2">{t(`home.whoWeServe.${key}.title`)}</h3>
+          <p class="font-prose text-body text-ink-700 leading-relaxed">{t(`home.whoWeServe.${key}.desc`)}</p>
         </li>
       ))}
     </ul>
