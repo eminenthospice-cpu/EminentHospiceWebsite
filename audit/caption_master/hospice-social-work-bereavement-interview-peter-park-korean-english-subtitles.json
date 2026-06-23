@@ -1,8 +1,9 @@
 {
   "video": "public/videos/hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.mp4",
-  "source_transcript": "audit\\video_captions\\transcripts\\hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.json",
+  "source_transcript": "audit\\video_caption_remediation\\hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.en.machine_translation.json",
+  "korean_transcript": "audit\\video_caption_remediation\\hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.ko.transcript.json",
   "language": "en",
-  "source": "machine translation grouped into phrase-level draft captions",
+  "source": "fresh local Korean ASR translate pass grouped into phrase-level captions",
   "review_required": true,
   "style": {
     "max_lines": 2,
@@ -13,528 +14,689 @@
   "entries": [
     {
       "start": 11.7,
-      "end": 16.66,
+      "end": 17.58,
       "text": "Hello, I'm Peter Park, working as a chaplain at Eminent Hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 24.21,
-      "end": 29.69,
+      "start": 24.71,
+      "end": 35.49,
       "text": "The first time I started hospice work was in 2012.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 30.37,
-      "end": 34.87,
+      "start": 36.17,
+      "end": 42.83,
       "text": "I started working in the US hospice for the first time.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 35.39,
-      "end": 38.37,
-      "text": "I learned about the US hospice system at that time.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 42.83,
+      "end": 50.79,
+      "text": "At that time, I learned about the US hospice system.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 39.61,
-      "end": 41.89,
-      "text": "I met various patients.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 50.87,
+      "end": 53.41,
+      "text": "And I met various patients.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 43.81,
-      "end": 47.89,
-      "text": "I realized that hospice work is very precious and important.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 62.43,
+      "end": 66.99,
+      "text": "So I realized that hospice work is very precious and important.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 48.95,
-      "end": 53.13,
-      "text": "I think it's been about 10 years already.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 67.63,
+      "end": 76.05,
+      "text": "It's been about 10 years.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 62.21,
-      "end": 65.01,
+      "start": 76.37,
+      "end": 81.85,
       "text": "I'm not working alone in hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 65.07,
-      "end": 71.681,
-      "text": "I work as a team. I mainly work as a doctor, nurse, social worker,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
-    },
-    {
-      "start": 71.681,
-      "end": 73.57,
-      "text": "chaplain, and other nurses.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
-    },
-    {
-      "start": 73.57,
-      "end": 74.79,
+      "start": 82.35,
+      "end": 92.79,
       "text": "I work as a team.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 76.11,
-      "end": 81.21,
-      "text": "I think chaplain can be divided into two main roles.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 93.35,
+      "end": 99.53,
+      "text": "I mainly work as a doctor, nurse, social worker, chaplain, and other nurses.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 82.33,
-      "end": 87.29,
+      "start": 99.53,
+      "end": 106.63,
+      "text": "I work as a team.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 107.17,
+      "end": 114.53,
+      "text": "I think chaplain can be divided into two major roles.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 115.13,
+      "end": 119.29,
       "text": "One is the SCS, future counselor, and BC.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 89.71,
-      "end": 98.17,
-      "text": "There are two areas. As you know, there are many patients who work in hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 120.05,
+      "end": 127.55,
+      "text": "There are two areas of treatment.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 99.29,
-      "end": 105.59,
-      "text": "Usually, when there is a physical pain, the life quality is improved a lot.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 128.51,
+      "end": 134.51,
+      "text": "As you know, there are many patients who work in hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 106.55,
-      "end": 112.477,
-      "text": "Likewise, as if there is a physical pain, many people live with a spiritual",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 134.81,
+      "end": 142.71,
+      "text": "There is a lot of difficulty in their life.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 112.477,
-      "end": 114.17,
-      "text": "pain in their heart.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 142.71,
+      "end": 146.173,
+      "text": "If we control the pain when there is a physical pain, the quality of",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 114.57,
-      "end": 117.27,
+      "start": 146.173,
+      "end": 147.41,
+      "text": "life is improved a lot.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 147.41,
+      "end": 151.89,
+      "text": "Likewise, as there is a physical pain, many people live with a spiritual pain in their heart.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 151.89,
+      "end": 160.07,
       "text": "I think there are a lot of people who can't think of it as important.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 119.23,
-      "end": 127.09,
-      "text": "If you get control through counseling, the life quality is improved a lot.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 160.07,
+      "end": 163.01,
+      "text": "If you get control through counseling, the quality of life is improved a lot.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 127.09,
-      "end": 132.41,
-      "text": "I think many people who have died in hospice are suffering more.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 163.43,
+      "end": 169.09,
+      "text": "I think there are more people who have suffered from hospice's death.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 134.41,
-      "end": 138.33,
-      "text": "Especially, the hospice chaplain service is very precious.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 169.67,
+      "end": 175.09,
+      "text": "Especially, hospice chaplain service is very precious.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 138.91,
-      "end": 142.39,
-      "text": "It is important to visit and discuss with those who are involved in the service.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 175.09,
+      "end": 179.53,
+      "text": "It's about taking care of those who are isolated and counseling.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 142.97,
-      "end": 147.15,
+      "start": 179.53,
+      "end": 182.45,
       "text": "Through that, you can get rid of the pain in your heart.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 150.21,
-      "end": 154.65,
-      "text": "I think it is very important to share with those who have died in hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 182.45,
+      "end": 188.17,
+      "text": "How can you end a more meaningful life?",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 154.99,
-      "end": 161.37,
+      "start": 188.17,
+      "end": 190.89,
+      "text": "How can you end a more meaningful life?",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 191.13,
+      "end": 194.03,
       "text": "Through counseling, you can get rid of the pain in your heart.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 163.01,
-      "end": 168.51,
-      "text": "These are the services we receive before we die in hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 194.03,
+      "end": 198.89,
+      "text": "These are the services we receive before we end our lives.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 169.01,
-      "end": 173.33,
-      "text": "After the patients die, there are many families who love them.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 198.89,
+      "end": 203.75,
+      "text": "After the patient's life is over, there are many families who love him.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 174.45,
-      "end": 182.31,
-      "text": "For those families, through the appointment counseling, you can get rid of the pain in your heart.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 203.75,
+      "end": 209.33,
+      "text": "How can you get rid of the pain in your heart?",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 182.67,
-      "end": 187.53,
-      "text": "After the patients die, you can discuss with them what kind of services they need.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 209.33,
+      "end": 213.15,
+      "text": "After the patient's death, you can talk about what kind of services you need.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 191.91,
-      "end": 197.15,
-      "text": "There is a service that we have sent to the families for a year.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 213.15,
+      "end": 217.63,
+      "text": "There is a service that we have sent for the sake of our family for a year.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 197.15,
-      "end": 203.27,
-      "text": "How can we get rid of the pain in the family?",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 225.39,
+      "end": 230.91,
+      "text": "How can you get rid of the pain in your heart?",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 203.63,
-      "end": 208.99,
-      "text": "We are also sharing with the family how to deal with the patient's personal and social problems.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 231.27,
+      "end": 235.23,
+      "text": "How can you get rid of the pain in your heart?",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 213.31,
-      "end": 217.05,
-      "text": "We are also sharing with the family how to deal with the patient's personal and social problems.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 235.59,
+      "end": 239.95,
+      "text": "How can you get rid of the pain in your heart?",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 217.23,
-      "end": 229.61,
-      "text": "I remember the patients who had died in hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 240.33,
+      "end": 245.39,
+      "text": "How can you get rid of the pain in your heart?",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 230.81,
-      "end": 234.71,
-      "text": "One of them tried to commit suicide while taking care of the patient.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 245.39,
+      "end": 249.05,
+      "text": "How can you get rid of the pain in your heart?",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 235.55,
-      "end": 237.95,
-      "text": "It was a person who tried to stop his life because of the pain,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 249.63,
+      "end": 255.45,
+      "text": "These are the services we have sent for the sake of our family for a year.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 244.49,
-      "end": 246.83,
-      "text": "but if he had received a little more hospice service,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 255.61,
+      "end": 258.69,
+      "text": "I remember one of the patients who was in the hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 248.93,
-      "end": 253.31,
-      "text": "he would have thought that his life would have changed if he had received more hospice service.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 258.69,
+      "end": 262.13,
+      "text": "One of the patients was trying to commit suicide while receiving care.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 255.01,
-      "end": 258.21,
-      "text": "The other person was a person who had died in January of this year.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 262.69,
+      "end": 265.308,
+      "text": "It was a person who tried to stop his own life because he had",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 258.65,
-      "end": 259.37,
-      "text": "He said that he loved his wife.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 265.308,
+      "end": 266.43,
+      "text": "a lot of loneliness and sadness.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 262.07,
-      "end": 264.57,
+      "start": 266.77,
+      "end": 268.422,
+      "text": "It was a person who tried to stop his own life because he had",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 268.422,
+      "end": 269.13,
+      "text": "a lot of sadness and sadness.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 269.13,
+      "end": 272.616,
+      "text": "If he had received the hospice service a little more, he would have thought",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 272.616,
+      "end": 274.11,
+      "text": "that his life would have changed.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 274.11,
+      "end": 277.29,
+      "text": "Another person was a person who had already been discharged from the hospital in January this year.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 277.29,
+      "end": 283.41,
+      "text": "He told her that he loved her.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 283.79,
+      "end": 287.07,
       "text": "He was a person who couldn't say that he loved her so easily.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 266.39,
-      "end": 274.17,
-      "text": "After he left, I discussed with my son in the middle of the conversation.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 287.07,
+      "end": 288.812,
+      "text": "But after he left, I talked to my son and my father in the",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 274.17,
-      "end": 276.29,
-      "text": "He said that he loved his father.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 288.812,
+      "end": 289.31,
+      "text": "middle of the conversation.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 277.31,
-      "end": 282.09,
-      "text": "As soon as I heard the story, I felt a great burden on this matter.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 289.79,
+      "end": 290.59,
+      "text": "He said that his father loved him.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 283.75,
-      "end": 286.21,
-      "text": "The other person is a person who has been taking care of the patient.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 290.79,
+      "end": 293.55,
+      "text": "When I heard that, I felt a lot of pressure on this matter.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 287.31,
-      "end": 289.01,
-      "text": "He is a very active person.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 294.11,
+      "end": 298.99,
+      "text": "Another person is a person who has received care now.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 289.39,
-      "end": 291.99,
+      "start": 298.99,
+      "end": 303.03,
+      "text": "He is a very active person in the past.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 304.1,
+      "end": 312.14,
       "text": "He doesn't have anything. He thinks everything is perfect.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 293.79,
-      "end": 298.83,
-      "text": "A few weeks ago, he told me that he has something to say to his wife.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 312.74,
+      "end": 315.416,
+      "text": "But a few weeks ago, he told me that he had something he wanted",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 298.83,
-      "end": 302.37,
-      "text": "Suddenly, his face suddenly changed and he started to cry.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 315.416,
+      "end": 316.18,
+      "text": "to say to me.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 303.81,
-      "end": 305.61,
-      "text": "He said that he couldn't say anything to his wife.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 316.18,
+      "end": 320.84,
+      "text": "He suddenly changed his face and started crying.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 307.41,
-      "end": 310.63,
-      "text": "He also talked about his wounds that were deep in his heart.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 320.84,
+      "end": 324.12,
+      "text": "He told me that he couldn't say anything to me.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 312.41,
-      "end": 315.27,
-      "text": "I was surprised to see how weak he was.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 324.92,
+      "end": 326.88,
+      "text": "He also told me that he had a lot of sadness in his heart.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 320.67,
-      "end": 322.89,
-      "text": "I couldn't tell anyone about the pain in his heart.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 326.88,
+      "end": 331.22,
+      "text": "I was really surprised that he had such a weak side.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 324.57,
-      "end": 329.53,
-      "text": "I prayed for him. After that, I saw his face getting brighter.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 331.82,
+      "end": 337.94,
+      "text": "I was really surprised that he had such a weak side.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 332.35,
-      "end": 336.06,
-      "text": "It was a very precious experience for me to realize that the need for",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 337.94,
+      "end": 341.56,
+      "text": "But I couldn't say anything to anyone in my heart.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 336.06,
-      "end": 337.65,
-      "text": "hospice, counseling, and chaplain was necessary.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 341.56,
+      "end": 344.54,
+      "text": "After that, I prayed for him.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 354.28,
-      "end": 359.56,
-      "text": "Koreans generally think that hospice is the cause of death.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 344.54,
+      "end": 346.64,
+      "text": "After that, I saw his face getting brighter.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 360.5,
-      "end": 362.04,
+      "start": 354.49,
+      "end": 356.69,
+      "text": "I realized that the need for hospice, counseling, and chaplain was a valuable experience.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 356.69,
+      "end": 363.91,
+      "text": "Koreans think that hospice is like, why should I die?",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 363.99,
+      "end": 365.19,
       "text": "Why should I think about hospice?",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 362.04,
-      "end": 363.56,
-      "text": "I don't need to think about hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 365.73,
+      "end": 370.63,
+      "text": "I don't need that. That's how I approach hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 363.64,
-      "end": 367.725,
-      "text": "That's how I approach it. When I look at the systems I learned from",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 371.27,
+      "end": 375.13,
+      "text": "When I look at the systems I learned from the patients I met in the US hospice,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 367.725,
-      "end": 370.06,
-      "text": "the patients I met in the U.S. hospice,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 375.13,
+      "end": 377.29,
+      "text": "in the US society, the system of hospice is very cultured.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 370.6,
-      "end": 376.62,
-      "text": "in the U.S. society, this system of hospice is very cultured.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 377.29,
+      "end": 383.29,
+      "text": "When the end stage approaches, the system of hospice is naturally connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 377.02,
-      "end": 385.76,
-      "text": "When the end stage approaches, hospice becomes natural.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 383.29,
+      "end": 386.33,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 385.76,
-      "end": 394.32,
-      "text": "Through that, they receive services and find ways to end their lives.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 386.33,
+      "end": 388.39,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 394.76,
-      "end": 402.312,
-      "text": "In the Korean society, even in the U.S.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 388.39,
+      "end": 392.03,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 402.312,
-      "end": 413.64,
-      "text": "society, hospice is a social system where we can think of death",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 392.03,
+      "end": 394.65,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 413.64,
-      "end": 414.9,
-      "text": "as if we are being welcomed by the world.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 395.31,
+      "end": 397.41,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 414.9,
-      "end": 419.74,
-      "text": "It is a social system. It is also a social benefit.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 397.41,
+      "end": 400.45,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 422.44,
-      "end": 430.64,
-      "text": "Many people think that hospice is difficult, and it doesn't really matter to them.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 400.77,
+      "end": 406.09,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 431.08,
-      "end": 440.18,
-      "text": "Also, don't be afraid of hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 406.09,
+      "end": 409.95,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 440.86,
-      "end": 444.96,
-      "text": "It is a system that helps the society to end my life",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 409.95,
+      "end": 412.85,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 446.34,
-      "end": 448.82,
-      "text": "in a positive way.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 412.85,
+      "end": 414.73,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 450.54,
-      "end": 452.04,
-      "text": "If you need to tap into hospice,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 414.73,
+      "end": 417.93,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 454.32,
-      "end": 456.42,
-      "text": "you can ask and receive counseling.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 417.93,
+      "end": 421.57,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 457.4,
-      "end": 459.3,
-      "text": "If you decide, it will be great.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 421.81,
+      "end": 423.89,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 423.89,
+      "end": 426.37,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 426.37,
+      "end": 431.05,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 431.05,
+      "end": 432.99,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 436.43,
+      "end": 438.55,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 438.55,
+      "end": 441.05,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 441.05,
+      "end": 443.35,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 443.35,
+      "end": 445.69,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 445.69,
+      "end": 447.03,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 447.03,
+      "end": 449.51,
+      "text": "The system of hospice is connected to hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 449.51,
+      "end": 457.55,
+      "text": "The system of hospice. 호스피스에 두들기셔서 필요하다면 물어도 보시고 상담도 받아 보시고",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 457.55,
+      "end": 460.55,
+      "text": "그래서 결정하시면 참 좋겠다는 생각이 듭니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     }
   ]
 }
