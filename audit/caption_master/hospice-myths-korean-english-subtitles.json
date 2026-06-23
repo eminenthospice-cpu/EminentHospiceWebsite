@@ -1,8 +1,9 @@
 {
   "video": "public/videos/hospice-myths-korean-english-subtitles.mp4",
-  "source_transcript": "audit\\video_captions\\transcripts\\hospice-myths-korean-english-subtitles.json",
+  "source_transcript": "audit\\video_caption_remediation\\hospice-myths-korean-english-subtitles.en.machine_translation.json",
+  "korean_transcript": "audit\\video_caption_remediation\\hospice-myths-korean-english-subtitles.ko.transcript.json",
   "language": "en",
-  "source": "machine translation grouped into phrase-level draft captions",
+  "source": "fresh local Korean ASR translate pass grouped into phrase-level captions",
   "review_required": true,
   "style": {
     "max_lines": 2,
@@ -13,1088 +14,948 @@
   "entries": [
     {
       "start": 0.18,
-      "end": 4.44,
+      "end": 4.9,
       "text": "Hello, I'm Kim Jeong Ah, a nurse practitioner working at Eminent Hospice Care.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 5.48,
-      "end": 14.28,
-      "text": "Today, I'm going to give you an answer to this question,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 5.82,
+      "end": 10.14,
+      "text": "Today, one of the questions you ask a lot as you start hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 16.18,
-      "end": 20.68,
-      "text": "There are people who ask, are you going to use a wet tissue if you do hospice?",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 10.14,
+      "end": 14.88,
+      "text": "If you do hospice, does the patient die sooner?",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 22.14,
-      "end": 25.02,
+      "start": 15.48,
+      "end": 21.7,
+      "text": "I'll give you an answer to this question.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 22.63,
+      "end": 28.99,
+      "text": "There are some people who ask, Does hospice mean the patient will die sooner?",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 28.99,
+      "end": 35.45,
       "text": "To tell you the conclusion, it's not like that.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 25.42,
-      "end": 28.12,
-      "text": "Hospice is the cause, so patients don't go back soon.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 35.45,
+      "end": 39.77,
+      "text": "Hospice is the cause, so patients do not die sooner.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 28.12,
-      "end": 33.216,
+      "start": 40.69,
+      "end": 45.552,
       "text": "If you look at the research on hospice, Hospice patients are more likely to",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 33.216,
-      "end": 37.22,
-      "text": "live longer than when they receive hospice service or hospice service.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 45.552,
+      "end": 48.33,
+      "text": "live longer than when they receive hospice service.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 40.18,
-      "end": 44.987,
-      "text": "Hospice has seen a lot of the process of vaccination of patients, so it",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 48.33,
+      "end": 57.27,
+      "text": "Hospice has seen a lot of patients' condition, so it is necessary to get treatment,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 44.987,
-      "end": 50.48,
-      "text": "is possible to measure the disease that patients have and the symptoms according to the symptoms.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 57.27,
+      "end": 65.91,
+      "text": "and the patient may have it, and according to the symptoms, it can be treated quickly.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 51.64,
-      "end": 56.12,
-      "text": "So, instead of looking around the patient alone, when you receive hospice service, you",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 65.91,
+      "end": 76.94,
+      "text": "So, instead of the family taking care of patients alone, when you receive hospice service,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 56.12,
-      "end": 59.0,
-      "text": "can manage the symptoms that the patient has now,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 78.62,
+      "end": 84.66,
+      "text": "the symptoms you currently have can be better managed, so the patient becomes comfortable,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 61.28,
-      "end": 65.26,
-      "text": "so if the patient becomes comfortable and wants to live longer,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 84.66,
+      "end": 90.46,
+      "text": "and the patient wants to live more, then you can actually live longer.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 66.48,
-      "end": 68.92,
-      "text": "then it becomes more likely to live longer.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 90.46,
+      "end": 95.96,
+      "text": "Taking good care of medications in hospice",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 70.22,
-      "end": 73.627,
-      "text": "Taking good care of the medicine in hospice also increases the amount of medicine",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 96.96,
+      "end": 99.54,
+      "text": "also increases the amount of medications in the patient's life.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 73.627,
-      "end": 74.6,
-      "text": "in the patient's life,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 99.54,
+      "end": 103.18,
+      "text": "One of the misunderstandings about hospice is that there are people who think that",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 76.28,
-      "end": 79.46,
-      "text": "but it is very rare. One of the misunderstandings about hospice is that there",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 103.18,
+      "end": 105.52,
+      "text": "if you do hospice, you will stop the medication.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 79.46,
-      "end": 82.64,
-      "text": "are people who think that if you do hospice, the medicine will be broken.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 106.08,
+      "end": 111.0,
+      "text": "In conclusion, it's not like that.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 84.74,
-      "end": 87.52,
-      "text": "To tell you the conclusion, it's not like that.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 111.0,
+      "end": 117.676,
+      "text": "If you do hospice, you don't need to stop the medication, but you need",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 87.68,
-      "end": 91.79,
-      "text": "If you do hospice, you don't need to remove the medicine, but you need",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 117.676,
+      "end": 120.06,
+      "text": "to review and simplify it,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 91.79,
-      "end": 95.02,
-      "text": "to organize it and leave the medicine that helps the patient.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 120.06,
+      "end": 121.52,
+      "text": "and leave the medicine that helps the patient.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 96.65,
-      "end": 101.74,
-      "text": "After a while, there are cases where the medicine becomes more burdensome to the patient",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 121.94,
+      "end": 126.675,
+      "text": "After a while, instead of expecting the effect of the medicine, there are times",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 101.74,
-      "end": 102.34,
-      "text": "rather than looking forward to the effect of the medicine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 126.675,
+      "end": 129.38,
+      "text": "when it becomes more burdensome for the patient.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 102.66,
-      "end": 105.08,
-      "text": "The most common case is dementia medicine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 130.36,
+      "end": 133.8,
+      "text": "In the most common cases, these are dementia medicines.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 105.96,
-      "end": 109.36,
-      "text": "Dementia is not a medicine that treats dementia, but a medicine that prevents dementia.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 133.8,
+      "end": 142.18,
+      "text": "Dementia medicines are not medicines that cure dementia, but medicines that prevent dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 111.38,
-      "end": 114.927,
-      "text": "In the case of dementia, it is not that you are looking forward to",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 142.42,
+      "end": 148.7,
+      "text": "Dementia medicines are not medicines that cure dementia, but medicines that prevent dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 114.927,
-      "end": 115.94,
-      "text": "the effect of dementia,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 150.0,
+      "end": 158.96,
+      "text": "Dementia medicines are not medicines that cure dementia, Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 116.06,
-      "end": 119.64,
-      "text": "but that it can give more bad influence to the current condition of the patient,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 159.82,
+      "end": 162.66,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 119.64,
-      "end": 121.4,
-      "text": "so there are times when you have to make a decision.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 162.66,
+      "end": 165.72,
+      "text": "Dementia medicines are medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 122.0,
-      "end": 125.682,
-      "text": "In other cases, there are cases where you have to take the medicine depending",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 165.72,
+      "end": 172.04,
+      "text": "Dementia medicines are not medicines that cure dementia,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 125.682,
-      "end": 127.26,
-      "text": "on the condition of the patient.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 172.86,
+      "end": 175.12,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 129.8,
-      "end": 134.88,
-      "text": "If the patient is maintaining normal conditions well, it will not be a big problem,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 175.12,
+      "end": 178.62,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 135.38,
-      "end": 141.28,
-      "text": "but if the patient is in a bad condition, blood pressure, diabetes, and cholesterol should be careful.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 180.51,
+      "end": 183.35,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 142.26,
-      "end": 146.72,
-      "text": "We often say that we should take diabetes, blood pressure, and cholesterol until we die.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 183.35,
+      "end": 186.63,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 149.86,
-      "end": 154.527,
-      "text": "This means that we emphasize the word to keep eating without hesitation, but it",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 187.31,
+      "end": 190.33,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 154.527,
-      "end": 156.86,
-      "text": "is when the patient maintains normal conditions.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 190.33,
+      "end": 194.49,
+      "text": "Dementia medicines are medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 158.76,
-      "end": 162.9,
-      "text": "In fact, there are a lot of people who come in because they can't eat,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 194.49,
+      "end": 199.31,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 164.82,
-      "end": 169.72,
-      "text": "but if you take blood pressure, there are people who are already in low blood pressure.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 199.31,
+      "end": 204.57,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 172.32,
-      "end": 175.48,
-      "text": "I think it's because there are responsibilities that families have to take the medicine",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 204.57,
+      "end": 210.77,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 175.48,
-      "end": 176.92,
-      "text": "even if they can't eat.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 210.8,
+      "end": 214.66,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 179.86,
-      "end": 183.086,
-      "text": "If you can't eat, your weight will lose, and then there will be a",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 215.34,
+      "end": 219.64,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 183.086,
-      "end": 185.16,
-      "text": "lot of possibilities for your blood pressure to drop.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 219.64,
+      "end": 225.62,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 186.24,
-      "end": 188.58,
-      "text": "In that case, if you keep taking the medicine,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 225.62,
+      "end": 230.98,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 189.98,
-      "end": 192.824,
-      "text": "you will have low blood pressure and low blood pressure, and you will also",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 230.98,
+      "end": 233.7,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 192.824,
-      "end": 193.84,
-      "text": "be the cause of death.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 234.5,
+      "end": 238.26,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 194.66,
-      "end": 199.14,
-      "text": "In the case of cholesterol medicine, it is a medicine that removes cholesterol from the body,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 238.26,
+      "end": 241.56,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 199.22,
-      "end": 202.84,
-      "text": "but if you explain to your family that you don't need to take the saved fat",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 241.56,
+      "end": 246.84,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 203.9,
-      "end": 209.58,
-      "text": "even though you can't eat, your family will understand and agree with you.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 246.84,
+      "end": 251.16,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 210.58,
-      "end": 213.78,
-      "text": "In the case of what I've told you so far, it's normal.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 251.72,
+      "end": 255.5,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 214.5,
-      "end": 218.22,
-      "text": "According to the patient, there are some people who go to the hospital unexpectedly.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 255.5,
+      "end": 260.38,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 219.74,
-      "end": 222.024,
-      "text": "So the family has to decide on the middle period by considering the amount",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 261.18,
+      "end": 265.8,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 222.024,
-      "end": 222.84,
-      "text": "of the patient's blood pressure,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 267.13,
+      "end": 268.93,
+      "text": "Dementia medicines are not medicines that cure dementia.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 223.24,
-      "end": 227.596,
-      "text": "the amount of food, the amount of the patient's blood pressure, and the overall",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 269.43,
+      "end": 273.15,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 227.596,
-      "end": 228.84,
-      "text": "condition of the patient.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 273.91,
+      "end": 276.29,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 228.84,
-      "end": 232.247,
-      "text": "So we have to decide on the middle period of the medicine by discussing",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 276.29,
+      "end": 281.15,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 232.247,
-      "end": 233.22,
-      "text": "with the medical staff.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 282.12,
+      "end": 285.78,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 234.7,
-      "end": 236.54,
-      "text": "As the nurse goes to the hospital,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 286.56,
+      "end": 289.34,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 238.32,
-      "end": 241.18,
-      "text": "we have to decide what to monitor according to the symptoms of the patient",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 290.02,
+      "end": 293.68,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 241.18,
-      "end": 241.92,
-      "text": "and what to monitor according to the symptoms of the patient.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 293.68,
+      "end": 298.02,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 241.92,
-      "end": 244.04,
-      "text": "We discuss how to make the patient feel more comfortable.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 298.7,
+      "end": 302.38,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 247.06,
-      "end": 250.02,
-      "text": "And we discuss the doctor and the medicine that will help and not help.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 304.04,
+      "end": 308.98,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 251.1,
-      "end": 254.94,
-      "text": "When you take the medicine that has been adjusted, the patient will feel comfortable,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 308.98,
+      "end": 314.9,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 254.94,
-      "end": 260.12,
-      "text": "and the patient will feel more stable than the previous condition.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 315.46,
+      "end": 320.62,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 260.34,
-      "end": 263.8,
-      "text": "So if you take the hospice, you can say that you are going back quickly.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 321.04,
+      "end": 325.9,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 266.06,
-      "end": 267.52,
-      "text": "I want to tell you about the morphine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 325.9,
+      "end": 327.88,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 269.4,
-      "end": 271.82,
-      "text": "Koreans often see the extreme reaction of morphine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 328.74,
+      "end": 332.66,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 273.38,
-      "end": 275.74,
-      "text": "Of course, it's a medicine that you have to be very careful with.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 332.66,
+      "end": 335.8,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 276.76,
-      "end": 280.24,
-      "text": "It doesn't necessarily start with morphine because it starts with hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 336.26,
+      "end": 339.21,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 281.84,
-      "end": 285.2,
-      "text": "If you start with morphine, you can think of it as two things.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 339.24,
+      "end": 345.42,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 285.88,
-      "end": 288.5,
-      "text": "If you have respiratory problems and symptoms.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 346.2,
+      "end": 351.64,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 289.64,
-      "end": 291.66,
-      "text": "There may be respiratory problems that occur before the person is vaccinated,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 351.64,
+      "end": 356.98,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 293.42,
-      "end": 297.0,
-      "text": "and you can use the original phagealumnalgia respiratory problems.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 358.88,
+      "end": 362.26,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 298.62,
-      "end": 299.86,
-      "text": "You can use the original phagealumnalgia respiratory problems.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 362.26,
+      "end": 366.34,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 299.86,
-      "end": 301.26,
-      "text": "If you have a lot of respiratory problems before the person is vaccinated, you",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 367.0,
+      "end": 371.22,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 301.26,
-      "end": 301.66,
-      "text": "can use the morphine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 371.22,
+      "end": 374.32,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 303.4,
-      "end": 307.86,
-      "text": "Even if it's not phagealumnalgia, you can use the phagealumnalgia respiratory problems.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 374.32,
+      "end": 376.92,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 308.92,
-      "end": 310.44,
-      "text": "If you have a lot of respiratory problems with phagealumnalgia,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 376.92,
+      "end": 379.86,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 311.82,
-      "end": 313.38,
-      "text": "you can use the morphine a lot.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 379.86,
+      "end": 383.9,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 315.42,
-      "end": 316.9,
-      "text": "The next thing you use for morphine is",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 384.98,
+      "end": 390.1,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 318.28,
-      "end": 319.12,
-      "text": "the case where the pain is severe.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 390.1,
+      "end": 397.68,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 320.46,
-      "end": 326.92,
-      "text": "The cancer pain also starts with the weakest part of the anesthetic and ends with the morphine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 398.2,
+      "end": 399.8,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 328.26,
-      "end": 331.82,
-      "text": "And if the pain is severe, and you can't swallow it with your mouth,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 399.8,
+      "end": 404.2,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 331.82,
-      "end": 335.4,
-      "text": "you can start with the morphine that you can put under your tongue.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 404.82,
+      "end": 410.56,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 335.68,
-      "end": 340.176,
-      "text": "The morphine that you can put under your tongue is absorbed by the blood",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 411.61,
+      "end": 413.41,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 340.176,
-      "end": 341.46,
-      "text": "vessels under your tongue",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 414.27,
+      "end": 416.49,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 341.46,
-      "end": 348.8,
-      "text": "and is absorbed quickly. In conclusion, the reason why you use morphine is",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 416.49,
+      "end": 419.99,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 348.8,
-      "end": 351.24,
-      "text": "because of respiratory problems and symptoms.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 420.23,
+      "end": 421.55,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 351.72,
-      "end": 355.08,
-      "text": "The purpose is to make the process of vaccination short and easy.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 422.23,
+      "end": 427.01,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 358.36,
-      "end": 361.56,
-      "text": "The reason is because of respiratory problems and symptoms.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 428.83,
+      "end": 433.69,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 361.56,
-      "end": 366.26,
-      "text": "Because of the respiratory problems, we always get the same family when we start with morphine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 434.27,
+      "end": 439.95,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 366.52,
-      "end": 367.94,
-      "text": "In many cases,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 440.7,
+      "end": 444.08,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 369.28,
-      "end": 371.51,
-      "text": "the family has to live in a house or live in a house, or",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 444.26,
+      "end": 445.56,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 371.51,
-      "end": 373.58,
-      "text": "the family has to live in a house or live in a house,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 445.56,
+      "end": 454.12,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 373.58,
-      "end": 377.82,
-      "text": "so there are people who ask to start with morphine later.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 454.12,
+      "end": 456.64,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 380.1,
-      "end": 383.58,
-      "text": "We are a family and a business, so we make the right time to start with morphine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 456.82,
+      "end": 461.42,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 384.72,
-      "end": 388.54,
-      "text": "And many Koreans think of morphine as a subject of investigation.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 463.24,
+      "end": 466.68,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 389.36,
-      "end": 397.26,
-      "text": "The morphine we give to people in the US in hospice is a remedy to diabetes.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 466.68,
+      "end": 470.96,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 397.88,
-      "end": 398.06,
-      "text": "The morphine we give to people in the U.S.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 471.82,
+      "end": 474.46,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 398.1,
-      "end": 402.241,
-      "text": "It will be dropped under your tongue, and start with a small injection or",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 474.46,
+      "end": 478.8,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 402.241,
-      "end": 403.72,
-      "text": "a small amount of poison.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 479.23,
+      "end": 483.12,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 404.28,
-      "end": 410.22,
-      "text": "The morphine we give to people in Korea starts with 0.2g of 5mg of poison.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 483.12,
+      "end": 487.88,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 411.16,
-      "end": 417.16,
-      "text": "The morphine we give to people in Korea",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 488.16,
+      "end": 492.84,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 417.16,
-      "end": 417.92,
-      "text": "starts with 0.2g of 5mg of 5mg of poison.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 493.83,
+      "end": 496.93,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 420.82,
-      "end": 426.6,
-      "text": "If you don't have any effect, you can increase the capacity or increase it more often.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 497.61,
+      "end": 500.25,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 428.58,
-      "end": 431.78,
-      "text": "And I think you can think of the other half as the effect you want.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 500.83,
+      "end": 503.89,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 433.54,
-      "end": 439.14,
-      "text": "The effect you want is that it is always difficult, and the symptoms are less.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 503.89,
+      "end": 508.61,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 440.6,
-      "end": 442.4,
-      "text": "There are some people who don't want to see the effect.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 508.71,
+      "end": 512.11,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 442.4,
-      "end": 444.04,
-      "text": "There are some people who don't want to see the effect.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 512.43,
+      "end": 515.79,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 444.04,
-      "end": 450.76,
-      "text": "There are some people who have allergies or have a mental disorder or have a confusion.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 515.79,
+      "end": 518.71,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 451.94,
-      "end": 454.84,
-      "text": "There are some people who lose consciousness.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 518.71,
+      "end": 522.43,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 456.42,
-      "end": 461.24,
-      "text": "That's why I'm telling you this to my family before we start the morphine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 524.97,
+      "end": 528.45,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 462.48,
-      "end": 466.4,
-      "text": "Lastly, there is someone who has seen the effect of expectations.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 528.45,
+      "end": 529.79,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 466.4,
-      "end": 470.52,
-      "text": "In this case, it's easy to say that the morphine fits the patient so well.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 530.45,
+      "end": 532.53,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 470.52,
-      "end": 473.74,
-      "text": "The symptoms are better than expectations.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 532.53,
+      "end": 535.61,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 475.34,
-      "end": 478.74,
-      "text": "I gave you a morphine because I thought you would go back to the extreme.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 535.61,
+      "end": 539.31,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 478.74,
-      "end": 482.42,
-      "text": "After eating the morphine, your body is relaxed and comfortable.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 539.39,
+      "end": 541.27,
+      "text": "If you take the medicine, you will feel better.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 482.86,
-      "end": 486.82,
-      "text": "The patient gets better mentally and feels better.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 541.27,
+      "end": 544.79,
+      "text": "약관리를 정말 잘 못하시는 경우가 너무 많습니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 488.3,
-      "end": 491.04,
-      "text": "So there are some people who live a little more comfortably.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 545.53,
+      "end": 553.79,
+      "text": "약 이름이 영으로 되어 있어서 환자나 가족은 약 이름에 익숙하지 않고 본인도 왜 그 약을 드시는지 모르고",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 493.56,
-      "end": 495.88,
-      "text": "I told you about the effect of morphine so far.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 554.21,
+      "end": 556.61,
+      "text": "자기 마음대로 드시는 경우가 많습니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 496.88,
-      "end": 499.1,
-      "text": "Not all patients use morphine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 558.23,
+      "end": 562.11,
+      "text": "문제점들을 얘기해 보자면 중복되는 약이 많습니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 500.26,
-      "end": 502.46,
-      "text": "There are some people who don't use morphine and go back.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 562.21,
+      "end": 569.15,
+      "text": "의사가 말했는데 끊어야 하는데 안 끊고 두 개를 한꺼번에 같이 계신다든가 같이 드시고 계신다든가",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 503.9,
-      "end": 507.12,
-      "text": "People who go back while sleeping don't use morphine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 569.15,
+      "end": 574.97,
+      "text": "아니면 중단이 되었는데 버리기 아까워서 쌓았고 계시다가 나중에",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 508.5,
-      "end": 512.04,
-      "text": "There are some people who have a slow breathing.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 576.15,
+      "end": 582.55,
+      "text": "깜빡하고 다시 드시는 경우도 있고 아니면 약이 그렇게 되니까 약이 너무 많아져서",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 512.04,
-      "end": 515.0,
-      "text": "Or there are some people who have a very weak breathing.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 582.55,
+      "end": 588.31,
+      "text": "본인도 무슨 약을 먹어야 되고 무슨 약을 먹지 말아야 되는지 혼동되는 경우입니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 516.02,
-      "end": 521.58,
-      "text": "If you breathe slowly or slowly, If you don't have a pain, morphine doesn't start.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 588.31,
+      "end": 594.53,
+      "text": "그리고 약국에서는 리필을 계속 해주는데 환자분들이 약을 띄움띄움드시다 보니까",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 524.4,
-      "end": 527.82,
-      "text": "Lastly, I want to tell you about the importance of drug management.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 594.53,
+      "end": 597.11,
+      "text": "약이 너무 많아지는 경우도 있습니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 527.82,
-      "end": 528.82,
-      "text": "I want to fill the end.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 598.02,
+      "end": 602.7,
+      "text": "이 영상을 보시는 분들은 좀 젊은 세대이기 때문에 말씀드립니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 530.36,
-      "end": 533.76,
-      "text": "I'm sure you know so well about nurses and nurses",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 603.3,
+      "end": 606.14,
+      "text": "세상에는 좋은 약이 정말 많이 있습니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 537.62,
-      "end": 538.46,
-      "text": "who are taking care of patients.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 606.9,
+      "end": 610.18,
+      "text": "약이 사람을 살리기도 하고 빨리 돌아가시기도 합니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 539.28,
-      "end": 542.2,
-      "text": "There are so many young people in Korea who are not good at drug management.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 610.56,
+      "end": 613.68,
+      "text": "저는 많은 그런 경우를 너무 많이 봤습니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 544.66,
-      "end": 546.64,
-      "text": "The name of the drug is English.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 614.56,
+      "end": 620.776,
+      "text": "약에 대해서 똑똑해지시고 내가 무슨 약을 먹는지 그 약이 어떤 효과를 있는지 그리고 그",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 547.6,
-      "end": 550.2,
-      "text": "The patient and family are not used to the name of the drug.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 620.776,
+      "end": 623.44,
+      "text": "약을 어떤 때 드시지 말아야 되는지",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 550.2,
-      "end": 553.02,
-      "text": "They don't know why they are taking the drug.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 623.44,
+      "end": 626.82,
+      "text": "잘 염두해 드시고 약을 관리하시기 바랍니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 553.88,
-      "end": 555.2,
-      "text": "They eat it as they like.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 557.76,
-      "end": 558.6,
-      "text": "Let me tell you about the problems.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 559.98,
-      "end": 561.66,
-      "text": "There are a lot of drugs that are addicted.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 561.94,
-      "end": 564.94,
-      "text": "The doctor said, You have to cut it off, but you don't cut it off.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
-    },
-    {
-      "start": 565.0,
-      "end": 568.38,
-      "text": "You're together at once. Or you're eating together.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 568.74,
-      "end": 570.48,
-      "text": "Or you're in the middle.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 571.38,
-      "end": 572.46,
-      "text": "It's a waste to throw it away.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 572.72,
-      "end": 576.2,
-      "text": "You're fighting, and you forget later.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 576.78,
-      "end": 581.12,
-      "text": "Sometimes you eat again. Or you have too much medication.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 582.46,
-      "end": 584.0,
-      "text": "You have to take some medicine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 584.88,
-      "end": 585.46,
-      "text": "You have to take some medicine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 586.32,
-      "end": 590.62,
-      "text": "Sometimes it's a mess. And in medicine, they keep refilling.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 591.9,
-      "end": 596.62,
-      "text": "There are so many drugs because the patients are taking pills.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 598.08,
-      "end": 599.32,
-      "text": "If you watch this video,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 600.32,
-      "end": 601.22,
-      "text": "It's because it's a young generation.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 602.98,
-      "end": 604.96,
-      "text": "There are so many good drugs in the world.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 605.92,
-      "end": 609.44,
-      "text": "They save people and go back.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 610.48,
-      "end": 613.32,
-      "text": "I've seen a lot of cases like that.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 614.48,
-      "end": 617.74,
-      "text": "Be smart about the drug. What kind of medicine do you take?",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 618.46,
-      "end": 619.88,
-      "text": "What kind of effect does it have?",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 620.52,
-      "end": 622.44,
-      "text": "And what kind of medicine should you take?",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 623.28,
-      "end": 625.42,
-      "text": "Take good care of the medicine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 626.72,
-      "end": 627.56,
-      "text": "That's all.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 627.08,
+      "end": 627.84,
+      "text": "이상입니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     }
   ]
 }

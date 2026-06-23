@@ -1,8 +1,9 @@
 {
   "video": "public/videos/hospice-team-interview-younghee-kim-korean-english-subtitles.mp4",
-  "source_transcript": "audit\\video_captions\\transcripts\\hospice-team-interview-younghee-kim-korean-english-subtitles.json",
+  "source_transcript": "audit\\video_caption_remediation\\hospice-team-interview-younghee-kim-korean-english-subtitles.en.machine_translation.json",
+  "korean_transcript": "audit\\video_caption_remediation\\hospice-team-interview-younghee-kim-korean-english-subtitles.ko.transcript.json",
   "language": "en",
-  "source": "machine translation grouped into phrase-level draft captions",
+  "source": "fresh local Korean ASR translate pass grouped into phrase-level captions",
   "review_required": true,
   "style": {
     "max_lines": 2,
@@ -13,283 +14,850 @@
   "entries": [
     {
       "start": 11.79,
-      "end": 19.87,
-      "text": "I am Kim Young-hee, working as a assistant at Eminent Hospice for the past 6 months.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "end": 18.51,
+      "text": "I am Kim Young Hee, who is currently working as a assistant at Eminent",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 28.47,
-      "end": 34.31,
-      "text": "My husband, who was usually sick, was discharged on April 15th.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 18.51,
+      "end": 20.43,
+      "text": "Hospice for 6 months.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 46.27,
-      "end": 51.95,
-      "text": "I was able to stay at the hospital bed, wheelchair, walker, oxygen heater, and",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 28.63,
+      "end": 34.13,
+      "text": "My husband, who had a bad liver, was discharged on April 15th.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 51.95,
-      "end": 57.63,
-      "text": "other equipment provided by Eminent Hospice for the past 1 month and 1 month.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 34.89,
+      "end": 42.21,
+      "text": "I was able to stay at Eminent Hospice for about a month or two,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 57.63,
-      "end": 61.59,
-      "text": "I was able to stay at the hospital bed safely and comfortably without panic.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 42.21,
+      "end": 62.61,
+      "text": "with the help of the help of the Eminent Hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 63.39,
-      "end": 67.425,
-      "text": "I was also able to take the doctor who helped me at the hospice",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 62.73,
+      "end": 67.548,
+      "text": "I was able to stay at Eminent Hospice for about a month or two,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 67.425,
-      "end": 69.73,
-      "text": "a few days ago to the hospital bed.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 67.548,
+      "end": 70.99,
+      "text": "with the help of the help of the Eminent Hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 72.03,
-      "end": 87.35,
-      "text": "After a few days after he passed away, I began to work from April 21.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 70.99,
+      "end": 81.677,
+      "text": "I was able to stay at Eminent Hospice for about a month or two,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 96.1,
-      "end": 100.4,
-      "text": "I worked as a nurse at Seoul National Hospital for 20 years.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 81.677,
+      "end": 89.31,
+      "text": "with the help of the help of the Eminent Hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 126.44,
-      "end": 130.38,
-      "text": "I worked as a nurse at a hospital bed to help my baby father.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 96.22,
+      "end": 99.807,
+      "text": "I was able to stay at Eminent Hospice for about a month or two,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 158.96,
-      "end": 160.36,
-      "text": "Thanks to that, I am now working as a nurse at the hospital bed.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 99.807,
+      "end": 101.6,
+      "text": "with the help of the Eminent Hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 160.36,
-      "end": 164.3,
-      "text": "I am now helping those who need a hair cut or a foot massage.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 101.96,
+      "end": 107.653,
+      "text": "I was able to stay at Eminent Hospice for about a month or two,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 173.21,
-      "end": 179.85,
-      "text": "I have been working for the first time since I was born.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 107.653,
+      "end": 110.5,
+      "text": "with the help of the Eminent Hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 182.21,
-      "end": 185.31,
-      "text": "I was 98 years old. I cried a lot for a long time.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 111.28,
+      "end": 121.408,
+      "text": "A few days after I left the hospital, a nurse visited me and asked",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 187.11,
-      "end": 191.21,
-      "text": "Before I went back to the hospital bed, I had to change my diaper in the evening.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 121.408,
+      "end": 132.26,
+      "text": "me how I was able to help with the patients who had a bad liver.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 191.29,
-      "end": 193.67,
-      "text": "My father was smiling at me with a wrong mouth.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 132.26,
+      "end": 144.36,
+      "text": "I did not hide anything, and I started working from April 21st.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 196.29,
-      "end": 200.05,
-      "text": "That night, my father was smiling at me like a child.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 144.36,
+      "end": 146.127,
+      "text": "I started working from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 202.91,
-      "end": 206.05,
-      "text": "I thought that I should go and hug him.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 146.127,
+      "end": 147.894,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 208.75,
-      "end": 212.75,
-      "text": "My heart ached a lot. He loved me.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 147.894,
+      "end": 149.662,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 218.05,
-      "end": 224.57,
-      "text": "My mother is a Parkinson's patient, but she has a lot of doubts.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 149.662,
+      "end": 151.429,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 225.31,
-      "end": 226.95,
-      "text": "She was very scared of people she had never seen before.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 151.429,
+      "end": 153.196,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 229.79,
-      "end": 232.29,
-      "text": "She is very close to me now.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 153.196,
+      "end": 154.963,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 232.61,
-      "end": 234.03,
-      "text": "I was also scared at first.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 154.963,
+      "end": 156.73,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 234.67,
-      "end": 237.45,
-      "text": "She said she had never seen me before.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 156.73,
+      "end": 158.497,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 237.45,
-      "end": 238.37,
-      "text": "She said she had never seen me before.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 158.497,
+      "end": 160.265,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 239.67,
-      "end": 241.63,
-      "text": "She is a patient who can't move because her muscles are paralyzed.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 160.265,
+      "end": 162.032,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 244.41,
-      "end": 247.63,
-      "text": "She can't chew and swallow well.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 162.032,
+      "end": 163.799,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 248.79,
-      "end": 252.63,
-      "text": "She can't express well because she can't speak well.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 163.799,
+      "end": 165.44,
+      "text": "April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 255.43,
-      "end": 258.89,
-      "text": "But she is very close to me now.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 173.41,
+      "end": 174.42,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 259.29,
-      "end": 263.09,
-      "text": "She sometimes gets depressed, but she is very happy to communicate with me.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 174.42,
+      "end": 175.431,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 263.09,
-      "end": 267.87,
-      "text": "When patients who are having a hard time because of dementia, they also sympathize",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 175.431,
+      "end": 176.441,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 267.87,
-      "end": 272.65,
-      "text": "with their emotional state and say thank you when they get used to it.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 176.441,
+      "end": 177.451,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 273.89,
-      "end": 286.83,
-      "text": "It's very annoying. Therefore, I think it's most rewarding when patients feel comforted and feel at ease",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 177.451,
+      "end": 178.462,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 294.49,
-      "end": 297.61,
-      "text": "I think most people don't know much about hospice like my husband or my father.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 178.462,
+      "end": 179.472,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 300.85,
-      "end": 304.47,
-      "text": "I think most people don't know much about hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 179.472,
+      "end": 180.483,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 304.89,
-      "end": 308.65,
-      "text": "I think there are many people who need help from my experience.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 180.483,
+      "end": 181.493,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 312.67,
-      "end": 317.53,
-      "text": "Please contact Eminot Hospice right now and receive help.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 181.493,
+      "end": 182.503,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 319.35,
-      "end": 326.337,
-      "text": "I'm trying to give as much help as possible to those who need time",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 182.503,
+      "end": 183.514,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 326.337,
-      "end": 329.83,
-      "text": "and health to those who need it.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 183.514,
+      "end": 184.524,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 331.69,
-      "end": 333.25,
-      "text": "Thank you.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 184.524,
+      "end": 185.39,
+      "text": "April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 187.31,
+      "end": 188.631,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 188.631,
+      "end": 189.951,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 189.951,
+      "end": 191.272,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 191.272,
+      "end": 192.593,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 192.593,
+      "end": 193.914,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 193.914,
+      "end": 195.234,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 195.234,
+      "end": 196.555,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 196.555,
+      "end": 197.876,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 197.876,
+      "end": 199.197,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 199.197,
+      "end": 200.517,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 200.517,
+      "end": 201.838,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 201.838,
+      "end": 202.97,
+      "text": "21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 203.37,
+      "end": 204.193,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 204.193,
+      "end": 205.016,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 205.016,
+      "end": 205.839,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 205.839,
+      "end": 206.663,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 206.663,
+      "end": 207.486,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 207.486,
+      "end": 208.309,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 208.309,
+      "end": 209.132,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 209.132,
+      "end": 209.955,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 209.955,
+      "end": 210.778,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 210.778,
+      "end": 211.601,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 211.601,
+      "end": 212.424,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 212.424,
+      "end": 213.13,
+      "text": "April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 214.96,
+      "end": 216.098,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 216.098,
+      "end": 217.235,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 217.235,
+      "end": 218.373,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 218.373,
+      "end": 219.511,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 219.511,
+      "end": 220.649,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 220.649,
+      "end": 221.786,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 221.786,
+      "end": 222.924,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 222.924,
+      "end": 224.062,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 224.062,
+      "end": 225.199,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 225.199,
+      "end": 226.337,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 226.337,
+      "end": 227.475,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 227.475,
+      "end": 228.45,
+      "text": "21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 229.45,
+      "end": 229.882,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 229.882,
+      "end": 230.314,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 230.314,
+      "end": 230.745,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 230.745,
+      "end": 231.177,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 231.177,
+      "end": 231.609,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 231.609,
+      "end": 232.041,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 232.041,
+      "end": 232.473,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 232.473,
+      "end": 232.904,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 232.904,
+      "end": 233.336,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 233.336,
+      "end": 233.768,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 233.768,
+      "end": 234.2,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 234.2,
+      "end": 234.57,
+      "text": "April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 235.33,
+      "end": 236.104,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 236.104,
+      "end": 236.878,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 236.878,
+      "end": 237.653,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 237.653,
+      "end": 238.427,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 238.427,
+      "end": 239.201,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 239.201,
+      "end": 239.975,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 239.975,
+      "end": 240.75,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 240.75,
+      "end": 241.524,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 241.524,
+      "end": 242.298,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 242.298,
+      "end": 243.072,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 243.072,
+      "end": 243.846,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 243.846,
+      "end": 244.51,
+      "text": "21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 244.91,
+      "end": 245.573,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 245.573,
+      "end": 246.236,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 246.236,
+      "end": 246.899,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 246.899,
+      "end": 247.562,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 247.562,
+      "end": 248.224,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 248.224,
+      "end": 248.887,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 248.887,
+      "end": 249.55,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 249.55,
+      "end": 250.213,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 250.213,
+      "end": 250.876,
+      "text": "April 21st from April 21st from April 21st from April 21st from April 21st",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 250.876,
+      "end": 251.539,
+      "text": "from April 21st from April 21st from April 21st from April 21st from April",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 251.539,
+      "end": 252.202,
+      "text": "21st from April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 252.202,
+      "end": 252.77,
+      "text": "April 21st from April 21st from April 21st from April 21st from",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 254.03,
+      "end": 263.18,
+      "text": "그런데 지금은 아주 많이 친해졌어요. 가끔 우울증도 겪으시지만 지금은 아주 웃으면서 소통을 해요.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 263.7,
+      "end": 271.793,
+      "text": "또 치매가 심해서 모두들 힘들어하는 환자분들도 그분들의 정서 상태에 공감을 하면서 함께 해드리면 차츰",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 271.793,
+      "end": 275.84,
+      "text": "적응하면서 고맙다고 할 때는 정말 가슴이 찡해요.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 275.84,
+      "end": 287.9,
+      "text": "그래서 따라서 신뢰를 바탕으로 서로 위로와 사랑 가운데 환자분들이 평화남을 느낄 때가 가장 보람된다고 생각합니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 295.1,
+      "end": 306.58,
+      "text": "저희 남편이나 엘리 가신 아버님처럼 보통 사람들은 대부분 호스피스에 대해서 잘 모르는 것 같습니다. 저도 그랬으니까요.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 306.58,
+      "end": 312.74,
+      "text": "그런데 제 경험상 이렇게 도움이 사실이 필요하신 분들이 많으실 것 같습니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 313.38,
+      "end": 318.22,
+      "text": "지금 바로 엠리드 호스피스에 연락을 주시고 도움을 받으세요.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 318.92,
+      "end": 327.393,
+      "text": "저는 제가 받은 여러 가지 많은 도움들을 조금이라도 보답하려고 제가 시간과 건강이 허락하는 한",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 327.393,
+      "end": 332.84,
+      "text": "필요하신 분들에게 많은 도움을 최대한 드리려고 노력하고 있습니다. 감사합니다.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     }
   ]
 }

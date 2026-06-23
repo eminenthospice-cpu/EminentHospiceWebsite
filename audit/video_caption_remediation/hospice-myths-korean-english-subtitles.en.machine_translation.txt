@@ -1,0 +1,126 @@
+[0000.180 -> 0004.440] Hello, I'm Kim Jung-ah, a nurse practitioner working at Eminent Hospice Care.
+[0005.480 -> 0009.100] Today, one of the questions you ask a lot as you start hospice.
+[0009.720 -> 0011.940] If you do hospice, does it go back quickly?
+[0012.580 -> 0013.660] I'll give you an answer to this question.
+[0015.320 -> 0015.840] There are some people who ask,
+[0016.960 -> 0020.660] Are you going to use a rag when you do hospice?
+[0021.880 -> 0025.070] To tell you the conclusion, it's not like that.
+[0025.570 -> 0028.090] Hospice is the cause, so patients don't go back quickly.
+[0029.110 -> 0031.610] If you look at the research on hospice,
+[0031.610 -> 0034.570] Hospice patients are more likely to live longer than when they receive hospice service.
+[0040.610 -> 0042.870] Hospice has seen a lot of patients' approval process,
+[0044.190 -> 0045.630] so it is necessary to get treatment,
+[0046.030 -> 0047.790] and the patient may have it,
+[0048.250 -> 0050.470] and according to the symptoms, it can be treated quickly.
+[0052.050 -> 0054.650] So, instead of the family taking care of patients alone,
+[0054.650 -> 0056.710] when you receive hospice service,
+[0057.230 -> 0060.970] the symptoms you currently have can be better managed,
+[0061.650 -> 0063.110] so the patient becomes comfortable,
+[0063.670 -> 0065.110] and the patient wants to live more,
+[0065.750 -> 0067.830] then you can actually live longer.
+[0070.420 -> 0072.460] Taking good care of drugs in hospice
+[0072.460 -> 0075.820] also increases the amount of drugs in the patient's life.
+[0077.160 -> 0081.000] One of the misunderstandings about hospice is that
+[0081.000 -> 0082.220] there are people who think that if you do hospice, you will break the medicine.
+[0084.420 -> 0087.500] In conclusion, it's not like that.
+[0087.640 -> 0089.920] If you do hospice, you don't need to break the medicine,
+[0090.380 -> 0091.600] but you need to clean it up,
+[0092.380 -> 0095.040] and leave the medicine that helps the patient.
+[0096.320 -> 0099.020] After a while, instead of expecting the effect of the medicine,
+[0100.320 -> 0101.980] there are times when it becomes more burdensome for the patient.
+[0102.800 -> 0105.120] In the most common cases, these are dementia medicines.
+[0106.100 -> 0107.860] Dementia medicines are not medicines that cure dementia,
+[0108.600 -> 0109.360] but medicines that prevent dementia.
+[0111.520 -> 0115.740] Dementia medicines are not medicines that cure dementia,
+[0115.740 -> 0117.080] but medicines that prevent dementia.
+[0121.500 -> 0125.500] Dementia medicines are not medicines that cure dementia,
+[0129.600 -> 0135.280] Dementia medicines are not medicines that cure dementia.
+[0135.280 -> 0135.500] Dementia medicines are not medicines that cure dementia.
+[0135.640 -> 0139.340] Dementia medicines are medicines that cure dementia.
+[0139.340 -> 0141.660] Dementia medicines are not medicines that cure dementia,
+[0142.160 -> 0149.060] Dementia medicines are not medicines that cure dementia.
+[0149.760 -> 0151.540] Dementia medicines are not medicines that cure dementia.
+[0151.540 -> 0153.180] Dementia medicines are not medicines that cure dementia.
+[0153.700 -> 0154.800] Dementia medicines are not medicines that cure dementia.
+[0160.700 -> 0164.800] Dementia medicines are not medicines that cure dementia.
+[0166.200 -> 0168.760] Dementia medicines are medicines that cure dementia.
+[0175.840 -> 0188.610] Dementia medicines are not medicines that cure dementia.
+[0190.710 -> 0194.410] Dementia medicines are not medicines that cure dementia.
+[0194.830 -> 0197.890] Dementia medicines are not medicines that cure dementia.
+[0197.890 -> 0199.350] Dementia medicines are not medicines that cure dementia.
+[0199.470 -> 0199.570] Dementia medicines are not medicines that cure dementia.
+[0199.570 -> 0202.190] Dementia medicines are not medicines that cure dementia.
+[0207.330 -> 0209.930] Dementia medicines are not medicines that cure dementia.
+[0209.930 -> 0210.610] Dementia medicines are not medicines that cure dementia.
+[0210.660 -> 0211.480] Dementia medicines are not medicines that cure dementia.
+[0211.480 -> 0211.740] Dementia medicines are not medicines that cure dementia.
+[0211.740 -> 0211.800] Dementia medicines are not medicines that cure dementia.
+[0211.800 -> 0213.840] Dementia medicines are not medicines that cure dementia.
+[0228.860 -> 0237.960] Dementia medicines are not medicines that cure dementia.
+[0242.200 -> 0243.860] Dementia medicines are not medicines that cure dementia.
+[0243.860 -> 0244.520] Dementia medicines are not medicines that cure dementia.
+[0244.520 -> 0244.540] Dementia medicines are not medicines that cure dementia.
+[0247.900 -> 0255.040] If you take the medicine, you will feel better.
+[0255.220 -> 0260.400] If you take the medicine, you will feel better.
+[0260.400 -> 0264.980] If you take the medicine, you will feel better.
+[0265.700 -> 0267.090] If you take the medicine, you will feel better.
+[0267.090 -> 0267.110] If you take the medicine, you will feel better.
+[0267.110 -> 0267.350] If you take the medicine, you will feel better.
+[0268.490 -> 0272.290] If you take the medicine, you will feel better.
+[0273.850 -> 0280.830] If you take the medicine, you will feel better.
+[0281.150 -> 0286.320] If you take the medicine, you will feel better.
+[0286.320 -> 0295.180] If you take the medicine, you will feel better.
+[0295.360 -> 0295.820] If you take the medicine, you will feel better.
+[0295.960 -> 0296.160] If you take the medicine, you will feel better.
+[0296.160 -> 0297.240] If you take the medicine, you will feel better.
+[0299.060 -> 0302.080] If you take the medicine, you will feel better.
+[0306.580 -> 0313.840] If you take the medicine, you will feel better.
+[0315.920 -> 0325.580] If you take the medicine, you will feel better.
+[0325.580 -> 0325.720] If you take the medicine, you will feel better.
+[0325.720 -> 0327.500] If you take the medicine, you will feel better.
+[0329.820 -> 0332.080] If you take the medicine, you will feel better.
+[0347.780 -> 0355.040] If you take the medicine, you will feel better.
+[0358.500 -> 0359.600] If you take the medicine, you will feel better.
+[0359.600 -> 0360.100] If you take the medicine, you will feel better.
+[0360.100 -> 0361.640] If you take the medicine, you will feel better.
+[0372.100 -> 0383.100] If you take the medicine, you will feel better.
+[0383.100 -> 0383.120] If you take the medicine, you will feel better.
+[0384.140 -> 0388.760] If you take the medicine, you will feel better.
+[0394.320 -> 0409.340] If you take the medicine, you will feel better.
+[0411.630 -> 0418.770] If you take the medicine, you will feel better.
+[0423.010 -> 0425.510] If you take the medicine, you will feel better.
+[0430.150 -> 0432.410] If you take the medicine, you will feel better.
+[0432.410 -> 0433.110] If you take the medicine, you will feel better.
+[0433.110 -> 0433.290] If you take the medicine, you will feel better.
+[0434.110 -> 0434.470] If you take the medicine, you will feel better.
+[0434.470 -> 0434.770] If you take the medicine, you will feel better.
+[0434.770 -> 0434.970] If you take the medicine, you will feel better.
+[0448.220 -> 0465.140] If you take the medicine, you will feel better.
+[0465.140 -> 0465.220] If you take the medicine, you will feel better.
+[0465.220 -> 0465.380] If you take the medicine, you will feel better.
+[0471.280 -> 0472.720] If you take the medicine, you will feel better.
+[0477.840 -> 0481.760] If you take the medicine, you will feel better.
+[0488.120 -> 0490.820] If you take the medicine, you will feel better.
+[0490.820 -> 0492.360] If you take the medicine, you will feel better.
+[0493.130 -> 0495.430] If you take the medicine, you will feel better.
+[0510.630 -> 0521.870] If you take the medicine, you will feel better.
+[0522.390 -> 0527.010] If you take the medicine, you will feel better.
+[0529.670 -> 0536.010] If you take the medicine, you will feel better.
+[0540.550 -> 0544.510] If you take the medicine, you will feel better.
+[0545.330 -> 0554.490] If you take the medicine, you will feel better.
+[0554.490 -> 0554.590] If you take the medicine, you will feel better.
+[0554.590 -> 0556.170] If you take the medicine, you will feel better.
+[0556.170 -> 0561.490] If you take the medicine, you will feel better.
+[0562.370 -> 0568.290] If you take the medicine, you will feel better.
+[0568.290 -> 0568.590] If you take the medicine, you will feel better.
+[0568.590 -> 0568.710] If you take the medicine, you will feel better.
+[0568.930 -> 0572.330] If you take the medicine, you will feel better.
+[0572.330 -> 0586.850] If you take the medicine, you will feel better.
+[0590.730 -> 0595.770] If you take the medicine, you will feel better.
+[0597.010 -> 0606.000] If you take the medicine, you will feel better.
+[0606.840 -> 0608.080] If you take the medicine, you will feel better.
+[0608.080 -> 0608.300] If you take the medicine, you will feel better.
+[0609.300 -> 0615.920] If you take the medicine, you will feel better.
+[0615.920 -> 0619.520] If you take the medicine, you will feel better.
+[0619.520 -> 0623.740] If you take the medicine, you will feel better.
+[0627.300 -> 0628.500] If you take the medicine, you will feel better.

@@ -1,8 +1,9 @@
 {
   "video": "public/videos/after-death-non-hospice-polst-korean-english-subtitles.mp4",
-  "source_transcript": "audit\\video_captions\\transcripts\\after-death-non-hospice-polst-korean-english-subtitles.json",
+  "source_transcript": "audit\\video_caption_remediation\\after-death-non-hospice-polst-korean-english-subtitles.en.machine_translation.json",
+  "korean_transcript": "audit\\video_caption_remediation\\after-death-non-hospice-polst-korean-english-subtitles.ko.transcript.json",
   "language": "en",
-  "source": "machine translation grouped into phrase-level draft captions",
+  "source": "fresh local Korean ASR translate pass grouped into phrase-level captions",
   "review_required": true,
   "style": {
     "max_lines": 2,
@@ -13,780 +14,682 @@
   "entries": [
     {
       "start": 0.0,
-      "end": 4.4,
+      "end": 4.84,
       "text": "Hello, I'm Kim Jeong Ah, a nurse practitioner working at Eminent Hospice Care.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 4.9,
-      "end": 12.6,
-      "text": "In the last video, I talked about the death after the patient was admitted by the hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 5.54,
+      "end": 10.934,
+      "text": "In the last video, I talked about the death of the patient after he",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 12.62,
-      "end": 20.14,
-      "text": "Today, I will explain about the death after the patient was admitted by the hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 10.934,
+      "end": 12.86,
+      "text": "was admitted by the hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 20.6,
-      "end": 24.622,
-      "text": "First, the hospital. The patient who goes back to the hospital is treated by",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 13.46,
+      "end": 20.6,
+      "text": "Today, I will explain about the death of the patient after he was admitted by the hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 24.622,
-      "end": 26.92,
-      "text": "the patient who went back to the hospital.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 21.48,
+      "end": 28.625,
+      "text": "First, the hospital. The patient who goes back to the hospital is a nurse",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 27.38,
-      "end": 34.34,
-      "text": "After the patient was admitted by the hospice, the patient will take the patient to the hospital.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 28.625,
+      "end": 35.26,
+      "text": "who went back to the hospital after he was admitted by the hospice.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 35.76,
-      "end": 37.46,
-      "text": "Next, the patient who went back to the hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 36.04,
+      "end": 48.5,
+      "text": "The next is the death of the patient at the nursing home.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 38.96,
-      "end": 44.047,
-      "text": "In the hospice, the patient's heart stops, and if he finds out that he",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 49.22,
+      "end": 53.252,
+      "text": "If the patient in the nursing home finds that the patient's heart stops and",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 44.047,
-      "end": 47.68,
-      "text": "is not breathing, it is important to advance the directive.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 53.252,
+      "end": 56.42,
+      "text": "does not breathe, it is important to have an advanced directive.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 48.62,
-      "end": 53.46,
-      "text": "After the patient is admitted by the hospice, it is important to advance the directive.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 57.42,
+      "end": 62.637,
+      "text": "When the patient is poisoned, it is a procedure that has been decided in",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 57.22,
-      "end": 61.16,
-      "text": "POLST, Physician orders for life-sustaining treatment.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 62.637,
+      "end": 64.5,
+      "text": "advance about how to behave.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 61.88,
-      "end": 65.063,
-      "text": "In Korean, it is a little awkward, but it is called a doctor's order",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 64.5,
+      "end": 70.6,
+      "text": "It is said that it is a POLST-physicist order for life-sustaining treatment.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 65.063,
-      "end": 66.2,
-      "text": "related to life extension treatment.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 70.9,
+      "end": 76.407,
+      "text": "It is a bit awkward to speak in Korean, but it is called a",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 67.66,
-      "end": 69.82,
-      "text": "In Korean, it is called a resuscitation.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 76.407,
+      "end": 79.16,
+      "text": "doctor's order related to life extension treatment.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 70.98,
-      "end": 76.1,
-      "text": "Usually, it is a pink paper, but if the heart stops, it will indicate",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 80.24,
+      "end": 84.22,
+      "text": "It is said that it is a pre-trial procedure in Korean.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 76.1,
-      "end": 78.66,
-      "text": "whether or not to do a resuscitation.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 85.46,
+      "end": 89.444,
+      "text": "Usually, it is a pink paper, but when the heart stops, it is shown",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 79.52,
-      "end": 83.52,
-      "text": "If you have to do a resuscitation, it is a case of a check-up on the CPR.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 89.444,
+      "end": 91.72,
+      "text": "whether or not to do a heart surgery.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 84.96,
-      "end": 90.78,
-      "text": "At this time, the doctor's order is to perform a resuscitation and call 911 to the hospital.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 92.06,
+      "end": 96.353,
+      "text": "If you have to do a heart surgery, it is a case of a",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 91.6,
-      "end": 93.3,
-      "text": "There are cases where patients exercise a lot.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 96.353,
+      "end": 97.58,
+      "text": "check-up under the CPR.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 94.18,
-      "end": 98.044,
-      "text": "If you have to do a resuscitation, it is a case of a check-up",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 98.04,
+      "end": 100.731,
+      "text": "At this time, the doctor's order is to run a heart surgery and call",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 98.044,
-      "end": 99.7,
-      "text": "on the CPR and cardiopulmonary resuscitation.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 100.731,
+      "end": 101.5,
+      "text": "911 to the hospital.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 101.44,
-      "end": 104.94,
-      "text": "At this time, the doctor's order is to perform a resuscitation and call 911.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 101.86,
+      "end": 108.54,
+      "text": "There are cases where patients work out a lot.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 106.54,
-      "end": 107.82,
+      "start": 108.8,
+      "end": 114.1,
+      "text": "If you have to do a heart surgery, you have to check CPR, cardiopulmonary resuscitation.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 114.1,
+      "end": 123.8,
+      "text": "At this time, the doctor's order is to run a heart surgery and call 911.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+    },
+    {
+      "start": 124.3,
+      "end": 129.9,
       "text": "That's why you have to send it to the hospital.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 108.6,
-      "end": 111.509,
-      "text": "In the case of patients who exercise a lot, they only think of CPR",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 130.58,
+      "end": 134.191,
+      "text": "In the case of patients who work out a lot, they only think of",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 111.509,
-      "end": 112.34,
-      "text": "as a heart massage.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 134.191,
+      "end": 135.48,
+      "text": "CPR as a heart massage.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 113.86,
-      "end": 118.55,
-      "text": "The meaning of doing CPR is that it means not only the heart massage,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 135.48,
+      "end": 142.14,
+      "text": "The meaning of doing CPR is not only the heart massage, but also the heart electric shock.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 118.55,
-      "end": 121.9,
-      "text": "but the heart electric shock, the organ, and the spine.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 142.14,
+      "end": 151.08,
+      "text": "It means that you will do all the organ and heart surgery.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 123.76,
-      "end": 128.06,
-      "text": "If you don't do a resuscitation, it is a case of a DNR, do not resuscitate.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 151.58,
+      "end": 156.42,
+      "text": "If you don't do a heart surgery, it is a case of a DNA donor resuscitate.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 129.92,
-      "end": 134.72,
-      "text": "At this time, the resuscitation is not performed, and after the resuscitation is declared dead,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 157.08,
+      "end": 161.36,
+      "text": "At this time, the patient doesn't do a heart surgery.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 134.72,
-      "end": 139.922,
-      "text": "After contacting the family, when the family is called by a designated business owner,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 162.28,
+      "end": 172.0,
+      "text": "After the doctor's order, after calling the family, the family will take you to the doctor's office.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 139.922,
-      "end": 141.78,
-      "text": "the family is brought out.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 172.58,
+      "end": 176.013,
+      "text": "But if it's not a DNA, as I told you earlier, the doctor's order",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 142.74,
-      "end": 149.82,
-      "text": "However, as I said earlier, the doctor's order should start with CPR, and then call 911.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 176.013,
+      "end": 178.22,
+      "text": "is to start a heart surgery and call 911.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 150.94,
-      "end": 154.3,
-      "text": "The 911 needs to do all the procedures to get the patient resuscitated.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 179.0,
+      "end": 185.2,
+      "text": "911 has to do all the procedures that can cause a patient's heart surgery.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 156.22,
-      "end": 160.62,
-      "text": "You can take him to the hospital, and you can do resuscitation at that place.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 185.2,
+      "end": 189.96,
+      "text": "You can take you to the hospital, and you can do a heart surgery at that place.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 162.08,
-      "end": 166.76,
-      "text": "If you call 911 at nursing facility, there is a paramedic ambulance.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 189.96,
+      "end": 194.92,
+      "text": "When you call 911 at a nursing hospital, there is a paramedic ambulance.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 167.58,
-      "end": 171.74,
+      "start": 194.92,
+      "end": 199.1,
       "text": "At some times, there are cases where the fire department and the police come together.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 172.2,
-      "end": 177.6,
+      "start": 200.51,
+      "end": 205.39,
       "text": "In Korean, there are times when the ambulance, the fire department, and the police car come together.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 178.46,
-      "end": 181.783,
+      "start": 205.39,
+      "end": 207.8,
       "text": "Because they are in charge of emergency services in these three places, they come",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 181.783,
-      "end": 183.92,
+      "start": 207.8,
+      "end": 209.35,
       "text": "out of the place where they can come first,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 183.92,
-      "end": 188.38,
+      "start": 209.95,
+      "end": 212.59,
       "text": "and the rest do not arrive on time or come to the situation.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 189.94,
-      "end": 194.1,
-      "text": "According to the case, the police came and there was no suspicious point of death.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 213.29,
+      "end": 219.53,
+      "text": "According to the case, the police came and there was no doubt about the death.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 194.66,
-      "end": 198.54,
-      "text": "After the investigation, if the investigation is done, you can call an officer.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 219.53,
+      "end": 226.47,
+      "text": "After the investigation, when the investigation is over, you can call the doctor.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 200.18,
-      "end": 206.418,
-      "text": "However, if the police have doubts about this case, they will investigate more and",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 227.98,
+      "end": 237.796,
+      "text": "However, if the police have doubts about this death, they will investigate more and",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 206.418,
-      "end": 208.2,
-      "text": "contact the County Coroner.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 237.796,
+      "end": 240.6,
+      "text": "contact the county coroner.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 209.2,
-      "end": 212.12,
-      "text": "The County Coroner is called a coroner's office.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 241.32,
+      "end": 249.14,
+      "text": "The county coroner is called a test room.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 212.64,
-      "end": 217.092,
-      "text": "The coroner's office comes out and decides whether to come and go to the",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 249.14,
+      "end": 251.152,
+      "text": "When you come out of this test room, you will decide whether to come",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 217.092,
-      "end": 219.0,
-      "text": "place where they arrest the suspect.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 251.152,
+      "end": 253.02,
+      "text": "and go to the place where you are in charge of emergency services.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 219.94,
-      "end": 225.26,
-      "text": "If you go to the coroner's office, you will be arrested once again at the coroner's office.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 253.42,
+      "end": 256.682,
+      "text": "If you go to the test room, you will be in charge of emergency",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 227.96,
-      "end": 230.54,
-      "text": "Finally, if you die in the house or nursing facility.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 256.682,
+      "end": 258.08,
+      "text": "services again at the test room.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 231.44,
-      "end": 236.92,
-      "text": "If you die without a hospice, the person who was in the general family",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 258.08,
+      "end": 262.38,
+      "text": "Lastly, if you are in a home or a nursing home, you have to call 911.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 236.92,
-      "end": 239.66,
-      "text": "and nursing facility should be called 911.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 262.38,
+      "end": 266.835,
+      "text": "If you are not in hospice, if you are in a nursing home or",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 240.7,
-      "end": 246.594,
-      "text": "If you call 911, a paramedic, a fire department, or a police team comes",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 266.835,
+      "end": 269.38,
+      "text": "a nursing home, you have to call 911.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 246.594,
-      "end": 249.12,
-      "text": "out first, like I said earlier.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 270.08,
+      "end": 273.093,
+      "text": "When you call 911, just like I said earlier, a team of paramedics, fire",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 249.16,
-      "end": 251.64,
-      "text": "In general, there are emergency services in the paramedics.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 273.093,
+      "end": 274.6,
+      "text": "department, or the police comes out first.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 252.82,
-      "end": 257.2,
-      "text": "Most paramedic hospitals have a POLST office, but they have a POLST-death facility.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 274.6,
+      "end": 281.58,
+      "text": "In general, there are emergency services in paramedics.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 258.06,
-      "end": 262.838,
-      "text": "But there are no people who have a home or a hotel, and even",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 281.9,
+      "end": 290.68,
+      "text": "Most nursing hospitals have a POLST office, but they have a pre-trial facility,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 262.838,
-      "end": 267.615,
-      "text": "if you go back, you have to call 911 because there are no people",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 291.58,
+      "end": 299.88,
+      "text": "but there are no people who have a home or a nursing hotel,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 267.615,
-      "end": 268.98,
-      "text": "who can officially die.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 299.88,
+      "end": 305.68,
+      "text": "and even if you go back, there are no people who can officially call 911.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 269.6,
-      "end": 272.88,
-      "text": "So you have to come to 911 and check if there is a DNR,",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 305.68,
+      "end": 311.62,
+      "text": "So, you have to come to 911 and check if there is a DNR,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 273.78,
-      "end": 278.062,
-      "text": "If you don't have it, you have to carry out a possible trial, and",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 311.62,
+      "end": 315.98,
+      "text": "and if you don't have it, you have to carry out all the procedures for a lifetime.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 278.062,
-      "end": 281.12,
-      "text": "you have to take all the procedures for life extension.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 316.78,
+      "end": 325.92,
+      "text": "Nevertheless, if you go back, you have to do the pre-trial operation,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 281.7,
-      "end": 285.693,
-      "text": "Nevertheless, if you go back, you have to do POLST-death procedure, and you have",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 325.92,
+      "end": 335.56,
+      "text": "and you have to investigate whether the police are a natural death or a suspicious death.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 285.693,
-      "end": 289.4,
-      "text": "to investigate whether the police are a natural death or a suspicious death.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 336.3,
+      "end": 340.2,
+      "text": "In the same way as a nursing hospital,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 291.08,
-      "end": 294.821,
-      "text": "In the same way as the nursing facility, the worst case is that the",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 341.1,
+      "end": 344.787,
+      "text": "the worst case is when the police call the county coronervirus and have to",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 294.821,
-      "end": 297.76,
-      "text": "police have to call the County Coroner to do the autopsy.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 344.787,
+      "end": 345.84,
+      "text": "do the pre-trial operation.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 299.72,
-      "end": 305.759,
-      "text": "First of all, the family was already in shock due to sudden death, and",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 346.46,
+      "end": 352.402,
+      "text": "First of all, the family is already in shock due to sudden death, and",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 305.759,
-      "end": 311.798,
-      "text": "the police couldn't touch or move it until the investigation was over, so the",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 352.402,
+      "end": 357.92,
+      "text": "until the investigation is over, the police can't touch or move the child,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 311.798,
-      "end": 315.68,
-      "text": "family went through a difficult situation mentally once again.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 358.42,
+      "end": 365.92,
+      "text": "so the family gets through a mentally difficult situation once again.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 316.62,
-      "end": 321.228,
-      "text": "So, especially for those at home, I also recommend the hospice to prevent the",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 366.6,
+      "end": 373.0,
+      "text": "So, especially for those of you who are at home,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 321.228,
-      "end": 324.52,
-      "text": "complicated process that you have to go through after death.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 373.0,
+      "end": 379.2,
+      "text": "I recommend the hospice to prevent the complicated process of having to go through death.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 326.06,
-      "end": 331.953,
-      "text": "If the patient who doesn't do the hospice is dead, the chief doctor will",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 379.2,
+      "end": 386.435,
+      "text": "If the patient who doesn't do the hospice dies, the chief doctor will help",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 331.953,
-      "end": 335.32,
-      "text": "help you with the necessary procedures for death.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 386.435,
+      "end": 392.12,
+      "text": "you with the necessary procedures for the death of the patient.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 335.92,
-      "end": 339.8,
-      "text": "Then this time, I would like to tell you more about the funeral.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 392.12,
+      "end": 399.26,
+      "text": "Then I would like to talk more about the funeral.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 340.72,
-      "end": 343.56,
-      "text": "Our company mainly has patients in LA and Orange County.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 401.29,
+      "end": 407.31,
+      "text": "Our company mainly has patients at L.A. and Orange County.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 346.3,
-      "end": 350.5,
-      "text": "So, people who are in LA and in this neighborhood use a lot of Korean funeral companies.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 407.31,
+      "end": 410.663,
+      "text": "So, people who are at L.A.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 351.56,
-      "end": 356.024,
-      "text": "When the patient goes back, they take him to the funeral, and after that,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 410.663,
+      "end": 416.81,
+      "text": "and in this neighborhood use a lot of Korean funeral services.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 356.024,
-      "end": 357.3,
-      "text": "they do POLST-death procedure.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 417.16,
+      "end": 426.0,
+      "text": "When the patient goes back, they take him to the funeral,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 358.22,
-      "end": 363.44,
-      "text": "In the funeral, they invite customers and move to the funeral after all POLST-death procedures are done.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 426.0,
+      "end": 428.56,
+      "text": "and after that, they do the funeral service.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 365.96,
-      "end": 373.654,
-      "text": "In general, Korean funeral companies are easy-going and culture-like, so they take care of",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 429.22,
+      "end": 433.928,
+      "text": "In the funeral service, they invite customers to the funeral, and after all the",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 373.654,
-      "end": 378.6,
-      "text": "everything in Korean, so Koreans prefer Korean funeral companies.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 433.928,
+      "end": 438.3,
+      "text": "funeral services are finished, they move to the funeral or the dressing room.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 379.8,
-      "end": 384.02,
-      "text": "American funeral companies have cheap and expensive prices.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 439.24,
+      "end": 441.4,
+      "text": "In general, the funeral services run by Koreans are easy to talk about,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 384.42,
-      "end": 388.925,
-      "text": "Rather than doing it on their own, there are a lot of choices and",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 443.13,
+      "end": 451.29,
+      "text": "and because the culture is the same, they take care of everything in Korean,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 388.925,
-      "end": 391.5,
-      "text": "sometimes you feel uncomfortable due to other cultures,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 451.29,
+      "end": 459.73,
+      "text": "so Koreans prefer Korean funeral services.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 391.86,
-      "end": 397.02,
-      "text": "so Korean people prefer Korean companies that are a little expensive and culture-like.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 460.51,
+      "end": 464.7,
+      "text": "There are cheap and expensive places for American funeral services.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 400.5,
-      "end": 406.9,
-      "text": "Among foreign funeral companies, there is a company that provides funeral services at the funeral site.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 464.96,
+      "end": 470.44,
+      "text": "Rather than doing it on your own, there are many choices,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 407.9,
-      "end": 412.283,
-      "text": "So, when you go back, it is a little expensive because you can bring",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 471.3,
+      "end": 480.42,
+      "text": "and there are many cases where you feel uncomfortable due to other cultures,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 412.283,
-      "end": 415.1,
-      "text": "funeral services to the site without moving right away.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 481.22,
+      "end": 488.52,
+      "text": "so Koreans prefer Korean funeral services that are a bit expensive,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 417.14,
-      "end": 419.94,
-      "text": "funeral expenses are very different from funeral companies, and the more you decide in",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 488.52,
+      "end": 491.86,
+      "text": "and are more culture-friendly.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 419.94,
-      "end": 422.74,
-      "text": "advance, the better you can prepare in advance because you can choose from the",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 493.33,
+      "end": 500.91,
+      "text": "Among foreign funeral services, there is a company that provides funeral services at the funeral site.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 422.74,
-      "end": 423.54,
-      "text": "price or service, etc.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 501.95,
+      "end": 505.723,
+      "text": "So when you go back, you can do the funeral service, and you can",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 428.52,
-      "end": 431.9,
-      "text": "And if you do cremation, it's another case.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 505.723,
+      "end": 507.61,
+      "text": "bring it to the funeral without moving,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 432.68,
-      "end": 437.62,
-      "text": "This is also a cremation company run by Koreans and a foreign company run by foreign people.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 508.13,
+      "end": 512.15,
+      "text": "so it's a bit expensive.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 439.32,
-      "end": 440.74,
-      "text": "However, there is a little price difference.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 514.03,
+      "end": 519.49,
+      "text": "The cost of the funeral is very different from the funeral service, and the",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 442.6,
-      "end": 446.49,
-      "text": "One thing I want to tell you is that if you are economically difficult",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "start": 519.49,
+      "end": 521.83,
+      "text": "more you put it in advance,",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     },
     {
-      "start": 446.49,
-      "end": 450.38,
-      "text": "or you don't want to invite a lot of people regardless of the price,",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
-    },
-    {
-      "start": 451.38,
-      "end": 458.38,
-      "text": "if you want to do cremation with a low price, you usually use a foreign company.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
-    },
-    {
-      "start": 459.74,
-      "end": 463.52,
-      "text": "So far, I have talked about the general procedure of Lim Jong-woo.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 464.46,
-      "end": 468.542,
-      "text": "Before I finish the video, I would like to tell you about the attitude",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
-    },
-    {
-      "start": 468.542,
-      "end": 470.0,
-      "text": "of death for a moment.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
-    },
-    {
-      "start": 470.54,
-      "end": 475.34,
-      "text": "Korean culture often thinks that it is very difficult to talk about death because",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
-    },
-    {
-      "start": 475.34,
-      "end": 477.74,
-      "text": "it is not the end of death.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
-    },
-    {
-      "start": 479.6,
-      "end": 486.42,
-      "text": "On the other hand, Western culture thinks that death is another natural journey of life.",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
-    },
-    {
-      "start": 488.9,
-      "end": 491.02,
-      "text": "I really saw a lot of death.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 493.52,
-      "end": 497.24,
-      "text": "It seems to be the final expression of the fact that I lived well.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 497.46,
-      "end": 500.92,
-      "text": "I think I can die well because I lived well.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 501.5,
-      "end": 504.28,
-      "text": "Every time I see the person who goes back, I become humble.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 505.11,
-      "end": 507.22,
-      "text": "My life is once given to me.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 507.73,
-      "end": 510.58,
-      "text": "I have to live meaningfully until I go to God.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 510.58,
-      "end": 517.04,
-      "text": "I hope this video was helpful to those who watched it.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 517.84,
-      "end": 522.86,
-      "text": "In the next video, I will come back with this question.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 523.78,
-      "end": 525.84,
-      "text": "Thank you for watching.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "start": 522.03,
+      "end": 525.43,
+      "text": "the more you can compare the price or service, so it's better to prepare in advance.",
+      "review_status": "fresh_asr_machine_translation_cleaned",
+      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
     }
   ]
 }

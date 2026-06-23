@@ -1,0 +1,60 @@
+[0011.950 -> 0015.530] Hello, my name is Janice, and I work as a nurse at Eminent Hospice.
+[0025.690 -> 0028.490] I used to work at the nursing home.
+[0029.310 -> 0033.490] It was very rewarding to work with the elderly.
+[0034.490 -> 0039.370] Even if I gave them a little help, it was a big help to them.
+[0039.370 -> 0047.630] Even if I gave them a word of interest, they were very smiley and happy.
+[0048.490 -> 0050.850] I felt much more rewarding because of that.
+[0051.610 -> 0056.770] One thing I was sad about was that I couldn't have enough time with them.
+[0056.890 -> 0060.330] One of them asked me to visit the hospice.
+[0060.330 -> 0064.290] At that time, it was only for patients.
+[0068.390 -> 0075.830] I felt more rewarding because of that.
+[0075.830 -> 0077.850] That's why I started hospice.
+[0086.660 -> 0090.280] When you go to the hospice, you often think of patients who don't talk much.
+[0091.680 -> 0096.100] We help patients who are in need of a lot of help.
+[0098.840 -> 0105.160] We help patients who are in need of a lot of help.
+[0105.660 -> 0106.340] We help patients who are in need of a lot of help.
+[0106.340 -> 0106.760] We help patients who are in need of a lot of help.
+[0110.580 -> 0114.120] We help patients who are in need of a lot of help.
+[0122.800 -> 0129.540] We help patients who are in need of a lot of help.
+[0140.910 -> 0141.790] We help patients who are in need of a lot of help.
+[0141.790 -> 0142.070] We help patients who are in need of a lot of help.
+[0142.070 -> 0143.650] We help patients who are in need of a lot of help.
+[0145.030 -> 0150.870] We help patients who are in need of a lot of help.
+[0154.630 -> 0171.690] We help patients who are in need of a lot of help.
+[0172.950 -> 0175.090] We help patients who are in need of a lot of help.
+[0175.090 -> 0177.230] We help patients who are in need of a lot of help.
+[0178.270 -> 0179.350] We help patients who are in need of a lot of help.
+[0179.350 -> 0179.710] We help patients who are in need of a lot of help.
+[0179.710 -> 0180.530] We help patients who are in need of a lot of help.
+[0180.530 -> 0180.850] We help patients who are in need of a lot of help.
+[0190.650 -> 0209.270] We help patients who are in need of a lot of help.
+[0209.690 -> 0210.770] We help patients who are in need of a lot of help.
+[0210.770 -> 0210.830] We help patients who are in need of a lot of help.
+[0210.830 -> 0211.270] It was a difficult case.
+[0212.250 -> 0215.890] The guardian told me at the end.
+[0216.570 -> 0217.030] He told me at the end.
+[0217.030 -> 0220.730] After hearing that, everything that I had been having a hard time with disappeared.
+[0221.670 -> 0227.810] After hearing that, everything that I had been having a hard time with disappeared.
+[0230.850 -> 0236.420] After hearing that, everything that I had been having a hard time with disappeared.
+[0236.420 -> 0236.720] After hearing that, everything that I had been having a hard time with disappeared.
+[0236.720 -> 0238.560] After hearing that, everything that I had been having a hard time with disappeared.
+[0238.560 -> 0239.440] After hearing that, everything that I had been having a hard time with disappeared.
+[0247.120 -> 0253.780] After hearing that, everything that I had been having a hard time with disappeared.
+[0255.140 -> 0256.040] After hearing that, everything that I had been having a hard time with disappeared.
+[0256.360 -> 0257.560] After hearing that, everything that I had been having a hard time with disappeared.
+[0257.560 -> 0258.180] After hearing that, everything that I had been having a hard time with disappeared.
+[0258.300 -> 0260.280] After hearing that, everything that I had been having a hard time with disappeared.
+[0288.510 -> 0288.910] After hearing that, everything that I had been having a hard time with disappeared.
+[0288.910 -> 0289.850] After hearing that, everything that I had been having a hard time with disappeared.
+[0292.370 -> 0293.770] After hearing that, everything that I had been having a hard time with disappeared.
+[0300.170 -> 0304.050] After hearing that, everything that I had been having a hard time with disappeared.
+[0304.070 -> 0304.090] After hearing that, everything that I had been having a hard time with disappeared.
+[0304.730 -> 0309.290] After hearing that, everything that I had been having a hard time with disappeared.
+[0309.290 -> 0310.390] After hearing that, everything that I had a hard time with disappeared.
+[0310.390 -> 0311.450] After hearing that, everything that I had been having a hard time with disappeared.
+[0311.450 -> 0311.550] After hearing that, everything that I had been having a hard time with disappeared.
+[0311.650 -> 0312.290] After hearing that, everything that I had been having a hard time with disappeared.
+[0312.290 -> 0312.790] After hearing that, everything that I had been having a hard time with disappeared.
+[0313.010 -> 0313.350] After hearing that, everything that I had been having a hard time with disappeared.
+[0313.650 -> 0315.330] After hearing that, everything that I had been having a hard time with disappeared.
+[0315.330 -> 0316.010] After hearing that, everything that I had been having a hard time with disappeared.

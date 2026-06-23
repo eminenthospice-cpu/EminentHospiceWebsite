@@ -1,0 +1,7669 @@
+{
+  "source_video": "C:\\Users\\emine\\Downloads\\videoplayback (3).mp4",
+  "model": "C:\\Users\\emine\\.cache\\huggingface\\hub\\models--Systran--faster-whisper-small\\snapshots\\536b0662742c02347bc0e980a01041f333bce120",
+  "language": "ko",
+  "language_probability": 1,
+  "duration": 528.23075,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.21,
+      "end": 4.71,
+      "text": "Hello, I'm Kim Jeong-hwa, a nurse practitioner working at Eminent Hospice Care.",
+      "words": [
+        {
+          "start": 0.21,
+          "end": 0.69,
+          "word": " Hello,",
+          "probability": 0.6601440906524658
+        },
+        {
+          "start": 1.29,
+          "end": 2.63,
+          "word": " I'm",
+          "probability": 0.6269866824150085
+        },
+        {
+          "start": 2.63,
+          "end": 3.53,
+          "word": " Kim",
+          "probability": 0.8574221730232239
+        },
+        {
+          "start": 3.53,
+          "end": 3.79,
+          "word": " Jeong",
+          "probability": 0.38370975852012634
+        },
+        {
+          "start": 3.79,
+          "end": 3.93,
+          "word": "-hwa,",
+          "probability": 0.5576620250940323
+        },
+        {
+          "start": 4.21,
+          "end": 4.21,
+          "word": " a",
+          "probability": 0.33155542612075806
+        },
+        {
+          "start": 4.21,
+          "end": 4.21,
+          "word": " nurse",
+          "probability": 0.905841052532196
+        },
+        {
+          "start": 4.21,
+          "end": 4.65,
+          "word": " practitioner",
+          "probability": 0.979131817817688
+        },
+        {
+          "start": 4.65,
+          "end": 4.65,
+          "word": " working",
+          "probability": 0.73637855052948
+        },
+        {
+          "start": 4.65,
+          "end": 4.65,
+          "word": " at",
+          "probability": 0.6437088251113892
+        },
+        {
+          "start": 4.65,
+          "end": 4.65,
+          "word": " Eminent",
+          "probability": 0.7661097943782806
+        },
+        {
+          "start": 4.65,
+          "end": 4.65,
+          "word": " Hospice",
+          "probability": 0.616476371884346
+        },
+        {
+          "start": 4.65,
+          "end": 4.71,
+          "word": " Care.",
+          "probability": 0.8645538091659546
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 5.61,
+      "end": 9.15,
+      "text": "Today, there are a lot of people who ask me what happens when a patient passes away from their family.",
+      "words": [
+        {
+          "start": 5.61,
+          "end": 6.09,
+          "word": " Today,",
+          "probability": 0.6619348526000977
+        },
+        {
+          "start": 6.81,
+          "end": 7.49,
+          "word": " there",
+          "probability": 0.23877272009849548
+        },
+        {
+          "start": 7.49,
+          "end": 7.49,
+          "word": " are",
+          "probability": 0.8178096413612366
+        },
+        {
+          "start": 7.49,
+          "end": 7.49,
+          "word": " a",
+          "probability": 0.3921608030796051
+        },
+        {
+          "start": 7.49,
+          "end": 7.49,
+          "word": " lot",
+          "probability": 0.9757837653160095
+        },
+        {
+          "start": 7.49,
+          "end": 7.49,
+          "word": " of",
+          "probability": 0.9990743398666382
+        },
+        {
+          "start": 7.49,
+          "end": 7.67,
+          "word": " people",
+          "probability": 0.8556907176971436
+        },
+        {
+          "start": 7.67,
+          "end": 7.77,
+          "word": " who",
+          "probability": 0.5584030151367188
+        },
+        {
+          "start": 7.77,
+          "end": 7.77,
+          "word": " ask",
+          "probability": 0.8937941789627075
+        },
+        {
+          "start": 7.77,
+          "end": 7.81,
+          "word": " me",
+          "probability": 0.20093891024589539
+        },
+        {
+          "start": 7.81,
+          "end": 8.07,
+          "word": " what",
+          "probability": 0.6077849864959717
+        },
+        {
+          "start": 8.07,
+          "end": 8.07,
+          "word": " happens",
+          "probability": 0.7538291811943054
+        },
+        {
+          "start": 8.07,
+          "end": 8.07,
+          "word": " when",
+          "probability": 0.48844003677368164
+        },
+        {
+          "start": 8.07,
+          "end": 8.47,
+          "word": " a",
+          "probability": 0.5438383221626282
+        },
+        {
+          "start": 8.47,
+          "end": 8.47,
+          "word": " patient",
+          "probability": 0.9841039180755615
+        },
+        {
+          "start": 8.47,
+          "end": 9.07,
+          "word": " passes",
+          "probability": 0.18565286695957184
+        },
+        {
+          "start": 9.07,
+          "end": 9.15,
+          "word": " away",
+          "probability": 0.6450052857398987
+        },
+        {
+          "start": 9.15,
+          "end": 9.15,
+          "word": " from",
+          "probability": 0.2028433084487915
+        },
+        {
+          "start": 9.15,
+          "end": 9.15,
+          "word": " their",
+          "probability": 0.19870410859584808
+        },
+        {
+          "start": 9.15,
+          "end": 9.15,
+          "word": " family.",
+          "probability": 0.6896862387657166
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 13.93,
+      "end": 18.95,
+      "text": "So, I'll explain what the patient's fault is in the United States when he passes away.",
+      "words": [
+        {
+          "start": 13.93,
+          "end": 14.41,
+          "word": " So,",
+          "probability": 0.8147462010383606
+        },
+        {
+          "start": 14.71,
+          "end": 15.07,
+          "word": " I'll",
+          "probability": 0.4633431136608124
+        },
+        {
+          "start": 15.07,
+          "end": 15.07,
+          "word": " explain",
+          "probability": 0.8315057158470154
+        },
+        {
+          "start": 15.07,
+          "end": 15.07,
+          "word": " what",
+          "probability": 0.677936851978302
+        },
+        {
+          "start": 15.07,
+          "end": 15.07,
+          "word": " the",
+          "probability": 0.2587677538394928
+        },
+        {
+          "start": 15.07,
+          "end": 15.45,
+          "word": " patient's",
+          "probability": 0.230496346950531
+        },
+        {
+          "start": 15.45,
+          "end": 15.45,
+          "word": " fault",
+          "probability": 0.08573192358016968
+        },
+        {
+          "start": 15.45,
+          "end": 15.45,
+          "word": " is",
+          "probability": 0.8390793204307556
+        },
+        {
+          "start": 15.45,
+          "end": 15.45,
+          "word": " in",
+          "probability": 0.464228093624115
+        },
+        {
+          "start": 15.45,
+          "end": 15.49,
+          "word": " the",
+          "probability": 0.7639306783676147
+        },
+        {
+          "start": 15.49,
+          "end": 16.43,
+          "word": " United",
+          "probability": 0.40604111552238464
+        },
+        {
+          "start": 16.43,
+          "end": 17.71,
+          "word": " States",
+          "probability": 0.9975908994674683
+        },
+        {
+          "start": 17.71,
+          "end": 18.95,
+          "word": " when",
+          "probability": 0.5366948246955872
+        },
+        {
+          "start": 18.95,
+          "end": 18.95,
+          "word": " he",
+          "probability": 0.5505391359329224
+        },
+        {
+          "start": 18.95,
+          "end": 18.95,
+          "word": " passes",
+          "probability": 0.4970667064189911
+        },
+        {
+          "start": 18.95,
+          "end": 18.95,
+          "word": " away.",
+          "probability": 0.9961971044540405
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 21.15,
+      "end": 25.43,
+      "text": "First, let's see if the patient was doing hospice when he passed away.",
+      "words": [
+        {
+          "start": 21.15,
+          "end": 21.63,
+          "word": " First,",
+          "probability": 0.8926845192909241
+        },
+        {
+          "start": 22.29,
+          "end": 22.29,
+          "word": " let's",
+          "probability": 0.4676996096968651
+        },
+        {
+          "start": 22.29,
+          "end": 22.29,
+          "word": " see",
+          "probability": 0.18256866931915283
+        },
+        {
+          "start": 22.29,
+          "end": 22.29,
+          "word": " if",
+          "probability": 0.6122252941131592
+        },
+        {
+          "start": 22.29,
+          "end": 22.29,
+          "word": " the",
+          "probability": 0.7451663017272949
+        },
+        {
+          "start": 22.29,
+          "end": 22.29,
+          "word": " patient",
+          "probability": 0.9922987818717957
+        },
+        {
+          "start": 22.29,
+          "end": 22.71,
+          "word": " was",
+          "probability": 0.27157142758369446
+        },
+        {
+          "start": 22.71,
+          "end": 24.19,
+          "word": " doing",
+          "probability": 0.4401486814022064
+        },
+        {
+          "start": 24.19,
+          "end": 24.67,
+          "word": " hospice",
+          "probability": 0.93116894364357
+        },
+        {
+          "start": 24.67,
+          "end": 25.43,
+          "word": " when",
+          "probability": 0.46882128715515137
+        },
+        {
+          "start": 25.43,
+          "end": 25.43,
+          "word": " he",
+          "probability": 0.927001416683197
+        },
+        {
+          "start": 25.43,
+          "end": 25.43,
+          "word": " passed",
+          "probability": 0.8592601418495178
+        },
+        {
+          "start": 25.43,
+          "end": 25.43,
+          "word": " away.",
+          "probability": 0.9969111084938049
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 29.13,
+      "end": 33.81,
+      "text": "I'll explain the difference between the patient passing away or not, depending on where he was or where he was.",
+      "words": [
+        {
+          "start": 29.13,
+          "end": 30.37,
+          "word": " I'll",
+          "probability": 0.23830391466617584
+        },
+        {
+          "start": 30.37,
+          "end": 30.37,
+          "word": " explain",
+          "probability": 0.5046889185905457
+        },
+        {
+          "start": 30.37,
+          "end": 30.37,
+          "word": " the",
+          "probability": 0.26159900426864624
+        },
+        {
+          "start": 30.37,
+          "end": 31.15,
+          "word": " difference",
+          "probability": 0.612062931060791
+        },
+        {
+          "start": 31.15,
+          "end": 33.81,
+          "word": " between",
+          "probability": 0.6409549117088318
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " the",
+          "probability": 0.4880533814430237
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " patient",
+          "probability": 0.11446842551231384
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " passing",
+          "probability": 0.009320237673819065
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " away",
+          "probability": 0.08451137691736221
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " or",
+          "probability": 0.17237384617328644
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " not,",
+          "probability": 0.31769779324531555
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " depending",
+          "probability": 0.6429237723350525
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " on",
+          "probability": 0.9902925491333008
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " where",
+          "probability": 0.32274240255355835
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " he",
+          "probability": 0.28122812509536743
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " was",
+          "probability": 0.4150448739528656
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " or",
+          "probability": 0.43955349922180176
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " where",
+          "probability": 0.3615773618221283
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " he",
+          "probability": 0.9183837175369263
+        },
+        {
+          "start": 33.81,
+          "end": 33.81,
+          "word": " was.",
+          "probability": 0.8797749876976013
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 34.11,
+      "end": 39.99,
+      "text": "First, I'll explain the patient who passed away when he was doing hospice.",
+      "words": [
+        {
+          "start": 34.11,
+          "end": 35.35,
+          "word": " First,",
+          "probability": 0.6544793248176575
+        },
+        {
+          "start": 37.15,
+          "end": 37.17,
+          "word": " I'll",
+          "probability": 0.5561956614255905
+        },
+        {
+          "start": 37.17,
+          "end": 37.17,
+          "word": " explain",
+          "probability": 0.8420781493186951
+        },
+        {
+          "start": 37.17,
+          "end": 37.17,
+          "word": " the",
+          "probability": 0.6723909378051758
+        },
+        {
+          "start": 37.17,
+          "end": 38.45,
+          "word": " patient",
+          "probability": 0.3939737379550934
+        },
+        {
+          "start": 38.45,
+          "end": 38.87,
+          "word": " who",
+          "probability": 0.17181706428527832
+        },
+        {
+          "start": 38.87,
+          "end": 38.87,
+          "word": " passed",
+          "probability": 0.7417873740196228
+        },
+        {
+          "start": 38.87,
+          "end": 39.51,
+          "word": " away",
+          "probability": 0.9966434240341187
+        },
+        {
+          "start": 39.51,
+          "end": 39.99,
+          "word": " when",
+          "probability": 0.11068013310432434
+        },
+        {
+          "start": 39.99,
+          "end": 39.99,
+          "word": " he",
+          "probability": 0.6812046766281128
+        },
+        {
+          "start": 39.99,
+          "end": 39.99,
+          "word": " was",
+          "probability": 0.920897901058197
+        },
+        {
+          "start": 39.99,
+          "end": 39.99,
+          "word": " doing",
+          "probability": 0.08395800739526749
+        },
+        {
+          "start": 39.99,
+          "end": 39.99,
+          "word": " hospice.",
+          "probability": 0.6423609405755997
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 41.19,
+      "end": 46.75,
+      "text": "The doctor already expected the patient to pass away, so he applied for hospice.",
+      "words": [
+        {
+          "start": 41.19,
+          "end": 41.81,
+          "word": " The",
+          "probability": 0.39048534631729126
+        },
+        {
+          "start": 41.81,
+          "end": 43.19,
+          "word": " doctor",
+          "probability": 0.5667014718055725
+        },
+        {
+          "start": 43.19,
+          "end": 43.93,
+          "word": " already",
+          "probability": 0.34001004695892334
+        },
+        {
+          "start": 43.93,
+          "end": 44.13,
+          "word": " expected",
+          "probability": 0.4436880350112915
+        },
+        {
+          "start": 44.13,
+          "end": 44.23,
+          "word": " the",
+          "probability": 0.6115425229072571
+        },
+        {
+          "start": 44.23,
+          "end": 44.53,
+          "word": " patient",
+          "probability": 0.9831380844116211
+        },
+        {
+          "start": 44.53,
+          "end": 44.63,
+          "word": " to",
+          "probability": 0.9389025568962097
+        },
+        {
+          "start": 44.63,
+          "end": 44.69,
+          "word": " pass",
+          "probability": 0.7742348909378052
+        },
+        {
+          "start": 44.69,
+          "end": 45.31,
+          "word": " away,",
+          "probability": 0.988519012928009
+        },
+        {
+          "start": 45.93,
+          "end": 45.93,
+          "word": " so",
+          "probability": 0.3806923031806946
+        },
+        {
+          "start": 45.93,
+          "end": 45.95,
+          "word": " he",
+          "probability": 0.7279602885246277
+        },
+        {
+          "start": 45.95,
+          "end": 45.95,
+          "word": " applied",
+          "probability": 0.33534687757492065
+        },
+        {
+          "start": 45.95,
+          "end": 46.09,
+          "word": " for",
+          "probability": 0.9684489369392395
+        },
+        {
+          "start": 46.09,
+          "end": 46.75,
+          "word": " hospice.",
+          "probability": 0.9291178286075592
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 47.61,
+      "end": 53.63,
+      "text": "The family means that the patient agreed to pass away at the place where he is now.",
+      "words": [
+        {
+          "start": 47.61,
+          "end": 48.29,
+          "word": " The",
+          "probability": 0.6341742873191833
+        },
+        {
+          "start": 48.29,
+          "end": 48.61,
+          "word": " family",
+          "probability": 0.7119858264923096
+        },
+        {
+          "start": 48.61,
+          "end": 48.93,
+          "word": " means",
+          "probability": 0.1558348536491394
+        },
+        {
+          "start": 48.93,
+          "end": 48.93,
+          "word": " that",
+          "probability": 0.7291264533996582
+        },
+        {
+          "start": 48.93,
+          "end": 49.19,
+          "word": " the",
+          "probability": 0.7798054814338684
+        },
+        {
+          "start": 49.19,
+          "end": 49.47,
+          "word": " patient",
+          "probability": 0.9914092421531677
+        },
+        {
+          "start": 49.47,
+          "end": 49.79,
+          "word": " agreed",
+          "probability": 0.2780933380126953
+        },
+        {
+          "start": 49.79,
+          "end": 53.63,
+          "word": " to",
+          "probability": 0.7654268145561218
+        },
+        {
+          "start": 53.63,
+          "end": 53.63,
+          "word": " pass",
+          "probability": 0.005759018938988447
+        },
+        {
+          "start": 53.63,
+          "end": 53.63,
+          "word": " away",
+          "probability": 0.7429589033126831
+        },
+        {
+          "start": 53.63,
+          "end": 53.63,
+          "word": " at",
+          "probability": 0.4501051604747772
+        },
+        {
+          "start": 53.63,
+          "end": 53.63,
+          "word": " the",
+          "probability": 0.8741945028305054
+        },
+        {
+          "start": 53.63,
+          "end": 53.63,
+          "word": " place",
+          "probability": 0.41644755005836487
+        },
+        {
+          "start": 53.63,
+          "end": 53.63,
+          "word": " where",
+          "probability": 0.8202866911888123
+        },
+        {
+          "start": 53.63,
+          "end": 53.63,
+          "word": " he",
+          "probability": 0.7114116549491882
+        },
+        {
+          "start": 53.63,
+          "end": 53.63,
+          "word": " is",
+          "probability": 0.8219048976898193
+        },
+        {
+          "start": 53.63,
+          "end": 53.63,
+          "word": " now.",
+          "probability": 0.5074401497840881
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 53.63,
+      "end": 61.29,
+      "text": "So, even if the hospice patient passes away from somewhere, you can call the hospice office right away.",
+      "words": [
+        {
+          "start": 53.63,
+          "end": 55.05,
+          "word": " So,",
+          "probability": 0.21473903954029083
+        },
+        {
+          "start": 55.41,
+          "end": 55.87,
+          "word": " even",
+          "probability": 0.21325631439685822
+        },
+        {
+          "start": 55.87,
+          "end": 55.87,
+          "word": " if",
+          "probability": 0.8424022793769836
+        },
+        {
+          "start": 55.87,
+          "end": 55.87,
+          "word": " the",
+          "probability": 0.35024401545524597
+        },
+        {
+          "start": 55.87,
+          "end": 56.25,
+          "word": " hospice",
+          "probability": 0.6115082278847694
+        },
+        {
+          "start": 56.25,
+          "end": 56.71,
+          "word": " patient",
+          "probability": 0.9503455758094788
+        },
+        {
+          "start": 56.71,
+          "end": 57.13,
+          "word": " passes",
+          "probability": 0.007804073393344879
+        },
+        {
+          "start": 57.13,
+          "end": 58.41,
+          "word": " away",
+          "probability": 0.8369530439376831
+        },
+        {
+          "start": 58.41,
+          "end": 58.41,
+          "word": " from",
+          "probability": 0.17142289876937866
+        },
+        {
+          "start": 58.41,
+          "end": 58.41,
+          "word": " somewhere,",
+          "probability": 0.29638025164604187
+        },
+        {
+          "start": 58.75,
+          "end": 59.39,
+          "word": " you",
+          "probability": 0.559265673160553
+        },
+        {
+          "start": 59.39,
+          "end": 59.39,
+          "word": " can",
+          "probability": 0.8931792378425598
+        },
+        {
+          "start": 59.39,
+          "end": 59.39,
+          "word": " call",
+          "probability": 0.5326761603355408
+        },
+        {
+          "start": 59.39,
+          "end": 59.39,
+          "word": " the",
+          "probability": 0.904867947101593
+        },
+        {
+          "start": 59.39,
+          "end": 60.07,
+          "word": " hospice",
+          "probability": 0.9814964532852173
+        },
+        {
+          "start": 60.07,
+          "end": 60.43,
+          "word": " office",
+          "probability": 0.921549916267395
+        },
+        {
+          "start": 60.43,
+          "end": 61.11,
+          "word": " right",
+          "probability": 0.1973244845867157
+        },
+        {
+          "start": 61.11,
+          "end": 61.29,
+          "word": " away.",
+          "probability": 0.9719364047050476
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 62.55,
+      "end": 67.43,
+      "text": "Then, the hospice staff goes out to pass away, and the nurse usually goes out.",
+      "words": [
+        {
+          "start": 62.55,
+          "end": 63.03,
+          "word": " Then,",
+          "probability": 0.7263379693031311
+        },
+        {
+          "start": 63.33,
+          "end": 63.33,
+          "word": " the",
+          "probability": 0.7228342890739441
+        },
+        {
+          "start": 63.33,
+          "end": 63.73,
+          "word": " hospice",
+          "probability": 0.9714954793453217
+        },
+        {
+          "start": 63.73,
+          "end": 64.23,
+          "word": " staff",
+          "probability": 0.7292404770851135
+        },
+        {
+          "start": 64.23,
+          "end": 64.43,
+          "word": " goes",
+          "probability": 0.3640938997268677
+        },
+        {
+          "start": 64.43,
+          "end": 64.67,
+          "word": " out",
+          "probability": 0.8797057271003723
+        },
+        {
+          "start": 64.67,
+          "end": 64.97,
+          "word": " to",
+          "probability": 0.31302958726882935
+        },
+        {
+          "start": 64.97,
+          "end": 65.07,
+          "word": " pass",
+          "probability": 0.019910220056772232
+        },
+        {
+          "start": 65.07,
+          "end": 65.59,
+          "word": " away,",
+          "probability": 0.24461232125759125
+        },
+        {
+          "start": 65.59,
+          "end": 66.11,
+          "word": " and",
+          "probability": 0.594375729560852
+        },
+        {
+          "start": 66.11,
+          "end": 66.21,
+          "word": " the",
+          "probability": 0.44789546728134155
+        },
+        {
+          "start": 66.21,
+          "end": 66.87,
+          "word": " nurse",
+          "probability": 0.7569175958633423
+        },
+        {
+          "start": 66.87,
+          "end": 66.87,
+          "word": " usually",
+          "probability": 0.15538251399993896
+        },
+        {
+          "start": 66.87,
+          "end": 66.87,
+          "word": " goes",
+          "probability": 0.5012849569320679
+        },
+        {
+          "start": 66.87,
+          "end": 67.43,
+          "word": " out.",
+          "probability": 0.9383894801139832
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 67.81,
+      "end": 71.85,
+      "text": "After passing away, the hospice office calls the funeral.",
+      "words": [
+        {
+          "start": 67.81,
+          "end": 68.59,
+          "word": " After",
+          "probability": 0.8987928628921509
+        },
+        {
+          "start": 68.59,
+          "end": 68.59,
+          "word": " passing",
+          "probability": 0.7158104777336121
+        },
+        {
+          "start": 68.59,
+          "end": 69.61,
+          "word": " away,",
+          "probability": 0.9594249129295349
+        },
+        {
+          "start": 69.79,
+          "end": 70.39,
+          "word": " the",
+          "probability": 0.9199782013893127
+        },
+        {
+          "start": 70.39,
+          "end": 70.75,
+          "word": " hospice",
+          "probability": 0.9897454977035522
+        },
+        {
+          "start": 70.75,
+          "end": 71.11,
+          "word": " office",
+          "probability": 0.9161704778671265
+        },
+        {
+          "start": 71.11,
+          "end": 71.43,
+          "word": " calls",
+          "probability": 0.34995126724243164
+        },
+        {
+          "start": 71.43,
+          "end": 71.67,
+          "word": " the",
+          "probability": 0.7640554904937744
+        },
+        {
+          "start": 71.67,
+          "end": 71.85,
+          "word": " funeral.",
+          "probability": 0.13190166652202606
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 72.43,
+      "end": 73.77,
+      "text": "I'll arrange it so that I can take the patient.",
+      "words": [
+        {
+          "start": 72.43,
+          "end": 73.09,
+          "word": " I'll",
+          "probability": 0.24607165530323982
+        },
+        {
+          "start": 73.09,
+          "end": 73.09,
+          "word": " arrange",
+          "probability": 0.8276188373565674
+        },
+        {
+          "start": 73.09,
+          "end": 73.09,
+          "word": " it",
+          "probability": 0.4842488467693329
+        },
+        {
+          "start": 73.09,
+          "end": 73.09,
+          "word": " so",
+          "probability": 0.6709873080253601
+        },
+        {
+          "start": 73.09,
+          "end": 73.09,
+          "word": " that",
+          "probability": 0.8880442380905151
+        },
+        {
+          "start": 73.09,
+          "end": 73.47,
+          "word": " I",
+          "probability": 0.3213615417480469
+        },
+        {
+          "start": 73.47,
+          "end": 73.47,
+          "word": " can",
+          "probability": 0.9908173084259033
+        },
+        {
+          "start": 73.47,
+          "end": 73.47,
+          "word": " take",
+          "probability": 0.5635166764259338
+        },
+        {
+          "start": 73.47,
+          "end": 73.47,
+          "word": " the",
+          "probability": 0.9157317280769348
+        },
+        {
+          "start": 73.47,
+          "end": 73.77,
+          "word": " patient.",
+          "probability": 0.9785130023956299
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 76.49,
+      "end": 84.44,
+      "text": "Sometimes, there are people who ask for two or four hours to take the patient to the funeral.",
+      "words": [
+        {
+          "start": 76.49,
+          "end": 77.21,
+          "word": " Sometimes,",
+          "probability": 0.074763223528862
+        },
+        {
+          "start": 80.04,
+          "end": 80.04,
+          "word": " there",
+          "probability": 0.3230031132698059
+        },
+        {
+          "start": 80.04,
+          "end": 80.04,
+          "word": " are",
+          "probability": 0.9585607051849365
+        },
+        {
+          "start": 80.04,
+          "end": 80.04,
+          "word": " people",
+          "probability": 0.7173291444778442
+        },
+        {
+          "start": 80.04,
+          "end": 80.04,
+          "word": " who",
+          "probability": 0.8834825754165649
+        },
+        {
+          "start": 80.04,
+          "end": 80.04,
+          "word": " ask",
+          "probability": 0.6825272440910339
+        },
+        {
+          "start": 80.04,
+          "end": 80.04,
+          "word": " for",
+          "probability": 0.2673691511154175
+        },
+        {
+          "start": 80.04,
+          "end": 80.28,
+          "word": " two",
+          "probability": 0.15549921989440918
+        },
+        {
+          "start": 80.28,
+          "end": 81.36,
+          "word": " or",
+          "probability": 0.6788456439971924
+        },
+        {
+          "start": 81.36,
+          "end": 81.92,
+          "word": " four",
+          "probability": 0.8703567385673523
+        },
+        {
+          "start": 81.92,
+          "end": 82.2,
+          "word": " hours",
+          "probability": 0.9315723776817322
+        },
+        {
+          "start": 82.2,
+          "end": 82.68,
+          "word": " to",
+          "probability": 0.2010146677494049
+        },
+        {
+          "start": 82.68,
+          "end": 82.92,
+          "word": " take",
+          "probability": 0.28661033511161804
+        },
+        {
+          "start": 82.92,
+          "end": 82.92,
+          "word": " the",
+          "probability": 0.2580757141113281
+        },
+        {
+          "start": 82.92,
+          "end": 82.92,
+          "word": " patient",
+          "probability": 0.2783036530017853
+        },
+        {
+          "start": 82.92,
+          "end": 82.92,
+          "word": " to",
+          "probability": 0.2524377703666687
+        },
+        {
+          "start": 82.92,
+          "end": 84.44,
+          "word": " the",
+          "probability": 0.5590227842330933
+        },
+        {
+          "start": 84.44,
+          "end": 84.44,
+          "word": " funeral.",
+          "probability": 0.002329734619706869
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 86.34,
+      "end": 96.5,
+      "text": "Most of the time, the patient wants to spend more time with the patient, or the family comes from far away, so they ask for the waiting time.",
+      "words": [
+        {
+          "start": 86.34,
+          "end": 87.06,
+          "word": " Most",
+          "probability": 0.5897473096847534
+        },
+        {
+          "start": 87.06,
+          "end": 87.78,
+          "word": " of",
+          "probability": 0.6541162729263306
+        },
+        {
+          "start": 87.78,
+          "end": 87.94,
+          "word": " the",
+          "probability": 0.7371000647544861
+        },
+        {
+          "start": 87.94,
+          "end": 87.94,
+          "word": " time,",
+          "probability": 0.2128199338912964
+        },
+        {
+          "start": 87.96,
+          "end": 88.14,
+          "word": " the",
+          "probability": 0.7026847004890442
+        },
+        {
+          "start": 88.14,
+          "end": 88.42,
+          "word": " patient",
+          "probability": 0.6911095380783081
+        },
+        {
+          "start": 88.42,
+          "end": 90.38,
+          "word": " wants",
+          "probability": 0.23869021236896515
+        },
+        {
+          "start": 90.38,
+          "end": 91.76,
+          "word": " to",
+          "probability": 0.9612658023834229
+        },
+        {
+          "start": 91.76,
+          "end": 91.92,
+          "word": " spend",
+          "probability": 0.787533164024353
+        },
+        {
+          "start": 91.92,
+          "end": 91.92,
+          "word": " more",
+          "probability": 0.7590907216072083
+        },
+        {
+          "start": 91.92,
+          "end": 92.06,
+          "word": " time",
+          "probability": 0.9671397805213928
+        },
+        {
+          "start": 92.06,
+          "end": 92.06,
+          "word": " with",
+          "probability": 0.9465511441230774
+        },
+        {
+          "start": 92.06,
+          "end": 92.06,
+          "word": " the",
+          "probability": 0.8735052347183228
+        },
+        {
+          "start": 92.06,
+          "end": 92.06,
+          "word": " patient,",
+          "probability": 0.836125910282135
+        },
+        {
+          "start": 92.16,
+          "end": 92.7,
+          "word": " or",
+          "probability": 0.757459282875061
+        },
+        {
+          "start": 92.7,
+          "end": 93.24,
+          "word": " the",
+          "probability": 0.521284818649292
+        },
+        {
+          "start": 93.24,
+          "end": 93.58,
+          "word": " family",
+          "probability": 0.4641192853450775
+        },
+        {
+          "start": 93.58,
+          "end": 94.02,
+          "word": " comes",
+          "probability": 0.41431620717048645
+        },
+        {
+          "start": 94.02,
+          "end": 94.06,
+          "word": " from",
+          "probability": 0.9037176370620728
+        },
+        {
+          "start": 94.06,
+          "end": 94.18,
+          "word": " far",
+          "probability": 0.26648110151290894
+        },
+        {
+          "start": 94.18,
+          "end": 94.6,
+          "word": " away,",
+          "probability": 0.9029747843742371
+        },
+        {
+          "start": 94.88,
+          "end": 94.98,
+          "word": " so",
+          "probability": 0.7366015315055847
+        },
+        {
+          "start": 94.98,
+          "end": 95.64,
+          "word": " they",
+          "probability": 0.6117302775382996
+        },
+        {
+          "start": 95.64,
+          "end": 95.64,
+          "word": " ask",
+          "probability": 0.6920379996299744
+        },
+        {
+          "start": 95.64,
+          "end": 95.64,
+          "word": " for",
+          "probability": 0.8402687311172485
+        },
+        {
+          "start": 95.64,
+          "end": 95.74,
+          "word": " the",
+          "probability": 0.6103463172912598
+        },
+        {
+          "start": 95.74,
+          "end": 96.14,
+          "word": " waiting",
+          "probability": 0.4791145622730255
+        },
+        {
+          "start": 96.14,
+          "end": 96.5,
+          "word": " time.",
+          "probability": 0.9521468281745911
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 98.08,
+      "end": 102.18,
+      "text": "I'll arrange it so that the hospice office can give time to the family at the funeral.",
+      "words": [
+        {
+          "start": 98.08,
+          "end": 98.68,
+          "word": " I'll",
+          "probability": 0.08111470937728882
+        },
+        {
+          "start": 98.68,
+          "end": 98.68,
+          "word": " arrange",
+          "probability": 0.7652530670166016
+        },
+        {
+          "start": 98.68,
+          "end": 98.68,
+          "word": " it",
+          "probability": 0.16019853949546814
+        },
+        {
+          "start": 98.68,
+          "end": 98.68,
+          "word": " so",
+          "probability": 0.7081282734870911
+        },
+        {
+          "start": 98.68,
+          "end": 98.68,
+          "word": " that",
+          "probability": 0.9659994840621948
+        },
+        {
+          "start": 98.68,
+          "end": 98.68,
+          "word": " the",
+          "probability": 0.5166117548942566
+        },
+        {
+          "start": 98.68,
+          "end": 98.98,
+          "word": " hospice",
+          "probability": 0.9095890820026398
+        },
+        {
+          "start": 98.98,
+          "end": 99.32,
+          "word": " office",
+          "probability": 0.807694673538208
+        },
+        {
+          "start": 99.32,
+          "end": 100.46,
+          "word": " can",
+          "probability": 0.7896811366081238
+        },
+        {
+          "start": 100.46,
+          "end": 100.48,
+          "word": " give",
+          "probability": 0.1375027596950531
+        },
+        {
+          "start": 100.48,
+          "end": 101.82,
+          "word": " time",
+          "probability": 0.3842678666114807
+        },
+        {
+          "start": 101.82,
+          "end": 102.18,
+          "word": " to",
+          "probability": 0.8661841750144958
+        },
+        {
+          "start": 102.18,
+          "end": 102.18,
+          "word": " the",
+          "probability": 0.8690466284751892
+        },
+        {
+          "start": 102.18,
+          "end": 102.18,
+          "word": " family",
+          "probability": 0.9633126258850098
+        },
+        {
+          "start": 102.18,
+          "end": 102.18,
+          "word": " at",
+          "probability": 0.3644033372402191
+        },
+        {
+          "start": 102.18,
+          "end": 102.18,
+          "word": " the",
+          "probability": 0.959933876991272
+        },
+        {
+          "start": 102.18,
+          "end": 102.18,
+          "word": " funeral.",
+          "probability": 0.9319453835487366
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 104.32,
+      "end": 108.28,
+      "text": "However, the California law brings the patient to the funeral after he passed away.",
+      "words": [
+        {
+          "start": 104.32,
+          "end": 105.2,
+          "word": " However,",
+          "probability": 0.03204986825585365
+        },
+        {
+          "start": 105.68,
+          "end": 105.68,
+          "word": " the",
+          "probability": 0.4123533368110657
+        },
+        {
+          "start": 105.68,
+          "end": 106.12,
+          "word": " California",
+          "probability": 0.24795414507389069
+        },
+        {
+          "start": 106.12,
+          "end": 106.54,
+          "word": " law",
+          "probability": 0.6535198092460632
+        },
+        {
+          "start": 106.54,
+          "end": 107.14,
+          "word": " brings",
+          "probability": 0.1625741720199585
+        },
+        {
+          "start": 107.14,
+          "end": 107.14,
+          "word": " the",
+          "probability": 0.12754395604133606
+        },
+        {
+          "start": 107.14,
+          "end": 107.42,
+          "word": " patient",
+          "probability": 0.8468670845031738
+        },
+        {
+          "start": 107.42,
+          "end": 107.72,
+          "word": " to",
+          "probability": 0.3437501788139343
+        },
+        {
+          "start": 107.72,
+          "end": 107.72,
+          "word": " the",
+          "probability": 0.520819365978241
+        },
+        {
+          "start": 107.72,
+          "end": 107.72,
+          "word": " funeral",
+          "probability": 0.026773417368531227
+        },
+        {
+          "start": 107.72,
+          "end": 107.72,
+          "word": " after",
+          "probability": 0.11260970681905746
+        },
+        {
+          "start": 107.72,
+          "end": 107.72,
+          "word": " he",
+          "probability": 0.3514215350151062
+        },
+        {
+          "start": 107.72,
+          "end": 107.84,
+          "word": " passed",
+          "probability": 0.016400914639234543
+        },
+        {
+          "start": 107.84,
+          "end": 108.28,
+          "word": " away.",
+          "probability": 0.9849057793617249
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 109.44,
+      "end": 111.4,
+      "text": "It's a law that has been passed away at the place where he passed away.",
+      "words": [
+        {
+          "start": 109.44,
+          "end": 109.86,
+          "word": " It's",
+          "probability": 0.22205854952335358
+        },
+        {
+          "start": 109.86,
+          "end": 109.86,
+          "word": " a",
+          "probability": 0.22995297610759735
+        },
+        {
+          "start": 109.86,
+          "end": 109.86,
+          "word": " law",
+          "probability": 0.7709426283836365
+        },
+        {
+          "start": 109.86,
+          "end": 109.86,
+          "word": " that",
+          "probability": 0.5622140765190125
+        },
+        {
+          "start": 109.86,
+          "end": 109.86,
+          "word": " has",
+          "probability": 0.15798132121562958
+        },
+        {
+          "start": 109.86,
+          "end": 109.86,
+          "word": " been",
+          "probability": 0.785195529460907
+        },
+        {
+          "start": 109.86,
+          "end": 109.86,
+          "word": " passed",
+          "probability": 0.19660352170467377
+        },
+        {
+          "start": 109.86,
+          "end": 109.86,
+          "word": " away",
+          "probability": 0.08309143036603928
+        },
+        {
+          "start": 109.86,
+          "end": 109.86,
+          "word": " at",
+          "probability": 0.07995349168777466
+        },
+        {
+          "start": 109.86,
+          "end": 109.86,
+          "word": " the",
+          "probability": 0.6620914936065674
+        },
+        {
+          "start": 109.86,
+          "end": 109.86,
+          "word": " place",
+          "probability": 0.4174281656742096
+        },
+        {
+          "start": 109.86,
+          "end": 109.86,
+          "word": " where",
+          "probability": 0.6343348622322083
+        },
+        {
+          "start": 109.86,
+          "end": 110.52,
+          "word": " he",
+          "probability": 0.754313588142395
+        },
+        {
+          "start": 110.52,
+          "end": 110.52,
+          "word": " passed",
+          "probability": 0.1559986174106598
+        },
+        {
+          "start": 110.52,
+          "end": 111.4,
+          "word": " away.",
+          "probability": 0.987945556640625
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 114.2,
+      "end": 119.12,
+      "text": "Most of the time, the hospice office brings the patient to the funeral.",
+      "words": [
+        {
+          "start": 114.2,
+          "end": 114.98,
+          "word": " Most",
+          "probability": 0.41766369342803955
+        },
+        {
+          "start": 114.98,
+          "end": 114.98,
+          "word": " of",
+          "probability": 0.6009218692779541
+        },
+        {
+          "start": 114.98,
+          "end": 114.98,
+          "word": " the",
+          "probability": 0.8745914697647095
+        },
+        {
+          "start": 114.98,
+          "end": 115.32,
+          "word": " time,",
+          "probability": 0.2847640812397003
+        },
+        {
+          "start": 116.54,
+          "end": 116.54,
+          "word": " the",
+          "probability": 0.2652990520000458
+        },
+        {
+          "start": 116.54,
+          "end": 116.78,
+          "word": " hospice",
+          "probability": 0.200085866293648
+        },
+        {
+          "start": 116.78,
+          "end": 116.92,
+          "word": " office",
+          "probability": 4.110814188607037e-05
+        },
+        {
+          "start": 116.92,
+          "end": 117.22,
+          "word": " brings",
+          "probability": 0.4681404232978821
+        },
+        {
+          "start": 117.22,
+          "end": 118.16,
+          "word": " the",
+          "probability": 0.31592580676078796
+        },
+        {
+          "start": 118.16,
+          "end": 118.26,
+          "word": " patient",
+          "probability": 0.926356852054596
+        },
+        {
+          "start": 118.26,
+          "end": 118.44,
+          "word": " to",
+          "probability": 0.4359886348247528
+        },
+        {
+          "start": 118.44,
+          "end": 119.12,
+          "word": " the",
+          "probability": 0.8195553421974182
+        },
+        {
+          "start": 119.12,
+          "end": 119.12,
+          "word": " funeral.",
+          "probability": 0.9633758664131165
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 119.83,
+      "end": 121.47,
+      "text": "Let me tell you another story.",
+      "words": [
+        {
+          "start": 119.83,
+          "end": 120.71,
+          "word": " Let",
+          "probability": 0.2858770489692688
+        },
+        {
+          "start": 120.71,
+          "end": 120.97,
+          "word": " me",
+          "probability": 0.8074926733970642
+        },
+        {
+          "start": 120.97,
+          "end": 120.97,
+          "word": " tell",
+          "probability": 0.4543248116970062
+        },
+        {
+          "start": 120.97,
+          "end": 120.99,
+          "word": " you",
+          "probability": 0.9872861504554749
+        },
+        {
+          "start": 120.99,
+          "end": 120.99,
+          "word": " another",
+          "probability": 0.2884191870689392
+        },
+        {
+          "start": 120.99,
+          "end": 121.47,
+          "word": " story.",
+          "probability": 0.8522769808769226
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 122.47,
+      "end": 130.63,
+      "text": "There are many people who think that they have to call 911 if a patient passes away from their family in the US.",
+      "words": [
+        {
+          "start": 122.47,
+          "end": 123.11,
+          "word": " There",
+          "probability": 0.051019541919231415
+        },
+        {
+          "start": 123.11,
+          "end": 123.11,
+          "word": " are",
+          "probability": 0.9062680006027222
+        },
+        {
+          "start": 123.11,
+          "end": 123.17,
+          "word": " many",
+          "probability": 0.5665964484214783
+        },
+        {
+          "start": 123.17,
+          "end": 123.41,
+          "word": " people",
+          "probability": 0.6852153539657593
+        },
+        {
+          "start": 123.41,
+          "end": 123.41,
+          "word": " who",
+          "probability": 0.9181362390518188
+        },
+        {
+          "start": 123.41,
+          "end": 123.95,
+          "word": " think",
+          "probability": 0.7872201800346375
+        },
+        {
+          "start": 123.95,
+          "end": 125.47,
+          "word": " that",
+          "probability": 0.6255095601081848
+        },
+        {
+          "start": 125.47,
+          "end": 126.09,
+          "word": " they",
+          "probability": 0.18865543603897095
+        },
+        {
+          "start": 126.09,
+          "end": 126.43,
+          "word": " have",
+          "probability": 0.3365339934825897
+        },
+        {
+          "start": 126.43,
+          "end": 126.43,
+          "word": " to",
+          "probability": 0.9933348894119263
+        },
+        {
+          "start": 126.43,
+          "end": 126.43,
+          "word": " call",
+          "probability": 0.6826062202453613
+        },
+        {
+          "start": 126.43,
+          "end": 128.37,
+          "word": " 911",
+          "probability": 0.7335142493247986
+        },
+        {
+          "start": 128.37,
+          "end": 130.11,
+          "word": " if",
+          "probability": 0.1164124608039856
+        },
+        {
+          "start": 130.11,
+          "end": 130.11,
+          "word": " a",
+          "probability": 0.4100126028060913
+        },
+        {
+          "start": 130.11,
+          "end": 130.11,
+          "word": " patient",
+          "probability": 0.9243667721748352
+        },
+        {
+          "start": 130.11,
+          "end": 130.11,
+          "word": " passes",
+          "probability": 0.05395854637026787
+        },
+        {
+          "start": 130.11,
+          "end": 130.11,
+          "word": " away",
+          "probability": 0.5984757542610168
+        },
+        {
+          "start": 130.11,
+          "end": 130.63,
+          "word": " from",
+          "probability": 0.1481608897447586
+        },
+        {
+          "start": 130.63,
+          "end": 130.63,
+          "word": " their",
+          "probability": 0.28279027342796326
+        },
+        {
+          "start": 130.63,
+          "end": 130.63,
+          "word": " family",
+          "probability": 0.4425055682659149
+        },
+        {
+          "start": 130.63,
+          "end": 130.63,
+          "word": " in",
+          "probability": 0.27037566900253296
+        },
+        {
+          "start": 130.63,
+          "end": 130.63,
+          "word": " the",
+          "probability": 0.7738344073295593
+        },
+        {
+          "start": 130.63,
+          "end": 130.63,
+          "word": " US.",
+          "probability": 0.44211599230766296
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 132.27,
+      "end": 136.79,
+      "text": "If the patient dies without the hospice, it is right to call 911.",
+      "words": [
+        {
+          "start": 132.27,
+          "end": 132.85,
+          "word": " If",
+          "probability": 0.30196523666381836
+        },
+        {
+          "start": 132.85,
+          "end": 133.81,
+          "word": " the",
+          "probability": 0.5569780468940735
+        },
+        {
+          "start": 133.81,
+          "end": 134.09,
+          "word": " patient",
+          "probability": 0.9833083152770996
+        },
+        {
+          "start": 134.09,
+          "end": 134.45,
+          "word": " dies",
+          "probability": 0.35677021741867065
+        },
+        {
+          "start": 134.45,
+          "end": 134.89,
+          "word": " without",
+          "probability": 0.8980896472930908
+        },
+        {
+          "start": 134.89,
+          "end": 134.89,
+          "word": " the",
+          "probability": 0.08210927248001099
+        },
+        {
+          "start": 134.89,
+          "end": 134.89,
+          "word": " hospice,",
+          "probability": 0.8753499090671539
+        },
+        {
+          "start": 134.89,
+          "end": 135.53,
+          "word": " it",
+          "probability": 0.5981485843658447
+        },
+        {
+          "start": 135.53,
+          "end": 135.53,
+          "word": " is",
+          "probability": 0.8429770469665527
+        },
+        {
+          "start": 135.53,
+          "end": 135.53,
+          "word": " right",
+          "probability": 0.35320764780044556
+        },
+        {
+          "start": 135.53,
+          "end": 135.53,
+          "word": " to",
+          "probability": 0.9729474782943726
+        },
+        {
+          "start": 135.53,
+          "end": 135.53,
+          "word": " call",
+          "probability": 0.8576862215995789
+        },
+        {
+          "start": 135.53,
+          "end": 136.79,
+          "word": " 911.",
+          "probability": 0.9675905108451843
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": 138.7,
+      "end": 144.38,
+      "text": "However, if the patient passes away while doing the hospice, you don't have to call 911.",
+      "words": [
+        {
+          "start": 138.7,
+          "end": 139.86,
+          "word": " However,",
+          "probability": 0.5989840030670166
+        },
+        {
+          "start": 140.12,
+          "end": 140.32,
+          "word": " if",
+          "probability": 0.8064045310020447
+        },
+        {
+          "start": 140.32,
+          "end": 140.56,
+          "word": " the",
+          "probability": 0.6108183264732361
+        },
+        {
+          "start": 140.56,
+          "end": 140.56,
+          "word": " patient",
+          "probability": 0.9885438084602356
+        },
+        {
+          "start": 140.56,
+          "end": 140.56,
+          "word": " passes",
+          "probability": 0.6592748165130615
+        },
+        {
+          "start": 140.56,
+          "end": 142.6,
+          "word": " away",
+          "probability": 0.9651319980621338
+        },
+        {
+          "start": 142.6,
+          "end": 142.6,
+          "word": " while",
+          "probability": 0.6519085764884949
+        },
+        {
+          "start": 142.6,
+          "end": 142.6,
+          "word": " doing",
+          "probability": 0.20932330191135406
+        },
+        {
+          "start": 142.6,
+          "end": 142.6,
+          "word": " the",
+          "probability": 0.5261509418487549
+        },
+        {
+          "start": 142.6,
+          "end": 142.6,
+          "word": " hospice,",
+          "probability": 0.9960695207118988
+        },
+        {
+          "start": 142.62,
+          "end": 143.76,
+          "word": " you",
+          "probability": 0.5240465402603149
+        },
+        {
+          "start": 143.76,
+          "end": 143.76,
+          "word": " don't",
+          "probability": 0.745272621512413
+        },
+        {
+          "start": 143.76,
+          "end": 143.76,
+          "word": " have",
+          "probability": 0.4648416042327881
+        },
+        {
+          "start": 143.76,
+          "end": 143.76,
+          "word": " to",
+          "probability": 0.9974452257156372
+        },
+        {
+          "start": 143.76,
+          "end": 143.76,
+          "word": " call",
+          "probability": 0.8682892322540283
+        },
+        {
+          "start": 143.76,
+          "end": 144.38,
+          "word": " 911.",
+          "probability": 0.9787286520004272
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 146.18,
+      "end": 148.16,
+      "text": "You can call the hospice office right away.",
+      "words": [
+        {
+          "start": 146.18,
+          "end": 146.62,
+          "word": " You",
+          "probability": 0.6062130928039551
+        },
+        {
+          "start": 146.62,
+          "end": 146.62,
+          "word": " can",
+          "probability": 0.748586893081665
+        },
+        {
+          "start": 146.62,
+          "end": 146.62,
+          "word": " call",
+          "probability": 0.7036466002464294
+        },
+        {
+          "start": 146.62,
+          "end": 146.62,
+          "word": " the",
+          "probability": 0.848364531993866
+        },
+        {
+          "start": 146.62,
+          "end": 147.0,
+          "word": " hospice",
+          "probability": 0.6342555731534958
+        },
+        {
+          "start": 147.0,
+          "end": 147.38,
+          "word": " office",
+          "probability": 0.8070802688598633
+        },
+        {
+          "start": 147.38,
+          "end": 147.92,
+          "word": " right",
+          "probability": 0.3531874120235443
+        },
+        {
+          "start": 147.92,
+          "end": 148.16,
+          "word": " away.",
+          "probability": 0.9387754201889038
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start": 149.76,
+      "end": 153.82,
+      "text": "Usually, the funeral is run by Koreans in two hours.",
+      "words": [
+        {
+          "start": 149.76,
+          "end": 150.42,
+          "word": " Usually,",
+          "probability": 0.04135201871395111
+        },
+        {
+          "start": 151.06,
+          "end": 151.64,
+          "word": " the",
+          "probability": 0.10049616545438766
+        },
+        {
+          "start": 151.64,
+          "end": 152.72,
+          "word": " funeral",
+          "probability": 0.0494171567261219
+        },
+        {
+          "start": 152.72,
+          "end": 153.04,
+          "word": " is",
+          "probability": 0.03710344061255455
+        },
+        {
+          "start": 153.04,
+          "end": 153.04,
+          "word": " run",
+          "probability": 0.13672231137752533
+        },
+        {
+          "start": 153.04,
+          "end": 153.04,
+          "word": " by",
+          "probability": 0.7683422565460205
+        },
+        {
+          "start": 153.04,
+          "end": 153.04,
+          "word": " Koreans",
+          "probability": 0.43614938855171204
+        },
+        {
+          "start": 153.04,
+          "end": 153.3,
+          "word": " in",
+          "probability": 0.23525357246398926
+        },
+        {
+          "start": 153.3,
+          "end": 153.52,
+          "word": " two",
+          "probability": 0.4833706021308899
+        },
+        {
+          "start": 153.52,
+          "end": 153.82,
+          "word": " hours.",
+          "probability": 0.9857298135757446
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start": 154.16,
+      "end": 158.24,
+      "text": "In the case of the US funeral, you can think that it takes two to four hours.",
+      "words": [
+        {
+          "start": 154.16,
+          "end": 154.82,
+          "word": " In",
+          "probability": 0.3089338541030884
+        },
+        {
+          "start": 154.82,
+          "end": 154.84,
+          "word": " the",
+          "probability": 0.6641537547111511
+        },
+        {
+          "start": 154.84,
+          "end": 154.84,
+          "word": " case",
+          "probability": 0.8450409173965454
+        },
+        {
+          "start": 154.84,
+          "end": 154.84,
+          "word": " of",
+          "probability": 0.9957950115203857
+        },
+        {
+          "start": 154.84,
+          "end": 154.84,
+          "word": " the",
+          "probability": 0.2944175601005554
+        },
+        {
+          "start": 154.84,
+          "end": 154.98,
+          "word": " US",
+          "probability": 0.2497251182794571
+        },
+        {
+          "start": 154.98,
+          "end": 155.52,
+          "word": " funeral,",
+          "probability": 0.9485392570495605
+        },
+        {
+          "start": 156.08,
+          "end": 156.82,
+          "word": " you",
+          "probability": 0.35585808753967285
+        },
+        {
+          "start": 156.82,
+          "end": 156.82,
+          "word": " can",
+          "probability": 0.664447009563446
+        },
+        {
+          "start": 156.82,
+          "end": 156.82,
+          "word": " think",
+          "probability": 0.8802849650382996
+        },
+        {
+          "start": 156.82,
+          "end": 156.82,
+          "word": " that",
+          "probability": 0.3816302418708801
+        },
+        {
+          "start": 156.82,
+          "end": 156.82,
+          "word": " it",
+          "probability": 0.7270647287368774
+        },
+        {
+          "start": 156.82,
+          "end": 156.82,
+          "word": " takes",
+          "probability": 0.8580479621887207
+        },
+        {
+          "start": 156.82,
+          "end": 156.86,
+          "word": " two",
+          "probability": 0.43663668632507324
+        },
+        {
+          "start": 156.86,
+          "end": 157.42,
+          "word": " to",
+          "probability": 0.8010916709899902
+        },
+        {
+          "start": 157.42,
+          "end": 157.9,
+          "word": " four",
+          "probability": 0.9626207947731018
+        },
+        {
+          "start": 157.9,
+          "end": 158.24,
+          "word": " hours.",
+          "probability": 0.9988124370574951
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start": 162.13,
+      "end": 164.97,
+      "text": "Then, let me tell you another story according to the place where he passed away.",
+      "words": [
+        {
+          "start": 162.13,
+          "end": 162.79,
+          "word": " Then,",
+          "probability": 0.5393028855323792
+        },
+        {
+          "start": 162.79,
+          "end": 163.45,
+          "word": " let",
+          "probability": 0.28604042530059814
+        },
+        {
+          "start": 163.45,
+          "end": 163.69,
+          "word": " me",
+          "probability": 0.854884684085846
+        },
+        {
+          "start": 163.69,
+          "end": 163.69,
+          "word": " tell",
+          "probability": 0.9293982982635498
+        },
+        {
+          "start": 163.69,
+          "end": 163.87,
+          "word": " you",
+          "probability": 0.9940986633300781
+        },
+        {
+          "start": 163.87,
+          "end": 164.05,
+          "word": " another",
+          "probability": 0.33925342559814453
+        },
+        {
+          "start": 164.05,
+          "end": 164.95,
+          "word": " story",
+          "probability": 0.05488426983356476
+        },
+        {
+          "start": 164.95,
+          "end": 164.97,
+          "word": " according",
+          "probability": 0.25303220748901367
+        },
+        {
+          "start": 164.97,
+          "end": 164.97,
+          "word": " to",
+          "probability": 0.9994027614593506
+        },
+        {
+          "start": 164.97,
+          "end": 164.97,
+          "word": " the",
+          "probability": 0.7762694954872131
+        },
+        {
+          "start": 164.97,
+          "end": 164.97,
+          "word": " place",
+          "probability": 0.6796279549598694
+        },
+        {
+          "start": 164.97,
+          "end": 164.97,
+          "word": " where",
+          "probability": 0.09221185743808746
+        },
+        {
+          "start": 164.97,
+          "end": 164.97,
+          "word": " he",
+          "probability": 0.026848390698432922
+        },
+        {
+          "start": 164.97,
+          "end": 164.97,
+          "word": " passed",
+          "probability": 0.05603919178247452
+        },
+        {
+          "start": 164.97,
+          "end": 164.97,
+          "word": " away.",
+          "probability": 0.5857769846916199
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start": 166.03,
+      "end": 167.35,
+      "text": "The patient has been admitted to the nursing hospital.",
+      "words": [
+        {
+          "start": 166.03,
+          "end": 166.19,
+          "word": " The",
+          "probability": 0.4104906916618347
+        },
+        {
+          "start": 166.19,
+          "end": 166.45,
+          "word": " patient",
+          "probability": 0.94600909948349
+        },
+        {
+          "start": 166.45,
+          "end": 166.73,
+          "word": " has",
+          "probability": 0.21368654072284698
+        },
+        {
+          "start": 166.73,
+          "end": 166.73,
+          "word": " been",
+          "probability": 0.24193936586380005
+        },
+        {
+          "start": 166.73,
+          "end": 166.73,
+          "word": " admitted",
+          "probability": 0.8450764417648315
+        },
+        {
+          "start": 166.73,
+          "end": 166.73,
+          "word": " to",
+          "probability": 0.6210074424743652
+        },
+        {
+          "start": 166.73,
+          "end": 166.83,
+          "word": " the",
+          "probability": 0.6061012744903564
+        },
+        {
+          "start": 166.83,
+          "end": 167.05,
+          "word": " nursing",
+          "probability": 0.05667392164468765
+        },
+        {
+          "start": 167.05,
+          "end": 167.35,
+          "word": " hospital.",
+          "probability": 0.4527432918548584
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "start": 168.41,
+      "end": 178.83,
+      "text": "In the nursing hospital, there is an upper-level nurse, so the nurses call the hospice company after the death.",
+      "words": [
+        {
+          "start": 168.41,
+          "end": 169.17,
+          "word": " In",
+          "probability": 0.04347202926874161
+        },
+        {
+          "start": 169.17,
+          "end": 169.91,
+          "word": " the",
+          "probability": 0.5924704074859619
+        },
+        {
+          "start": 169.91,
+          "end": 169.91,
+          "word": " nursing",
+          "probability": 0.02499397099018097
+        },
+        {
+          "start": 169.91,
+          "end": 170.23,
+          "word": " hospital,",
+          "probability": 0.26815029978752136
+        },
+        {
+          "start": 170.61,
+          "end": 170.61,
+          "word": " there",
+          "probability": 0.5128916501998901
+        },
+        {
+          "start": 170.61,
+          "end": 170.61,
+          "word": " is",
+          "probability": 0.3474748432636261
+        },
+        {
+          "start": 170.61,
+          "end": 170.69,
+          "word": " an",
+          "probability": 0.19926312565803528
+        },
+        {
+          "start": 170.69,
+          "end": 170.85,
+          "word": " upper",
+          "probability": 0.10433490574359894
+        },
+        {
+          "start": 170.85,
+          "end": 171.09,
+          "word": "-level",
+          "probability": 0.32465553283691406
+        },
+        {
+          "start": 171.09,
+          "end": 171.51,
+          "word": " nurse,",
+          "probability": 0.7985315322875977
+        },
+        {
+          "start": 171.77,
+          "end": 172.47,
+          "word": " so",
+          "probability": 0.7253623604774475
+        },
+        {
+          "start": 172.47,
+          "end": 172.69,
+          "word": " the",
+          "probability": 0.4668835997581482
+        },
+        {
+          "start": 172.69,
+          "end": 173.15,
+          "word": " nurses",
+          "probability": 0.6315281987190247
+        },
+        {
+          "start": 173.15,
+          "end": 174.79,
+          "word": " call",
+          "probability": 0.3266734480857849
+        },
+        {
+          "start": 174.79,
+          "end": 177.21,
+          "word": " the",
+          "probability": 0.7320836186408997
+        },
+        {
+          "start": 177.21,
+          "end": 177.49,
+          "word": " hospice",
+          "probability": 0.5196032673120499
+        },
+        {
+          "start": 177.49,
+          "end": 177.81,
+          "word": " company",
+          "probability": 0.4082081913948059
+        },
+        {
+          "start": 177.81,
+          "end": 178.83,
+          "word": " after",
+          "probability": 0.7098252177238464
+        },
+        {
+          "start": 178.83,
+          "end": 178.83,
+          "word": " the",
+          "probability": 0.23494602739810944
+        },
+        {
+          "start": 178.83,
+          "end": 178.83,
+          "word": " death.",
+          "probability": 0.13680750131607056
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "start": 178.83,
+      "end": 185.65,
+      "text": "The hospice company brings the patient to the funeral and the funeral.",
+      "words": [
+        {
+          "start": 178.83,
+          "end": 179.59,
+          "word": " The",
+          "probability": 0.6264142990112305
+        },
+        {
+          "start": 179.59,
+          "end": 179.97,
+          "word": " hospice",
+          "probability": 0.9806032776832581
+        },
+        {
+          "start": 179.97,
+          "end": 180.43,
+          "word": " company",
+          "probability": 0.9653891324996948
+        },
+        {
+          "start": 180.43,
+          "end": 180.87,
+          "word": " brings",
+          "probability": 0.10298154503107071
+        },
+        {
+          "start": 180.87,
+          "end": 181.49,
+          "word": " the",
+          "probability": 0.22628365457057953
+        },
+        {
+          "start": 181.49,
+          "end": 182.63,
+          "word": " patient",
+          "probability": 0.9341549873352051
+        },
+        {
+          "start": 182.63,
+          "end": 182.63,
+          "word": " to",
+          "probability": 0.48958808183670044
+        },
+        {
+          "start": 182.63,
+          "end": 182.63,
+          "word": " the",
+          "probability": 0.9080525636672974
+        },
+        {
+          "start": 182.63,
+          "end": 182.81,
+          "word": " funeral",
+          "probability": 0.06726805865764618
+        },
+        {
+          "start": 182.81,
+          "end": 184.09,
+          "word": " and",
+          "probability": 0.2289838194847107
+        },
+        {
+          "start": 184.09,
+          "end": 184.23,
+          "word": " the",
+          "probability": 0.5443589687347412
+        },
+        {
+          "start": 184.23,
+          "end": 185.65,
+          "word": " funeral.",
+          "probability": 0.8612467646598816
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "start": 187.48,
+      "end": 193.86,
+      "text": "If the patient is admitted to the nursing office or the hospital, the doctor is not there.",
+      "words": [
+        {
+          "start": 187.48,
+          "end": 188.24,
+          "word": " If",
+          "probability": 0.3080621659755707
+        },
+        {
+          "start": 188.24,
+          "end": 188.24,
+          "word": " the",
+          "probability": 0.5818325877189636
+        },
+        {
+          "start": 188.24,
+          "end": 188.48,
+          "word": " patient",
+          "probability": 0.32298994064331055
+        },
+        {
+          "start": 188.48,
+          "end": 188.48,
+          "word": " is",
+          "probability": 0.41646885871887207
+        },
+        {
+          "start": 188.48,
+          "end": 188.48,
+          "word": " admitted",
+          "probability": 0.37043580412864685
+        },
+        {
+          "start": 188.48,
+          "end": 188.48,
+          "word": " to",
+          "probability": 0.3213433027267456
+        },
+        {
+          "start": 188.48,
+          "end": 188.48,
+          "word": " the",
+          "probability": 0.6789270639419556
+        },
+        {
+          "start": 188.48,
+          "end": 188.48,
+          "word": " nursing",
+          "probability": 0.22982245683670044
+        },
+        {
+          "start": 188.48,
+          "end": 188.86,
+          "word": " office",
+          "probability": 0.1399463564157486
+        },
+        {
+          "start": 188.86,
+          "end": 189.02,
+          "word": " or",
+          "probability": 0.7817596793174744
+        },
+        {
+          "start": 189.02,
+          "end": 189.36,
+          "word": " the",
+          "probability": 0.30803629755973816
+        },
+        {
+          "start": 189.36,
+          "end": 189.62,
+          "word": " hospital,",
+          "probability": 0.712504506111145
+        },
+        {
+          "start": 191.24,
+          "end": 192.66,
+          "word": " the",
+          "probability": 0.4727119505405426
+        },
+        {
+          "start": 192.66,
+          "end": 193.08,
+          "word": " doctor",
+          "probability": 0.2817242443561554
+        },
+        {
+          "start": 193.08,
+          "end": 193.46,
+          "word": " is",
+          "probability": 0.16477970778942108
+        },
+        {
+          "start": 193.46,
+          "end": 193.5,
+          "word": " not",
+          "probability": 0.475843220949173
+        },
+        {
+          "start": 193.5,
+          "end": 193.86,
+          "word": " there.",
+          "probability": 0.7551437020301819
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "start": 193.86,
+      "end": 200.64,
+      "text": "If you call the hospice office, the hospice staff leaves the office.",
+      "words": [
+        {
+          "start": 193.86,
+          "end": 194.7,
+          "word": " If",
+          "probability": 0.10693836212158203
+        },
+        {
+          "start": 194.7,
+          "end": 194.98,
+          "word": " you",
+          "probability": 0.6199285387992859
+        },
+        {
+          "start": 194.98,
+          "end": 194.98,
+          "word": " call",
+          "probability": 0.5973703861236572
+        },
+        {
+          "start": 194.98,
+          "end": 195.04,
+          "word": " the",
+          "probability": 0.7716070413589478
+        },
+        {
+          "start": 195.04,
+          "end": 195.44,
+          "word": " hospice",
+          "probability": 0.657721534371376
+        },
+        {
+          "start": 195.44,
+          "end": 195.7,
+          "word": " office,",
+          "probability": 0.8996484279632568
+        },
+        {
+          "start": 196.72,
+          "end": 198.74,
+          "word": " the",
+          "probability": 0.4208337962627411
+        },
+        {
+          "start": 198.74,
+          "end": 199.3,
+          "word": " hospice",
+          "probability": 0.9114877581596375
+        },
+        {
+          "start": 199.3,
+          "end": 199.64,
+          "word": " staff",
+          "probability": 0.15245600044727325
+        },
+        {
+          "start": 199.64,
+          "end": 200.18,
+          "word": " leaves",
+          "probability": 0.14489369094371796
+        },
+        {
+          "start": 200.18,
+          "end": 200.64,
+          "word": " the",
+          "probability": 0.7398852705955505
+        },
+        {
+          "start": 200.64,
+          "end": 200.64,
+          "word": " office.",
+          "probability": 0.9115059971809387
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "start": 200.78,
+      "end": 203.06,
+      "text": "I told you that the nurse usually leaves the office.",
+      "words": [
+        {
+          "start": 200.78,
+          "end": 201.3,
+          "word": " I",
+          "probability": 0.06407702714204788
+        },
+        {
+          "start": 201.3,
+          "end": 201.3,
+          "word": " told",
+          "probability": 0.37423262000083923
+        },
+        {
+          "start": 201.3,
+          "end": 201.3,
+          "word": " you",
+          "probability": 0.967322826385498
+        },
+        {
+          "start": 201.3,
+          "end": 201.34,
+          "word": " that",
+          "probability": 0.8396188020706177
+        },
+        {
+          "start": 201.34,
+          "end": 201.48,
+          "word": " the",
+          "probability": 0.5102890133857727
+        },
+        {
+          "start": 201.48,
+          "end": 201.72,
+          "word": " nurse",
+          "probability": 0.9106108546257019
+        },
+        {
+          "start": 201.72,
+          "end": 201.94,
+          "word": " usually",
+          "probability": 0.09783528745174408
+        },
+        {
+          "start": 201.94,
+          "end": 202.08,
+          "word": " leaves",
+          "probability": 0.8456220626831055
+        },
+        {
+          "start": 202.08,
+          "end": 202.14,
+          "word": " the",
+          "probability": 0.25179383158683777
+        },
+        {
+          "start": 202.14,
+          "end": 203.06,
+          "word": " office.",
+          "probability": 0.9789165258407593
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "start": 203.22,
+      "end": 207.28,
+      "text": "If the nurse goes to the funeral and calls the hospice office,",
+      "words": [
+        {
+          "start": 203.22,
+          "end": 203.76,
+          "word": " If",
+          "probability": 0.3974253237247467
+        },
+        {
+          "start": 203.76,
+          "end": 203.82,
+          "word": " the",
+          "probability": 0.7982413172721863
+        },
+        {
+          "start": 203.82,
+          "end": 204.24,
+          "word": " nurse",
+          "probability": 0.9937320351600647
+        },
+        {
+          "start": 204.24,
+          "end": 204.48,
+          "word": " goes",
+          "probability": 0.022641584277153015
+        },
+        {
+          "start": 204.48,
+          "end": 204.52,
+          "word": " to",
+          "probability": 0.7618128061294556
+        },
+        {
+          "start": 204.52,
+          "end": 205.3,
+          "word": " the",
+          "probability": 0.6989829540252686
+        },
+        {
+          "start": 205.3,
+          "end": 205.3,
+          "word": " funeral",
+          "probability": 0.00355090806260705
+        },
+        {
+          "start": 205.3,
+          "end": 206.12,
+          "word": " and",
+          "probability": 0.33314117789268494
+        },
+        {
+          "start": 206.12,
+          "end": 206.12,
+          "word": " calls",
+          "probability": 0.3560469150543213
+        },
+        {
+          "start": 206.12,
+          "end": 206.46,
+          "word": " the",
+          "probability": 0.9530553221702576
+        },
+        {
+          "start": 206.46,
+          "end": 206.86,
+          "word": " hospice",
+          "probability": 0.9840967953205109
+        },
+        {
+          "start": 206.86,
+          "end": 207.28,
+          "word": " office,",
+          "probability": 0.9241080284118652
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "start": 208.38,
+      "end": 217.18,
+      "text": "the hospice office will call the funeralist in advance and ask the patient to take the patient to the hospital.",
+      "words": [
+        {
+          "start": 208.38,
+          "end": 208.38,
+          "word": " the",
+          "probability": 0.5464265942573547
+        },
+        {
+          "start": 208.38,
+          "end": 209.82,
+          "word": " hospice",
+          "probability": 0.988328754901886
+        },
+        {
+          "start": 209.82,
+          "end": 210.22,
+          "word": " office",
+          "probability": 0.8683874607086182
+        },
+        {
+          "start": 210.22,
+          "end": 210.5,
+          "word": " will",
+          "probability": 0.28308066725730896
+        },
+        {
+          "start": 210.5,
+          "end": 210.6,
+          "word": " call",
+          "probability": 0.17373567819595337
+        },
+        {
+          "start": 210.6,
+          "end": 210.76,
+          "word": " the",
+          "probability": 0.8379688858985901
+        },
+        {
+          "start": 210.76,
+          "end": 212.6,
+          "word": " funeralist",
+          "probability": 0.31504977867007256
+        },
+        {
+          "start": 212.6,
+          "end": 212.7,
+          "word": " in",
+          "probability": 0.09174494445323944
+        },
+        {
+          "start": 212.7,
+          "end": 212.7,
+          "word": " advance",
+          "probability": 0.9854073524475098
+        },
+        {
+          "start": 212.7,
+          "end": 213.74,
+          "word": " and",
+          "probability": 0.5121049284934998
+        },
+        {
+          "start": 213.74,
+          "end": 213.74,
+          "word": " ask",
+          "probability": 0.2523680329322815
+        },
+        {
+          "start": 213.74,
+          "end": 214.2,
+          "word": " the",
+          "probability": 0.22691276669502258
+        },
+        {
+          "start": 214.2,
+          "end": 214.52,
+          "word": " patient",
+          "probability": 0.793461263179779
+        },
+        {
+          "start": 214.52,
+          "end": 215.48,
+          "word": " to",
+          "probability": 0.812969982624054
+        },
+        {
+          "start": 215.48,
+          "end": 215.56,
+          "word": " take",
+          "probability": 0.33788415789604187
+        },
+        {
+          "start": 215.56,
+          "end": 215.66,
+          "word": " the",
+          "probability": 0.6177294254302979
+        },
+        {
+          "start": 215.66,
+          "end": 215.9,
+          "word": " patient",
+          "probability": 0.521501898765564
+        },
+        {
+          "start": 215.9,
+          "end": 216.08,
+          "word": " to",
+          "probability": 0.3124222755432129
+        },
+        {
+          "start": 216.08,
+          "end": 217.12,
+          "word": " the",
+          "probability": 0.6953208446502686
+        },
+        {
+          "start": 217.12,
+          "end": 217.18,
+          "word": " hospital.",
+          "probability": 0.46210426092147827
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "start": 219.83,
+      "end": 223.45,
+      "text": "Then, after the nurse brings the patient to the funeral,",
+      "words": [
+        {
+          "start": 219.83,
+          "end": 220.63,
+          "word": " Then,",
+          "probability": 0.08715232461690903
+        },
+        {
+          "start": 221.19,
+          "end": 221.45,
+          "word": " after",
+          "probability": 0.6848874092102051
+        },
+        {
+          "start": 221.45,
+          "end": 221.45,
+          "word": " the",
+          "probability": 0.3154318034648895
+        },
+        {
+          "start": 221.45,
+          "end": 221.81,
+          "word": " nurse",
+          "probability": 0.0037145824171602726
+        },
+        {
+          "start": 221.81,
+          "end": 222.11,
+          "word": " brings",
+          "probability": 0.13700483739376068
+        },
+        {
+          "start": 222.11,
+          "end": 223.07,
+          "word": " the",
+          "probability": 0.37287694215774536
+        },
+        {
+          "start": 223.07,
+          "end": 223.07,
+          "word": " patient",
+          "probability": 0.2666613459587097
+        },
+        {
+          "start": 223.07,
+          "end": 223.45,
+          "word": " to",
+          "probability": 0.41336876153945923
+        },
+        {
+          "start": 223.45,
+          "end": 223.45,
+          "word": " the",
+          "probability": 0.8407726883888245
+        },
+        {
+          "start": 223.45,
+          "end": 223.45,
+          "word": " funeral,",
+          "probability": 0.11136700212955475
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "start": 223.77,
+      "end": 225.97,
+      "text": "the funeralist sends a message to the hospice office.",
+      "words": [
+        {
+          "start": 223.77,
+          "end": 224.29,
+          "word": " the",
+          "probability": 0.7528383135795593
+        },
+        {
+          "start": 224.29,
+          "end": 224.53,
+          "word": " funeralist",
+          "probability": 0.06160653196275234
+        },
+        {
+          "start": 224.53,
+          "end": 224.75,
+          "word": " sends",
+          "probability": 0.4966302216053009
+        },
+        {
+          "start": 224.75,
+          "end": 224.75,
+          "word": " a",
+          "probability": 0.26470163464546204
+        },
+        {
+          "start": 224.75,
+          "end": 224.75,
+          "word": " message",
+          "probability": 0.4014681577682495
+        },
+        {
+          "start": 224.75,
+          "end": 224.75,
+          "word": " to",
+          "probability": 0.3869578242301941
+        },
+        {
+          "start": 224.75,
+          "end": 225.07,
+          "word": " the",
+          "probability": 0.8737703561782837
+        },
+        {
+          "start": 225.07,
+          "end": 225.53,
+          "word": " hospice",
+          "probability": 0.7597842514514923
+        },
+        {
+          "start": 225.53,
+          "end": 225.97,
+          "word": " office.",
+          "probability": 0.9104132056236267
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "start": 228.09,
+      "end": 230.93,
+      "text": "This message is reported on the death certificate.",
+      "words": [
+        {
+          "start": 228.09,
+          "end": 228.89,
+          "word": " This",
+          "probability": 0.5809578895568848
+        },
+        {
+          "start": 228.89,
+          "end": 229.25,
+          "word": " message",
+          "probability": 0.9078910946846008
+        },
+        {
+          "start": 229.25,
+          "end": 229.77,
+          "word": " is",
+          "probability": 0.5300049185752869
+        },
+        {
+          "start": 229.77,
+          "end": 230.17,
+          "word": " reported",
+          "probability": 0.10431603342294693
+        },
+        {
+          "start": 230.17,
+          "end": 230.17,
+          "word": " on",
+          "probability": 0.16605548560619354
+        },
+        {
+          "start": 230.17,
+          "end": 230.39,
+          "word": " the",
+          "probability": 0.7329236268997192
+        },
+        {
+          "start": 230.39,
+          "end": 230.57,
+          "word": " death",
+          "probability": 0.08824525773525238
+        },
+        {
+          "start": 230.57,
+          "end": 230.93,
+          "word": " certificate.",
+          "probability": 0.47138383984565735
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "start": 232.81,
+      "end": 238.91,
+      "text": "For example, the patient's information and the doctor's information about the patient's death certificate,",
+      "words": [
+        {
+          "start": 232.81,
+          "end": 233.61,
+          "word": " For",
+          "probability": 0.4603102207183838
+        },
+        {
+          "start": 233.61,
+          "end": 233.91,
+          "word": " example,",
+          "probability": 0.8798043131828308
+        },
+        {
+          "start": 234.61,
+          "end": 234.63,
+          "word": " the",
+          "probability": 0.5834881663322449
+        },
+        {
+          "start": 234.63,
+          "end": 235.07,
+          "word": " patient's",
+          "probability": 0.4360094666481018
+        },
+        {
+          "start": 235.07,
+          "end": 235.35,
+          "word": " information",
+          "probability": 0.6868185997009277
+        },
+        {
+          "start": 235.35,
+          "end": 235.63,
+          "word": " and",
+          "probability": 0.28854405879974365
+        },
+        {
+          "start": 235.63,
+          "end": 235.95,
+          "word": " the",
+          "probability": 0.5539396405220032
+        },
+        {
+          "start": 235.95,
+          "end": 236.81,
+          "word": " doctor's",
+          "probability": 0.7543193995952606
+        },
+        {
+          "start": 236.81,
+          "end": 236.81,
+          "word": " information",
+          "probability": 0.8813591599464417
+        },
+        {
+          "start": 236.81,
+          "end": 236.81,
+          "word": " about",
+          "probability": 0.13693659007549286
+        },
+        {
+          "start": 236.81,
+          "end": 236.81,
+          "word": " the",
+          "probability": 0.8466733694076538
+        },
+        {
+          "start": 236.81,
+          "end": 238.39,
+          "word": " patient's",
+          "probability": 0.5452165603637695
+        },
+        {
+          "start": 238.39,
+          "end": 238.39,
+          "word": " death",
+          "probability": 0.8840470910072327
+        },
+        {
+          "start": 238.39,
+          "end": 238.91,
+          "word": " certificate,",
+          "probability": 0.9940388202667236
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "start": 239.77,
+      "end": 243.85,
+      "text": "are reported on the death certificate and sent to the funeralist by fax or email.",
+      "words": [
+        {
+          "start": 239.77,
+          "end": 240.57,
+          "word": " are",
+          "probability": 0.00707961805164814
+        },
+        {
+          "start": 240.57,
+          "end": 240.63,
+          "word": " reported",
+          "probability": 0.4958038926124573
+        },
+        {
+          "start": 240.63,
+          "end": 241.03,
+          "word": " on",
+          "probability": 0.6193854212760925
+        },
+        {
+          "start": 241.03,
+          "end": 241.15,
+          "word": " the",
+          "probability": 0.9400546550750732
+        },
+        {
+          "start": 241.15,
+          "end": 241.35,
+          "word": " death",
+          "probability": 0.8960996866226196
+        },
+        {
+          "start": 241.35,
+          "end": 241.81,
+          "word": " certificate",
+          "probability": 0.9530791640281677
+        },
+        {
+          "start": 241.81,
+          "end": 242.69,
+          "word": " and",
+          "probability": 0.6857203245162964
+        },
+        {
+          "start": 242.69,
+          "end": 242.87,
+          "word": " sent",
+          "probability": 0.7156465649604797
+        },
+        {
+          "start": 242.87,
+          "end": 242.87,
+          "word": " to",
+          "probability": 0.7679872512817383
+        },
+        {
+          "start": 242.87,
+          "end": 242.87,
+          "word": " the",
+          "probability": 0.9502146244049072
+        },
+        {
+          "start": 242.87,
+          "end": 242.87,
+          "word": " funeralist",
+          "probability": 0.7934463024139404
+        },
+        {
+          "start": 242.87,
+          "end": 242.87,
+          "word": " by",
+          "probability": 0.3576371669769287
+        },
+        {
+          "start": 242.87,
+          "end": 243.19,
+          "word": " fax",
+          "probability": 0.8772002458572388
+        },
+        {
+          "start": 243.19,
+          "end": 243.45,
+          "word": " or",
+          "probability": 0.8076671361923218
+        },
+        {
+          "start": 243.45,
+          "end": 243.85,
+          "word": " email.",
+          "probability": 0.8092460632324219
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "start": 245.69,
+      "end": 249.45,
+      "text": "Then, the funeralist reports the death certificate to the main government.",
+      "words": [
+        {
+          "start": 245.69,
+          "end": 246.49,
+          "word": " Then,",
+          "probability": 0.08846740424633026
+        },
+        {
+          "start": 246.83,
+          "end": 247.13,
+          "word": " the",
+          "probability": 0.6655520796775818
+        },
+        {
+          "start": 247.13,
+          "end": 247.35,
+          "word": " funeralist",
+          "probability": 0.07532674074172974
+        },
+        {
+          "start": 247.35,
+          "end": 247.47,
+          "word": " reports",
+          "probability": 0.025929739698767662
+        },
+        {
+          "start": 247.47,
+          "end": 248.33,
+          "word": " the",
+          "probability": 0.4830319285392761
+        },
+        {
+          "start": 248.33,
+          "end": 248.33,
+          "word": " death",
+          "probability": 0.1478019654750824
+        },
+        {
+          "start": 248.33,
+          "end": 248.33,
+          "word": " certificate",
+          "probability": 0.0004382635233923793
+        },
+        {
+          "start": 248.33,
+          "end": 248.49,
+          "word": " to",
+          "probability": 0.4844244122505188
+        },
+        {
+          "start": 248.49,
+          "end": 248.83,
+          "word": " the",
+          "probability": 0.8637363314628601
+        },
+        {
+          "start": 248.83,
+          "end": 249.03,
+          "word": " main",
+          "probability": 0.17746926844120026
+        },
+        {
+          "start": 249.03,
+          "end": 249.45,
+          "word": " government.",
+          "probability": 0.8478789329528809
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "start": 251.07,
+      "end": 255.85,
+      "text": "The main government sends a message to the hospice office about the physician's attestation.",
+      "words": [
+        {
+          "start": 251.07,
+          "end": 251.63,
+          "word": " The",
+          "probability": 0.7355775237083435
+        },
+        {
+          "start": 251.63,
+          "end": 251.85,
+          "word": " main",
+          "probability": 0.8444401025772095
+        },
+        {
+          "start": 251.85,
+          "end": 252.17,
+          "word": " government",
+          "probability": 0.8888618350028992
+        },
+        {
+          "start": 252.17,
+          "end": 252.75,
+          "word": " sends",
+          "probability": 0.2370312511920929
+        },
+        {
+          "start": 252.75,
+          "end": 252.75,
+          "word": " a",
+          "probability": 0.3258237838745117
+        },
+        {
+          "start": 252.75,
+          "end": 252.75,
+          "word": " message",
+          "probability": 0.008828037418425083
+        },
+        {
+          "start": 252.75,
+          "end": 252.75,
+          "word": " to",
+          "probability": 0.37168797850608826
+        },
+        {
+          "start": 252.75,
+          "end": 252.97,
+          "word": " the",
+          "probability": 0.8187372088432312
+        },
+        {
+          "start": 252.97,
+          "end": 253.35,
+          "word": " hospice",
+          "probability": 0.6567460745573044
+        },
+        {
+          "start": 253.35,
+          "end": 253.79,
+          "word": " office",
+          "probability": 0.7663441896438599
+        },
+        {
+          "start": 253.79,
+          "end": 254.29,
+          "word": " about",
+          "probability": 0.0472264401614666
+        },
+        {
+          "start": 254.29,
+          "end": 254.53,
+          "word": " the",
+          "probability": 0.45192989706993103
+        },
+        {
+          "start": 254.53,
+          "end": 255.29,
+          "word": " physician's",
+          "probability": 0.6598257124423981
+        },
+        {
+          "start": 255.29,
+          "end": 255.85,
+          "word": " attestation.",
+          "probability": 0.7975678543249766
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "start": 257.23,
+      "end": 261.45,
+      "text": "The physician's attestation tells the patient to check the patient's death.",
+      "words": [
+        {
+          "start": 257.23,
+          "end": 257.75,
+          "word": " The",
+          "probability": 0.49528777599334717
+        },
+        {
+          "start": 257.75,
+          "end": 258.35,
+          "word": " physician's",
+          "probability": 0.7329383790493011
+        },
+        {
+          "start": 258.35,
+          "end": 259.13,
+          "word": " attestation",
+          "probability": 0.9872578382492065
+        },
+        {
+          "start": 259.13,
+          "end": 259.31,
+          "word": " tells",
+          "probability": 0.08765123039484024
+        },
+        {
+          "start": 259.31,
+          "end": 259.67,
+          "word": " the",
+          "probability": 0.7952567338943481
+        },
+        {
+          "start": 259.67,
+          "end": 260.05,
+          "word": " patient",
+          "probability": 0.4007768929004669
+        },
+        {
+          "start": 260.05,
+          "end": 260.55,
+          "word": " to",
+          "probability": 0.8530956506729126
+        },
+        {
+          "start": 260.55,
+          "end": 260.55,
+          "word": " check",
+          "probability": 0.3389724791049957
+        },
+        {
+          "start": 260.55,
+          "end": 260.57,
+          "word": " the",
+          "probability": 0.7152050137519836
+        },
+        {
+          "start": 260.57,
+          "end": 261.03,
+          "word": " patient's",
+          "probability": 0.9776520729064941
+        },
+        {
+          "start": 261.03,
+          "end": 261.45,
+          "word": " death.",
+          "probability": 0.9215477705001831
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "start": 265.22,
+      "end": 268.7,
+      "text": "Then, the physician's attestation is sent to the state.",
+      "words": [
+        {
+          "start": 265.22,
+          "end": 266.02,
+          "word": " Then,",
+          "probability": 0.6854669451713562
+        },
+        {
+          "start": 266.32,
+          "end": 266.36,
+          "word": " the",
+          "probability": 0.6735324263572693
+        },
+        {
+          "start": 266.36,
+          "end": 267.3,
+          "word": " physician's",
+          "probability": 0.8871468603610992
+        },
+        {
+          "start": 267.3,
+          "end": 268.04,
+          "word": " attestation",
+          "probability": 0.9807237386703491
+        },
+        {
+          "start": 268.04,
+          "end": 268.22,
+          "word": " is",
+          "probability": 0.3974830210208893
+        },
+        {
+          "start": 268.22,
+          "end": 268.22,
+          "word": " sent",
+          "probability": 0.9447749853134155
+        },
+        {
+          "start": 268.22,
+          "end": 268.38,
+          "word": " to",
+          "probability": 0.9377970695495605
+        },
+        {
+          "start": 268.38,
+          "end": 268.56,
+          "word": " the",
+          "probability": 0.9352082014083862
+        },
+        {
+          "start": 268.56,
+          "end": 268.7,
+          "word": " state.",
+          "probability": 0.6737787127494812
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "start": 269.78,
+      "end": 272.68,
+      "text": "After checking the patient's death certificate,",
+      "words": [
+        {
+          "start": 269.78,
+          "end": 270.62,
+          "word": " After",
+          "probability": 0.07322733849287033
+        },
+        {
+          "start": 270.62,
+          "end": 270.62,
+          "word": " checking",
+          "probability": 0.031818144023418427
+        },
+        {
+          "start": 270.62,
+          "end": 272.32,
+          "word": " the",
+          "probability": 0.29856008291244507
+        },
+        {
+          "start": 272.32,
+          "end": 272.46,
+          "word": " patient's",
+          "probability": 0.267724122852087
+        },
+        {
+          "start": 272.46,
+          "end": 272.46,
+          "word": " death",
+          "probability": 0.016746794804930687
+        },
+        {
+          "start": 272.46,
+          "end": 272.68,
+          "word": " certificate,",
+          "probability": 0.057246025651693344
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "start": 272.92,
+      "end": 277.02,
+      "text": "the funeralist sends a certificate of certificate of death to the funeralist.",
+      "words": [
+        {
+          "start": 272.92,
+          "end": 273.4,
+          "word": " the",
+          "probability": 0.19921042025089264
+        },
+        {
+          "start": 273.4,
+          "end": 273.86,
+          "word": " funeralist",
+          "probability": 0.003092383616603911
+        },
+        {
+          "start": 273.86,
+          "end": 274.46,
+          "word": " sends",
+          "probability": 0.2806757092475891
+        },
+        {
+          "start": 274.46,
+          "end": 274.62,
+          "word": " a",
+          "probability": 0.19528095424175262
+        },
+        {
+          "start": 274.62,
+          "end": 274.9,
+          "word": " certificate",
+          "probability": 0.769512414932251
+        },
+        {
+          "start": 274.9,
+          "end": 275.12,
+          "word": " of",
+          "probability": 0.5571726560592651
+        },
+        {
+          "start": 275.12,
+          "end": 275.12,
+          "word": " certificate",
+          "probability": 0.21554218232631683
+        },
+        {
+          "start": 275.12,
+          "end": 275.5,
+          "word": " of",
+          "probability": 0.8350650072097778
+        },
+        {
+          "start": 275.5,
+          "end": 275.86,
+          "word": " death",
+          "probability": 0.9885618686676025
+        },
+        {
+          "start": 275.86,
+          "end": 276.12,
+          "word": " to",
+          "probability": 0.6477146744728088
+        },
+        {
+          "start": 276.12,
+          "end": 276.52,
+          "word": " the",
+          "probability": 0.8386105298995972
+        },
+        {
+          "start": 276.52,
+          "end": 277.02,
+          "word": " funeralist.",
+          "probability": 0.31623912369832397
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "start": 277.7,
+      "end": 280.4,
+      "text": "The funeralist has to finish all the death certificates",
+      "words": [
+        {
+          "start": 277.7,
+          "end": 278.4,
+          "word": " The",
+          "probability": 0.3628053367137909
+        },
+        {
+          "start": 278.4,
+          "end": 279.02,
+          "word": " funeralist",
+          "probability": 0.7670132517814636
+        },
+        {
+          "start": 279.02,
+          "end": 279.48,
+          "word": " has",
+          "probability": 0.16932252049446106
+        },
+        {
+          "start": 279.48,
+          "end": 279.56,
+          "word": " to",
+          "probability": 0.9534554481506348
+        },
+        {
+          "start": 279.56,
+          "end": 279.56,
+          "word": " finish",
+          "probability": 0.581260085105896
+        },
+        {
+          "start": 279.56,
+          "end": 279.96,
+          "word": " all",
+          "probability": 0.41358357667922974
+        },
+        {
+          "start": 279.96,
+          "end": 280.4,
+          "word": " the",
+          "probability": 0.7725819945335388
+        },
+        {
+          "start": 280.4,
+          "end": 280.4,
+          "word": " death",
+          "probability": 0.10241273045539856
+        },
+        {
+          "start": 280.4,
+          "end": 280.4,
+          "word": " certificates",
+          "probability": 0.640608012676239
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "start": 280.4,
+      "end": 284.18,
+      "text": "so that the funeralist can proceed to the funeral of the patient.",
+      "words": [
+        {
+          "start": 280.4,
+          "end": 280.86,
+          "word": " so",
+          "probability": 0.27334830164909363
+        },
+        {
+          "start": 280.86,
+          "end": 280.92,
+          "word": " that",
+          "probability": 0.9002565145492554
+        },
+        {
+          "start": 280.92,
+          "end": 281.24,
+          "word": " the",
+          "probability": 0.8170377016067505
+        },
+        {
+          "start": 281.24,
+          "end": 281.74,
+          "word": " funeralist",
+          "probability": 0.8054701387882233
+        },
+        {
+          "start": 281.74,
+          "end": 282.0,
+          "word": " can",
+          "probability": 0.8994667530059814
+        },
+        {
+          "start": 282.0,
+          "end": 282.0,
+          "word": " proceed",
+          "probability": 0.1571318507194519
+        },
+        {
+          "start": 282.0,
+          "end": 282.0,
+          "word": " to",
+          "probability": 0.4116765856742859
+        },
+        {
+          "start": 282.0,
+          "end": 282.26,
+          "word": " the",
+          "probability": 0.7109906673431396
+        },
+        {
+          "start": 282.26,
+          "end": 282.92,
+          "word": " funeral",
+          "probability": 0.8885764479637146
+        },
+        {
+          "start": 282.92,
+          "end": 284.18,
+          "word": " of",
+          "probability": 0.2149946093559265
+        },
+        {
+          "start": 284.18,
+          "end": 284.18,
+          "word": " the",
+          "probability": 0.9003829956054688
+        },
+        {
+          "start": 284.18,
+          "end": 284.18,
+          "word": " patient.",
+          "probability": 0.9728551506996155
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "start": 284.28,
+      "end": 287.06,
+      "text": "The funeralist can do makeup or go to the museum.",
+      "words": [
+        {
+          "start": 284.28,
+          "end": 285.12,
+          "word": " The",
+          "probability": 0.11379919946193695
+        },
+        {
+          "start": 285.12,
+          "end": 285.12,
+          "word": " funeralist",
+          "probability": 0.7102027237415314
+        },
+        {
+          "start": 285.12,
+          "end": 285.12,
+          "word": " can",
+          "probability": 0.3393382728099823
+        },
+        {
+          "start": 285.12,
+          "end": 285.12,
+          "word": " do",
+          "probability": 0.09385211020708084
+        },
+        {
+          "start": 285.12,
+          "end": 285.38,
+          "word": " makeup",
+          "probability": 0.5561518669128418
+        },
+        {
+          "start": 285.38,
+          "end": 286.02,
+          "word": " or",
+          "probability": 0.8940027952194214
+        },
+        {
+          "start": 286.02,
+          "end": 286.02,
+          "word": " go",
+          "probability": 0.095418781042099
+        },
+        {
+          "start": 286.02,
+          "end": 286.02,
+          "word": " to",
+          "probability": 0.9680325388908386
+        },
+        {
+          "start": 286.02,
+          "end": 287.06,
+          "word": " the",
+          "probability": 0.8949556350708008
+        },
+        {
+          "start": 287.06,
+          "end": 287.06,
+          "word": " museum.",
+          "probability": 0.49205565452575684
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "start": 288.32,
+      "end": 292.92,
+      "text": "The first place to start the death worksheet is the funeralist.",
+      "words": [
+        {
+          "start": 288.32,
+          "end": 289.08,
+          "word": " The",
+          "probability": 0.2267877757549286
+        },
+        {
+          "start": 289.08,
+          "end": 289.26,
+          "word": " first",
+          "probability": 0.40964025259017944
+        },
+        {
+          "start": 289.26,
+          "end": 289.26,
+          "word": " place",
+          "probability": 0.5923600792884827
+        },
+        {
+          "start": 289.26,
+          "end": 289.26,
+          "word": " to",
+          "probability": 0.5462496876716614
+        },
+        {
+          "start": 289.26,
+          "end": 289.28,
+          "word": " start",
+          "probability": 0.9140021204948425
+        },
+        {
+          "start": 289.28,
+          "end": 289.58,
+          "word": " the",
+          "probability": 0.30181148648262024
+        },
+        {
+          "start": 289.58,
+          "end": 290.04,
+          "word": " death",
+          "probability": 0.9644588828086853
+        },
+        {
+          "start": 290.04,
+          "end": 291.28,
+          "word": " worksheet",
+          "probability": 0.28893807530403137
+        },
+        {
+          "start": 291.28,
+          "end": 292.32,
+          "word": " is",
+          "probability": 0.8303016424179077
+        },
+        {
+          "start": 292.32,
+          "end": 292.72,
+          "word": " the",
+          "probability": 0.5055676698684692
+        },
+        {
+          "start": 292.72,
+          "end": 292.92,
+          "word": " funeralist.",
+          "probability": 0.8249110579490662
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "start": 292.92,
+      "end": 298.08,
+      "text": "The funeralist is the final destination of the death certificate.",
+      "words": [
+        {
+          "start": 292.92,
+          "end": 293.56,
+          "word": " The",
+          "probability": 0.0779341459274292
+        },
+        {
+          "start": 293.56,
+          "end": 295.04,
+          "word": " funeralist",
+          "probability": 0.012896848376840353
+        },
+        {
+          "start": 295.04,
+          "end": 295.22,
+          "word": " is",
+          "probability": 0.18630163371562958
+        },
+        {
+          "start": 295.22,
+          "end": 295.88,
+          "word": " the",
+          "probability": 0.16439658403396606
+        },
+        {
+          "start": 295.88,
+          "end": 295.9,
+          "word": " final",
+          "probability": 0.2303144484758377
+        },
+        {
+          "start": 295.9,
+          "end": 296.7,
+          "word": " destination",
+          "probability": 0.5263926386833191
+        },
+        {
+          "start": 296.7,
+          "end": 298.08,
+          "word": " of",
+          "probability": 0.2842428386211395
+        },
+        {
+          "start": 298.08,
+          "end": 298.08,
+          "word": " the",
+          "probability": 0.6729469895362854
+        },
+        {
+          "start": 298.08,
+          "end": 298.08,
+          "word": " death",
+          "probability": 0.057578470557928085
+        },
+        {
+          "start": 298.08,
+          "end": 298.08,
+          "word": " certificate.",
+          "probability": 0.3136844336986542
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "start": 298.74,
+      "end": 300.18,
+      "text": "So, if you go back to the main government,",
+      "words": [
+        {
+          "start": 298.74,
+          "end": 299.58,
+          "word": " So,",
+          "probability": 0.23943999409675598
+        },
+        {
+          "start": 299.76,
+          "end": 299.84,
+          "word": " if",
+          "probability": 0.5840060114860535
+        },
+        {
+          "start": 299.84,
+          "end": 299.84,
+          "word": " you",
+          "probability": 0.7998255491256714
+        },
+        {
+          "start": 299.84,
+          "end": 299.84,
+          "word": " go",
+          "probability": 0.31422939896583557
+        },
+        {
+          "start": 299.84,
+          "end": 299.84,
+          "word": " back",
+          "probability": 0.6167462468147278
+        },
+        {
+          "start": 299.84,
+          "end": 299.84,
+          "word": " to",
+          "probability": 0.7733449935913086
+        },
+        {
+          "start": 299.84,
+          "end": 300.0,
+          "word": " the",
+          "probability": 0.8357466459274292
+        },
+        {
+          "start": 300.0,
+          "end": 300.0,
+          "word": " main",
+          "probability": 0.581788957118988
+        },
+        {
+          "start": 300.0,
+          "end": 300.18,
+          "word": " government,",
+          "probability": 0.00015453388914465904
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "start": 301.1,
+      "end": 303.52,
+      "text": "you can finish the death certificate within 2-3 days.",
+      "words": [
+        {
+          "start": 301.1,
+          "end": 301.84,
+          "word": " you",
+          "probability": 0.8396584987640381
+        },
+        {
+          "start": 301.84,
+          "end": 302.0,
+          "word": " can",
+          "probability": 0.9115501046180725
+        },
+        {
+          "start": 302.0,
+          "end": 302.0,
+          "word": " finish",
+          "probability": 0.5998048782348633
+        },
+        {
+          "start": 302.0,
+          "end": 302.02,
+          "word": " the",
+          "probability": 0.8822365999221802
+        },
+        {
+          "start": 302.02,
+          "end": 302.58,
+          "word": " death",
+          "probability": 0.7712864875793457
+        },
+        {
+          "start": 302.58,
+          "end": 302.96,
+          "word": " certificate",
+          "probability": 0.9885925054550171
+        },
+        {
+          "start": 302.96,
+          "end": 303.52,
+          "word": " within",
+          "probability": 0.39500296115875244
+        },
+        {
+          "start": 303.52,
+          "end": 303.52,
+          "word": " 2",
+          "probability": 0.42294660210609436
+        },
+        {
+          "start": 303.52,
+          "end": 303.52,
+          "word": "-3",
+          "probability": 0.6827097535133362
+        },
+        {
+          "start": 303.52,
+          "end": 303.52,
+          "word": " days.",
+          "probability": 0.9876129031181335
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "start": 304.12,
+      "end": 305.66,
+      "text": "If you go back to the weekend,",
+      "words": [
+        {
+          "start": 304.12,
+          "end": 304.66,
+          "word": " If",
+          "probability": 0.6848900318145752
+        },
+        {
+          "start": 304.66,
+          "end": 304.78,
+          "word": " you",
+          "probability": 0.9649180769920349
+        },
+        {
+          "start": 304.78,
+          "end": 304.78,
+          "word": " go",
+          "probability": 0.8372527956962585
+        },
+        {
+          "start": 304.78,
+          "end": 304.78,
+          "word": " back",
+          "probability": 0.9844622611999512
+        },
+        {
+          "start": 304.78,
+          "end": 305.66,
+          "word": " to",
+          "probability": 0.5172646641731262
+        },
+        {
+          "start": 305.66,
+          "end": 305.66,
+          "word": " the",
+          "probability": 0.8125966787338257
+        },
+        {
+          "start": 305.66,
+          "end": 305.66,
+          "word": " weekend,",
+          "probability": 0.725299060344696
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "start": 306.16,
+      "end": 309.72,
+      "text": "you can finish the death certificate within 2-3 days after the weekend.",
+      "words": [
+        {
+          "start": 306.16,
+          "end": 306.54,
+          "word": " you",
+          "probability": 0.7986551523208618
+        },
+        {
+          "start": 306.54,
+          "end": 307.1,
+          "word": " can",
+          "probability": 0.9648661613464355
+        },
+        {
+          "start": 307.1,
+          "end": 307.1,
+          "word": " finish",
+          "probability": 0.9190089702606201
+        },
+        {
+          "start": 307.1,
+          "end": 308.18,
+          "word": " the",
+          "probability": 0.9622898697853088
+        },
+        {
+          "start": 308.18,
+          "end": 308.38,
+          "word": " death",
+          "probability": 0.8938152194023132
+        },
+        {
+          "start": 308.38,
+          "end": 308.88,
+          "word": " certificate",
+          "probability": 0.9931588768959045
+        },
+        {
+          "start": 308.88,
+          "end": 309.72,
+          "word": " within",
+          "probability": 0.9259474277496338
+        },
+        {
+          "start": 309.72,
+          "end": 309.72,
+          "word": " 2",
+          "probability": 0.7872742414474487
+        },
+        {
+          "start": 309.72,
+          "end": 309.72,
+          "word": "-3",
+          "probability": 0.9755248129367828
+        },
+        {
+          "start": 309.72,
+          "end": 309.72,
+          "word": " days",
+          "probability": 0.9964446425437927
+        },
+        {
+          "start": 309.72,
+          "end": 309.72,
+          "word": " after",
+          "probability": 0.6920378804206848
+        },
+        {
+          "start": 309.72,
+          "end": 309.72,
+          "word": " the",
+          "probability": 0.8692868947982788
+        },
+        {
+          "start": 309.72,
+          "end": 309.72,
+          "word": " weekend.",
+          "probability": 0.9807000160217285
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "start": 310.48,
+      "end": 314.96,
+      "text": "If you are late from the funeral or the doctor's signature is late,",
+      "words": [
+        {
+          "start": 310.48,
+          "end": 311.32,
+          "word": " If",
+          "probability": 0.737712562084198
+        },
+        {
+          "start": 311.32,
+          "end": 311.64,
+          "word": " you",
+          "probability": 0.672603964805603
+        },
+        {
+          "start": 311.64,
+          "end": 311.72,
+          "word": " are",
+          "probability": 0.5373483300209045
+        },
+        {
+          "start": 311.72,
+          "end": 311.72,
+          "word": " late",
+          "probability": 0.8409950733184814
+        },
+        {
+          "start": 311.72,
+          "end": 312.92,
+          "word": " from",
+          "probability": 0.1605520248413086
+        },
+        {
+          "start": 312.92,
+          "end": 312.92,
+          "word": " the",
+          "probability": 0.7400811314582825
+        },
+        {
+          "start": 312.92,
+          "end": 312.92,
+          "word": " funeral",
+          "probability": 0.9764760732650757
+        },
+        {
+          "start": 312.92,
+          "end": 312.96,
+          "word": " or",
+          "probability": 0.5684351325035095
+        },
+        {
+          "start": 312.96,
+          "end": 313.56,
+          "word": " the",
+          "probability": 0.35736462473869324
+        },
+        {
+          "start": 313.56,
+          "end": 314.04,
+          "word": " doctor's",
+          "probability": 0.3755909651517868
+        },
+        {
+          "start": 314.04,
+          "end": 314.46,
+          "word": " signature",
+          "probability": 0.36389580368995667
+        },
+        {
+          "start": 314.46,
+          "end": 314.66,
+          "word": " is",
+          "probability": 0.8422603607177734
+        },
+        {
+          "start": 314.66,
+          "end": 314.96,
+          "word": " late,",
+          "probability": 0.9186986684799194
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "start": 315.86,
+      "end": 317.76,
+      "text": "the death certificate can be delayed a little more.",
+      "words": [
+        {
+          "start": 315.86,
+          "end": 316.0,
+          "word": " the",
+          "probability": 0.795248806476593
+        },
+        {
+          "start": 316.0,
+          "end": 316.22,
+          "word": " death",
+          "probability": 0.960960865020752
+        },
+        {
+          "start": 316.22,
+          "end": 316.56,
+          "word": " certificate",
+          "probability": 0.9908403754234314
+        },
+        {
+          "start": 316.56,
+          "end": 317.2,
+          "word": " can",
+          "probability": 0.4653795063495636
+        },
+        {
+          "start": 317.2,
+          "end": 317.22,
+          "word": " be",
+          "probability": 0.8380013704299927
+        },
+        {
+          "start": 317.22,
+          "end": 317.34,
+          "word": " delayed",
+          "probability": 0.486972838640213
+        },
+        {
+          "start": 317.34,
+          "end": 317.34,
+          "word": " a",
+          "probability": 0.7578157186508179
+        },
+        {
+          "start": 317.34,
+          "end": 317.44,
+          "word": " little",
+          "probability": 0.8059163689613342
+        },
+        {
+          "start": 317.44,
+          "end": 317.76,
+          "word": " more.",
+          "probability": 0.6504775285720825
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "start": 320.02,
+      "end": 324.0,
+      "text": "After the funeralist brings the patient to the funeral,",
+      "words": [
+        {
+          "start": 320.02,
+          "end": 320.9,
+          "word": " After",
+          "probability": 0.05444714426994324
+        },
+        {
+          "start": 321.22,
+          "end": 321.22,
+          "word": " the",
+          "probability": 0.49559321999549866
+        },
+        {
+          "start": 321.22,
+          "end": 322.3,
+          "word": " funeralist",
+          "probability": 0.004942594510794152
+        },
+        {
+          "start": 322.3,
+          "end": 322.5,
+          "word": " brings",
+          "probability": 0.5901039838790894
+        },
+        {
+          "start": 322.5,
+          "end": 323.36,
+          "word": " the",
+          "probability": 0.46935105323791504
+        },
+        {
+          "start": 323.36,
+          "end": 323.36,
+          "word": " patient",
+          "probability": 0.20757149159908295
+        },
+        {
+          "start": 323.36,
+          "end": 323.5,
+          "word": " to",
+          "probability": 0.2865787148475647
+        },
+        {
+          "start": 323.5,
+          "end": 323.82,
+          "word": " the",
+          "probability": 0.781454861164093
+        },
+        {
+          "start": 323.82,
+          "end": 324.0,
+          "word": " funeral,",
+          "probability": 0.09209635108709335
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "start": 324.0,
+      "end": 325.84,
+      "text": "the funeralist calls the funeralist.",
+      "words": [
+        {
+          "start": 324.0,
+          "end": 324.46,
+          "word": " the",
+          "probability": 0.23624813556671143
+        },
+        {
+          "start": 324.46,
+          "end": 325.0,
+          "word": " funeralist",
+          "probability": 0.5776782333850861
+        },
+        {
+          "start": 325.0,
+          "end": 325.34,
+          "word": " calls",
+          "probability": 0.1627722680568695
+        },
+        {
+          "start": 325.34,
+          "end": 325.84,
+          "word": " the",
+          "probability": 0.3168977200984955
+        },
+        {
+          "start": 325.84,
+          "end": 325.84,
+          "word": " funeralist.",
+          "probability": 0.43036676943302155
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "start": 325.88,
+      "end": 328.16,
+      "text": "You can consult the funeralist at the funeral,",
+      "words": [
+        {
+          "start": 325.88,
+          "end": 326.5,
+          "word": " You",
+          "probability": 0.24899858236312866
+        },
+        {
+          "start": 326.5,
+          "end": 326.5,
+          "word": " can",
+          "probability": 0.8946764469146729
+        },
+        {
+          "start": 326.5,
+          "end": 326.5,
+          "word": " consult",
+          "probability": 0.29669123888015747
+        },
+        {
+          "start": 326.5,
+          "end": 326.5,
+          "word": " the",
+          "probability": 0.4917885959148407
+        },
+        {
+          "start": 326.5,
+          "end": 327.4,
+          "word": " funeralist",
+          "probability": 0.7934514284133911
+        },
+        {
+          "start": 327.4,
+          "end": 327.4,
+          "word": " at",
+          "probability": 0.22830934822559357
+        },
+        {
+          "start": 327.4,
+          "end": 328.16,
+          "word": " the",
+          "probability": 0.8988629579544067
+        },
+        {
+          "start": 328.16,
+          "end": 328.16,
+          "word": " funeral,",
+          "probability": 0.6209988594055176
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "start": 329.14,
+      "end": 333.1,
+      "text": "and after the death certificate is finished in the funeral,",
+      "words": [
+        {
+          "start": 329.14,
+          "end": 330.02,
+          "word": " and",
+          "probability": 0.5537107586860657
+        },
+        {
+          "start": 330.02,
+          "end": 330.14,
+          "word": " after",
+          "probability": 0.21965037286281586
+        },
+        {
+          "start": 330.14,
+          "end": 330.16,
+          "word": " the",
+          "probability": 0.9274104237556458
+        },
+        {
+          "start": 330.16,
+          "end": 331.4,
+          "word": " death",
+          "probability": 0.2926631569862366
+        },
+        {
+          "start": 331.4,
+          "end": 331.78,
+          "word": " certificate",
+          "probability": 0.4483615458011627
+        },
+        {
+          "start": 331.78,
+          "end": 332.1,
+          "word": " is",
+          "probability": 0.7252726554870605
+        },
+        {
+          "start": 332.1,
+          "end": 332.74,
+          "word": " finished",
+          "probability": 0.17594382166862488
+        },
+        {
+          "start": 332.74,
+          "end": 333.1,
+          "word": " in",
+          "probability": 0.23890627920627594
+        },
+        {
+          "start": 333.1,
+          "end": 333.1,
+          "word": " the",
+          "probability": 0.9534841775894165
+        },
+        {
+          "start": 333.1,
+          "end": 333.1,
+          "word": " funeral,",
+          "probability": 0.9859500527381897
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "start": 334.0,
+      "end": 337.06,
+      "text": "you can ask the funeralist if you need the death certificate.",
+      "words": [
+        {
+          "start": 334.0,
+          "end": 334.88,
+          "word": " you",
+          "probability": 0.7268809676170349
+        },
+        {
+          "start": 334.88,
+          "end": 334.88,
+          "word": " can",
+          "probability": 0.7841070890426636
+        },
+        {
+          "start": 334.88,
+          "end": 334.88,
+          "word": " ask",
+          "probability": 0.4042653441429138
+        },
+        {
+          "start": 334.88,
+          "end": 334.88,
+          "word": " the",
+          "probability": 0.34974929690361023
+        },
+        {
+          "start": 334.88,
+          "end": 336.16,
+          "word": " funeralist",
+          "probability": 0.9739313423633575
+        },
+        {
+          "start": 336.16,
+          "end": 336.22,
+          "word": " if",
+          "probability": 0.3001862168312073
+        },
+        {
+          "start": 336.22,
+          "end": 336.22,
+          "word": " you",
+          "probability": 0.775263786315918
+        },
+        {
+          "start": 336.22,
+          "end": 336.22,
+          "word": " need",
+          "probability": 0.9419543147087097
+        },
+        {
+          "start": 336.22,
+          "end": 336.26,
+          "word": " the",
+          "probability": 0.2361394464969635
+        },
+        {
+          "start": 336.26,
+          "end": 336.56,
+          "word": " death",
+          "probability": 0.8786768913269043
+        },
+        {
+          "start": 336.56,
+          "end": 337.06,
+          "word": " certificate.",
+          "probability": 0.9904926419258118
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "start": 340.01,
+      "end": 343.17,
+      "text": "Lastly, the hospital's spiritual counselor",
+      "words": [
+        {
+          "start": 340.01,
+          "end": 340.89,
+          "word": " Lastly,",
+          "probability": 0.27961215376853943
+        },
+        {
+          "start": 341.33,
+          "end": 341.35,
+          "word": " the",
+          "probability": 0.29241132736206055
+        },
+        {
+          "start": 341.35,
+          "end": 341.55,
+          "word": " hospital's",
+          "probability": 0.3982831947505474
+        },
+        {
+          "start": 341.55,
+          "end": 342.49,
+          "word": " spiritual",
+          "probability": 0.16633406281471252
+        },
+        {
+          "start": 342.49,
+          "end": 343.17,
+          "word": " counselor",
+          "probability": 0.9221798181533813
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "start": 343.17,
+      "end": 345.33,
+      "text": "calls the patient's death certificate to comfort the patient's family.",
+      "words": [
+        {
+          "start": 343.17,
+          "end": 343.73,
+          "word": " calls",
+          "probability": 0.3254094421863556
+        },
+        {
+          "start": 343.73,
+          "end": 343.75,
+          "word": " the",
+          "probability": 0.7660726308822632
+        },
+        {
+          "start": 343.75,
+          "end": 344.45,
+          "word": " patient's",
+          "probability": 0.9495612978935242
+        },
+        {
+          "start": 344.45,
+          "end": 344.45,
+          "word": " death",
+          "probability": 0.0016332903178408742
+        },
+        {
+          "start": 344.45,
+          "end": 344.67,
+          "word": " certificate",
+          "probability": 0.9642844200134277
+        },
+        {
+          "start": 344.67,
+          "end": 344.97,
+          "word": " to",
+          "probability": 0.6174246072769165
+        },
+        {
+          "start": 344.97,
+          "end": 344.97,
+          "word": " comfort",
+          "probability": 0.6257789134979248
+        },
+        {
+          "start": 344.97,
+          "end": 345.01,
+          "word": " the",
+          "probability": 0.6574718952178955
+        },
+        {
+          "start": 345.01,
+          "end": 345.33,
+          "word": " patient's",
+          "probability": 0.2913670539855957
+        },
+        {
+          "start": 345.33,
+          "end": 345.33,
+          "word": " family.",
+          "probability": 0.9680423736572266
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "start": 348.09,
+      "end": 351.19,
+      "text": "The spiritual counselor is usually called",
+      "words": [
+        {
+          "start": 348.09,
+          "end": 348.99,
+          "word": " The",
+          "probability": 0.057296231389045715
+        },
+        {
+          "start": 348.99,
+          "end": 349.47,
+          "word": " spiritual",
+          "probability": 0.3902306854724884
+        },
+        {
+          "start": 349.47,
+          "end": 349.99,
+          "word": " counselor",
+          "probability": 0.9362714290618896
+        },
+        {
+          "start": 349.99,
+          "end": 350.51,
+          "word": " is",
+          "probability": 0.605453610420227
+        },
+        {
+          "start": 350.51,
+          "end": 350.81,
+          "word": " usually",
+          "probability": 0.17595617473125458
+        },
+        {
+          "start": 350.81,
+          "end": 351.19,
+          "word": " called",
+          "probability": 0.23583035171031952
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "start": 351.19,
+      "end": 352.37,
+      "text": "the spiritual counselor.",
+      "words": [
+        {
+          "start": 351.19,
+          "end": 351.47,
+          "word": " the",
+          "probability": 0.1302933692932129
+        },
+        {
+          "start": 351.47,
+          "end": 351.47,
+          "word": " spiritual",
+          "probability": 0.02311285398900509
+        },
+        {
+          "start": 351.47,
+          "end": 352.37,
+          "word": " counselor.",
+          "probability": 0.9093573689460754
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "start": 353.99,
+      "end": 360.19,
+      "text": "The spiritual counselor service is considered a spiritual dolbom in Korean.",
+      "words": [
+        {
+          "start": 353.99,
+          "end": 354.89,
+          "word": " The",
+          "probability": 0.1346583515405655
+        },
+        {
+          "start": 354.89,
+          "end": 355.55,
+          "word": " spiritual",
+          "probability": 0.8594580292701721
+        },
+        {
+          "start": 355.55,
+          "end": 356.27,
+          "word": " counselor",
+          "probability": 0.9727353453636169
+        },
+        {
+          "start": 356.27,
+          "end": 356.65,
+          "word": " service",
+          "probability": 0.7888096570968628
+        },
+        {
+          "start": 356.65,
+          "end": 356.99,
+          "word": " is",
+          "probability": 0.8708717823028564
+        },
+        {
+          "start": 356.99,
+          "end": 357.13,
+          "word": " considered",
+          "probability": 0.16193769872188568
+        },
+        {
+          "start": 357.13,
+          "end": 357.13,
+          "word": " a",
+          "probability": 0.4305157959461212
+        },
+        {
+          "start": 357.13,
+          "end": 358.15,
+          "word": " spiritual",
+          "probability": 0.8785250782966614
+        },
+        {
+          "start": 358.15,
+          "end": 358.81,
+          "word": " dolbom",
+          "probability": 0.5480204323927561
+        },
+        {
+          "start": 358.81,
+          "end": 360.19,
+          "word": " in",
+          "probability": 0.2800024151802063
+        },
+        {
+          "start": 360.19,
+          "end": 360.19,
+          "word": " Korean.",
+          "probability": 0.9693698883056641
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "start": 360.19,
+      "end": 365.63,
+      "text": "The spiritual dolbom is also one of the core services that must be provided in the hospital.",
+      "words": [
+        {
+          "start": 360.19,
+          "end": 361.07,
+          "word": " The",
+          "probability": 0.49331167340278625
+        },
+        {
+          "start": 361.07,
+          "end": 361.35,
+          "word": " spiritual",
+          "probability": 0.9439647793769836
+        },
+        {
+          "start": 361.35,
+          "end": 362.01,
+          "word": " dolbom",
+          "probability": 0.9685830076535543
+        },
+        {
+          "start": 362.01,
+          "end": 362.21,
+          "word": " is",
+          "probability": 0.836182177066803
+        },
+        {
+          "start": 362.21,
+          "end": 362.21,
+          "word": " also",
+          "probability": 0.8020538091659546
+        },
+        {
+          "start": 362.21,
+          "end": 364.13,
+          "word": " one",
+          "probability": 0.738764762878418
+        },
+        {
+          "start": 364.13,
+          "end": 364.29,
+          "word": " of",
+          "probability": 0.9976649284362793
+        },
+        {
+          "start": 364.29,
+          "end": 364.33,
+          "word": " the",
+          "probability": 0.9504796266555786
+        },
+        {
+          "start": 364.33,
+          "end": 364.59,
+          "word": " core",
+          "probability": 0.693535327911377
+        },
+        {
+          "start": 364.59,
+          "end": 365.15,
+          "word": " services",
+          "probability": 0.8935695886611938
+        },
+        {
+          "start": 365.15,
+          "end": 365.51,
+          "word": " that",
+          "probability": 0.5643607378005981
+        },
+        {
+          "start": 365.51,
+          "end": 365.51,
+          "word": " must",
+          "probability": 0.34626874327659607
+        },
+        {
+          "start": 365.51,
+          "end": 365.51,
+          "word": " be",
+          "probability": 0.9940506815910339
+        },
+        {
+          "start": 365.51,
+          "end": 365.51,
+          "word": " provided",
+          "probability": 0.8211740255355835
+        },
+        {
+          "start": 365.51,
+          "end": 365.51,
+          "word": " in",
+          "probability": 0.34090539813041687
+        },
+        {
+          "start": 365.51,
+          "end": 365.51,
+          "word": " the",
+          "probability": 0.7405521273612976
+        },
+        {
+          "start": 365.51,
+          "end": 365.63,
+          "word": " hospital.",
+          "probability": 0.10244946926832199
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "start": 365.85,
+      "end": 368.97,
+      "text": "The spiritual dolbom service is the service that must be provided in the hospital",
+      "words": [
+        {
+          "start": 365.85,
+          "end": 366.71,
+          "word": " The",
+          "probability": 0.6730138063430786
+        },
+        {
+          "start": 366.71,
+          "end": 367.13,
+          "word": " spiritual",
+          "probability": 0.9468784332275391
+        },
+        {
+          "start": 367.13,
+          "end": 367.69,
+          "word": " dolbom",
+          "probability": 0.96432892481486
+        },
+        {
+          "start": 367.69,
+          "end": 368.17,
+          "word": " service",
+          "probability": 0.9730316400527954
+        },
+        {
+          "start": 368.17,
+          "end": 368.47,
+          "word": " is",
+          "probability": 0.541549563407898
+        },
+        {
+          "start": 368.47,
+          "end": 368.61,
+          "word": " the",
+          "probability": 0.15831677615642548
+        },
+        {
+          "start": 368.61,
+          "end": 368.61,
+          "word": " service",
+          "probability": 0.9484035968780518
+        },
+        {
+          "start": 368.61,
+          "end": 368.61,
+          "word": " that",
+          "probability": 0.6604284048080444
+        },
+        {
+          "start": 368.61,
+          "end": 368.61,
+          "word": " must",
+          "probability": 0.9084043502807617
+        },
+        {
+          "start": 368.61,
+          "end": 368.61,
+          "word": " be",
+          "probability": 0.9741107225418091
+        },
+        {
+          "start": 368.61,
+          "end": 368.61,
+          "word": " provided",
+          "probability": 0.8751395344734192
+        },
+        {
+          "start": 368.61,
+          "end": 368.61,
+          "word": " in",
+          "probability": 0.7974945902824402
+        },
+        {
+          "start": 368.61,
+          "end": 368.95,
+          "word": " the",
+          "probability": 0.9365101456642151
+        },
+        {
+          "start": 368.95,
+          "end": 368.97,
+          "word": " hospital",
+          "probability": 0.9789784550666809
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "start": 368.97,
+      "end": 369.01,
+      "text": "in the hospital.",
+      "words": [
+        {
+          "start": 368.97,
+          "end": 368.97,
+          "word": " in",
+          "probability": 0.009330968372523785
+        },
+        {
+          "start": 368.97,
+          "end": 368.97,
+          "word": " the",
+          "probability": 0.4551515579223633
+        },
+        {
+          "start": 368.97,
+          "end": 369.01,
+          "word": " hospital.",
+          "probability": 0.21552036702632904
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "start": 373.71,
+      "end": 379.81,
+      "text": "The hospital's spiritual counselor is usually called",
+      "words": [
+        {
+          "start": 373.71,
+          "end": 375.03,
+          "word": " The",
+          "probability": 0.11641106009483337
+        },
+        {
+          "start": 375.03,
+          "end": 375.35,
+          "word": " hospital's",
+          "probability": 0.08149568177759647
+        },
+        {
+          "start": 375.35,
+          "end": 376.35,
+          "word": " spiritual",
+          "probability": 0.0002040047838818282
+        },
+        {
+          "start": 376.35,
+          "end": 377.03,
+          "word": " counselor",
+          "probability": 0.0007718304404988885
+        },
+        {
+          "start": 377.03,
+          "end": 378.69,
+          "word": " is",
+          "probability": 0.4763227701187134
+        },
+        {
+          "start": 378.69,
+          "end": 378.95,
+          "word": " usually",
+          "probability": 0.0018195222364738584
+        },
+        {
+          "start": 378.95,
+          "end": 379.81,
+          "word": " called",
+          "probability": 0.0006043629255145788
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "start": 379.81,
+      "end": 380.49,
+      "text": "the spiritual counselor.",
+      "words": [
+        {
+          "start": 379.81,
+          "end": 380.11,
+          "word": " the",
+          "probability": 0.01719590649008751
+        },
+        {
+          "start": 380.11,
+          "end": 380.11,
+          "word": " spiritual",
+          "probability": 0.0002447888837195933
+        },
+        {
+          "start": 380.11,
+          "end": 380.49,
+          "word": " counselor.",
+          "probability": 0.4646350145339966
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "start": 380.93,
+      "end": 382.61,
+      "text": "During the hospital service,",
+      "words": [
+        {
+          "start": 380.93,
+          "end": 380.93,
+          "word": " During",
+          "probability": 0.02181401476264
+        },
+        {
+          "start": 380.93,
+          "end": 380.93,
+          "word": " the",
+          "probability": 0.851631760597229
+        },
+        {
+          "start": 380.93,
+          "end": 381.59,
+          "word": " hospital",
+          "probability": 0.40256837010383606
+        },
+        {
+          "start": 381.59,
+          "end": 382.61,
+          "word": " service,",
+          "probability": 0.8560299277305603
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "start": 384.04,
+      "end": 385.76,
+      "text": "the spiritual counselor calls the patient",
+      "words": [
+        {
+          "start": 384.04,
+          "end": 384.86,
+          "word": " the",
+          "probability": 0.5068718791007996
+        },
+        {
+          "start": 384.86,
+          "end": 384.88,
+          "word": " spiritual",
+          "probability": 0.0011615845141932368
+        },
+        {
+          "start": 384.88,
+          "end": 384.96,
+          "word": " counselor",
+          "probability": 0.8262757062911987
+        },
+        {
+          "start": 384.96,
+          "end": 385.36,
+          "word": " calls",
+          "probability": 0.0027739210054278374
+        },
+        {
+          "start": 385.36,
+          "end": 385.56,
+          "word": " the",
+          "probability": 0.6406366229057312
+        },
+        {
+          "start": 385.56,
+          "end": 385.76,
+          "word": " patient",
+          "probability": 0.7608500719070435
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "start": 385.76,
+      "end": 388.98,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 385.76,
+          "end": 386.88,
+          "word": " and",
+          "probability": 0.41873234510421753
+        },
+        {
+          "start": 386.88,
+          "end": 387.2,
+          "word": " looks",
+          "probability": 0.07113798707723618
+        },
+        {
+          "start": 387.2,
+          "end": 387.2,
+          "word": " at",
+          "probability": 0.30243149399757385
+        },
+        {
+          "start": 387.2,
+          "end": 387.24,
+          "word": " the",
+          "probability": 0.8960734009742737
+        },
+        {
+          "start": 387.24,
+          "end": 387.54,
+          "word": " spiritual",
+          "probability": 0.8651915192604065
+        },
+        {
+          "start": 387.54,
+          "end": 388.16,
+          "word": " part",
+          "probability": 0.6183955073356628
+        },
+        {
+          "start": 388.16,
+          "end": 388.98,
+          "word": " of",
+          "probability": 0.22058816254138947
+        },
+        {
+          "start": 388.98,
+          "end": 388.98,
+          "word": " the",
+          "probability": 0.8225811123847961
+        },
+        {
+          "start": 388.98,
+          "end": 388.98,
+          "word": " patient.",
+          "probability": 0.8628471493721008
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "start": 389.82,
+      "end": 394.54,
+      "text": "After the death certificate is finished,",
+      "words": [
+        {
+          "start": 389.82,
+          "end": 391.08,
+          "word": " After",
+          "probability": 0.28365740180015564
+        },
+        {
+          "start": 391.08,
+          "end": 391.08,
+          "word": " the",
+          "probability": 0.09811391681432724
+        },
+        {
+          "start": 391.08,
+          "end": 391.08,
+          "word": " death",
+          "probability": 0.0010376563295722008
+        },
+        {
+          "start": 391.08,
+          "end": 392.16,
+          "word": " certificate",
+          "probability": 0.0008249510428868234
+        },
+        {
+          "start": 392.16,
+          "end": 393.4,
+          "word": " is",
+          "probability": 0.129503533244133
+        },
+        {
+          "start": 393.4,
+          "end": 394.54,
+          "word": " finished,",
+          "probability": 0.0015619631158187985
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "start": 394.54,
+      "end": 399.14,
+      "text": "the spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 394.54,
+          "end": 395.52,
+          "word": " the",
+          "probability": 0.2961195409297943
+        },
+        {
+          "start": 395.52,
+          "end": 395.76,
+          "word": " spiritual",
+          "probability": 0.04086031764745712
+        },
+        {
+          "start": 395.76,
+          "end": 399.14,
+          "word": " counselor",
+          "probability": 0.7776716351509094
+        },
+        {
+          "start": 399.14,
+          "end": 399.14,
+          "word": " calls",
+          "probability": 0.03945035859942436
+        },
+        {
+          "start": 399.14,
+          "end": 399.14,
+          "word": " the",
+          "probability": 0.7410510778427124
+        },
+        {
+          "start": 399.14,
+          "end": 399.14,
+          "word": " family",
+          "probability": 0.40865358710289
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "start": 399.14,
+      "end": 401.76,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 399.14,
+          "end": 399.7,
+          "word": " and",
+          "probability": 0.006568686105310917
+        },
+        {
+          "start": 399.7,
+          "end": 400.46,
+          "word": " looks",
+          "probability": 0.00013349823711905628
+        },
+        {
+          "start": 400.46,
+          "end": 401.38,
+          "word": " at",
+          "probability": 0.030466148629784584
+        },
+        {
+          "start": 401.38,
+          "end": 401.42,
+          "word": " the",
+          "probability": 0.42771676182746887
+        },
+        {
+          "start": 401.42,
+          "end": 401.62,
+          "word": " spiritual",
+          "probability": 4.981338406651048e-06
+        },
+        {
+          "start": 401.62,
+          "end": 401.62,
+          "word": " part",
+          "probability": 0.004073940217494965
+        },
+        {
+          "start": 401.62,
+          "end": 401.76,
+          "word": " of",
+          "probability": 0.6568899154663086
+        },
+        {
+          "start": 401.76,
+          "end": 401.76,
+          "word": " the",
+          "probability": 0.4265282154083252
+        },
+        {
+          "start": 401.76,
+          "end": 401.76,
+          "word": " patient.",
+          "probability": 0.0034474225249141455
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "start": 402.22,
+      "end": 403.08,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 402.22,
+          "end": 402.68,
+          "word": " The",
+          "probability": 0.11926485598087311
+        },
+        {
+          "start": 402.68,
+          "end": 403.08,
+          "word": " spiritual",
+          "probability": 0.0018861813005059958
+        },
+        {
+          "start": 403.08,
+          "end": 403.08,
+          "word": " counselor",
+          "probability": 6.828488039900549e-06
+        },
+        {
+          "start": 403.08,
+          "end": 403.08,
+          "word": " calls",
+          "probability": 0.0013044025981798768
+        },
+        {
+          "start": 403.08,
+          "end": 403.08,
+          "word": " the",
+          "probability": 0.317617803812027
+        },
+        {
+          "start": 403.08,
+          "end": 403.08,
+          "word": " family",
+          "probability": 0.021900705993175507
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "start": 404.32,
+      "end": 404.84,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 404.32,
+          "end": 404.78,
+          "word": " and",
+          "probability": 0.11718916147947311
+        },
+        {
+          "start": 404.78,
+          "end": 404.78,
+          "word": " looks",
+          "probability": 0.002645309315994382
+        },
+        {
+          "start": 404.78,
+          "end": 404.78,
+          "word": " at",
+          "probability": 0.792952299118042
+        },
+        {
+          "start": 404.78,
+          "end": 404.78,
+          "word": " the",
+          "probability": 0.7476195693016052
+        },
+        {
+          "start": 404.78,
+          "end": 404.84,
+          "word": " spiritual",
+          "probability": 0.053108301013708115
+        },
+        {
+          "start": 404.84,
+          "end": 404.84,
+          "word": " part",
+          "probability": 0.3450348377227783
+        },
+        {
+          "start": 404.84,
+          "end": 404.84,
+          "word": " of",
+          "probability": 0.8136805891990662
+        },
+        {
+          "start": 404.84,
+          "end": 404.84,
+          "word": " the",
+          "probability": 0.8690105080604553
+        },
+        {
+          "start": 404.84,
+          "end": 404.84,
+          "word": " patient.",
+          "probability": 0.9354808330535889
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "start": 406.92,
+      "end": 410.54,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 406.92,
+          "end": 407.38,
+          "word": " The",
+          "probability": 0.2674916982650757
+        },
+        {
+          "start": 407.38,
+          "end": 407.84,
+          "word": " spiritual",
+          "probability": 0.08054189383983612
+        },
+        {
+          "start": 407.84,
+          "end": 410.52,
+          "word": " counselor",
+          "probability": 0.7909618020057678
+        },
+        {
+          "start": 410.52,
+          "end": 410.54,
+          "word": " calls",
+          "probability": 0.5164198875427246
+        },
+        {
+          "start": 410.54,
+          "end": 410.54,
+          "word": " the",
+          "probability": 0.9442630410194397
+        },
+        {
+          "start": 410.54,
+          "end": 410.54,
+          "word": " family",
+          "probability": 0.9375433325767517
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "start": 411.14,
+      "end": 412.0,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 411.14,
+          "end": 411.6,
+          "word": " and",
+          "probability": 0.8491342067718506
+        },
+        {
+          "start": 411.6,
+          "end": 411.62,
+          "word": " looks",
+          "probability": 0.8000959157943726
+        },
+        {
+          "start": 411.62,
+          "end": 411.92,
+          "word": " at",
+          "probability": 0.9861317873001099
+        },
+        {
+          "start": 411.92,
+          "end": 411.92,
+          "word": " the",
+          "probability": 0.9953694939613342
+        },
+        {
+          "start": 411.92,
+          "end": 411.92,
+          "word": " spiritual",
+          "probability": 0.9702528119087219
+        },
+        {
+          "start": 411.92,
+          "end": 411.94,
+          "word": " part",
+          "probability": 0.989175021648407
+        },
+        {
+          "start": 411.94,
+          "end": 411.94,
+          "word": " of",
+          "probability": 0.9958628416061401
+        },
+        {
+          "start": 411.94,
+          "end": 412.0,
+          "word": " the",
+          "probability": 0.9896635413169861
+        },
+        {
+          "start": 412.0,
+          "end": 412.0,
+          "word": " patient.",
+          "probability": 0.9883158206939697
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "start": 413.56,
+      "end": 414.8,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 413.56,
+          "end": 414.02,
+          "word": " The",
+          "probability": 0.3387748897075653
+        },
+        {
+          "start": 414.02,
+          "end": 414.48,
+          "word": " spiritual",
+          "probability": 0.34788650274276733
+        },
+        {
+          "start": 414.48,
+          "end": 414.52,
+          "word": " counselor",
+          "probability": 0.896938145160675
+        },
+        {
+          "start": 414.52,
+          "end": 414.58,
+          "word": " calls",
+          "probability": 0.7979307770729065
+        },
+        {
+          "start": 414.58,
+          "end": 414.8,
+          "word": " the",
+          "probability": 0.9529390335083008
+        },
+        {
+          "start": 414.8,
+          "end": 414.8,
+          "word": " family",
+          "probability": 0.9685520529747009
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "start": 414.8,
+      "end": 415.62,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 414.8,
+          "end": 414.8,
+          "word": " and",
+          "probability": 0.8054547905921936
+        },
+        {
+          "start": 414.8,
+          "end": 414.8,
+          "word": " looks",
+          "probability": 0.8739155530929565
+        },
+        {
+          "start": 414.8,
+          "end": 414.8,
+          "word": " at",
+          "probability": 0.9871808886528015
+        },
+        {
+          "start": 414.8,
+          "end": 414.94,
+          "word": " the",
+          "probability": 0.9953699707984924
+        },
+        {
+          "start": 414.94,
+          "end": 415.14,
+          "word": " spiritual",
+          "probability": 0.9756073951721191
+        },
+        {
+          "start": 415.14,
+          "end": 415.24,
+          "word": " part",
+          "probability": 0.989594578742981
+        },
+        {
+          "start": 415.24,
+          "end": 415.38,
+          "word": " of",
+          "probability": 0.9959940910339355
+        },
+        {
+          "start": 415.38,
+          "end": 415.48,
+          "word": " the",
+          "probability": 0.9875106811523438
+        },
+        {
+          "start": 415.48,
+          "end": 415.62,
+          "word": " patient.",
+          "probability": 0.9851640462875366
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "start": 418.94,
+      "end": 420.24,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 418.94,
+          "end": 418.94,
+          "word": " The",
+          "probability": 0.38422659039497375
+        },
+        {
+          "start": 418.94,
+          "end": 418.96,
+          "word": " spiritual",
+          "probability": 0.4476049840450287
+        },
+        {
+          "start": 418.96,
+          "end": 419.12,
+          "word": " counselor",
+          "probability": 0.9212307333946228
+        },
+        {
+          "start": 419.12,
+          "end": 419.76,
+          "word": " calls",
+          "probability": 0.876895546913147
+        },
+        {
+          "start": 419.76,
+          "end": 420.22,
+          "word": " the",
+          "probability": 0.9675648212432861
+        },
+        {
+          "start": 420.22,
+          "end": 420.24,
+          "word": " family",
+          "probability": 0.9828281402587891
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "start": 424.74,
+      "end": 429.02,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 424.74,
+          "end": 425.2,
+          "word": " and",
+          "probability": 0.7798839211463928
+        },
+        {
+          "start": 425.2,
+          "end": 425.32,
+          "word": " looks",
+          "probability": 0.9042377471923828
+        },
+        {
+          "start": 425.32,
+          "end": 425.32,
+          "word": " at",
+          "probability": 0.9875913858413696
+        },
+        {
+          "start": 425.32,
+          "end": 426.56,
+          "word": " the",
+          "probability": 0.9948141574859619
+        },
+        {
+          "start": 426.56,
+          "end": 427.5,
+          "word": " spiritual",
+          "probability": 0.9758926033973694
+        },
+        {
+          "start": 427.5,
+          "end": 427.74,
+          "word": " part",
+          "probability": 0.9914662837982178
+        },
+        {
+          "start": 427.74,
+          "end": 429.02,
+          "word": " of",
+          "probability": 0.9968959093093872
+        },
+        {
+          "start": 429.02,
+          "end": 429.02,
+          "word": " the",
+          "probability": 0.9920692443847656
+        },
+        {
+          "start": 429.02,
+          "end": 429.02,
+          "word": " patient.",
+          "probability": 0.9873306751251221
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "start": 440.52,
+      "end": 449.68,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 440.52,
+          "end": 441.26,
+          "word": " The",
+          "probability": 0.036150623112916946
+        },
+        {
+          "start": 441.26,
+          "end": 442.0,
+          "word": " spiritual",
+          "probability": 1.1910714420082513e-05
+        },
+        {
+          "start": 442.0,
+          "end": 442.46,
+          "word": " counselor",
+          "probability": 9.619383490644395e-05
+        },
+        {
+          "start": 442.46,
+          "end": 447.3,
+          "word": " calls",
+          "probability": 0.000323612242937088
+        },
+        {
+          "start": 447.3,
+          "end": 447.3,
+          "word": " the",
+          "probability": 0.22730913758277893
+        },
+        {
+          "start": 447.3,
+          "end": 449.68,
+          "word": " family",
+          "probability": 0.0005785101093351841
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "start": 449.68,
+      "end": 452.16,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 449.68,
+          "end": 450.62,
+          "word": " and",
+          "probability": 0.07497086375951767
+        },
+        {
+          "start": 450.62,
+          "end": 451.06,
+          "word": " looks",
+          "probability": 0.0011189845390617847
+        },
+        {
+          "start": 451.06,
+          "end": 451.06,
+          "word": " at",
+          "probability": 0.27962732315063477
+        },
+        {
+          "start": 451.06,
+          "end": 451.06,
+          "word": " the",
+          "probability": 0.4641931354999542
+        },
+        {
+          "start": 451.06,
+          "end": 451.22,
+          "word": " spiritual",
+          "probability": 0.002039222279563546
+        },
+        {
+          "start": 451.22,
+          "end": 451.44,
+          "word": " part",
+          "probability": 0.00020339970069471747
+        },
+        {
+          "start": 451.44,
+          "end": 452.16,
+          "word": " of",
+          "probability": 0.4166323244571686
+        },
+        {
+          "start": 452.16,
+          "end": 452.16,
+          "word": " the",
+          "probability": 0.7126728296279907
+        },
+        {
+          "start": 452.16,
+          "end": 452.16,
+          "word": " patient.",
+          "probability": 0.08519061654806137
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "start": 454.06,
+      "end": 457.28,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 454.06,
+          "end": 454.8,
+          "word": " The",
+          "probability": 0.18393833935260773
+        },
+        {
+          "start": 454.8,
+          "end": 454.86,
+          "word": " spiritual",
+          "probability": 0.09056460112333298
+        },
+        {
+          "start": 454.86,
+          "end": 455.2,
+          "word": " counselor",
+          "probability": 0.533553957939148
+        },
+        {
+          "start": 455.2,
+          "end": 457.28,
+          "word": " calls",
+          "probability": 0.3134801387786865
+        },
+        {
+          "start": 457.28,
+          "end": 457.28,
+          "word": " the",
+          "probability": 0.7860384583473206
+        },
+        {
+          "start": 457.28,
+          "end": 457.28,
+          "word": " family",
+          "probability": 0.6737266778945923
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "start": 457.28,
+      "end": 457.38,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 457.28,
+          "end": 457.38,
+          "word": " The",
+          "probability": 0.3362003564834595
+        },
+        {
+          "start": 457.38,
+          "end": 457.38,
+          "word": " spiritual",
+          "probability": 0.3639460504055023
+        },
+        {
+          "start": 457.38,
+          "end": 457.38,
+          "word": " counselor",
+          "probability": 0.8537701964378357
+        },
+        {
+          "start": 457.38,
+          "end": 457.38,
+          "word": " calls",
+          "probability": 0.7643067836761475
+        },
+        {
+          "start": 457.38,
+          "end": 457.38,
+          "word": " the",
+          "probability": 0.9720371961593628
+        },
+        {
+          "start": 457.38,
+          "end": 457.38,
+          "word": " family",
+          "probability": 0.9053817391395569
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "start": 457.38,
+      "end": 457.8,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 457.38,
+          "end": 457.54,
+          "word": " and",
+          "probability": 0.8412370681762695
+        },
+        {
+          "start": 457.54,
+          "end": 457.54,
+          "word": " looks",
+          "probability": 0.8899180889129639
+        },
+        {
+          "start": 457.54,
+          "end": 457.54,
+          "word": " at",
+          "probability": 0.9888737201690674
+        },
+        {
+          "start": 457.54,
+          "end": 457.74,
+          "word": " the",
+          "probability": 0.9972978234291077
+        },
+        {
+          "start": 457.74,
+          "end": 457.74,
+          "word": " spiritual",
+          "probability": 0.9707365036010742
+        },
+        {
+          "start": 457.74,
+          "end": 457.74,
+          "word": " part",
+          "probability": 0.9905518293380737
+        },
+        {
+          "start": 457.74,
+          "end": 457.8,
+          "word": " of",
+          "probability": 0.9941739439964294
+        },
+        {
+          "start": 457.8,
+          "end": 457.8,
+          "word": " the",
+          "probability": 0.9892287254333496
+        },
+        {
+          "start": 457.8,
+          "end": 457.8,
+          "word": " patient.",
+          "probability": 0.9837366938591003
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "start": 457.8,
+      "end": 458.56,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 457.8,
+          "end": 457.94,
+          "word": " The",
+          "probability": 0.45677217841148376
+        },
+        {
+          "start": 457.94,
+          "end": 458.16,
+          "word": " spiritual",
+          "probability": 0.43366509675979614
+        },
+        {
+          "start": 458.16,
+          "end": 458.56,
+          "word": " counselor",
+          "probability": 0.8977634310722351
+        },
+        {
+          "start": 458.56,
+          "end": 458.56,
+          "word": " calls",
+          "probability": 0.8482143878936768
+        },
+        {
+          "start": 458.56,
+          "end": 458.56,
+          "word": " the",
+          "probability": 0.9733138680458069
+        },
+        {
+          "start": 458.56,
+          "end": 458.56,
+          "word": " family",
+          "probability": 0.9489877820014954
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "start": 458.56,
+      "end": 459.58,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 458.56,
+          "end": 458.56,
+          "word": " and",
+          "probability": 0.7974727749824524
+        },
+        {
+          "start": 458.56,
+          "end": 458.56,
+          "word": " looks",
+          "probability": 0.9064220786094666
+        },
+        {
+          "start": 458.56,
+          "end": 458.56,
+          "word": " at",
+          "probability": 0.9897801876068115
+        },
+        {
+          "start": 458.56,
+          "end": 459.42,
+          "word": " the",
+          "probability": 0.9968902468681335
+        },
+        {
+          "start": 459.42,
+          "end": 459.58,
+          "word": " spiritual",
+          "probability": 0.973849356174469
+        },
+        {
+          "start": 459.58,
+          "end": 459.58,
+          "word": " part",
+          "probability": 0.9894233345985413
+        },
+        {
+          "start": 459.58,
+          "end": 459.58,
+          "word": " of",
+          "probability": 0.9939950108528137
+        },
+        {
+          "start": 459.58,
+          "end": 459.58,
+          "word": " the",
+          "probability": 0.9937525391578674
+        },
+        {
+          "start": 459.58,
+          "end": 459.58,
+          "word": " patient.",
+          "probability": 0.9808052778244019
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "start": 462.22,
+      "end": 467.14,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 462.22,
+          "end": 462.8,
+          "word": " The",
+          "probability": 0.053575847297906876
+        },
+        {
+          "start": 462.8,
+          "end": 463.02,
+          "word": " spiritual",
+          "probability": 3.959216337534599e-05
+        },
+        {
+          "start": 463.02,
+          "end": 463.36,
+          "word": " counselor",
+          "probability": 3.65566520486027e-05
+        },
+        {
+          "start": 463.36,
+          "end": 467.14,
+          "word": " calls",
+          "probability": 0.0003923380863852799
+        },
+        {
+          "start": 467.14,
+          "end": 467.14,
+          "word": " the",
+          "probability": 0.16535460948944092
+        },
+        {
+          "start": 467.14,
+          "end": 467.14,
+          "word": " family",
+          "probability": 0.012636748142540455
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "start": 467.14,
+      "end": 467.16,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 467.14,
+          "end": 467.14,
+          "word": " and",
+          "probability": 0.05636318027973175
+        },
+        {
+          "start": 467.14,
+          "end": 467.14,
+          "word": " looks",
+          "probability": 0.0019469885155558586
+        },
+        {
+          "start": 467.14,
+          "end": 467.14,
+          "word": " at",
+          "probability": 0.2657386362552643
+        },
+        {
+          "start": 467.14,
+          "end": 467.14,
+          "word": " the",
+          "probability": 0.420536071062088
+        },
+        {
+          "start": 467.14,
+          "end": 467.14,
+          "word": " spiritual",
+          "probability": 0.0021967191714793444
+        },
+        {
+          "start": 467.14,
+          "end": 467.14,
+          "word": " part",
+          "probability": 0.0006450432701967657
+        },
+        {
+          "start": 467.14,
+          "end": 467.16,
+          "word": " of",
+          "probability": 0.5868957042694092
+        },
+        {
+          "start": 467.16,
+          "end": 467.16,
+          "word": " the",
+          "probability": 0.613806426525116
+        },
+        {
+          "start": 467.16,
+          "end": 467.16,
+          "word": " patient.",
+          "probability": 0.02587202563881874
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "start": 467.78,
+      "end": 468.36,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 467.78,
+          "end": 468.36,
+          "word": " The",
+          "probability": 0.17095035314559937
+        },
+        {
+          "start": 468.36,
+          "end": 468.36,
+          "word": " spiritual",
+          "probability": 0.027805104851722717
+        },
+        {
+          "start": 468.36,
+          "end": 468.36,
+          "word": " counselor",
+          "probability": 0.6286420822143555
+        },
+        {
+          "start": 468.36,
+          "end": 468.36,
+          "word": " calls",
+          "probability": 0.10868903249502182
+        },
+        {
+          "start": 468.36,
+          "end": 468.36,
+          "word": " the",
+          "probability": 0.8699139356613159
+        },
+        {
+          "start": 468.36,
+          "end": 468.36,
+          "word": " family",
+          "probability": 0.6474072337150574
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "start": 468.36,
+      "end": 468.66,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 468.36,
+          "end": 468.64,
+          "word": " The",
+          "probability": 0.36081746220588684
+        },
+        {
+          "start": 468.64,
+          "end": 468.66,
+          "word": " spiritual",
+          "probability": 0.3664393126964569
+        },
+        {
+          "start": 468.66,
+          "end": 468.66,
+          "word": " counselor",
+          "probability": 0.867765486240387
+        },
+        {
+          "start": 468.66,
+          "end": 468.66,
+          "word": " calls",
+          "probability": 0.9060235023498535
+        },
+        {
+          "start": 468.66,
+          "end": 468.66,
+          "word": " the",
+          "probability": 0.9838903546333313
+        },
+        {
+          "start": 468.66,
+          "end": 468.66,
+          "word": " family",
+          "probability": 0.871902585029602
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "start": 468.66,
+      "end": 468.72,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 468.66,
+          "end": 468.66,
+          "word": " and",
+          "probability": 0.881964921951294
+        },
+        {
+          "start": 468.66,
+          "end": 468.66,
+          "word": " looks",
+          "probability": 0.9186288118362427
+        },
+        {
+          "start": 468.66,
+          "end": 468.72,
+          "word": " at",
+          "probability": 0.9950993657112122
+        },
+        {
+          "start": 468.72,
+          "end": 468.72,
+          "word": " the",
+          "probability": 0.9974163770675659
+        },
+        {
+          "start": 468.72,
+          "end": 468.72,
+          "word": " spiritual",
+          "probability": 0.9810543060302734
+        },
+        {
+          "start": 468.72,
+          "end": 468.72,
+          "word": " part",
+          "probability": 0.9938353300094604
+        },
+        {
+          "start": 468.72,
+          "end": 468.72,
+          "word": " of",
+          "probability": 0.9981740713119507
+        },
+        {
+          "start": 468.72,
+          "end": 468.72,
+          "word": " the",
+          "probability": 0.9949105381965637
+        },
+        {
+          "start": 468.72,
+          "end": 468.72,
+          "word": " patient.",
+          "probability": 0.9811556339263916
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "start": 472.3,
+      "end": 473.82,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 472.3,
+          "end": 472.88,
+          "word": " The",
+          "probability": 0.37690478563308716
+        },
+        {
+          "start": 472.88,
+          "end": 472.96,
+          "word": " spiritual",
+          "probability": 0.4935717284679413
+        },
+        {
+          "start": 472.96,
+          "end": 473.3,
+          "word": " counselor",
+          "probability": 0.9001613259315491
+        },
+        {
+          "start": 473.3,
+          "end": 473.52,
+          "word": " calls",
+          "probability": 0.9128826260566711
+        },
+        {
+          "start": 473.52,
+          "end": 473.82,
+          "word": " the",
+          "probability": 0.9848226308822632
+        },
+        {
+          "start": 473.82,
+          "end": 473.82,
+          "word": " family",
+          "probability": 0.9292575716972351
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "start": 473.82,
+      "end": 473.86,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 473.82,
+          "end": 473.82,
+          "word": " and",
+          "probability": 0.8300612568855286
+        },
+        {
+          "start": 473.82,
+          "end": 473.82,
+          "word": " looks",
+          "probability": 0.9306604266166687
+        },
+        {
+          "start": 473.82,
+          "end": 473.82,
+          "word": " at",
+          "probability": 0.9955447912216187
+        },
+        {
+          "start": 473.82,
+          "end": 473.82,
+          "word": " the",
+          "probability": 0.9967014193534851
+        },
+        {
+          "start": 473.82,
+          "end": 473.82,
+          "word": " spiritual",
+          "probability": 0.9848275184631348
+        },
+        {
+          "start": 473.82,
+          "end": 473.82,
+          "word": " part",
+          "probability": 0.9934187531471252
+        },
+        {
+          "start": 473.82,
+          "end": 473.82,
+          "word": " of",
+          "probability": 0.9982848763465881
+        },
+        {
+          "start": 473.82,
+          "end": 473.86,
+          "word": " the",
+          "probability": 0.9957127571105957
+        },
+        {
+          "start": 473.86,
+          "end": 473.86,
+          "word": " patient.",
+          "probability": 0.9819230437278748
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "start": 481.24,
+      "end": 485.2,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 481.24,
+          "end": 481.82,
+          "word": " The",
+          "probability": 0.5040859580039978
+        },
+        {
+          "start": 481.82,
+          "end": 482.12,
+          "word": " spiritual",
+          "probability": 0.5887547135353088
+        },
+        {
+          "start": 482.12,
+          "end": 484.76,
+          "word": " counselor",
+          "probability": 0.9273845553398132
+        },
+        {
+          "start": 484.76,
+          "end": 485.04,
+          "word": " calls",
+          "probability": 0.9235318899154663
+        },
+        {
+          "start": 485.04,
+          "end": 485.2,
+          "word": " the",
+          "probability": 0.984352171421051
+        },
+        {
+          "start": 485.2,
+          "end": 485.2,
+          "word": " family",
+          "probability": 0.9519023299217224
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "start": 507.46,
+      "end": 507.94,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 507.46,
+          "end": 507.82,
+          "word": " and",
+          "probability": 0.008604228496551514
+        },
+        {
+          "start": 507.82,
+          "end": 507.94,
+          "word": " looks",
+          "probability": 0.00012110130774090067
+        },
+        {
+          "start": 507.94,
+          "end": 507.94,
+          "word": " at",
+          "probability": 0.017428409308195114
+        },
+        {
+          "start": 507.94,
+          "end": 507.94,
+          "word": " the",
+          "probability": 0.20046448707580566
+        },
+        {
+          "start": 507.94,
+          "end": 507.94,
+          "word": " spiritual",
+          "probability": 1.6612117178738117e-05
+        },
+        {
+          "start": 507.94,
+          "end": 507.94,
+          "word": " part",
+          "probability": 0.008105968125164509
+        },
+        {
+          "start": 507.94,
+          "end": 507.94,
+          "word": " of",
+          "probability": 0.5727718472480774
+        },
+        {
+          "start": 507.94,
+          "end": 507.94,
+          "word": " the",
+          "probability": 0.36226895451545715
+        },
+        {
+          "start": 507.94,
+          "end": 507.94,
+          "word": " patient.",
+          "probability": 0.04725729674100876
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "start": 510.18,
+      "end": 512.18,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 510.18,
+          "end": 510.18,
+          "word": " The",
+          "probability": 0.09414707869291306
+        },
+        {
+          "start": 510.18,
+          "end": 510.18,
+          "word": " spiritual",
+          "probability": 6.972932169446722e-05
+        },
+        {
+          "start": 510.18,
+          "end": 510.88,
+          "word": " counselor",
+          "probability": 3.458829951341613e-06
+        },
+        {
+          "start": 510.88,
+          "end": 512.08,
+          "word": " calls",
+          "probability": 0.0016935571329668164
+        },
+        {
+          "start": 512.08,
+          "end": 512.18,
+          "word": " the",
+          "probability": 0.26230156421661377
+        },
+        {
+          "start": 512.18,
+          "end": 512.18,
+          "word": " family",
+          "probability": 0.0012787538580596447
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "start": 512.18,
+      "end": 512.22,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 512.18,
+          "end": 512.22,
+          "word": " The",
+          "probability": 0.18086102604866028
+        },
+        {
+          "start": 512.22,
+          "end": 512.22,
+          "word": " spiritual",
+          "probability": 0.03711392730474472
+        },
+        {
+          "start": 512.22,
+          "end": 512.22,
+          "word": " counselor",
+          "probability": 0.7951355576515198
+        },
+        {
+          "start": 512.22,
+          "end": 512.22,
+          "word": " calls",
+          "probability": 0.5227683186531067
+        },
+        {
+          "start": 512.22,
+          "end": 512.22,
+          "word": " the",
+          "probability": 0.9370194673538208
+        },
+        {
+          "start": 512.22,
+          "end": 512.22,
+          "word": " family",
+          "probability": 0.8839747905731201
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "start": 512.92,
+      "end": 513.88,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 512.92,
+          "end": 513.02,
+          "word": " The",
+          "probability": 0.32422780990600586
+        },
+        {
+          "start": 513.02,
+          "end": 513.2,
+          "word": " spiritual",
+          "probability": 0.4249785840511322
+        },
+        {
+          "start": 513.2,
+          "end": 513.88,
+          "word": " counselor",
+          "probability": 0.9313249588012695
+        },
+        {
+          "start": 513.88,
+          "end": 513.88,
+          "word": " calls",
+          "probability": 0.837746262550354
+        },
+        {
+          "start": 513.88,
+          "end": 513.88,
+          "word": " the",
+          "probability": 0.967844545841217
+        },
+        {
+          "start": 513.88,
+          "end": 513.88,
+          "word": " family",
+          "probability": 0.9065166711807251
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "start": 513.9,
+      "end": 515.06,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 513.9,
+          "end": 513.9,
+          "word": " The",
+          "probability": 0.42011505365371704
+        },
+        {
+          "start": 513.9,
+          "end": 514.36,
+          "word": " spiritual",
+          "probability": 0.5162160396575928
+        },
+        {
+          "start": 514.36,
+          "end": 514.94,
+          "word": " counselor",
+          "probability": 0.9401784539222717
+        },
+        {
+          "start": 514.94,
+          "end": 514.94,
+          "word": " calls",
+          "probability": 0.8725721836090088
+        },
+        {
+          "start": 514.94,
+          "end": 515.06,
+          "word": " the",
+          "probability": 0.9701873064041138
+        },
+        {
+          "start": 515.06,
+          "end": 515.06,
+          "word": " family",
+          "probability": 0.9374651908874512
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "start": 515.06,
+      "end": 515.28,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 515.06,
+          "end": 515.06,
+          "word": " and",
+          "probability": 0.8577166795730591
+        },
+        {
+          "start": 515.06,
+          "end": 515.06,
+          "word": " looks",
+          "probability": 0.9520364999771118
+        },
+        {
+          "start": 515.06,
+          "end": 515.06,
+          "word": " at",
+          "probability": 0.9934052228927612
+        },
+        {
+          "start": 515.06,
+          "end": 515.06,
+          "word": " the",
+          "probability": 0.9980217218399048
+        },
+        {
+          "start": 515.06,
+          "end": 515.06,
+          "word": " spiritual",
+          "probability": 0.9906499981880188
+        },
+        {
+          "start": 515.06,
+          "end": 515.18,
+          "word": " part",
+          "probability": 0.9899068474769592
+        },
+        {
+          "start": 515.18,
+          "end": 515.28,
+          "word": " of",
+          "probability": 0.997614860534668
+        },
+        {
+          "start": 515.28,
+          "end": 515.28,
+          "word": " the",
+          "probability": 0.9936111569404602
+        },
+        {
+          "start": 515.28,
+          "end": 515.28,
+          "word": " patient.",
+          "probability": 0.9837967753410339
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "start": 517.4,
+      "end": 519.6,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 517.4,
+          "end": 518.36,
+          "word": " The",
+          "probability": 0.009011548012495041
+        },
+        {
+          "start": 518.36,
+          "end": 519.12,
+          "word": " spiritual",
+          "probability": 5.933372813160531e-05
+        },
+        {
+          "start": 519.12,
+          "end": 519.6,
+          "word": " counselor",
+          "probability": 4.759314833790995e-05
+        },
+        {
+          "start": 519.6,
+          "end": 519.6,
+          "word": " calls",
+          "probability": 0.00023632800730410963
+        },
+        {
+          "start": 519.6,
+          "end": 519.6,
+          "word": " the",
+          "probability": 0.15978574752807617
+        },
+        {
+          "start": 519.6,
+          "end": 519.6,
+          "word": " family",
+          "probability": 0.0015192911960184574
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "start": 519.6,
+      "end": 520.5,
+      "text": "and looks at the spiritual part of the patient.",
+      "words": [
+        {
+          "start": 519.6,
+          "end": 519.6,
+          "word": " and",
+          "probability": 0.0924331396818161
+        },
+        {
+          "start": 519.6,
+          "end": 519.6,
+          "word": " looks",
+          "probability": 0.0013325453037396073
+        },
+        {
+          "start": 519.6,
+          "end": 519.6,
+          "word": " at",
+          "probability": 0.3961683511734009
+        },
+        {
+          "start": 519.6,
+          "end": 519.6,
+          "word": " the",
+          "probability": 0.5852760672569275
+        },
+        {
+          "start": 519.6,
+          "end": 519.6,
+          "word": " spiritual",
+          "probability": 0.004227366764098406
+        },
+        {
+          "start": 519.6,
+          "end": 519.6,
+          "word": " part",
+          "probability": 0.0007058188784867525
+        },
+        {
+          "start": 519.6,
+          "end": 520.2,
+          "word": " of",
+          "probability": 0.5985739231109619
+        },
+        {
+          "start": 520.2,
+          "end": 520.42,
+          "word": " the",
+          "probability": 0.7045394778251648
+        },
+        {
+          "start": 520.42,
+          "end": 520.5,
+          "word": " patient.",
+          "probability": 0.009105116128921509
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "start": 520.5,
+      "end": 522.76,
+      "text": "The spiritual counselor calls the family",
+      "words": [
+        {
+          "start": 520.5,
+          "end": 520.78,
+          "word": " The",
+          "probability": 0.10403226315975189
+        },
+        {
+          "start": 520.78,
+          "end": 521.22,
+          "word": " spiritual",
+          "probability": 0.06673946976661682
+        },
+        {
+          "start": 521.22,
+          "end": 521.62,
+          "word": " counselor",
+          "probability": 0.6310731768608093
+        },
+        {
+          "start": 521.62,
+          "end": 521.62,
+          "word": " calls",
+          "probability": 0.19713374972343445
+        },
+        {
+          "start": 521.62,
+          "end": 522.42,
+          "word": " the",
+          "probability": 0.8663223385810852
+        },
+        {
+          "start": 522.42,
+          "end": 522.76,
+          "word": " family",
+          "probability": 0.8765605092048645
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "start": 522.76,
+      "end": 526.4,
+      "text": "Thank you.",
+      "words": [
+        {
+          "start": 522.76,
+          "end": 524.0,
+          "word": " Thank",
+          "probability": 0.00042721960926428437
+        },
+        {
+          "start": 524.0,
+          "end": 526.4,
+          "word": " you.",
+          "probability": 0.9912415742874146
+        }
+      ]
+    }
+  ]
+}

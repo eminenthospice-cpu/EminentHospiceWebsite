@@ -1,0 +1,2450 @@
+{
+  "video": "public\\videos\\after-death-non-hospice-polst-korean-english-subtitles.mp4",
+  "duration": 527.63,
+  "transcript": "audit\\video_caption_remediation\\after-death-non-hospice-polst-korean-english-subtitles.ko.transcript.json",
+  "vtt": "public\\captions\\after-death-non-hospice-polst-korean-english-subtitles.en.vtt",
+  "review_sheet": "audit\\seek_caption_qa\\sheets\\after-death-non-hospice-polst-korean-english-subtitles.jpg",
+  "speech_intervals": 84,
+  "speech_samples": 252,
+  "low_visibility_samples": 0,
+  "timing_gaps": 0,
+  "status": "pass",
+  "intervals": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 4.84,
+      "duration": 4.84,
+      "speech_text": "안녕하세요. 에미넌트하스피스케에서 일하고 있는 김정아 널스프렉티셔너입니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 0.12,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0001_01_0000.120.jpg",
+          "caption_score": 0.122502,
+          "caption_visible": true
+        },
+        {
+          "time": 2.42,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0001_02_0002.420.jpg",
+          "caption_score": 0.122039,
+          "caption_visible": true
+        },
+        {
+          "time": 4.66,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0001_03_0004.660.jpg",
+          "caption_score": 0.015913,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "start": 5.54,
+      "end": 12.86,
+      "duration": 7.32,
+      "speech_text": "지난번 영상에서는 호스피스를 받으시다가 환자분이 인정하신 경우 그 이후에 절차에 대해서 말씀드렸습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 5.66,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0002_01_0005.660.jpg",
+          "caption_score": 0.092619,
+          "caption_visible": true
+        },
+        {
+          "time": 9.2,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0002_02_0009.200.jpg",
+          "caption_score": 0.093329,
+          "caption_visible": true
+        },
+        {
+          "time": 12.68,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0002_03_0012.680.jpg",
+          "caption_score": 0.048972,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "start": 13.46,
+      "end": 20.6,
+      "duration": 7.14,
+      "speech_text": "오늘은 호스피스를 받지 않는 상태에서 환자분이 인정하신 경우 그 이후에 절차에 대해서 설명드려보도록 하겠습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 13.58,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0003_01_0013.580.jpg",
+          "caption_score": 0.060269,
+          "caption_visible": true
+        },
+        {
+          "time": 17.03,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0003_02_0017.030.jpg",
+          "caption_score": 0.060557,
+          "caption_visible": true
+        },
+        {
+          "time": 20.42,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0003_03_0020.420.jpg",
+          "caption_score": 0.049157,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "start": 21.48,
+      "end": 27.46,
+      "duration": 5.98,
+      "speech_text": "먼저 병원입니다. 병원에서 돌아가시는 환자는 치료를 받는 중에 돌아가신 경우무로",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 21.6,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0004_01_0021.600.jpg",
+          "caption_score": 0.061071,
+          "caption_visible": true
+        },
+        {
+          "time": 24.47,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0004_02_0024.470.jpg",
+          "caption_score": 0.041992,
+          "caption_visible": true
+        },
+        {
+          "time": 27.28,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0004_03_0027.280.jpg",
+          "caption_score": 0.041879,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "start": 27.46,
+      "end": 35.26,
+      "duration": 7.8,
+      "speech_text": "의료진에 사망 선언 후 가족이 정한 장의사에 전화하면 장의사에서 고인을 병원에서 모시고 나가게 됩니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 27.58,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0005_01_0027.580.jpg",
+          "caption_score": 0.0419,
+          "caption_visible": true
+        },
+        {
+          "time": 31.36,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0005_02_0031.360.jpg",
+          "caption_score": 0.041756,
+          "caption_visible": true
+        },
+        {
+          "time": 35.08,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0005_03_0035.080.jpg",
+          "caption_score": 0.022173,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "start": 36.04,
+      "end": 48.5,
+      "duration": 12.46,
+      "speech_text": "그 다음은 양로병원에서 사망하신 경우입니다. 양로병원에서 환자가 심장이 멈추고 승률시지 않는 것을 발견한 경우는 사전 지시서 어드밴스티브가 중요합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 36.16,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0006_01_0036.160.jpg",
+          "caption_score": 0.099959,
+          "caption_visible": true
+        },
+        {
+          "time": 42.27,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0006_02_0042.270.jpg",
+          "caption_score": 0.049054,
+          "caption_visible": true
+        },
+        {
+          "time": 48.32,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0006_03_0048.320.jpg",
+          "caption_score": 0.049065,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "start": 49.22,
+      "end": 56.42,
+      "duration": 7.2,
+      "speech_text": "환자분이 생명이 위독한 상태에서 어느 정도 의료 행위를 할 것인지에 대해서 미리 정해놓은 서류입니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 49.34,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0007_01_0049.340.jpg",
+          "caption_score": 0.050308,
+          "caption_visible": true
+        },
+        {
+          "time": 52.82,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0007_02_0052.820.jpg",
+          "caption_score": 0.033573,
+          "caption_visible": true
+        },
+        {
+          "time": 56.24,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0007_03_0056.240.jpg",
+          "caption_score": 0.050411,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "start": 57.42,
+      "end": 64.5,
+      "duration": 7.08,
+      "speech_text": "폴스트, 피지션 오더 스폴 라이프 서스테이닝 투리먼이라고 하는데 한국말로 하면 좀 어색한데",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 57.54,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0008_01_0057.540.jpg",
+          "caption_score": 0.05037,
+          "caption_visible": true
+        },
+        {
+          "time": 60.96,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0008_02_0060.960.jpg",
+          "caption_score": 0.05037,
+          "caption_visible": true
+        },
+        {
+          "time": 64.32,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0008_03_0064.320.jpg",
+          "caption_score": 0.037551,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "start": 64.5,
+      "end": 70.6,
+      "duration": 6.1,
+      "speech_text": "생명 연장 치료 여부에 관한 의사의 오더 그냥 한국말로 사전 지시서 라고 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 64.62,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0009_01_0064.620.jpg",
+          "caption_score": 0.0533,
+          "caption_visible": true
+        },
+        {
+          "time": 67.55,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0009_02_0067.550.jpg",
+          "caption_score": 0.053289,
+          "caption_visible": true
+        },
+        {
+          "time": 70.42,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0009_03_0070.420.jpg",
+          "caption_score": 0.053197,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "start": 70.9,
+      "end": 79.16,
+      "duration": 8.26,
+      "speech_text": "보통 핑크색 종이인데 심장이 멈출 경우 심폐소생수조를 할 것인지 안 할 것인지 를 표시하게 되어 있습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 71.02,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0010_01_0071.020.jpg",
+          "caption_score": 0.045888,
+          "caption_visible": true
+        },
+        {
+          "time": 75.03,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0010_02_0075.030.jpg",
+          "caption_score": 0.04594,
+          "caption_visible": true
+        },
+        {
+          "time": 78.98,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0010_03_0078.980.jpg",
+          "caption_score": 0.04668,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "start": 80.24,
+      "end": 84.22,
+      "duration": 3.98,
+      "speech_text": "심폐소생수조를 해야 하는 경우는 cpr에 체크가 된 경우입니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 80.36,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0011_01_0080.360.jpg",
+          "caption_score": 0.048181,
+          "caption_visible": true
+        },
+        {
+          "time": 82.23,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0011_02_0082.230.jpg",
+          "caption_score": 0.048129,
+          "caption_visible": true
+        },
+        {
+          "time": 84.04,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0011_03_0084.040.jpg",
+          "caption_score": 0.048129,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "start": 85.46,
+      "end": 91.72,
+      "duration": 6.26,
+      "speech_text": "이때 의료진은 심폐소생수를 시행하면서 911을 불러서 병원에 보내야 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 85.58,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0012_01_0085.580.jpg",
+          "caption_score": 0.047759,
+          "caption_visible": true
+        },
+        {
+          "time": 88.59,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0012_02_0088.590.jpg",
+          "caption_score": 0.046495,
+          "caption_visible": true
+        },
+        {
+          "time": 91.54,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0012_03_0091.540.jpg",
+          "caption_score": 0.042064,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "start": 92.06,
+      "end": 97.58,
+      "duration": 5.52,
+      "speech_text": "환자분들이 많이 운동하는 경우가 있는데 심폐소생수를 해야 하는 경우는 cpr,",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 92.18,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0013_01_0092.180.jpg",
+          "caption_score": 0.044182,
+          "caption_visible": true
+        },
+        {
+          "time": 94.82,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0013_02_0094.820.jpg",
+          "caption_score": 0.045785,
+          "caption_visible": true
+        },
+        {
+          "time": 97.4,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0013_03_0097.400.jpg",
+          "caption_score": 0.036698,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "start": 98.04,
+      "end": 101.5,
+      "duration": 3.46,
+      "speech_text": "칼디오퍼먼을 리서시테이션에 체크를 하신 경우입니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 98.16,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0014_01_0098.160.jpg",
+          "caption_score": 0.047954,
+          "caption_visible": true
+        },
+        {
+          "time": 99.77,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0014_02_0099.770.jpg",
+          "caption_score": 0.048006,
+          "caption_visible": true
+        },
+        {
+          "time": 101.32,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0014_03_0101.320.jpg",
+          "caption_score": 0.035177,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "start": 101.86,
+      "end": 108.54,
+      "duration": 6.68,
+      "speech_text": "이때 의료진은 심폐소생수를 시행하면서 911에 전화를 해야 합니다. 그래서 병원에 보내야 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 101.98,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0015_01_0101.980.jpg",
+          "caption_score": 0.047142,
+          "caption_visible": true
+        },
+        {
+          "time": 105.2,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0015_02_0105.200.jpg",
+          "caption_score": 0.046998,
+          "caption_visible": true
+        },
+        {
+          "time": 108.36,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0015_03_0108.360.jpg",
+          "caption_score": 0.046998,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "start": 108.8,
+      "end": 114.1,
+      "duration": 5.3,
+      "speech_text": "한국 분들이 많이 운동하는 경우는 cpr을 심장 마사지 정도로만 생각하고 계시는데",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 108.92,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0016_01_0108.920.jpg",
+          "caption_score": 0.047296,
+          "caption_visible": true
+        },
+        {
+          "time": 111.45,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0016_02_0111.450.jpg",
+          "caption_score": 0.04741,
+          "caption_visible": true
+        },
+        {
+          "time": 113.92,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0016_03_0113.920.jpg",
+          "caption_score": 0.040214,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "start": 114.1,
+      "end": 123.8,
+      "duration": 9.7,
+      "speech_text": "이 cpr을 한다는 의미는 필요시 심장 마사지 뿐만 아니라 심장 전기 충격기, 기관지, 삽관을 모두 하겠다는 의미입니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 114.22,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0017_01_0114.220.jpg",
+          "caption_score": 0.047903,
+          "caption_visible": true
+        },
+        {
+          "time": 118.95,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0017_02_0118.950.jpg",
+          "caption_score": 0.04778,
+          "caption_visible": true
+        },
+        {
+          "time": 123.62,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0017_03_0123.620.jpg",
+          "caption_score": 0.033203,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "start": 124.3,
+      "end": 129.9,
+      "duration": 5.6,
+      "speech_text": "심폐소생수를 하지 않는 경우는 dnr, 도나 리서시테이트에 표시를 하신 경우입니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 124.42,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0018_01_0124.420.jpg",
+          "caption_score": 0.045857,
+          "caption_visible": true
+        },
+        {
+          "time": 127.1,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0018_02_0127.100.jpg",
+          "caption_score": 0.045888,
+          "caption_visible": true
+        },
+        {
+          "time": 129.72,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0018_03_0129.720.jpg",
+          "caption_score": 0.044727,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "start": 130.58,
+      "end": 135.48,
+      "duration": 4.9,
+      "speech_text": "이때는 심폐소생수를 시행하지 않고 의료진이 사망 선언을 한 후",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 130.7,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0019_01_0130.700.jpg",
+          "caption_score": 0.046628,
+          "caption_visible": true
+        },
+        {
+          "time": 133.03,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0019_02_0133.030.jpg",
+          "caption_score": 0.046639,
+          "caption_visible": true
+        },
+        {
+          "time": 135.3,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0019_03_0135.300.jpg",
+          "caption_score": 0.035403,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "start": 135.48,
+      "end": 142.14,
+      "duration": 6.66,
+      "speech_text": "유가족에게 연락한 후 유가족이 정하신 장의사에 전화를 하면 유가족이 모시고 나갑니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 135.6,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0020_01_0135.600.jpg",
+          "caption_score": 0.04962,
+          "caption_visible": true
+        },
+        {
+          "time": 138.81,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0020_02_0138.810.jpg",
+          "caption_score": 0.051028,
+          "caption_visible": true
+        },
+        {
+          "time": 141.96,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0020_03_0141.960.jpg",
+          "caption_score": 0.037541,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "start": 142.14,
+      "end": 151.08,
+      "duration": 8.94,
+      "speech_text": "그런데 dnr이 아닌 경우 아까 말씀드린 것처럼 의료진은 심폐소생수를 시작해야 하고 911을 불러야 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 142.26,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0021_01_0142.260.jpg",
+          "caption_score": 0.048931,
+          "caption_visible": true
+        },
+        {
+          "time": 146.61,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0021_02_0146.610.jpg",
+          "caption_score": 0.048725,
+          "caption_visible": true
+        },
+        {
+          "time": 150.9,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0021_03_0150.900.jpg",
+          "caption_score": 0.048725,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "start": 151.58,
+      "end": 156.42,
+      "duration": 4.84,
+      "speech_text": "911은 와서 환자를 소생수 키울 수 있는 모든 조치를 해야 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 151.7,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0022_01_0151.700.jpg",
+          "caption_score": 0.045323,
+          "caption_visible": true
+        },
+        {
+          "time": 154.0,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0022_02_0154.000.jpg",
+          "caption_score": 0.045467,
+          "caption_visible": true
+        },
+        {
+          "time": 156.24,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0022_03_0156.240.jpg",
+          "caption_score": 0.036852,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "start": 157.08,
+      "end": 161.36,
+      "duration": 4.28,
+      "speech_text": "병원으로 모시고 갈 수도 있고 그 자리에서 사망 선언을 할 수도 있습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 157.2,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0023_01_0157.200.jpg",
+          "caption_score": 0.047852,
+          "caption_visible": true
+        },
+        {
+          "time": 159.22,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0023_02_0159.220.jpg",
+          "caption_score": 0.047841,
+          "caption_visible": true
+        },
+        {
+          "time": 161.18,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0023_03_0161.180.jpg",
+          "caption_score": 0.048016,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "start": 162.28,
+      "end": 167.54,
+      "duration": 5.26,
+      "speech_text": "양로병원에서 911을 전화를 하면 파라메디 구급대원이 오는데",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 162.4,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0024_01_0162.400.jpg",
+          "caption_score": 0.051809,
+          "caption_visible": true
+        },
+        {
+          "time": 164.91,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0024_02_0164.910.jpg",
+          "caption_score": 0.051881,
+          "caption_visible": true
+        },
+        {
+          "time": 167.36,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0024_03_0167.360.jpg",
+          "caption_score": 0.051768,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "start": 167.54,
+      "end": 172.0,
+      "duration": 4.46,
+      "speech_text": "어떤 때는 파일리팔만 폴리스까지 갖춘 경우가 있습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 167.66,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0025_01_0167.660.jpg",
+          "caption_score": 0.051768,
+          "caption_visible": true
+        },
+        {
+          "time": 169.77,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0025_02_0169.770.jpg",
+          "caption_score": 0.036575,
+          "caption_visible": true
+        },
+        {
+          "time": 171.82,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0025_03_0171.820.jpg",
+          "caption_score": 0.036575,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "start": 172.58,
+      "end": 178.22,
+      "duration": 5.64,
+      "speech_text": "한국말로 하면 구급차, 소방차, 경찰차가 같이 올 때가 있습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 172.7,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0026_01_0172.700.jpg",
+          "caption_score": 0.046042,
+          "caption_visible": true
+        },
+        {
+          "time": 175.4,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0026_02_0175.400.jpg",
+          "caption_score": 0.046042,
+          "caption_visible": true
+        },
+        {
+          "time": 178.04,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0026_03_0178.040.jpg",
+          "caption_score": 0.044788,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "start": 179.0,
+      "end": 185.2,
+      "duration": 6.2,
+      "speech_text": "이 세 곳에서 응급조료를 담당하기 때문에 누구라도 제일 먼저 올 수 있는 곳에서 나오며",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 179.12,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0027_01_0179.120.jpg",
+          "caption_score": 0.048818,
+          "caption_visible": true
+        },
+        {
+          "time": 182.1,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0027_02_0182.100.jpg",
+          "caption_score": 0.048808,
+          "caption_visible": true
+        },
+        {
+          "time": 185.02,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0027_03_0185.020.jpg",
+          "caption_score": 0.03418,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "start": 185.2,
+      "end": 189.96,
+      "duration": 4.76,
+      "speech_text": "나머지는 차례로 도착하거나 상황에 맞춰 오지 않기도 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 185.32,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0028_01_0185.320.jpg",
+          "caption_score": 0.046844,
+          "caption_visible": true
+        },
+        {
+          "time": 187.58,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0028_02_0187.580.jpg",
+          "caption_score": 0.047029,
+          "caption_visible": true
+        },
+        {
+          "time": 189.78,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0028_03_0189.780.jpg",
+          "caption_score": 0.037469,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "start": 189.96,
+      "end": 194.92,
+      "duration": 4.96,
+      "speech_text": "경우에 따라 폴리스가 와서 사망에 의심스러운 점은 없었는지",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 190.08,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0029_01_0190.080.jpg",
+          "caption_score": 0.050154,
+          "caption_visible": true
+        },
+        {
+          "time": 192.44,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0029_02_0192.440.jpg",
+          "caption_score": 0.050154,
+          "caption_visible": true
+        },
+        {
+          "time": 194.74,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0029_03_0194.740.jpg",
+          "caption_score": 0.033717,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "start": 194.92,
+      "end": 199.1,
+      "duration": 4.18,
+      "speech_text": "조사를 한 후에 조사가 맞히면 장의사를 불러 수 있습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 195.04,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0030_01_0195.040.jpg",
+          "caption_score": 0.051789,
+          "caption_visible": true
+        },
+        {
+          "time": 197.01,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0030_02_0197.010.jpg",
+          "caption_score": 0.051809,
+          "caption_visible": true
+        },
+        {
+          "time": 198.92,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0030_03_0198.920.jpg",
+          "caption_score": 0.036092,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "start": 200.51,
+      "end": 205.39,
+      "duration": 4.88,
+      "speech_text": "그런데 경찰이 이 사망에 대해서 의심점을 가지게 되면",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 200.63,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0031_01_0200.630.jpg",
+          "caption_score": 0.053002,
+          "caption_visible": true
+        },
+        {
+          "time": 202.95,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0031_02_0202.950.jpg",
+          "caption_score": 0.053289,
+          "caption_visible": true
+        },
+        {
+          "time": 205.21,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0031_03_0205.210.jpg",
+          "caption_score": 0.03785,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "start": 205.39,
+      "end": 209.35,
+      "duration": 3.96,
+      "speech_text": "더 조사를 하게 되고 카운이 코로나에 연락을 하게 됩니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 205.51,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0032_01_0205.510.jpg",
+          "caption_score": 0.053783,
+          "caption_visible": true
+        },
+        {
+          "time": 207.37,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0032_02_0207.370.jpg",
+          "caption_score": 0.053711,
+          "caption_visible": true
+        },
+        {
+          "time": 209.17,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0032_03_0209.170.jpg",
+          "caption_score": 0.04595,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "start": 209.95,
+      "end": 212.59,
+      "duration": 2.64,
+      "speech_text": "카운이 코로나는 검시관이라고 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 210.07,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0033_01_0210.070.jpg",
+          "caption_score": 0.046114,
+          "caption_visible": true
+        },
+        {
+          "time": 211.27,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0033_02_0211.270.jpg",
+          "caption_score": 0.046176,
+          "caption_visible": true
+        },
+        {
+          "time": 212.41,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0033_03_0212.410.jpg",
+          "caption_score": 0.023499,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "start": 213.29,
+      "end": 219.53,
+      "duration": 6.24,
+      "speech_text": "이 검시관이 나와서 고인을 부검하는 장소로 모시고 갈지 말지를 결정하게 됩니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 213.41,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0034_01_0213.410.jpg",
+          "caption_score": 0.103454,
+          "caption_visible": true
+        },
+        {
+          "time": 216.41,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0034_02_0216.410.jpg",
+          "caption_score": 0.104975,
+          "caption_visible": true
+        },
+        {
+          "time": 219.35,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0034_03_0219.350.jpg",
+          "caption_score": 0.038312,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "start": 219.53,
+      "end": 226.47,
+      "duration": 6.94,
+      "speech_text": "만약에 검치소로 모시고 간 경우에는 검치소에서 다시 한 번 부검 여부를 결정하게 됩니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 219.65,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0035_01_0219.650.jpg",
+          "caption_score": 0.115183,
+          "caption_visible": true
+        },
+        {
+          "time": 223.0,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0035_02_0223.000.jpg",
+          "caption_score": 0.117013,
+          "caption_visible": true
+        },
+        {
+          "time": 226.29,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0035_03_0226.290.jpg",
+          "caption_score": 0.019315,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 36,
+      "start": 227.98,
+      "end": 232.32,
+      "duration": 4.34,
+      "speech_text": "그럼 마지막으로 집이나 양념 호텔에서 사망하시게 된 경우입니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 228.1,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0036_01_0228.100.jpg",
+          "caption_score": 0.054759,
+          "caption_visible": true
+        },
+        {
+          "time": 230.15,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0036_02_0230.150.jpg",
+          "caption_score": 0.054348,
+          "caption_visible": true
+        },
+        {
+          "time": 232.14,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0036_03_0232.140.jpg",
+          "caption_score": 0.054307,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 37,
+      "start": 232.9,
+      "end": 240.6,
+      "duration": 7.7,
+      "speech_text": "호스피스가 아닌 상태에서 사망하시게 되면 일반 가정집과 양념 호텔에 계셨던 분은 911을 불러야 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 233.02,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0037_01_0233.020.jpg",
+          "caption_score": 0.054338,
+          "caption_visible": true
+        },
+        {
+          "time": 236.75,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0037_02_0236.750.jpg",
+          "caption_score": 0.033481,
+          "caption_visible": true
+        },
+        {
+          "time": 240.42,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0037_03_0240.420.jpg",
+          "caption_score": 0.037582,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 38,
+      "start": 241.32,
+      "end": 249.14,
+      "duration": 7.82,
+      "speech_text": "911에 전화를 하면 아까 말씀드린 것처럼 파라메디, 파이어디팔만 혹은 폴리스 중에 한 팀이 먼저 나오는데",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 241.44,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0038_01_0241.440.jpg",
+          "caption_score": 0.045487,
+          "caption_visible": true
+        },
+        {
+          "time": 245.23,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0038_02_0245.230.jpg",
+          "caption_score": 0.04413,
+          "caption_visible": true
+        },
+        {
+          "time": 248.96,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0038_03_0248.960.jpg",
+          "caption_score": 0.043956,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "start": 249.14,
+      "end": 253.02,
+      "duration": 3.88,
+      "speech_text": "일반적으로는 파라메딕 응급 의료진이 나옵니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 249.26,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0039_01_0249.260.jpg",
+          "caption_score": 0.049938,
+          "caption_visible": true
+        },
+        {
+          "time": 251.08,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0039_02_0251.080.jpg",
+          "caption_score": 0.03162,
+          "caption_visible": true
+        },
+        {
+          "time": 252.84,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0039_03_0252.840.jpg",
+          "caption_score": 0.049949,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "start": 253.42,
+      "end": 258.08,
+      "duration": 4.66,
+      "speech_text": "대부분 양념 병원은 폴스프를 가지고 있지만 사전지시설을 가지고 있지만",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 253.54,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0040_01_0253.540.jpg",
+          "caption_score": 0.047194,
+          "caption_visible": true
+        },
+        {
+          "time": 255.75,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0040_02_0255.750.jpg",
+          "caption_score": 0.047183,
+          "caption_visible": true
+        },
+        {
+          "time": 257.9,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0040_03_0257.900.jpg",
+          "caption_score": 0.03787,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 41,
+      "start": 258.08,
+      "end": 262.38,
+      "duration": 4.3,
+      "speech_text": "가정집이나 양념 호텔은 가지고 계신 분도 등을고",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 258.2,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0041_01_0258.200.jpg",
+          "caption_score": 0.046474,
+          "caption_visible": true
+        },
+        {
+          "time": 260.23,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0041_02_0260.230.jpg",
+          "caption_score": 0.046741,
+          "caption_visible": true
+        },
+        {
+          "time": 262.2,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0041_03_0262.200.jpg",
+          "caption_score": 0.034272,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "start": 262.38,
+      "end": 269.38,
+      "duration": 7.0,
+      "speech_text": "돌아가시더라도 공식적인 사망 선언을 해줄 수 있는 사람이 없기 때문에 911을 불러야 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 262.5,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0042_01_0262.500.jpg",
+          "caption_score": 0.045785,
+          "caption_visible": true
+        },
+        {
+          "time": 265.88,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0042_02_0265.880.jpg",
+          "caption_score": 0.045796,
+          "caption_visible": true
+        },
+        {
+          "time": 269.2,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0042_03_0269.200.jpg",
+          "caption_score": 0.043904,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "start": 270.08,
+      "end": 274.6,
+      "duration": 4.52,
+      "speech_text": "그래서 911은 와서 DNA이 있는지 없는지 확인하고",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 270.2,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0043_01_0270.200.jpg",
+          "caption_score": 0.047225,
+          "caption_visible": true
+        },
+        {
+          "time": 272.34,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0043_02_0272.340.jpg",
+          "caption_score": 0.047183,
+          "caption_visible": true
+        },
+        {
+          "time": 274.42,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0043_03_0274.420.jpg",
+          "caption_score": 0.046197,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "start": 274.6,
+      "end": 281.58,
+      "duration": 6.98,
+      "speech_text": "없으면 가능한 실패소생품을 시행하고 생명연장을 위한 모든 조치를 취해야 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 274.72,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0044_01_0274.720.jpg",
+          "caption_score": 0.048766,
+          "caption_visible": true
+        },
+        {
+          "time": 278.09,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0044_02_0278.090.jpg",
+          "caption_score": 0.048859,
+          "caption_visible": true
+        },
+        {
+          "time": 281.4,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0044_03_0281.400.jpg",
+          "caption_score": 0.048859,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "start": 281.9,
+      "end": 290.68,
+      "duration": 8.78,
+      "speech_text": "그럼에도 불구하고 돌아가시게 되면 사망 선언을 하고 폴리스가 이 죽음이 자연사인지 의심적인 사망인지 조사하게 됩니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 282.02,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0045_01_0282.020.jpg",
+          "caption_score": 0.0559,
+          "caption_visible": true
+        },
+        {
+          "time": 286.29,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0045_02_0286.290.jpg",
+          "caption_score": 0.056014,
+          "caption_visible": true
+        },
+        {
+          "time": 290.5,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0045_03_0290.500.jpg",
+          "caption_score": 0.033316,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 46,
+      "start": 291.58,
+      "end": 299.88,
+      "duration": 8.3,
+      "speech_text": "양념 병원과 마찬가지로 가장 안 좋은 경우는 폴리스가 카운이 코로나를 불러서 부검을 해야 하는 경우까지 생겼을 때입니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 291.7,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0046_01_0291.700.jpg",
+          "caption_score": 0.048489,
+          "caption_visible": true
+        },
+        {
+          "time": 295.73,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0046_02_0295.730.jpg",
+          "caption_score": 0.048438,
+          "caption_visible": true
+        },
+        {
+          "time": 299.7,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0046_03_0299.700.jpg",
+          "caption_score": 0.032494,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 47,
+      "start": 299.88,
+      "end": 305.68,
+      "duration": 5.8,
+      "speech_text": "일단 가족은 이미 갑작스러운 죽음으로 인해 충격으로 정신이 없고",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 300.0,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0047_01_0300.000.jpg",
+          "caption_score": 0.047954,
+          "caption_visible": true
+        },
+        {
+          "time": 302.78,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0047_02_0302.780.jpg",
+          "caption_score": 0.047954,
+          "caption_visible": true
+        },
+        {
+          "time": 305.5,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0047_03_0305.500.jpg",
+          "caption_score": 0.035043,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 48,
+      "start": 305.68,
+      "end": 311.62,
+      "duration": 5.94,
+      "speech_text": "조사가 끝날 때까지 경찰이 고인을 만지거나 옮기지 못하게 하기 때문에",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 305.8,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0048_01_0305.800.jpg",
+          "caption_score": 0.046556,
+          "caption_visible": true
+        },
+        {
+          "time": 308.65,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0048_02_0308.650.jpg",
+          "caption_score": 0.046464,
+          "caption_visible": true
+        },
+        {
+          "time": 311.44,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0048_03_0311.440.jpg",
+          "caption_score": 0.033028,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 49,
+      "start": 311.62,
+      "end": 315.98,
+      "duration": 4.36,
+      "speech_text": "이 가족은 한 번 더 정신적으로 힘든 상황을 겪게 됩니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 311.74,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0049_01_0311.740.jpg",
+          "caption_score": 0.046669,
+          "caption_visible": true
+        },
+        {
+          "time": 313.8,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0049_02_0313.800.jpg",
+          "caption_score": 0.046669,
+          "caption_visible": true
+        },
+        {
+          "time": 315.8,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0049_03_0315.800.jpg",
+          "caption_score": 0.03749,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "start": 316.78,
+      "end": 325.92,
+      "duration": 9.14,
+      "speech_text": "그래서 특히 집에 계시는 분들은 사망 후 겪어야 할 복잡한 과정을 거치지 않기 위해 호스피스를 추천하기도 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 316.9,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0050_01_0316.900.jpg",
+          "caption_score": 0.05219,
+          "caption_visible": true
+        },
+        {
+          "time": 321.35,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0050_02_0321.350.jpg",
+          "caption_score": 0.052385,
+          "caption_visible": true
+        },
+        {
+          "time": 325.74,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0050_03_0325.740.jpg",
+          "caption_score": 0.112706,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 51,
+      "start": 325.92,
+      "end": 335.56,
+      "duration": 9.64,
+      "speech_text": "호스피스를 하지 않는 환자분이 사망하신 경우는 대체적으로 주치의사가 사망된 단서 작성에 필요한 절차들을 도와주게 됩니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 326.04,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0051_01_0326.040.jpg",
+          "caption_score": 0.110125,
+          "caption_visible": true
+        },
+        {
+          "time": 330.74,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0051_02_0330.740.jpg",
+          "caption_score": 0.110444,
+          "caption_visible": true
+        },
+        {
+          "time": 335.38,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0051_03_0335.380.jpg",
+          "caption_score": 0.05038,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 52,
+      "start": 336.3,
+      "end": 340.2,
+      "duration": 3.9,
+      "speech_text": "그럼 이번에는 잠깐 장의사에 대해서 더 말씀드리고 싶습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 336.42,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0052_01_0336.420.jpg",
+          "caption_score": 0.07575,
+          "caption_visible": true
+        },
+        {
+          "time": 338.25,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0052_02_0338.250.jpg",
+          "caption_score": 0.075935,
+          "caption_visible": true
+        },
+        {
+          "time": 340.02,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0052_03_0340.020.jpg",
+          "caption_score": 0.075946,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 53,
+      "start": 341.1,
+      "end": 345.84,
+      "duration": 4.74,
+      "speech_text": "저희 회사는 LA와 오렌지 카운이의 주로 환자분이 계십니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 341.22,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0053_01_0341.220.jpg",
+          "caption_score": 0.108234,
+          "caption_visible": true
+        },
+        {
+          "time": 343.47,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0053_02_0343.470.jpg",
+          "caption_score": 0.107134,
+          "caption_visible": true
+        },
+        {
+          "time": 345.66,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0053_03_0345.660.jpg",
+          "caption_score": 0.060167,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 54,
+      "start": 346.46,
+      "end": 351.74,
+      "duration": 5.28,
+      "speech_text": "그래서 이곳 LA와 이 금방에 계신 분들은 한국 장의 업체를 많이 사용하십니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 346.58,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0054_01_0346.580.jpg",
+          "caption_score": 0.094171,
+          "caption_visible": true
+        },
+        {
+          "time": 349.1,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0054_02_0349.100.jpg",
+          "caption_score": 0.038281,
+          "caption_visible": true
+        },
+        {
+          "time": 351.56,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0054_03_0351.560.jpg",
+          "caption_score": 0.023458,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 55,
+      "start": 351.74,
+      "end": 357.92,
+      "duration": 6.18,
+      "speech_text": "환자분이 돌아가시면 장의 업체에서 모시고 가는데 그리고 후에 장의 예식을 하게 됩니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 351.86,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0055_01_0351.860.jpg",
+          "caption_score": 0.023407,
+          "caption_visible": true
+        },
+        {
+          "time": 354.83,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0055_02_0354.830.jpg",
+          "caption_score": 0.040368,
+          "caption_visible": true
+        },
+        {
+          "time": 357.74,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0055_03_0357.740.jpg",
+          "caption_score": 0.022286,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 56,
+      "start": 358.42,
+      "end": 365.92,
+      "duration": 7.5,
+      "speech_text": "장의사에서는 손님을 초대하여 장의 예식을 모두 마친 후 장지나 화장하는 곳으로 옮기게 됩니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 358.54,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0056_01_0358.540.jpg",
+          "caption_score": 0.042167,
+          "caption_visible": true
+        },
+        {
+          "time": 362.17,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0056_02_0362.170.jpg",
+          "caption_score": 0.042342,
+          "caption_visible": true
+        },
+        {
+          "time": 365.74,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0056_03_0365.740.jpg",
+          "caption_score": 0.042208,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 57,
+      "start": 366.6,
+      "end": 373.0,
+      "duration": 6.4,
+      "speech_text": "일반적으로 한국인이 운영하는 장의사 업체는 일단 말이 편하고 문화가 같기 때문에",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 366.72,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0057_01_0366.720.jpg",
+          "caption_score": 0.036832,
+          "caption_visible": true
+        },
+        {
+          "time": 369.8,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0057_02_0369.800.jpg",
+          "caption_score": 0.037973,
+          "caption_visible": true
+        },
+        {
+          "time": 372.82,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0057_03_0372.820.jpg",
+          "caption_score": 0.037983,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 58,
+      "start": 373.0,
+      "end": 379.2,
+      "duration": 6.2,
+      "speech_text": "알아서 한국식으로 모든 일을 처리해주기 때문에 한국 분들은 한국 장의 업체를 선호합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 373.12,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0058_01_0373.120.jpg",
+          "caption_score": 0.045045,
+          "caption_visible": true
+        },
+        {
+          "time": 376.1,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0058_02_0376.100.jpg",
+          "caption_score": 0.044984,
+          "caption_visible": true
+        },
+        {
+          "time": 379.02,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0058_03_0379.020.jpg",
+          "caption_score": 0.025041,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 59,
+      "start": 379.2,
+      "end": 384.2,
+      "duration": 5.0,
+      "speech_text": "미국 장의사는 가격이 싼 곳도 있고 비싼 곳도 있습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 379.32,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0059_01_0379.320.jpg",
+          "caption_score": 0.040358,
+          "caption_visible": true
+        },
+        {
+          "time": 381.7,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0059_02_0381.700.jpg",
+          "caption_score": 0.040347,
+          "caption_visible": true
+        },
+        {
+          "time": 384.02,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0059_03_0384.020.jpg",
+          "caption_score": 0.040347,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 60,
+      "start": 384.58,
+      "end": 392.12,
+      "duration": 7.54,
+      "speech_text": "알아서 해준다기보다는 선택 사항이 많고 아무래도 다른 문화로 인해 불편함을 느끼시는 경우가 많아서",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 384.7,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0060_01_0384.700.jpg",
+          "caption_score": 0.040234,
+          "caption_visible": true
+        },
+        {
+          "time": 388.35,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0060_02_0388.350.jpg",
+          "caption_score": 0.040666,
+          "caption_visible": true
+        },
+        {
+          "time": 391.94,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0060_03_0391.940.jpg",
+          "caption_score": 0.040656,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 61,
+      "start": 392.12,
+      "end": 399.26,
+      "duration": 7.14,
+      "speech_text": "한국 분들은 가격이 좀 비싸도 말이 통하고 문화가 통하는 한국 업체를 선호하시는 경향이 있습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 392.24,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0061_01_0392.240.jpg",
+          "caption_score": 0.037171,
+          "caption_visible": true
+        },
+        {
+          "time": 395.69,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0061_02_0395.690.jpg",
+          "caption_score": 0.037109,
+          "caption_visible": true
+        },
+        {
+          "time": 399.08,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0061_03_0399.080.jpg",
+          "caption_score": 0.037109,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "start": 401.29,
+      "end": 407.31,
+      "duration": 6.02,
+      "speech_text": "외국 장의사 중에 장지, 즉 묘지가 있는 곳에서 장리의 서비스를 해주는 회사가 있습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 401.41,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0062_01_0401.410.jpg",
+          "caption_score": 0.039967,
+          "caption_visible": true
+        },
+        {
+          "time": 404.3,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0062_02_0404.300.jpg",
+          "caption_score": 0.041375,
+          "caption_visible": true
+        },
+        {
+          "time": 407.13,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0062_03_0407.130.jpg",
+          "caption_score": 0.041375,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "start": 407.31,
+      "end": 416.81,
+      "duration": 9.5,
+      "speech_text": "그래서 돌아가시게 되면 장리의 서비스를 하고 바로 이동 없이 묘지로 모실 수 있기 때문에 가격이 좀 비싼 편입니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 407.43,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0063_01_0407.430.jpg",
+          "caption_score": 0.027436,
+          "caption_visible": true
+        },
+        {
+          "time": 412.06,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0063_02_0412.060.jpg",
+          "caption_score": 0.041375,
+          "caption_visible": true
+        },
+        {
+          "time": 416.63,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0063_03_0416.630.jpg",
+          "caption_score": 0.041375,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 64,
+      "start": 417.16,
+      "end": 426.0,
+      "duration": 8.84,
+      "speech_text": "장리의 비용은 장의사에 따라 많이 다르고 미리 정해 놓을수록 가격이나 서비스 등등을 비교해서 선택할 수 있기 때문에",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 417.28,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0064_01_0417.280.jpg",
+          "caption_score": 0.04044,
+          "caption_visible": true
+        },
+        {
+          "time": 421.58,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0064_02_0421.580.jpg",
+          "caption_score": 0.03933,
+          "caption_visible": true
+        },
+        {
+          "time": 425.82,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0064_03_0425.820.jpg",
+          "caption_score": 0.03933,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 65,
+      "start": 426.0,
+      "end": 428.56,
+      "duration": 2.56,
+      "speech_text": "가능한 미리 준비하시는 것이 좋습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 426.12,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0065_01_0426.120.jpg",
+          "caption_score": 0.035742,
+          "caption_visible": true
+        },
+        {
+          "time": 427.28,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0065_02_0427.280.jpg",
+          "caption_score": 0.036832,
+          "caption_visible": true
+        },
+        {
+          "time": 428.38,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0065_03_0428.380.jpg",
+          "caption_score": 0.036832,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 66,
+      "start": 429.22,
+      "end": 432.3,
+      "duration": 3.08,
+      "speech_text": "그리고 화장을 하는 경우는 또 다른 경우입니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 429.34,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0066_01_0429.340.jpg",
+          "caption_score": 0.042177,
+          "caption_visible": true
+        },
+        {
+          "time": 430.76,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0066_02_0430.760.jpg",
+          "caption_score": 0.042136,
+          "caption_visible": true
+        },
+        {
+          "time": 432.12,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0066_03_0432.120.jpg",
+          "caption_score": 0.042136,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 67,
+      "start": 432.34,
+      "end": 438.3,
+      "duration": 5.96,
+      "speech_text": "이것도 한국인이 운영하는 화장업체와 외국 사람이 운영하는 화장업체가 있습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 432.46,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0067_01_0432.460.jpg",
+          "caption_score": 0.042136,
+          "caption_visible": true
+        },
+        {
+          "time": 435.32,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0067_02_0435.320.jpg",
+          "caption_score": 0.043472,
+          "caption_visible": true
+        },
+        {
+          "time": 438.12,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0067_03_0438.120.jpg",
+          "caption_score": 0.023006,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 68,
+      "start": 439.24,
+      "end": 441.4,
+      "duration": 2.16,
+      "speech_text": "그런데 가격 차이가 좀 있습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 439.36,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0068_01_0439.360.jpg",
+          "caption_score": 0.04118,
+          "caption_visible": true
+        },
+        {
+          "time": 440.32,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0068_02_0440.320.jpg",
+          "caption_score": 0.041303,
+          "caption_visible": true
+        },
+        {
+          "time": 441.22,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0068_03_0441.220.jpg",
+          "caption_score": 0.023684,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 69,
+      "start": 443.13,
+      "end": 451.29,
+      "duration": 8.16,
+      "speech_text": "한 가지 말씀드리고 싶은 점은 경제적으로 힘드신 분, 아니면 가격과 상관없이 사람을 많이 초대하고 싶지 않고",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 443.25,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0069_01_0443.250.jpg",
+          "caption_score": 0.041345,
+          "caption_visible": true
+        },
+        {
+          "time": 447.21,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0069_02_0447.210.jpg",
+          "caption_score": 0.041334,
+          "caption_visible": true
+        },
+        {
+          "time": 451.11,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0069_03_0451.110.jpg",
+          "caption_score": 0.022708,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 70,
+      "start": 451.29,
+      "end": 459.73,
+      "duration": 8.44,
+      "speech_text": "아는 분끼리 검사하고 간단하게 젓가로 화장을 하시기를 원하시는 분들은 외국 컴페니를 주로 사용하기도 합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 451.41,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0070_01_0451.410.jpg",
+          "caption_score": 0.035701,
+          "caption_visible": true
+        },
+        {
+          "time": 455.51,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0070_02_0455.510.jpg",
+          "caption_score": 0.036832,
+          "caption_visible": true
+        },
+        {
+          "time": 459.55,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0070_03_0459.550.jpg",
+          "caption_score": 0.03677,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 71,
+      "start": 460.51,
+      "end": 464.7,
+      "duration": 4.19,
+      "speech_text": "지금까지 임종우의 일반적인 절차를 말씀드렸습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 460.63,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0071_01_0460.630.jpg",
+          "caption_score": 0.043421,
+          "caption_visible": true
+        },
+        {
+          "time": 462.605,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0071_02_0462.605.jpg",
+          "caption_score": 0.115892,
+          "caption_visible": true
+        },
+        {
+          "time": 464.52,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0071_03_0464.520.jpg",
+          "caption_score": 0.116735,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 72,
+      "start": 464.96,
+      "end": 470.44,
+      "duration": 5.48,
+      "speech_text": "영상을 마치기 전 잠깐 죽음에 대한 태도에 관해 말씀드리고 싶습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 465.08,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0072_01_0465.080.jpg",
+          "caption_score": 0.100226,
+          "caption_visible": true
+        },
+        {
+          "time": 467.7,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0072_02_0467.700.jpg",
+          "caption_score": 0.10074,
+          "caption_visible": true
+        },
+        {
+          "time": 470.26,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0072_03_0470.260.jpg",
+          "caption_score": 0.041653,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 73,
+      "start": 471.3,
+      "end": 480.42,
+      "duration": 9.12,
+      "speech_text": "한국의 문화는 죽으면 다 끝이라는 생각 때문에 죽음에 대해 말하는 것을 아주 꺼려하고 죄료짓는 것이라고 생각하는 경우가 많습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 471.42,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0073_01_0471.420.jpg",
+          "caption_score": 0.044747,
+          "caption_visible": true
+        },
+        {
+          "time": 475.86,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0073_02_0475.860.jpg",
+          "caption_score": 0.044891,
+          "caption_visible": true
+        },
+        {
+          "time": 480.24,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0073_03_0480.240.jpg",
+          "caption_score": 0.025463,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 74,
+      "start": 481.22,
+      "end": 488.52,
+      "duration": 7.3,
+      "speech_text": "반면에 서구적인 문화는 죽음을 또 다른 자연스러운 인생의 여정이라고 생각하는 것 같습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 481.34,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0074_01_0481.340.jpg",
+          "caption_score": 0.043349,
+          "caption_visible": true
+        },
+        {
+          "time": 484.87,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0074_02_0484.870.jpg",
+          "caption_score": 0.043431,
+          "caption_visible": true
+        },
+        {
+          "time": 488.34,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0074_03_0488.340.jpg",
+          "caption_score": 0.043657,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 75,
+      "start": 488.52,
+      "end": 491.86,
+      "duration": 3.34,
+      "speech_text": "저는 정말로 많은 죽음을 보았습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 488.64,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0075_01_0488.640.jpg",
+          "caption_score": 0.030191,
+          "caption_visible": true
+        },
+        {
+          "time": 490.19,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0075_02_0490.190.jpg",
+          "caption_score": 0.030181,
+          "caption_visible": true
+        },
+        {
+          "time": 491.68,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0075_03_0491.680.jpg",
+          "caption_score": 0.030191,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 76,
+      "start": 493.33,
+      "end": 497.37,
+      "duration": 4.04,
+      "speech_text": "잘 죽었다는 것은 잘 살았다는 것의 마침표인 것 같습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 493.45,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0076_01_0493.450.jpg",
+          "caption_score": 0.050175,
+          "caption_visible": true
+        },
+        {
+          "time": 495.35,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0076_02_0495.350.jpg",
+          "caption_score": 0.050267,
+          "caption_visible": true
+        },
+        {
+          "time": 497.19,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0076_03_0497.190.jpg",
+          "caption_score": 0.050257,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 77,
+      "start": 498.15,
+      "end": 500.91,
+      "duration": 2.76,
+      "speech_text": "잘 살았기 때문에 잘 죽을 수 있는 것 같습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 498.27,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0077_01_0498.270.jpg",
+          "caption_score": 0.050247,
+          "caption_visible": true
+        },
+        {
+          "time": 499.53,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0077_02_0499.530.jpg",
+          "caption_score": 0.027642,
+          "caption_visible": true
+        },
+        {
+          "time": 500.73,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0077_03_0500.730.jpg",
+          "caption_score": 0.027704,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 78,
+      "start": 501.95,
+      "end": 504.97,
+      "duration": 3.02,
+      "speech_text": "돌아가시는 분을 볼 때마다 겸선해지게 됩니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 502.07,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0078_01_0502.070.jpg",
+          "caption_score": 0.041447,
+          "caption_visible": true
+        },
+        {
+          "time": 503.46,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0078_02_0503.460.jpg",
+          "caption_score": 0.041488,
+          "caption_visible": true
+        },
+        {
+          "time": 504.79,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0078_03_0504.790.jpg",
+          "caption_score": 0.041488,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 79,
+      "start": 505.79,
+      "end": 507.61,
+      "duration": 1.82,
+      "speech_text": "나에게 주어진 한 번뿐인 인생,",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 505.91,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0079_01_0505.910.jpg",
+          "caption_score": 0.037007,
+          "caption_visible": true
+        },
+        {
+          "time": 506.7,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0079_02_0506.700.jpg",
+          "caption_score": 0.037037,
+          "caption_visible": true
+        },
+        {
+          "time": 507.43,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0079_03_0507.430.jpg",
+          "caption_score": 0.037037,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 80,
+      "start": 508.13,
+      "end": 512.15,
+      "duration": 4.02,
+      "speech_text": "하나님 앞에 갈 때까지 의미있게 살아야겠구나 이렇게 다짐하게 됩니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 508.25,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0080_01_0508.250.jpg",
+          "caption_score": 0.02793,
+          "caption_visible": true
+        },
+        {
+          "time": 510.14,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0080_02_0510.140.jpg",
+          "caption_score": 0.027858,
+          "caption_visible": true
+        },
+        {
+          "time": 511.97,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0080_03_0511.970.jpg",
+          "caption_score": 0.027868,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 81,
+      "start": 514.03,
+      "end": 517.47,
+      "duration": 3.44,
+      "speech_text": "영상을 시청해주신 분들께 많은 도움이 되었으면 좋겠습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 514.15,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0081_01_0514.150.jpg",
+          "caption_score": 0.042362,
+          "caption_visible": true
+        },
+        {
+          "time": 515.75,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0081_02_0515.750.jpg",
+          "caption_score": 0.042424,
+          "caption_visible": true
+        },
+        {
+          "time": 517.29,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0081_03_0517.290.jpg",
+          "caption_score": 0.042424,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 82,
+      "start": 517.47,
+      "end": 521.83,
+      "duration": 4.36,
+      "speech_text": "다음 영상에서는 호스피스 하시면 빨리 돌아가시나요?",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 517.59,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0082_01_0517.590.jpg",
+          "caption_score": 0.042424,
+          "caption_visible": true
+        },
+        {
+          "time": 519.65,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0082_02_0519.650.jpg",
+          "caption_score": 0.027251,
+          "caption_visible": true
+        },
+        {
+          "time": 521.65,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0082_03_0521.650.jpg",
+          "caption_score": 0.027364,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 83,
+      "start": 522.03,
+      "end": 523.73,
+      "duration": 1.7,
+      "speech_text": "이 질문으로 돌아오겠습니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 522.15,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0083_01_0522.150.jpg",
+          "caption_score": 0.040306,
+          "caption_visible": true
+        },
+        {
+          "time": 522.88,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0083_02_0522.880.jpg",
+          "caption_score": 0.040327,
+          "caption_visible": true
+        },
+        {
+          "time": 523.55,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0083_03_0523.550.jpg",
+          "caption_score": 0.040327,
+          "caption_visible": true
+        }
+      ]
+    },
+    {
+      "index": 84,
+      "start": 524.07,
+      "end": 525.43,
+      "duration": 1.36,
+      "speech_text": "시청해주셔서 감사합니다.",
+      "caption_timing_coverage": 1.0,
+      "timing_gaps": [],
+      "samples": [
+        {
+          "time": 524.19,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0084_01_0524.190.jpg",
+          "caption_score": 0.040327,
+          "caption_visible": true
+        },
+        {
+          "time": 524.75,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0084_02_0524.750.jpg",
+          "caption_score": 0.02683,
+          "caption_visible": true
+        },
+        {
+          "time": 525.25,
+          "frame": "audit\\seek_caption_qa\\frames\\after-death-non-hospice-polst-korean-english-subtitles\\0084_03_0525.250.jpg",
+          "caption_score": 0.026809,
+          "caption_visible": true
+        }
+      ]
+    }
+  ]
+}
