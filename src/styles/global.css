@@ -111,14 +111,18 @@
   --font-mono:    ui-monospace, 'SFMono-Regular', monospace;
 
   /* Typography — senior-readable scale.
-     16px floor for any text that carries meaning; 14px is the absolute
-     minimum, reserved for legal/metadata. Generates text-* utilities. */
+     17px floor for most supporting copy; 16px is reserved for labels,
+     legal text, and compact navigation. Generates text-* utilities. */
+  --text-sm:        1rem;
+  --text-sm--line-height: 1.55;
+  --text-base:      1.0625rem;
+  --text-base--line-height: 1.65;
   --text-body:      1.125rem;   /* 18px — default body            */
   --text-body--line-height: 1.7;
-  --text-body-sm:   1rem;       /* 16px — readable secondary copy */
+  --text-body-sm:   1.0625rem;  /* 17px — readable secondary copy */
   --text-body-sm--line-height: 1.65;
-  --text-caption:   0.875rem;   /* 14px — legal / metadata only   */
-  --text-caption--line-height: 1.5;
+  --text-caption:   1rem;       /* 16px — labels / legal metadata */
+  --text-caption--line-height: 1.55;
   --text-display-lg: clamp(2.5rem, 5vw, 3.75rem);
   --text-display-lg--line-height: 1.05;
   --text-display-xl: clamp(3rem, 6.5vw, 4.5rem);
@@ -193,7 +197,7 @@ h1, h2, h3, h4 {
   background: var(--color-surface-ink);
   color: var(--color-tint-ivory);
   font-family: var(--font-body);
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 600;
   border-radius: var(--radius-btn);
   text-decoration: none;
@@ -228,9 +232,9 @@ h1, h2, h3, h4 {
 
 .eyebrow {
   font-family: var(--font-body);
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 600;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--color-ink-500);
 }
@@ -255,8 +259,8 @@ h1, h2, h3, h4 {
 
 .marginalia {
   font-family: var(--font-prose);
-  font-size: 0.9375rem;
-  line-height: 1.5;
+  font-size: 1.0625rem;
+  line-height: 1.55;
   letter-spacing: 0.005em;
   color: var(--color-ink-500);
 }
@@ -284,7 +288,7 @@ h1, h2, h3, h4 {
   border-left: 2px solid var(--color-accent-gold-400);
   padding-left: 1rem;
   font-family: var(--font-prose);
-  font-size: 0.9375rem;
+  font-size: 1.0625rem;
   color: var(--color-ink-700);
 }
 
