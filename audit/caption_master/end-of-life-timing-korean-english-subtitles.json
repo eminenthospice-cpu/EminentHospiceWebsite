@@ -1,9 +1,8 @@
 {
   "video": "public/videos/end-of-life-timing-korean-english-subtitles.mp4",
-  "source_transcript": "audit\\video_caption_remediation\\end-of-life-timing-korean-english-subtitles.en.machine_translation.json",
-  "korean_transcript": "audit\\video_caption_remediation\\end-of-life-timing-korean-english-subtitles.ko.transcript.json",
+  "source_transcript": "audit\\video_captions\\transcripts\\end-of-life-timing-korean-english-subtitles.json",
   "language": "en",
-  "source": "fresh local Korean ASR translate pass grouped into phrase-level captions",
+  "source": "machine translation grouped into phrase-level draft captions",
   "review_required": true,
   "style": {
     "max_lines": 2,
@@ -14,850 +13,920 @@
   "entries": [
     {
       "start": 10.19,
-      "end": 13.95,
+      "end": 13.67,
       "text": "This is a nurse practitioner, Kim Jeong Ah, from Eminent Hospice.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 14.51,
-      "end": 20.03,
+      "start": 14.05,
+      "end": 19.43,
       "text": "What I'm going to talk about is that I'm talking about experience as a hospice nurse.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 20.75,
-      "end": 26.97,
+      "start": 19.99,
+      "end": 25.27,
       "text": "This is a general thing, except that it's all-co-true, medical.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 27.43,
-      "end": 32.87,
+      "start": 26.99,
+      "end": 29.45,
       "text": "I hope you can hear that there are many exceptions and various cases.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 33.73,
-      "end": 38.89,
+      "start": 29.45,
+      "end": 31.99,
       "text": "I hope you can hear that there are many exceptions and various cases.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 38.89,
-      "end": 40.77,
-      "text": "Today, I'm going to talk about one of the many questions that hospice nurses ask their families.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 33.07,
+      "end": 39.81,
+      "text": "Today, I'm going to talk about one of the questions many families ask about hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 41.65,
-      "end": 48.586,
+      "start": 42.59,
+      "end": 48.181,
       "text": "It's a very burdensome topic for the general public, but it's one of the",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 48.586,
-      "end": 52.55,
-      "text": "many questions that hospice nurses ask their families.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 48.181,
+      "end": 54.97,
+      "text": "questions that a lot of people ask the nurses who explain hospice when they have a grandchild.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 52.55,
-      "end": 53.744,
-      "text": "When do you think you'll be back?",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 55.97,
+      "end": 57.03,
+      "text": "When do you think you're going to go back?",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 53.744,
-      "end": 55.45,
+      "start": 57.99,
+      "end": 59.63,
       "text": "There are a lot of people who ask like this.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 56.29,
-      "end": 59.37,
-      "text": "First of all, if you ask like this, of course, the condition of the",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 60.65,
+      "end": 65.89,
+      "text": "First of all, if you ask like this, of course, the patient's condition is not good.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 59.37,
-      "end": 60.25,
-      "text": "patient is not good.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 61.11,
-      "end": 66.87,
+      "start": 66.95,
+      "end": 71.87,
       "text": "Most of the people who ask like this are already asked by the doctor.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 67.39,
-      "end": 73.49,
-      "text": "However, the doctor may not have answered the family's questions,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 73.49,
+      "end": 77.145,
+      "text": "But the doctor may not have been able to answer the questions that the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 74.03,
-      "end": 82.194,
-      "text": "or they may not have answered the family's questions, or they may have wanted",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 77.145,
+      "end": 78.45,
+      "text": "family would like to ask,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 82.194,
-      "end": 85.11,
-      "text": "to check the family again.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 79.85,
+      "end": 82.97,
+      "text": "or there are many cases where the family wants to confirm it again.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 86.81,
-      "end": 89.31,
+      "start": 86.15,
+      "end": 91.43,
       "text": "Most of the doctors answer like this.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 89.89,
-      "end": 92.15,
+      "start": 92.29,
+      "end": 95.73,
       "text": "That's right. There are a lot of nurses who answer like that.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 92.59,
-      "end": 98.985,
-      "text": "However, if our nurses explain a little more to the patient, there are a",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 96.81,
+      "end": 103.33,
+      "text": "However, if the nurse explains a little more to the patient according to the situation,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 98.985,
-      "end": 104.01,
-      "text": "lot of cases where the family is satisfied with the answer.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 103.97,
+      "end": 106.21,
+      "text": "there are a lot of cases where the family is satisfied with that answer.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 104.53,
-      "end": 108.01,
+      "start": 107.99,
+      "end": 110.63,
       "text": "So today, I'm going to talk about how I explained it.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 108.51,
-      "end": 112.95,
-      "text": "There are a lot of variables in terms of predictability.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 117.51,
+      "end": 119.99,
+      "text": "There are quite a lot of variables in terms of prediction.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 114.92,
-      "end": 120.42,
-      "text": "There are a lot, but I'm going to talk about a few things.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 120.13,
+      "end": 122.55,
+      "text": "There are many, but I will only tell you a few.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 120.88,
-      "end": 133.46,
-      "text": "For example, the basic physical strength of the patient and the environment around supporting the patient.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 123.55,
+      "end": 130.799,
+      "text": "For example, the patient has a genetic disease, the basic physical strength of the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 134.28,
-      "end": 137.74,
-      "text": "The basic physical strength of the patient is actually decided by physical sleep.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 130.799,
+      "end": 132.87,
+      "text": "patient, the remaining life,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 138.72,
-      "end": 147.8,
-      "text": "And the basic physical strength of the patient.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 134.23,
+      "end": 137.57,
+      "text": "and the environment around the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 149.1,
-      "end": 158.48,
-      "text": "Even if you don't eat the same food, some people live more than 10 days,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 137.93,
+      "end": 145.39,
+      "text": "The genetic disease the patient has is actually a physical sleep.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 158.48,
-      "end": 162.76,
-      "text": "and some people can't stand it even for a day.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 148.43,
+      "end": 153.257,
+      "text": "And the basic physical strength of the patient, even if you don't eat the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 162.76,
-      "end": 166.02,
-      "text": "And the will of life of the patient is important.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 153.257,
+      "end": 157.05,
+      "text": "same food, there are people who live more than 10 days,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 166.64,
-      "end": 170.38,
-      "text": "If you want to live, you have to eat more.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 158.03,
+      "end": 161.87,
+      "text": "and there are people who can't stand it for a day.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 171.1,
-      "end": 177.78,
-      "text": "If you take the spoon in your mouth before you go back,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 162.05,
+      "end": 165.67,
+      "text": "And the remaining life of the patient is important.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 178.46,
-      "end": 180.48,
+      "start": 166.05,
+      "end": 168.89,
+      "text": "If you want to live, you eat more.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 170.93,
+      "end": 174.09,
+      "text": "If you take the spoon in your mouth right before you go back,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 175.11,
+      "end": 177.73,
       "text": "open your mouth and swallow it.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 181.88,
-      "end": 189.46,
-      "text": "There are people who have will of life.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 177.73,
+      "end": 179.37,
+      "text": "There are people who have remaining life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 189.46,
-      "end": 195.42,
-      "text": "And in the case of severe dementia, there are people who swallow it until the end,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 181.87,
+      "end": 187.91,
+      "text": "And there are people who swallow it even if it's a severe dementia.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 196.06,
-      "end": 199.24,
-      "text": "but I'm not sure about that.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 189.65,
+      "end": 194.23,
+      "text": "I don't know about that. But I think it's probably the remaining life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 199.94,
-      "end": 205.68,
-      "text": "But I think it's probably the will of life.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 205.68,
-      "end": 209.94,
+      "start": 195.39,
+      "end": 198.89,
       "text": "And the environment of support is also very important.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 210.76,
-      "end": 216.48,
-      "text": "Some people may not be able to live for a few days But there",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 199.77,
+      "end": 202.57,
+      "text": "Some people may not be able to buy a few days to see a doctor or nurse.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 216.48,
-      "end": 219.34,
-      "text": "are cases where family or patients live.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 205.19,
+      "end": 209.11,
+      "text": "But there are cases where family or patients are killed.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 220.06,
-      "end": 222.641,
-      "text": "The best thing is that patients can't swallow it, but they can eat it",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 210.13,
+      "end": 214.406,
+      "text": "The best thing is that the patient can't swallow it, but the patient or",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 222.641,
-      "end": 224.3,
-      "text": "no matter how the patient or the family lives.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 214.406,
+      "end": 216.85,
+      "text": "the family can eat it in any way.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 225.04,
-      "end": 227.86,
+      "start": 219.41,
+      "end": 221.23,
       "text": "There are a lot of amazing times.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 229.62,
-      "end": 232.9,
+      "start": 222.21,
+      "end": 224.19,
       "text": "There is a know-how for them.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 233.5,
-      "end": 237.96,
+      "start": 224.51,
+      "end": 227.21,
       "text": "I hope I have a chance to tell you later.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 238.56,
-      "end": 242.043,
-      "text": "And now there are cases where you really have to prepare for dementia, but",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 228.95,
+      "end": 232.23,
+      "text": "And now, really, There are some cases where you have to prepare for the vaccination.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 242.043,
-      "end": 244.78,
-      "text": "the patient is in the middle of eating for no reason.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 232.71,
+      "end": 237.43,
+      "text": "The patient is in the middle of eating for some reason.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 245.26,
-      "end": 247.38,
+      "start": 238.35,
+      "end": 239.39,
       "text": "There is a family like this among family members.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 248.02,
-      "end": 250.4,
-      "text": "The patient is worried that he won't eat.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 241.61,
+      "end": 243.49,
+      "text": "The patient is worried that he doesn't eat.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 251.52,
-      "end": 255.02,
-      "text": "So how much does he eat?",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 244.73,
+      "end": 246.17,
+      "text": "So how much do you eat?",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 255.64,
-      "end": 263.94,
-      "text": "If you ask like this, he says he eats three eggs a day.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 246.55,
+      "end": 249.93,
+      "text": "If you ask like this, He eats three eggs a day.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 263.94,
-      "end": 268.24,
-      "text": "That's because he doesn't eat when his family sees him.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 251.37,
+      "end": 253.81,
+      "text": "That's because the family doesn't eat.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 268.32,
-      "end": 273.26,
-      "text": "I don't think he's eating enough to go back.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 255.25,
+      "end": 257.37,
+      "text": "I don't think you eat enough to go back.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 275.01,
-      "end": 279.27,
-      "text": "First of all, there are a lot of young people.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 257.37,
+      "end": 258.63,
+      "text": "I don't think it's the case.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 279.75,
-      "end": 284.97,
-      "text": "Especially if you're lying down or if you're not active, you don't need a lot of energy.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 259.23,
+      "end": 260.63,
+      "text": "First of all, you have a lot of hair.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 285.73,
-      "end": 292.901,
-      "text": "So even if you eat three eggs a day, there are people who live",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 261.55,
+      "end": 264.71,
+      "text": "Especially if you're lying down or if you don't work,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 292.901,
-      "end": 294.95,
-      "text": "for a long time.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 265.59,
+      "end": 267.01,
+      "text": "You don't need a lot of energy.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 295.73,
-      "end": 303.55,
-      "text": "And even if you didn't eat, there are cases where you have constipation.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 268.29,
+      "end": 270.468,
+      "text": "That's why there are people who live for a long time even after eating",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 305.92,
-      "end": 311.38,
-      "text": "In the case of IV Hydration.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 270.468,
+      "end": 271.09,
+      "text": "three eggs a day.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 312.1,
-      "end": 314.96,
-      "text": "It is said to be a hydrating ringel in Korean.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 274.11,
+      "end": 275.77,
+      "text": "And even if you didn't eat,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 316.28,
-      "end": 324.64,
-      "text": "In the case of hydrating or ringel, whether it's a hospital or a nursing hospital,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 276.84,
+      "end": 281.03,
+      "text": "In some cases, it's an IV Hydration.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 324.64,
-      "end": 329.28,
-      "text": "you have to hydrate your body with hydrating or ringel.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 281.57,
+      "end": 284.35,
+      "text": "It's called Suhek Ringel in Korean.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 330.2,
-      "end": 340.56,
-      "text": "Because there is moisture in your body, even if you don't eat anything,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 284.35,
+      "end": 287.53,
+      "text": "In the family of hospitals or nursing hospitals,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 341.54,
-      "end": 345.0,
-      "text": "you have to hydrate your body with hydrating.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 288.99,
+      "end": 293.89,
+      "text": "No matter what method you use, Suhek or Ringel to replenish the moisture of the water.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 345.88,
-      "end": 353.16,
-      "text": "And even if you didn't eat, the variable is IV Hydration.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 295.01,
+      "end": 302.41,
+      "text": "Because there is moisture in the body, Even if you don't eat anything, If you have Suhek,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 353.16,
-      "end": 358.56,
-      "text": "In Korean, it is called hydrating or ringel.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 305.37,
+      "end": 307.13,
+      "text": "And even if you didn't eat,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 358.88,
-      "end": 365.7,
-      "text": "In the case of a hospital or a nursing hospital, no matter what method you use,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 308.35,
+      "end": 315.25,
+      "text": "It's an IV Hydration. It's called Suhek or Ringel in Korean.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 366.32,
-      "end": 373.709,
-      "text": "if you have a ringel, because there is moisture in your body, even if",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 315.47,
+      "end": 318.09,
+      "text": "In the family of hospitals or nursing hospitals,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 373.709,
-      "end": 375.82,
-      "text": "you don't buy anything,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 319.13,
+      "end": 321.87,
+      "text": "No matter what method you use, Those who were hit by Ringel,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 375.82,
-      "end": 387.02,
-      "text": "you can extend your life. Now, in the case of not eating for real,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 322.77,
+      "end": 326.114,
+      "text": "Because there is moisture in the body, Even if you don't buy anything, You",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 388.86,
-      "end": 397.5,
-      "text": "in some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 326.114,
+      "end": 327.07,
+      "text": "can increase your life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 398.3,
-      "end": 405.0,
-      "text": "In some cases, in some cases, In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 329.71,
+      "end": 331.45,
+      "text": "Now, in some cases,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 405.74,
-      "end": 409.9,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 332.59,
+      "end": 338.07,
+      "text": "In some cases, You eat water to the point of killing the leaves.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 410.46,
-      "end": 414.66,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 338.47,
+      "end": 339.33,
+      "text": "Or you don't eat at all.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 415.22,
-      "end": 418.7,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 341.09,
+      "end": 343.33,
+      "text": "Then, I'll tell you to prepare for the transplant.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 419.46,
-      "end": 422.3,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 346.67,
+      "end": 348.73,
+      "text": "You're not taking a day or two without being well.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 422.68,
-      "end": 425.54,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 348.91,
+      "end": 354.63,
+      "text": "In the overall condition, In the situation of getting worse, I give you a lot of food.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 426.16,
-      "end": 429.44,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 356.13,
+      "end": 357.67,
+      "text": "You don't eat at all.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 429.44,
-      "end": 432.16,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 358.77,
+      "end": 364.65,
+      "text": "Or you eat well. In some cases, The condition is extremely bad.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 432.62,
-      "end": 435.48,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 365.91,
+      "end": 370.73,
+      "text": "For example, Most of the time, There are a lot of migraines and pneumonia.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 437.22,
-      "end": 441.28,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 371.95,
+      "end": 377.55,
+      "text": "Or because of the sudden infection, The condition is extremely bad.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 441.82,
-      "end": 445.4,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 378.01,
+      "end": 381.75,
+      "text": "So you don't eat. In this case,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 446.14,
-      "end": 447.06,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 382.75,
+      "end": 384.29,
+      "text": "I think you can think about it for about a week or two.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 447.5,
-      "end": 449.52,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 388.51,
+      "end": 393.628,
+      "text": "And after that, While looking at the viral signs, You have to monitor the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 450.08,
-      "end": 453.46,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 393.628,
+      "end": 395.09,
+      "text": "condition of the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 453.46,
-      "end": 456.54,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 397.51,
+      "end": 403.99,
+      "text": "The viral sign is Blood pressure, blood pressure, breathing, body temperature, And oxygen saturation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 456.54,
-      "end": 459.26,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 405.05,
+      "end": 407.89,
+      "text": "There are people who keep the numbers as usual.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 460.0,
-      "end": 463.46,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 409.61,
+      "end": 413.75,
+      "text": "According to the patient, If these numbers are slowly getting worse, In some cases,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 463.88,
-      "end": 468.9,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 414.55,
+      "end": 417.45,
+      "text": "There are people who get worse at a fast speed.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 469.68,
-      "end": 471.68,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 418.91,
+      "end": 421.35,
+      "text": "In general, The blood pressure starts to drop,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 472.14,
-      "end": 473.72,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 422.21,
+      "end": 425.03,
+      "text": "To raise the blood pressure, It also goes up.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 473.98,
-      "end": 478.4,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 426.19,
+      "end": 429.23,
+      "text": "Breathing is slower or faster than normal.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 478.4,
-      "end": 480.16,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 429.73,
+      "end": 431.71,
+      "text": "The body temperature goes up or down.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 480.56,
-      "end": 485.38,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 432.95,
+      "end": 435.07,
+      "text": "And oxygen saturation goes down.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 485.6,
-      "end": 487.4,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 436.85,
+      "end": 438.61,
+      "text": "To the patients,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 487.4,
-      "end": 490.88,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 439.59,
+      "end": 440.87,
+      "text": "There's really a day or two left.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 491.58,
-      "end": 494.28,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 440.87,
+      "end": 444.81,
+      "text": "Or even if you go back today, There's nothing to do at all.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 495.24,
-      "end": 499.66,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 446.73,
+      "end": 448.51,
+      "text": "In some cases,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 500.3,
-      "end": 502.54,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 450.09,
+      "end": 451.91,
+      "text": "The blood pressure drops to 80 to 50.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 504.04,
-      "end": 505.86,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 452.71,
+      "end": 455.33,
+      "text": "Or the blood pressure goes up to 120.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 505.86,
-      "end": 508.42,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 456.01,
+      "end": 458.15,
+      "text": "Or it drops to 52.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 508.42,
-      "end": 510.98,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 459.39,
+      "end": 463.25,
+      "text": "Breathing is 10 times more than in Japan.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 510.98,
-      "end": 513.6,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 463.75,
+      "end": 470.41,
+      "text": "The oxygen saturation When the oxygen is maximized, In some cases, The blood pressure drops to 82.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 514.68,
-      "end": 519.52,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 472.39,
+      "end": 479.13,
+      "text": "That's what I'm saying. Or if the patient loses his mind, If he doesn't have any reaction,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 520.04,
-      "end": 522.76,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 480.61,
+      "end": 485.09,
+      "text": "Now, I'm telling you to get ready.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 523.62,
-      "end": 526.06,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 485.39,
+      "end": 488.69,
+      "text": "In the case I'm telling you now, It's not always about the general situation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 526.06,
-      "end": 527.8,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 491.49,
+      "end": 493.19,
+      "text": "Usually, the blood pressure doesn't go down.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 527.8,
-      "end": 531.18,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 493.19,
+      "end": 497.45,
+      "text": "If you don't have any reaction, I'm telling you to go back in a few hours.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 532.08,
-      "end": 536.1,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 499.85,
+      "end": 502.31,
+      "text": "But the human body is really amazing.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 536.82,
-      "end": 539.74,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 503.69,
+      "end": 505.45,
+      "text": "The blood pressure doesn't go down.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 539.74,
-      "end": 542.02,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 505.83,
+      "end": 506.69,
+      "text": "There are people who live for a few days.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 542.34,
-      "end": 546.16,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 508.21,
+      "end": 510.49,
+      "text": "There are people who breathe once a day in Japan.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 546.96,
-      "end": 549.48,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 510.49,
+      "end": 511.85,
+      "text": "There are people who breathe once a day in Japan.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 549.48,
-      "end": 552.18,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 514.81,
+      "end": 517.45,
+      "text": "This is what I can tell you as a hospice nurse.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 552.88,
-      "end": 554.52,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 518.57,
+      "end": 521.69,
+      "text": "There may be more situations and experiences.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 554.52,
-      "end": 556.64,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 523.27,
+      "end": 525.11,
+      "text": "Hospices are the process of this change.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 557.87,
-      "end": 559.57,
-      "text": "In some cases, you can't drink water or eat at all.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 525.75,
+      "end": 527.47,
+      "text": "I'll tell you how to prepare for patients and family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 559.57,
-      "end": 564.47,
-      "text": "정답을 가지고 기르지 않고 할 수 있는 베스트를 다해서 하는 것입니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 528.63,
+      "end": 530.81,
+      "text": "I'll tell you how to prepare for patients and family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 564.87,
-      "end": 571.27,
-      "text": "유가 전문가에게 조언을 구하기도 합니다. 죽음도 그렇게 생각하시면 될 것 같습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 531.93,
+      "end": 534.85,
+      "text": "That's why hospice is helpful to patients and family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 572.07,
-      "end": 576.23,
-      "text": "의사나 호스피스 간호사에게 도움을 받으면 됩니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 536.71,
+      "end": 543.19,
+      "text": "If you get the shot without preparation, When the family gets confused, When the family gets confused,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 577.01,
-      "end": 581.89,
-      "text": "더 자세한 상황은 댓글을 남겨 주시거나 연락을 주시면 됩니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 543.31,
+      "end": 545.67,
+      "text": "I'll get the shot in the middle of confusion.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 582.33,
-      "end": 582.57,
-      "text": "감사합니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 546.45,
+      "end": 548.597,
+      "text": "If you get the shot in the middle of confusion, The form of life",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 548.597,
+      "end": 549.21,
+      "text": "is different every time.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 549.47,
+      "end": 551.93,
+      "text": "The way to deal with death is different.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 552.79,
+      "end": 555.47,
+      "text": "So what is right and what is wrong.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 555.71,
+      "end": 560.29,
+      "text": "I can't say that. When parents have children, It's not the answer.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 561.51,
+      "end": 563.57,
+      "text": "It's the best thing you can do.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 564.51,
+      "end": 565.89,
+      "text": "It's also an advice from a yoga expert.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 568.09,
+      "end": 570.29,
+      "text": "I think you can think of death like that.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 571.99,
+      "end": 573.91,
+      "text": "You can get help from a doctor or a hospice nurse.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 575.35,
+      "end": 581.31,
+      "text": "If you have more details, Please leave a comment or contact me.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 582.29,
+      "end": 583.27,
+      "text": "Thank you.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     }
   ]
 }

@@ -1,9 +1,8 @@
 {
   "video": "public/videos/hospice-nurse-interview-janice-korean-english-subtitles.mp4",
-  "source_transcript": "audit\\video_caption_remediation\\hospice-nurse-interview-janice-korean-english-subtitles.en.machine_translation.json",
-  "korean_transcript": "audit\\video_caption_remediation\\hospice-nurse-interview-janice-korean-english-subtitles.ko.transcript.json",
+  "source_transcript": "audit\\video_captions\\transcripts\\hospice-nurse-interview-janice-korean-english-subtitles.json",
   "language": "en",
-  "source": "fresh local Korean ASR translate pass grouped into phrase-level captions",
+  "source": "machine translation grouped into phrase-level draft captions",
   "review_required": true,
   "style": {
     "max_lines": 2,
@@ -14,458 +13,367 @@
   "entries": [
     {
       "start": 11.95,
-      "end": 18.77,
+      "end": 15.53,
       "text": "Hello, my name is Janice, and I work as a nurse at Eminent Hospice.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 18.77,
-      "end": 28.45,
+      "start": 25.75,
+      "end": 28.47,
       "text": "I used to work at the nursing home.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 28.45,
-      "end": 34.63,
+      "start": 29.37,
+      "end": 33.49,
       "text": "It was very rewarding to work with the elderly.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 34.63,
-      "end": 40.11,
+      "start": 34.55,
+      "end": 39.37,
       "text": "Even if I gave them a little help, it was a big help to them.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 40.11,
-      "end": 45.05,
+      "start": 40.53,
+      "end": 47.63,
       "text": "Even if I gave them a word of interest, they were very smiley and happy.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 45.05,
-      "end": 51.55,
-      "text": "I felt much more rewarding because of that.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 48.49,
+      "end": 50.85,
+      "text": "I felt a lot more rewarding because of that.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 51.55,
-      "end": 56.89,
+      "start": 51.61,
+      "end": 56.79,
       "text": "One thing I was sad about was that I couldn't have enough time with them.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 56.89,
-      "end": 62.01,
+      "start": 56.81,
+      "end": 60.33,
       "text": "One of them asked me to visit the hospice.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 62.01,
-      "end": 65.69,
-      "text": "At that time, it was only for patients.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 60.33,
+      "end": 64.31,
+      "text": "At that time, it was only for the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 65.69,
-      "end": 70.95,
+      "start": 68.41,
+      "end": 75.81,
       "text": "I felt more rewarding because of that.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 70.95,
-      "end": 77.124,
-      "text": "That's why I started hospice. When you go to the hospice, you often think",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 75.81,
+      "end": 77.85,
+      "text": "That's why I started hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 77.124,
-      "end": 79.77,
-      "text": "of patients who don't talk much.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 86.7,
+      "end": 91.06,
+      "text": "When you go to the hospice, you often think of patients who are not clear-cut.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 86.14,
-      "end": 91.26,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 92.1,
+      "end": 102.2,
+      "text": "We help patients with various reasons to prepare for the end of their lives comfortably.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 91.26,
-      "end": 98.04,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 105.98,
+      "end": 111.811,
+      "text": "If I explain in detail, the nurse went to the hospice and looked at",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 99.48,
-      "end": 105.48,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 111.811,
+      "end": 115.56,
+      "text": "the patient's head from the beginning to the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 105.48,
-      "end": 107.12,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 116.26,
+      "end": 120.165,
+      "text": "We plan on the problems that are present there and the problems that can",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 107.12,
-      "end": 112.3,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 120.165,
+      "end": 121.56,
+      "text": "be solved in the future.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 112.94,
-      "end": 116.46,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 123.56,
+      "end": 129.72,
+      "text": "After discussing with the doctor, we provide various treatments for the medicine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 116.46,
-      "end": 118.6,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 137.89,
+      "end": 140.09,
+      "text": "There was a person who went back to the hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 118.6,
-      "end": 123.36,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 140.43,
+      "end": 143.53,
+      "text": "Her wife was a guardian.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 123.36,
-      "end": 125.9,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 144.63,
+      "end": 149.779,
+      "text": "She was determined to help her husband so that he could be comfortable with",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 125.94,
-      "end": 130.22,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 149.779,
+      "end": 151.25,
+      "text": "the patient at home.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 137.39,
-      "end": 140.27,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 154.85,
+      "end": 158.79,
+      "text": "The patient was in a very difficult situation as the body was progressing quickly.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 140.27,
-      "end": 144.35,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 158.79,
+      "end": 163.45,
+      "text": "In many situations, the guardian was very tired.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 144.35,
-      "end": 147.37,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 164.25,
+      "end": 167.19,
+      "text": "Then, the guardian was very tired.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 147.37,
-      "end": 151.29,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 168.39,
+      "end": 170.41,
+      "text": "And her children were living abroad.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 151.29,
-      "end": 154.71,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 172.57,
+      "end": 176.23,
+      "text": "The guardian needed a lot of help.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 154.71,
-      "end": 159.65,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 178.13,
+      "end": 184.25,
+      "text": "Whenever we needed help, we called her or found her and helped her.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 159.65,
-      "end": 164.15,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 164.64,
-      "end": 168.13,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 168.13,
-      "end": 172.65,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 173.25,
-      "end": 177.75,
-      "text": "We help patients who are in need of a lot of help.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 177.75,
-      "end": 184.65,
-      "text": "It was a difficult case. The guardian told me at the end.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 184.65,
-      "end": 188.43,
-      "text": "He told me at the end.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 184.25,
+      "end": 188.21,
+      "text": "There was a limit to that.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
       "start": 188.43,
-      "end": 190.29,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "end": 194.59,
+      "text": "The guardian was very tired. After discussing with the guardian, we moved the patient",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 190.29,
-      "end": 193.85,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 194.59,
+      "end": 196.79,
+      "text": "to the assisted living room.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 193.85,
-      "end": 196.75,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 199.21,
+      "end": 202.47,
+      "text": "The guardian was able to accept the patient comfortably until he was helped there.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 196.75,
-      "end": 197.93,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 205.91,
+      "end": 209.21,
+      "text": "To be honest, the guardian needed a lot of help.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 197.93,
-      "end": 202.87,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 209.21,
+      "end": 211.51,
+      "text": "To be honest, it was a difficult case for me.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 202.87,
-      "end": 206.25,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 211.81,
+      "end": 216.17,
+      "text": "The guardian told me at the end of the story.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 206.25,
-      "end": 209.51,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 216.81,
+      "end": 220.43,
+      "text": "After listening to the story, everything that was hard for me disappeared.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 209.51,
-      "end": 212.15,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 221.67,
+      "end": 227.17,
+      "text": "The guardian told me that he was with me from the beginning to the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 212.15,
-      "end": 216.87,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 228.05,
+      "end": 229.15,
+      "text": "He said thank you so much.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 216.87,
-      "end": 221.27,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 229.15,
+      "end": 239.39,
+      "text": "After listening to the story, everything was forgotten.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 221.63,
-      "end": 223.33,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 247.02,
+      "end": 253.96,
+      "text": "I was very nervous. After listening to the story, I was very nervous.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 224.87,
-      "end": 228.39,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 254.14,
+      "end": 257.46,
+      "text": "At the hospital, I heard that the guardian was not helping the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 228.39,
-      "end": 231.29,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 262.1,
+      "end": 265.16,
+      "text": "The guardian was very nervous.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 231.55,
-      "end": 236.44,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 268.58,
+      "end": 271.27,
+      "text": "I think it is our job to help the patient to be able to",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 236.44,
-      "end": 239.88,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 271.27,
+      "end": 273.0,
+      "text": "take care of the patient well with their families.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 239.88,
-      "end": 252.14,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 276.16,
+      "end": 280.08,
+      "text": "I think it is our job to make it easy for the patient to",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 252.14,
-      "end": 254.34,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 280.08,
+      "end": 282.88,
+      "text": "live as a member of the family until the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 255.14,
-      "end": 258.58,
-      "text": "After hearing that, everything that I had a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 286.34,
+      "end": 288.071,
+      "text": "And I think it is our job to help the patient to live as",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 258.78,
-      "end": 261.86,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 288.071,
+      "end": 289.06,
+      "text": "a member of the family until the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 263.08,
-      "end": 265.56,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 290.24,
+      "end": 302.907,
+      "text": "And I think it is our job to help the patients to be able",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 267.9,
-      "end": 269.28,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 302.907,
+      "end": 312.86,
+      "text": "to live as a member of the family until the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 270.14,
-      "end": 272.42,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 312.86,
+      "end": 314.54,
+      "text": "I think it is our job to help the patient to live as a",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 273.08,
-      "end": 275.54,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 276.23,
-      "end": 278.51,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 278.51,
-      "end": 281.33,
-      "text": "After hearing that, everything that I had been having a hard time with disappeared.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 281.33,
-      "end": 287.53,
-      "text": "편안히 맞이할 수 있는 게 저희 할 일이라고 생각을 하고요",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 287.53,
-      "end": 292.65,
-      "text": "그리고 정말 마지막 시간이 왔을 때 보호자들이 어떡하지?",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 293.11,
-      "end": 299.41,
-      "text": "이런 상황 속에서 당황하기보다는 저희가 그 시간 속에서 우리가 해드릴 수 있는 일",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 299.41,
-      "end": 303.63,
-      "text": "뭔지 알려드리고 또 가족들의 역할이 뭔지 알려드리면서",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 304.51,
-      "end": 310.89,
-      "text": "환자분이 가족분들의 사랑을 느끼고 편안함을 느끼며 돌아가실 수 있다면",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 312.05,
-      "end": 315.75,
-      "text": "호스피스 간호사로서 더 바랄 게 없을 것 같습니다",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 314.54,
+      "end": 315.38,
+      "text": "member of the family until the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     }
   ]
 }

@@ -4,7 +4,6 @@ import json
 import math
 import re
 import subprocess
-import sys
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -16,8 +15,6 @@ ROOT = Path(__file__).resolve().parents[1]
 VIDEOS_DIR = ROOT / "public" / "videos"
 CAPTIONS_DIR = ROOT / "public" / "captions"
 TRANSCRIPTS_DIR = ROOT / "audit" / "video_captions" / "transcripts"
-VIDEO1_REMEDIATION_TRANSCRIPT = ROOT / "audit" / "video1_caption_remediation" / "video1.ko.transcript.json"
-REMEDIATION_TRANSCRIPTS_DIR = ROOT / "audit" / "video_caption_remediation"
 OUT_DIR = ROOT / "audit" / "seek_caption_qa"
 FRAMES_DIR = OUT_DIR / "frames"
 SHEETS_DIR = OUT_DIR / "sheets"
@@ -200,11 +197,6 @@ def normalized_text(text: str) -> str:
 
 def audit_video(video: Path) -> dict:
     transcript_path = TRANSCRIPTS_DIR / f"{video.stem}.json"
-    if video.stem == "hospice-core-services-korean-english-subtitles" and VIDEO1_REMEDIATION_TRANSCRIPT.exists():
-        transcript_path = VIDEO1_REMEDIATION_TRANSCRIPT
-    remediation_transcript = REMEDIATION_TRANSCRIPTS_DIR / f"{video.stem}.ko.transcript.json"
-    if remediation_transcript.exists():
-        transcript_path = remediation_transcript
     vtt_path = CAPTIONS_DIR / f"{video.stem}.en.vtt"
     transcript = json.loads(transcript_path.read_text(encoding="utf-8"))
     cues = read_vtt(vtt_path)
@@ -345,11 +337,8 @@ def write_markdown(results: list[dict]) -> None:
 
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    selected = set(sys.argv[1:])
     results = []
     for video in sorted(VIDEOS_DIR.glob("*.mp4")):
-        if selected and video.name not in selected and video.stem not in selected:
-            continue
         print(f"QA {video.name}", flush=True)
         result = audit_video(video)
         results.append(result)

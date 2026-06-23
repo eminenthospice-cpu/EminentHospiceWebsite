@@ -1,9 +1,8 @@
 {
   "video": "public/videos/polst-korean-english-subtitles.mp4",
-  "source_transcript": "audit\\video_caption_remediation\\polst-korean-english-subtitles.en.machine_translation.json",
-  "korean_transcript": "audit\\video_caption_remediation\\polst-korean-english-subtitles.ko.transcript.json",
+  "source_transcript": "audit\\video_captions\\transcripts\\polst-korean-english-subtitles.json",
   "language": "en",
-  "source": "fresh local Korean ASR translate pass grouped into phrase-level captions",
+  "source": "machine translation grouped into phrase-level draft captions",
   "review_required": true,
   "style": {
     "max_lines": 2,
@@ -14,1704 +13,1326 @@
   "entries": [
     {
       "start": 0.0,
-      "end": 2.511,
-      "text": "Hello. I'm Kim Jeong Ah, a nurse practitioner at Eminent Hospice.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "end": 3.251,
+      "text": "Hello, I'm Kim Jeong Ah, a nurse practitioner at Eminent Hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 2.511,
-      "end": 3.88,
-      "text": "Today, I will explain about POLST.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 3.251,
+      "end": 5.32,
+      "text": "Today, I will explain about the POLST.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 4.5,
-      "end": 5.796,
-      "text": "POLST is an official document that determines what treatment to receive when the patient",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 7.62,
+      "end": 12.95,
+      "text": "POLST is a official document that determines what treatment you will receive when the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 5.796,
-      "end": 7.0,
-      "text": "with severe disease has a serious disease with the weakness of life-sustaining treatment.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 12.95,
+      "end": 18.28,
+      "text": "patient with severe disease with a serious disease with the weakness of life-sustaining treatment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 7.86,
-      "end": 9.95,
-      "text": "It is an official document. In other words, you can think of it as",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 18.28,
+      "end": 21.981,
+      "text": "It is an official document that determines whether you will receive life-sustaining treatment or",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 9.95,
-      "end": 12.04,
-      "text": "a medical order for treatment of life-sustaining treatment, whether to receive it or not.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 21.981,
+      "end": 25.681,
+      "text": "not, and if you think that the patient and the doctor should be together,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 12.04,
-      "end": 14.146,
-      "text": "If the patient can write it himself, you can write it instead of a",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 25.681,
+      "end": 28.06,
+      "text": "you can think of it as a medical resource.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 14.146,
-      "end": 15.8,
-      "text": "legal person such as a family or a power of attorney.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 30.06,
+      "end": 32.86,
+      "text": "If it is difficult for the patient to write it himself, you can write",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 15.8,
-      "end": 17.652,
-      "text": "POLST's writing is not a question, but if you do not write it in",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 32.86,
+      "end": 35.46,
+      "text": "it instead of a legal person such as family or power of attorney.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 17.652,
-      "end": 19.9,
-      "text": "advance, you will feel great pressure or guilt because you have to decide on your family later.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 35.46,
+      "end": 41.315,
+      "text": "The purpose of POLST is not to write it, but if you do not",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 20.62,
-      "end": 23.992,
-      "text": "Also, if you do not have a advance decision, you may be able to",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 41.315,
+      "end": 47.169,
+      "text": "write it in advance, you will feel great pressure or guilt due to the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 23.992,
-      "end": 26.16,
-      "text": "accept the patient's pain due to unnecessary medical procedures.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 47.169,
+      "end": 49.26,
+      "text": "need for family decisions later.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 26.16,
-      "end": 29.76,
+      "start": 50.22,
+      "end": 54.826,
+      "text": "Also, if you do not have a pre-ordinary decision, you may accept the patient's",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 54.826,
+      "end": 56.8,
+      "text": "pain due to unnecessary medical procedures.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 58.36,
+      "end": 61.34,
       "text": "Accordingly, it is most desirable that the patient decides in advance.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 30.22,
-      "end": 33.4,
-      "text": "The written content can be changed at any time.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 63.3,
+      "end": 65.72,
+      "text": "The written content can be changed anytime.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 33.4,
-      "end": 36.013,
-      "text": "POLST is usually written in a bright pink form so that it can be",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 68.8,
+      "end": 71.984,
+      "text": "POLST is usually written on a bright pink container so that it can be",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 36.013,
-      "end": 38.44,
-      "text": "seen well in the eyes, and it is often called the pink form.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 71.984,
+      "end": 74.94,
+      "text": "seen well in the eyes, and it is often called the pink bomb.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 39.18,
-      "end": 41.431,
+      "start": 76.0,
+      "end": 79.315,
       "text": "If you keep it at home, it is often attached to the refrigerator or",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 41.431,
-      "end": 43.2,
+      "start": 79.315,
+      "end": 81.92,
       "text": "place where it can be seen well compared to emergency situations.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 43.2,
-      "end": 45.227,
-      "text": "When 911 is launched, POLST determines the direction of treatment depending on the content,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 82.98,
+      "end": 87.794,
+      "text": "When the 911 is launched, if there is a POLST, according to the content,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 45.227,
-      "end": 46.24,
-      "text": "such as CPR, intubation, and so on.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 87.794,
+      "end": 91.92,
+      "text": "it decides the direction of treatment such as CPR, lung surgery, etc.,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 46.24,
-      "end": 49.82,
-      "text": "If there is no POLST, it is automatically controlled by full code and all life-sustaining treatment.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 92.52,
+      "end": 97.71,
+      "text": "but if there is no POLST, it is automatically controlled by full-code, all side-by-side",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 50.52,
-      "end": 55.14,
-      "text": "All emergency measures are carried out to prevent the patient from suffering.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 97.71,
+      "end": 102.9,
+      "text": "treatment, and all emergency measures are carried out to prevent the patient from suffering.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 55.14,
-      "end": 57.127,
-      "text": "POLST is largely composed of Part-A, B, C, D, and D, and each patient",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 103.59,
+      "end": 109.018,
+      "text": "The food of POLST is largely composed of 8A, B, C, D, and four,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 57.127,
-      "end": 58.12,
-      "text": "has their own treatment standards and circumstances.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 109.018,
+      "end": 112.12,
+      "text": "and contains various patient's treatment preferences and symptoms.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 58.68,
-      "end": 62.88,
+      "start": 113.8,
+      "end": 119.62,
       "text": "At the top right, you can enter the patient's information on patient information.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 63.5,
-      "end": 66.353,
-      "text": "Part-A is a part that decides whether to perform CPR or not when the",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 120.1,
+      "end": 123.927,
+      "text": "When the patient's heart stops or does not breathe, it is the part that",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 66.353,
-      "end": 67.78,
-      "text": "patient's heart stops or does not breathe.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 123.927,
+      "end": 125.84,
+      "text": "decides whether to perform a simple operation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 68.9,
-      "end": 73.56,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 128.32,
+      "end": 134.48,
+      "text": "The first option is an attempt to perform CPR, lung surgery, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 73.56,
-      "end": 75.166,
-      "text": "If you check the CPR, it means that all possible emergency measures are taken",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 134.62,
+      "end": 140.323,
+      "text": "When you check the CPR, it means that all emergency measures can be taken",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 75.166,
-      "end": 75.74,
+      "start": 140.323,
+      "end": 142.36,
       "text": "when the patient's heart stops.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 76.46,
-      "end": 77.907,
-      "text": "At the site, the heart massage and CPR are carried out, and all treatments",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 142.56,
+      "end": 147.55,
+      "text": "At the site, the heart massage and the artificial breathing are performed, and all",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 77.907,
-      "end": 79.56,
-      "text": "include all treatments for life extension, such as transplantation, electric shock, medical treatment, prayer, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 147.55,
+      "end": 152.54,
+      "text": "treatments including transplant, electric shock, drug treatment, organ surgery, and artificial breathing are included.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 79.56,
-      "end": 82.024,
-      "text": "In other words, all medical treatments provided by the modern medicine for the patient",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 152.54,
+      "end": 155.42,
+      "text": "In other words, all treatments include painkillers for life extension.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 82.024,
-      "end": 83.08,
-      "text": "are meant to receive full treatment.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 155.62,
+      "end": 158.81,
+      "text": "That is, it means that all medical treatments provided by the modern medicine for",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 83.76,
-      "end": 88.22,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 158.81,
+      "end": 160.86,
+      "text": "the life of the patient will receive full treatment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 88.22,
-      "end": 92.6,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 163.18,
+      "end": 171.22,
+      "text": "The second option is a natural use of CPR, lung surgery, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 92.6,
-      "end": 96.2,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 171.22,
+      "end": 173.9,
+      "text": "The second option is a natural use of CPR, lung surgery, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 96.2,
-      "end": 99.38,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 173.9,
+      "end": 174.7,
+      "text": "The second option is a natural use of CPR, lung surgery, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 99.38,
-      "end": 102.98,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 174.7,
+      "end": 178.855,
+      "text": "When the patient's heart stops or breathing stops, it is a choice that does",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 103.85,
-      "end": 109.58,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 178.855,
+      "end": 182.12,
+      "text": "not perform a simple operation, and does not face pain naturally.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 109.58,
-      "end": 113.86,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 212.86,
+      "end": 217.498,
+      "text": "There are cases where many people only think of simple surgery, lung surgery, and",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 114.38,
-      "end": 116.08,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 217.498,
+      "end": 220.48,
+      "text": "heart pressure, which is seen in dramas or TV.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 116.08,
-      "end": 120.1,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 220.94,
+      "end": 224.965,
+      "text": "In fact, there are cases where you have to understand the connection of the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 120.64,
-      "end": 124.8,
-      "text": "The fourth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 224.965,
+      "end": 228.99,
+      "text": "electric shock, organ surgery, and artificial breathing, so it is necessary to send the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 124.8,
-      "end": 128.78,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 228.99,
+      "end": 230.14,
+      "text": "patient to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 129.5,
-      "end": 130.66,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 231.74,
+      "end": 235.04,
+      "text": "You have to understand and decide carefully.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 130.66,
-      "end": 134.72,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 236.0,
+      "end": 241.44,
+      "text": "Part B is divided into three things about medical intervention, including medical intervention.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 135.32,
-      "end": 137.06,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 242.22,
+      "end": 248.254,
+      "text": "The first four treatments are meant to use all medical means available for the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 137.06,
-      "end": 139.3,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 248.254,
+      "end": 250.84,
+      "text": "life extension as I said earlier.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 139.3,
-      "end": 142.6,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 252.34,
+      "end": 256.727,
+      "text": "If you want CPR for the life extension, you will be treated here and",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 143.12,
-      "end": 146.78,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 256.727,
+      "end": 257.98,
+      "text": "treated at the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 146.78,
-      "end": 150.34,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 260.3,
+      "end": 263.58,
+      "text": "The second selective treatment is a choice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 150.46,
-      "end": 152.58,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 263.58,
+      "end": 267.691,
+      "text": "It is a selective treatment. It is a choice that avoids excessive treatment and",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 152.58,
-      "end": 155.58,
-      "text": "The first option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 267.691,
+      "end": 270.04,
+      "text": "painful treatment due to the current medical problems.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 156.18,
-      "end": 158.62,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 271.22,
+      "end": 274.953,
+      "text": "It does not have to do with CPR or prayer, but it is used",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 158.62,
-      "end": 162.7,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 274.953,
+      "end": 277.62,
+      "text": "to treat the need for life extension, lung surgery, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 163.48,
-      "end": 164.52,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 279.42,
+      "end": 283.785,
+      "text": "When the patient is in a place where comfort, comfort and comfort are not",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 164.52,
-      "end": 167.48,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 283.785,
+      "end": 286.28,
+      "text": "met, he will be sent to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 167.96,
-      "end": 171.46,
-      "text": "The second option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 286.86,
+      "end": 291.42,
+      "text": "The third is a treatment that aims to fill in the patient's comfort.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 171.46,
-      "end": 173.2,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 293.94,
+      "end": 299.47,
+      "text": "It is a symptom-free treatment such as oxygen, suction, and absorption, but it is",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 174.05,
-      "end": 177.97,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 299.47,
+      "end": 303.42,
+      "text": "not an active treatment for the purpose of life extension.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 177.97,
-      "end": 180.11,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 304.1,
+      "end": 306.42,
+      "text": "It is a choice that most hospice patients choose.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 180.11,
-      "end": 182.67,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 317.08,
+      "end": 322.24,
+      "text": "Part C is a choice about artificially administered nutrition and artificial nutrition.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 182.67,
-      "end": 184.83,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 324.32,
+      "end": 329.1,
+      "text": "The first is long-term artificial nutrition, including feeding tube.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 185.51,
-      "end": 187.33,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 329.48,
+      "end": 333.92,
+      "text": "Long-term artificial nutrition is a surgical method that includes a long-term artificial nutrition tube.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 187.33,
-      "end": 189.15,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 337.36,
+      "end": 340.54,
+      "text": "This method requires external surgery.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 189.15,
-      "end": 192.71,
-      "text": "The fourth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 341.5,
+      "end": 348.44,
+      "text": "If you are already using a feeding tube before starting hospice, you can continue while receiving hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 192.71,
-      "end": 195.69,
-      "text": "The fourth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 349.58,
+      "end": 353.2,
+      "text": "You can not start with a g-tube while doing hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 195.69,
-      "end": 198.21,
-      "text": "The fourth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 353.46,
+      "end": 357.4,
+      "text": "Usually, you consult a hospice service and do g-tubes.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 198.21,
-      "end": 200.31,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 200.43,
-      "end": 204.35,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 204.35,
-      "end": 205.35,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 205.35,
-      "end": 208.25,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 208.25,
-      "end": 212.03,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 213.56,
-      "end": 216.86,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 217.38,
-      "end": 221.02,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 221.58,
-      "end": 224.78,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 224.98,
-      "end": 228.02,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 228.4,
-      "end": 231.18,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 231.86,
-      "end": 233.96,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 233.96,
-      "end": 235.8,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 236.2,
-      "end": 238.74,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 238.74,
-      "end": 240.9,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 240.9,
-      "end": 242.28,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 243.06,
-      "end": 245.02,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 245.02,
-      "end": 246.58,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 246.58,
-      "end": 248.14,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 248.14,
-      "end": 250.8,
-      "text": "The third option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 250.8,
-      "end": 252.46,
-      "text": "The fourth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 252.94,
-      "end": 255.68,
-      "text": "The fourth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 256.14,
-      "end": 258.9,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 258.9,
-      "end": 260.6,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 261.22,
-      "end": 263.1,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 263.1,
-      "end": 264.5,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 265.24,
-      "end": 267.14,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 267.14,
-      "end": 269.84,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 269.84,
-      "end": 271.04,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 271.64,
-      "end": 274.22,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 274.22,
-      "end": 276.84,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 276.84,
-      "end": 279.08,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 279.76,
-      "end": 281.48,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 282.0,
-      "end": 284.94,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 284.94,
-      "end": 286.66,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 287.1,
-      "end": 290.36,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 290.36,
-      "end": 293.16,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 293.16,
-      "end": 293.86,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 294.48,
-      "end": 297.34,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 297.34,
-      "end": 299.06,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 300.16,
-      "end": 301.74,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 301.74,
-      "end": 303.82,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 304.42,
-      "end": 305.86,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 305.86,
-      "end": 307.28,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 307.68,
-      "end": 309.84,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 309.84,
-      "end": 314.26,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 314.26,
-      "end": 315.98,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 317.31,
-      "end": 321.01,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 321.01,
-      "end": 324.29,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 324.99,
-      "end": 327.69,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 327.69,
-      "end": 329.07,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 329.07,
-      "end": 331.45,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 331.45,
-      "end": 333.03,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 333.03,
-      "end": 334.97,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 334.97,
-      "end": 338.23,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 338.71,
-      "end": 341.23,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 341.91,
-      "end": 343.43,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 343.43,
-      "end": 345.87,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 346.41,
-      "end": 349.17,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 349.83,
-      "end": 351.37,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 351.37,
-      "end": 353.45,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 353.45,
-      "end": 356.39,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 356.39,
-      "end": 358.21,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 361.04,
-      "end": 363.96,
-      "text": "The fifth option is an attempt to perform CPR, intubation, and CPR.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 363.96,
+      "start": 358.32,
       "end": 365.32,
-      "text": "There are a lot of cases where the doctor checks the patient at the door,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "text": "The second is trial field of artificial nutrition, including feeding tube.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 365.32,
-      "end": 368.526,
-      "text": "and if the doctor preserves the medicine at the hospice, the patient doesn't have",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 365.76,
+      "end": 373.167,
+      "text": "It is a short-term trial. It is a case of using g-tubes, long-term nasogastric",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 368.526,
-      "end": 369.9,
-      "text": "to go to the hospital yet.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 373.167,
+      "end": 377.4,
+      "text": "tubes, and g-tubes, which are commonly called g-tubes.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 369.9,
-      "end": 373.71,
-      "text": "For example, some patients are too often to go to the hospital because the",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 377.92,
+      "end": 382.568,
+      "text": "This tube is very uncomfortable because it has it while the patient is conscious,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 373.71,
-      "end": 376.16,
-      "text": "patient is too sick to go to the hospital.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 382.568,
+      "end": 386.22,
+      "text": "so the patient may take it out without even knowing it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 376.64,
-      "end": 377.383,
-      "text": "For example, some patients are too often to go to the hospital because the",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 389.84,
+      "end": 395.06,
+      "text": "The third is no artificial nutrition, including feeding tube.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 377.383,
-      "end": 377.86,
-      "text": "patient is too sick to go to the hospital.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 395.44,
+      "end": 398.08,
+      "text": "It means that it will not try artificial nutrition.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 378.5,
-      "end": 380.18,
-      "text": "For example, some patients are too often to go to the hospital because the",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 399.02,
+      "end": 403.3,
+      "text": "It is a choice that uses natural behavior without artificial nutrition.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 380.18,
-      "end": 381.26,
-      "text": "patient is too sick to go to the hospital.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 381.26,
-      "end": 382.038,
-      "text": "For example, some patients are too often to go to the hospital because the",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 382.038,
-      "end": 382.816,
-      "text": "patient is too sick to go to the hospital because the patient is too",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 382.816,
-      "end": 383.76,
-      "text": "sick to go to the hospital because the patient is too sick to go to the hospital.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 383.76,
-      "end": 386.88,
-      "text": "And after the hospice started, there were a lot of side effects.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 387.62,
-      "end": 389.8,
-      "text": "At that time, the hospice doctor had to go to the hospital for a year",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 390.78,
-      "end": 391.6,
-      "text": "because he had to go to the hospital for a year.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 391.6,
-      "end": 398.66,
-      "text": "So the patient's condition got better, so there were times when the hospice treatment ended.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 398.94,
-      "end": 401.4,
-      "text": "In this case, there are often cases like this.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 401.4,
-      "end": 403.484,
-      "text": "The purpose of hospice is not to pull the patient in front of him",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 403.484,
-      "end": 404.08,
-      "text": "or let him go.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 404.72,
-      "end": 407.52,
-      "text": "Hospice is a place where the patient is present, so it helps to get",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 407.52,
+      "start": 403.98,
       "end": 408.32,
-      "text": "the last dose naturally.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "text": "Most hospice patients choose this option for the quality and flexibility of life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 408.32,
-      "end": 411.913,
-      "text": "So even if the emergency situation comes, rather than going through a difficult treatment",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 410.2,
+      "end": 412.54,
+      "text": "Part D is the final section.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 411.913,
-      "end": 412.94,
-      "text": "process at the hospital,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 412.54,
+      "end": 415.5,
+      "text": "The decision is made by the patient or the family and the procedure.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 413.5,
-      "end": 415.411,
-      "text": "I will explain the condition of the patient, and I will continue to guide",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 420.16,
+      "end": 422.34,
+      "text": "I would like to talk a little more about the feeding tube.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 415.411,
-      "end": 416.64,
-      "text": "you so that your family can prepare for it.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 423.92,
+      "end": 426.84,
+      "text": "There are people who are already using g-tubes when you start hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 416.64,
-      "end": 418.12,
-      "text": "Then, in many cases,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 427.88,
+      "end": 432.66,
+      "text": "However, g-tubes can cause symptoms such as inflammation, infection, and repeatable fever.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 419.38,
-      "end": 424.198,
-      "text": "the patient and the family take the situation well, and the patient also receives",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 434.84,
+      "end": 437.069,
+      "text": "There are many cases where the patient needs to take care of someone for",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 424.198,
-      "end": 427.64,
-      "text": "a comfortable dose at the place where he is present.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 437.069,
+      "end": 438.82,
+      "text": "24 hours by dropping the quality of life of the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 428.12,
-      "end": 431.947,
-      "text": "Of course, at first, he said he would get a dose at home without",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 439.18,
+      "end": 443.42,
+      "text": "There are many cases where the patient needs to take care of someone for 24 hours.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 431.947,
-      "end": 433.04,
-      "text": "going to the hospital,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 444.4,
+      "end": 451.26,
+      "text": "Especially in dementia, Parkinson's, and brain disease, patients often behave when they lose their ability to swallow,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 433.04,
-      "end": 437.6,
-      "text": "and when the patient gets sick, his heart changes and he sometimes moves to the hospital.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 451.26,
+      "end": 456.46,
+      "text": "but after a while, many people regret and regret it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 437.6,
-      "end": 441.867,
-      "text": "As I explained in the POLST, the POLST can be changed at any time",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 457.1,
+      "end": 461.16,
+      "text": "Some of my family members told me to do it in the hospital, so",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 441.867,
-      "end": 444.0,
-      "text": "depending on the patient and family situation.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 461.16,
+      "end": 462.32,
+      "text": "I just did it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 444.6,
-      "end": 449.668,
-      "text": "In that case, we will provide you with hospice service, and we will respect",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 464.3,
+      "end": 467.887,
+      "text": "There are many cases where the patient only listens to the doctor when he",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 449.668,
-      "end": 451.84,
-      "text": "your choice and respect your family.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 467.887,
+      "end": 469.68,
+      "text": "is not ready to explain the situation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 451.84,
-      "end": 456.8,
-      "text": "Let's wrap it up. The POLST I mentioned so far is generally accepted.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 471.24,
+      "end": 475.16,
+      "text": "However, in the end, in order to take care of one patient, the whole family is sacrificed,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 457.0,
-      "end": 461.175,
-      "text": "However, in the actual scene, there are times when the family asks the part",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 475.66,
+      "end": 478.04,
+      "text": "or one of the family has to take care of the whole family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 461.175,
-      "end": 463.56,
-      "text": "that is not clearly written on the POLST.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 478.04,
+      "end": 479.66,
+      "text": "There are cases when the patient leaves the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 464.34,
-      "end": 470.74,
-      "text": "For example, some families say, let's not do oxygenation.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 480.12,
+      "end": 484.139,
+      "text": "Therefore, it is better to consider the situation of g-tubes, and carefully decide whether",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 471.42,
-      "end": 473.96,
-      "text": "In fact, oxygenation is considered as a emergency comfort measure for the patient's convenience.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 484.139,
+      "end": 488.158,
+      "text": "to take care of the patient's medical skills, life quality, and the environment in",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 473.96,
-      "end": 479.5,
-      "text": "So we say that oxygenation is a comfort measure, so you must do it in hospice.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 488.158,
+      "end": 489.88,
+      "text": "which the family can handle it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 480.22,
-      "end": 485.0,
-      "text": "If you listen to that explanation, some people understand it, and some people don't understand it.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 494.76,
+      "end": 498.936,
+      "text": "I often talk to people who apply for hospice, but first of all, I",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 485.0,
-      "end": 488.543,
-      "text": "In this case, it is carried out according to the doctor's order, but in",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 498.936,
+      "end": 503.111,
+      "text": "ask them whether they are ready to take care of the patient's medical skills,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 488.543,
-      "end": 490.82,
-      "text": "the family, it may not be easy to decide.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 503.111,
+      "end": 507.287,
+      "text": "life quality, and the environment in which the patient is not ready to take",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 490.82,
-      "end": 494.32,
-      "text": "So if you are not in a general situation,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 507.287,
+      "end": 508.48,
+      "text": "care of the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 495.2,
-      "end": 497.38,
-      "text": "you have to discuss it with the doctor.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 509.52,
+      "end": 513.86,
+      "text": "When applying for hospice, many people think that they should do it because it",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 497.38,
-      "end": 498.62,
-      "text": "The important thing is that there is no answer or answer in the POLST.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 513.86,
+      "end": 515.1,
+      "text": "is a good service,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 498.96,
-      "end": 502.76,
-      "text": "The values of the patient and the family can vary depending on the environment.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 515.84,
+      "end": 518.535,
+      "text": "but there are cases where they are surprised when they say that they are",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 502.76,
-      "end": 509.28,
-      "text": "However, as I said before, some life extension measures can give more pain to the patient,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 509.88,
-      "end": 511.44,
-      "text": "and I would like to emphasize the fact that it can drop the quality of life.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 511.84,
-      "end": 516.16,
-      "text": "It is recommended that the family take enough time and carefully decide.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 516.16,
+      "start": 518.535,
       "end": 520.46,
+      "text": "not ready to take care of the patient's medical skills.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 522.54,
+      "end": 524.88,
+      "text": "And they immediately ask like this.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 525.6,
+      "end": 527.02,
+      "text": "What do you do when you are sick?",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 527.6,
+      "end": 530.38,
+      "text": "In particular, Koreans often think that if they are sick, they should go to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 531.24,
+      "end": 533.3,
+      "text": "If they are in emergency, they should call 911.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 536.3,
+      "end": 541.34,
+      "text": "Of course, in general situations, if you choose hospice,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 542.44,
+      "end": 545.58,
+      "text": "when the patient is sick or has a medical problem,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 546.7,
+      "end": 548.56,
+      "text": "I tell you to contact hospice first.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 549.66,
+      "end": 554.46,
+      "text": "Even in emergency situations, you can call hospice and you can get help from",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 554.46,
+      "end": 556.86,
+      "text": "the part you can solve in hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 558.22,
+      "end": 561.686,
+      "text": "The important thing is to explain to the family that the patient's current situation",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 561.686,
+      "end": 565.4,
+      "text": "and the things that have happened in the future can be chosen by the family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 568.08,
+      "end": 572.398,
+      "text": "In fact, there are many cases where the family is taken to the hospital",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 572.398,
+      "end": 573.94,
+      "text": "because they are not doctors,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 573.94,
+      "end": 576.82,
+      "text": "but in reality, there are quite a lot of cases where they are given",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 576.82,
+      "end": 578.26,
+      "text": "instructions to the guardian on the phone",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 578.26,
+      "end": 582.946,
+      "text": "or the nurse checks the patient at the door, and if the doctor drops",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 582.946,
+      "end": 584.62,
+      "text": "the medicine at the hospice,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 584.78,
+      "end": 586.336,
+      "text": "there are quite a lot of cases where the patient does not have to",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 586.336,
+      "end": 586.78,
+      "text": "go to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 590.26,
+      "end": 594.1,
+      "text": "For example, some patients often go to the hospital because the patient is sick.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 596.58,
+      "end": 599.18,
+      "text": "There were cases where the family was tired and started hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 600.96,
+      "end": 603.74,
+      "text": "And after the start of hospice, there were a lot of panic attacks.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 604.9,
+      "end": 609.567,
+      "text": "At that time, the hospice doctor had to remove the warning signs and never",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 609.567,
+      "end": 611.9,
+      "text": "went to the hospital for a year.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 612.88,
+      "end": 616.491,
+      "text": "So, instead, the patient's condition got better, so there were cases where the hospice",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 616.491,
+      "end": 617.78,
+      "text": "had to terminate the treatment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 619.2,
+      "end": 622.1,
+      "text": "In this case, there are often cases like this.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 622.1,
+      "end": 625.78,
+      "text": "The purpose of hospice is not to drag the patient forward or to let go.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 627.02,
+      "end": 631.78,
+      "text": "Hospice is the place where the patient is currently at, so it helps to",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 631.78,
+      "end": 633.48,
+      "text": "get the last dose naturally.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 636.06,
+      "end": 641.131,
+      "text": "So, instead of going through a difficult treatment process at the hospital, I will",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 641.131,
+      "end": 642.58,
+      "text": "explain the patient's condition",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 642.58,
+      "end": 646.28,
+      "text": "so that the family can continue to prepare for it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 648.8,
+      "end": 652.645,
+      "text": "Then, in many cases, the patient and the family take the situation well, and",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 652.645,
+      "end": 657.04,
+      "text": "the patient also receives a comfortable dose at the place where the patient is currently at.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 659.62,
+      "end": 662.434,
+      "text": "Of course, at first, the patient said that he would get a dose at",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 662.434,
+      "end": 663.64,
+      "text": "home without going to the hospital,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 664.78,
+      "end": 668.576,
+      "text": "but when the patient gets sick, the heart changes, so there are cases of",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 668.576,
+      "end": 669.66,
+      "text": "moving to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 672.2,
+      "end": 675.177,
+      "text": "As I explained in POLST, POLST can be changed at any time depending on",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 675.177,
+      "end": 676.24,
+      "text": "the patient and the family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 679.26,
+      "end": 682.26,
+      "text": "In that case, we will stop the hospice service,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 683.2,
+      "end": 686.04,
+      "text": "and we will respect the choice of the family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 688.96,
+      "end": 690.18,
+      "text": "I will wrap up here.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 691.1,
+      "end": 693.68,
+      "text": "POLST I mentioned so far is generally accepted.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 695.22,
+      "end": 698.236,
+      "text": "However, in the actual scene, there are times when the family asks the part",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 698.236,
+      "end": 699.96,
+      "text": "that is not clearly written on the POLST.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 702.12,
+      "end": 705.96,
+      "text": "For example, some families say, let's not even do oxygenation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 707.74,
+      "end": 714.76,
+      "text": "In fact, oxygenation is considered as an emergency comfort measure for the patient's convenience.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 715.2,
+      "end": 719.709,
+      "text": "So we say that since oxygenation is considered as a comfort measure, you must",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 719.709,
+      "end": 721.32,
+      "text": "do it at the hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 722.74,
+      "end": 727.38,
+      "text": "If you listen to that explanation, some people understand it, and some people don't understand it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 728.3,
+      "end": 732.61,
+      "text": "In this case, it is carried out according to the doctor's order, but in",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 732.61,
+      "end": 735.38,
+      "text": "the family, it may not be easy to decide.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 735.98,
+      "end": 740.39,
+      "text": "So if you are not in a general situation in POLST, you have to",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 740.39,
+      "end": 742.28,
+      "text": "discuss with the doctor and decide.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 743.22,
+      "end": 747.82,
+      "text": "The important thing is that there is no answer or answer in the POLST.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 748.22,
+      "end": 753.14,
+      "text": "The values of the patient and the family may vary depending on the environment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 754.74,
+      "end": 758.963,
+      "text": "However, as I said earlier, I would like to emphasize that a part of",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 758.963,
+      "end": 761.98,
+      "text": "the life extension may cause more pain to the patient",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 761.98,
+      "end": 764.0,
+      "text": "and that it may drop the quality of life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 766.92,
+      "end": 769.36,
+      "text": "I recommend that the family decide carefully with enough time.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 772.28,
+      "end": 773.08,
       "text": "It is difficult for anyone to talk about death.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 520.46,
-      "end": 522.46,
-      "text": "However, it is really important to prepare how to end it.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 775.7,
+      "end": 781.34,
+      "text": "However, it is really important to prepare to face the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 523.1,
-      "end": 525.422,
-      "text": "It is recommended that the patient and the family talk together and prepare the",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 788.5,
+      "end": 795.4,
+      "text": "I would like to share my experience as a hospice nurse.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 525.422,
-      "end": 527.08,
-      "text": "last part of their life in the way they want.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 527.7,
-      "end": 531.06,
-      "text": "I would like to share my experience as a nurse.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 531.7,
-      "end": 534.34,
+      "start": 795.78,
+      "end": 799.06,
       "text": "I watched the end of many patients.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 534.52,
-      "end": 540.34,
-      "text": "Some families are really good at preparing, so I saw the patient go to the hospital peacefully.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 799.56,
+      "end": 804.76,
+      "text": "Some families are really good at preparing, so I saw them go to the hospital in peace.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 540.34,
-      "end": 546.42,
-      "text": "However, in some cases, even though the patient is suffering too much,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 806.04,
+      "end": 811.493,
+      "text": "However, in some cases, even though the patient is in pain, the family still",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 546.42,
-      "end": 550.228,
-      "text": "because of the hope that the family will live a little more, I saw",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 811.493,
+      "end": 813.44,
+      "text": "lives a bit more comfortably.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 550.228,
-      "end": 553.22,
-      "text": "a lot of them having a hard time at the end.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 813.44,
+      "end": 818.82,
+      "text": "So I watched the end of many patients.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 553.86,
-      "end": 562.18,
-      "text": "In particular, in Korea, there are many cases in which the patient's life is determined",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 818.9,
+      "end": 828.88,
+      "text": "Especially in Korea, there are many cases where patients die without preparation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 562.18,
-      "end": 563.98,
-      "text": "regardless of the patient's meaning and the family's choice.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 829.34,
+      "end": 838.98,
+      "text": "Some patients die without preparation. In fact, the most important moments of life are",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 563.98,
-      "end": 567.82,
-      "text": "In some cases, they face death without any preparation.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 838.98,
+      "end": 842.44,
+      "text": "preparation, care, marriage, retirement, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 568.18,
-      "end": 574.7,
-      "text": "In fact, at the end of life, like the birth, care, marriage, retirement, etc.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 844.04,
+      "end": 847.3,
+      "text": "You need to prepare and choose the last moment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 574.7,
-      "end": 578.74,
-      "text": "the patient needs to be prepared at the end of his life.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 847.96,
+      "end": 851.12,
+      "text": "You already know, but there is no ordinary life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 578.74,
-      "end": 584.82,
-      "text": "As you already know, there is no ordinary life.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 851.9,
+      "end": 854.08,
+      "text": "The last moment is not just passing.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 584.82,
-      "end": 589.2,
-      "text": "The end is not just passing by.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 855.18,
+      "end": 856.56,
+      "text": "You need to prepare and choose.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 590.6,
-      "end": 597.28,
-      "text": "You need to be prepared. For the patient,",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 857.8,
+      "end": 861.986,
+      "text": "For the patient, and for the rest of the family, you need to take",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 597.28,
-      "end": 605.02,
-      "text": "and for the rest of the family, you need to have the process of preparing",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 861.986,
+      "end": 863.78,
+      "text": "the last moment and prepare comfortably.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 605.02,
-      "end": 606.76,
-      "text": "comfortably and comfortably.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 863.78,
+      "end": 866.8,
+      "text": "You need to take the last moment and prepare comfortably.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 607.8,
-      "end": 612.52,
-      "text": "Thank you for watching. 1년 동안 병원에 한 번도 가신 일이 없었습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 612.94,
-      "end": 619.14,
-      "text": "그래서 오히려 환자의 컨디션이 좋아져서 홈스피스 치료를 종료한 경우가 있었습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 619.4,
-      "end": 626.8,
-      "text": "이런 경우는 사실 자주 있습니다. 홈스피스의 목표는 임종을 앞당기거나 늦추는 데 있지 않습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 627.36,
-      "end": 634.46,
-      "text": "홈스피스는 환자가 현재 계신 곳에서 가장 자연스럽게 마지막 임종을 맞이할 수 있도록",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 634.46,
-      "end": 641.14,
-      "text": "돕는 것입니다. 그래서 응급 상황이 와도 병원에서 힘든 치료 과정을 겪는 것보다는",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 641.14,
-      "end": 648.62,
-      "text": "환자의 상태를 설명드리고 가족분들이 마음에 준비를 하실 수 있도록 지속적으로 안내를 해드립니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 648.92,
-      "end": 656.82,
-      "text": "그러면 많은 경우 환자와 가족분들이 상황을 잘 받아들이시고 환자분도 현재 계신 곳에서",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 656.82,
-      "end": 659.04,
-      "text": "편안한 임종을 맞이하시게 됩니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 660.02,
-      "end": 668.84,
-      "text": "물론 처음에 병원에 안 가고 집에서 임종을 맞이하겠다고 하셨다가 막상 환자분이 나빠지면 마음이 바뀌어서",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 669.3,
-      "end": 676.92,
-      "text": "병원으로 이송하는 경우가 있습니다. 폴스티에서 설명드렸듯이 폴스티는 환자와 가족의 상황에 따라",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 676.92,
-      "end": 683.48,
-      "text": "언제든지 변경하실 수 있습니다. 그럴 때는 저희가 홈스피스 서비스를 중단하시게 되며",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 683.48,
-      "end": 686.92,
-      "text": "그 또한 가족의 선택이고 존중해드립니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 689.45,
-      "end": 694.75,
-      "text": "마무리를 지켰습니다. 지금까지 말씀드린 폴스티는 일반적인 경우에 해당합니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 695.35,
-      "end": 701.91,
-      "text": "하지만 실제 현장에서는 폴스티에 명확히 적혀 있지 않은 부분을 가족분들이 물어보실 때가 있습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 702.67,
-      "end": 707.77,
-      "text": "예를 들어 어떤 가족분들은 산소도 하지 말자라고 하시는 경우가 있는데요.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 708.51,
-      "end": 715.09,
-      "text": "사실 산소공급은 환자의 편안함을 위한 조치 즉 컴폴트 매저에 해당합니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 715.69,
-      "end": 721.81,
-      "text": "그래서 저희가 산소는 컴폴트 매저에 해당하기 때문에 폴스티스에서는 꼭 하셔야 합니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 722.11,
-      "end": 728.05,
-      "text": "라고 말씀드립니다. 그런 설명을 드리면 이해를 하시기도 하고 어떤 분들은 이해를 못 하십니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 728.31,
-      "end": 735.65,
-      "text": "이런 경우에는 되게 의사의 오더에 따라 진행이 되지만 가족 입장에서는 결정이 쉽지 않을 수 있습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 736.35,
-      "end": 743.11,
-      "text": "그래서 폴스티에 명시된 일반적인 상황이 아닌 경우에는 의료진과 상의하여 결정하셔야 합니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 743.81,
-      "end": 748.11,
-      "text": "중요한 점은 폴스티에는 정답이나 오답이 없다는 것입니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 748.93,
-      "end": 754.51,
-      "text": "환자와 가족의 가치관 신념 그리고 돌범 환경에 따라 선택은 달라질 수 있습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 755.17,
-      "end": 762.13,
-      "text": "다만 앞서 말씀드렸듯이 일부 생명 연장 조치는 환자에게 오히려 더 큰 고통을 줄 수 있고",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 762.13,
-      "end": 766.93,
-      "text": "삶의 지를 떨어뜨릴 수 있다는 점을 제 차 강조하고 싶습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 767.41,
-      "end": 771.91,
-      "text": "가족분들이 충분한 시간을 가지고 신중하게 결정하시기를 권합니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 772.87,
-      "end": 779.05,
-      "text": "죽음을 이야기하는 것은 누구에게나 어렵습니다. 하지만 어떻게 마지막을 맞이할 것인지를",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 779.05,
-      "end": 785.93,
-      "text": "준비하는 것은 정말 중요한 일입니다. 환자분과 가족분이 함께 대화를 나누고 원하는 방식대로",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 785.93,
-      "end": 789.05,
-      "text": "삶의 마지막을 준비하시기를 권합니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 791.7,
-      "end": 795.68,
-      "text": "폴스티스 간호사로서 저의 경험을 조금 나누고 싶습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 796.34,
-      "end": 802.48,
-      "text": "저는 수많은 환자분들의 마지막을 지켜보았습니다. 어떤 가족은 정말 준비를 잘하셔서",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 802.48,
-      "end": 805.52,
-      "text": "환자분이 평안하게 가시는 모습을 보기도 했습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 806.38,
-      "end": 815.32,
-      "text": "하지만 또 어떤 경우는 환자분이 너무 고통스럽게 지내시는데도 가족 입장에서 그래도 조금 더 살았으면 좋겠다라는 바람 때문에",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 815.88,
-      "end": 819.22,
-      "text": "힘들게 마지막을 보내시는 모습도 많이 보았습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 819.7,
-      "end": 826.96,
-      "text": "특히 한국 분들은 치명 환자가 많아지면서 환자분인의 뜻과 상관없이 가족의 선택대로",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 826.96,
-      "end": 835.48,
-      "text": "마지막이 결정되는 경우가 아주 많습니다. 또 어떤 분들은 아무런 준비 없이 각작스럽게 죽음을 맞이하시기도 합니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 836.3,
-      "end": 843.96,
-      "text": "사실 인생의 중요한 순간들 출산, 양육, 결혼, 퇴직 이 모두가 준비가 필요한 것처럼",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 844.26,
-      "end": 851.58,
-      "text": "마지막 순간도 준비와 선택이 필요합니다. 이미 알고 계시겠지만 그냥 사는 인생은 없습니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 852.44,
-      "end": 857.5,
-      "text": "마지막도 그냥 흘러가는 것이 아닙니다. 준비와 선택이 필요합니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 857.86,
-      "end": 863.86,
-      "text": "환자분을 위해서 그리고 남은 가족을 위해서 마지막을 도넘하고 편안하게",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
-    },
-    {
-      "start": 863.86,
-      "end": 869.66,
-      "text": "준비하는 과정을 가지시기를 적극적으로 관장합니다. 시청해주신 여러분 감사합니다.",
-      "review_status": "fresh_asr_machine_translation_cleaned",
-      "notes": "Built from fresh local Korean ASR translate pass with deterministic terminology cleanup; human Korean-English review still recommended."
+      "start": 867.56,
+      "end": 870.1,
+      "text": "Thank you for watching.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     }
   ]
 }

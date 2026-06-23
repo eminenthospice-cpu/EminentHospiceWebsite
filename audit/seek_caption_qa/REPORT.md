@@ -16,14 +16,15 @@ This is an exhaustive technical/manual-review aid, not a certified Korean-Englis
 
 | Video | Result | Speech intervals | Frame samples | Timing gaps | Visibility flags | Evidence |
 | --- | --- | ---: | ---: | ---: | ---: | --- |
-| `after-death-hospice-korean-english-subtitles.mp4` | Pass | 81 | 243 | 0 | 0 | `audit\seek_caption_qa\sheets\after-death-hospice-korean-english-subtitles.jpg` |
-| `after-death-non-hospice-polst-korean-english-subtitles.mp4` | Pass | 84 | 252 | 0 | 0 | `audit\seek_caption_qa\sheets\after-death-non-hospice-polst-korean-english-subtitles.jpg` |
-| `end-of-life-timing-korean-english-subtitles.mp4` | Pass | 135 | 403 | 0 | 0 | `audit\seek_caption_qa\sheets\end-of-life-timing-korean-english-subtitles.jpg` |
-| `hospice-myths-korean-english-subtitles.mp4` | Pass | 159 | 477 | 0 | 0 | `audit\seek_caption_qa\sheets\hospice-myths-korean-english-subtitles.jpg` |
-| `hospice-nurse-interview-janice-korean-english-subtitles.mp4` | Pass | 71 | 213 | 0 | 0 | `audit\seek_caption_qa\sheets\hospice-nurse-interview-janice-korean-english-subtitles.jpg` |
-| `hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.mp4` | Pass | 98 | 294 | 0 | 0 | `audit\seek_caption_qa\sheets\hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.jpg` |
-| `hospice-team-interview-younghee-kim-korean-english-subtitles.mp4` | Pass | 25 | 75 | 0 | 0 | `audit\seek_caption_qa\sheets\hospice-team-interview-younghee-kim-korean-english-subtitles.jpg` |
-| `polst-korean-english-subtitles.mp4` | Pass | 293 | 879 | 0 | 0 | `audit\seek_caption_qa\sheets\polst-korean-english-subtitles.jpg` |
+| `after-death-hospice-korean-english-subtitles.mp4` | Pass | 85 | 255 | 0 | 0 | `audit\seek_caption_qa\sheets\after-death-hospice-korean-english-subtitles.jpg` |
+| `after-death-non-hospice-polst-korean-english-subtitles.mp4` | Pass | 81 | 243 | 0 | 0 | `audit\seek_caption_qa\sheets\after-death-non-hospice-polst-korean-english-subtitles.jpg` |
+| `end-of-life-timing-korean-english-subtitles.mp4` | Pass | 169 | 506 | 0 | 0 | `audit\seek_caption_qa\sheets\end-of-life-timing-korean-english-subtitles.jpg` |
+| `hospice-core-services-korean-english-subtitles.mp4` | Pass | 233 | 699 | 0 | 0 | `audit\seek_caption_qa\sheets\hospice-core-services-korean-english-subtitles.jpg` |
+| `hospice-myths-korean-english-subtitles.mp4` | Pass | 175 | 523 | 0 | 0 | `audit\seek_caption_qa\sheets\hospice-myths-korean-english-subtitles.jpg` |
+| `hospice-nurse-interview-janice-korean-english-subtitles.mp4` | Pass | 45 | 135 | 0 | 0 | `audit\seek_caption_qa\sheets\hospice-nurse-interview-janice-korean-english-subtitles.jpg` |
+| `hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.mp4` | Pass | 80 | 238 | 0 | 0 | `audit\seek_caption_qa\sheets\hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.jpg` |
+| `hospice-team-interview-younghee-kim-korean-english-subtitles.mp4` | Pass | 38 | 114 | 0 | 0 | `audit\seek_caption_qa\sheets\hospice-team-interview-younghee-kim-korean-english-subtitles.jpg` |
+| `polst-korean-english-subtitles.mp4` | Pass | 156 | 468 | 0 | 0 | `audit\seek_caption_qa\sheets\polst-korean-english-subtitles.jpg` |
 
 ## Interpretation
 
