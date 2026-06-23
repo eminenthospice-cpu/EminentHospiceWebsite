@@ -22,3 +22,4 @@
 # Self-hosted videos: cacheable so the edge serves 206 range requests (seeking).
 /videos/*
   Cache-Control: public, max-age=604800, must-revalidate
+  Accept-Ranges: bytes

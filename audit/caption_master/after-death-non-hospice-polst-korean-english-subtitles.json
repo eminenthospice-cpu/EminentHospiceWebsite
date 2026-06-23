@@ -1,0 +1,610 @@
+{
+  "video": "public/videos/after-death-non-hospice-polst-korean-english-subtitles.mp4",
+  "source_transcript": "audit\\video_captions\\transcripts\\after-death-non-hospice-polst-korean-english-subtitles.json",
+  "language": "en",
+  "source": "machine translation grouped into phrase-level draft captions",
+  "review_required": true,
+  "style": {
+    "max_lines": 2,
+    "line_width": 42,
+    "burned_in": true,
+    "vtt_accessibility_track": true
+  },
+  "entries": [
+    {
+      "start": 0.0,
+      "end": 4.4,
+      "text": "Hello, I'm Kim Jeong Ah, a nurse practitioner working at Eminent Hospice Care.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 4.9,
+      "end": 12.6,
+      "text": "In the last video, I talked about the death after the patient was admitted by the hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 12.62,
+      "end": 20.14,
+      "text": "Today, I will explain about the death after the patient was admitted by the hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 20.6,
+      "end": 26.92,
+      "text": "First, the hospital. The patient who goes back to the hospital is treated by the patient who went back to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 27.38,
+      "end": 34.34,
+      "text": "After the patient was admitted by the hospice, the patient will take the patient to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 35.76,
+      "end": 37.46,
+      "text": "Next, the patient who went back to the hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 38.96,
+      "end": 47.68,
+      "text": "In the hospice, the patient's heart stops, and if he finds out that he is not breathing, it is important to advance the directive.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 48.62,
+      "end": 53.46,
+      "text": "After the patient is admitted by the hospice, it is important to advance the directive.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 57.22,
+      "end": 61.16,
+      "text": "POLST, Physician orders for life-sustaining treatment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 61.88,
+      "end": 66.2,
+      "text": "In Korean, it is a little awkward, but it is called a doctor's order related to life extension treatment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 67.66,
+      "end": 69.82,
+      "text": "In Korean, it is called a resuscitation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 70.98,
+      "end": 78.66,
+      "text": "Usually, it is a pink paper, but if the heart stops, it will indicate whether or not to do a resuscitation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 79.52,
+      "end": 83.52,
+      "text": "If you have to do a resuscitation, it is a case of a check-up on the CPR.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 84.96,
+      "end": 90.78,
+      "text": "At this time, the doctor's order is to perform a resuscitation and call 911 to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 91.6,
+      "end": 93.3,
+      "text": "There are cases where patients exercise a lot.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 94.18,
+      "end": 99.7,
+      "text": "If you have to do a resuscitation, it is a case of a check-up on the CPR and cardiopulmonary resuscitation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 101.44,
+      "end": 104.94,
+      "text": "At this time, the doctor's order is to perform a resuscitation and call 911.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 106.54,
+      "end": 107.82,
+      "text": "That's why you have to send it to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 108.6,
+      "end": 112.34,
+      "text": "In the case of patients who exercise a lot, they only think of CPR as a heart massage.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 113.86,
+      "end": 121.9,
+      "text": "The meaning of doing CPR is that it means not only the heart massage, but the heart electric shock, the organ, and the spine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 123.76,
+      "end": 128.06,
+      "text": "If you don't do a resuscitation, it is a case of a DNR, do not resuscitate.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 129.92,
+      "end": 137.594,
+      "text": "At this time, the resuscitation is not performed, and after the resuscitation is declared dead, After contacting the family, when the family",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 137.594,
+      "end": 141.78,
+      "text": "is called by a designated business owner, the family is brought out.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 142.74,
+      "end": 149.82,
+      "text": "However, as I said earlier, the doctor's order should start with CPR, and then call 911.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 150.94,
+      "end": 154.3,
+      "text": "The 911 needs to do all the procedures to get the patient resuscitated.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 156.22,
+      "end": 160.62,
+      "text": "You can take him to the hospital, and you can do resuscitation at that place.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 162.08,
+      "end": 166.76,
+      "text": "If you call 911 at nursing facility, there is a paramedic ambulance.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 167.58,
+      "end": 171.74,
+      "text": "At some times, there are cases where the fire department and the police come together.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 172.2,
+      "end": 177.6,
+      "text": "In Korean, there are times when the ambulance, the fire department, and the police car come together.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 178.46,
+      "end": 183.92,
+      "text": "Because they are in charge of emergency services in these three places, they come out of the place where they can come first,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 183.92,
+      "end": 188.38,
+      "text": "and the rest do not arrive on time or come to the situation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 189.94,
+      "end": 194.1,
+      "text": "According to the case, the police came and there was no suspicious point of death.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 194.66,
+      "end": 198.54,
+      "text": "After the investigation, if the investigation is done, you can call an officer.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 200.18,
+      "end": 208.2,
+      "text": "However, if the police have doubts about this case, they will investigate more and contact the County Coroner.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 209.2,
+      "end": 212.12,
+      "text": "The County Coroner is called a coroner's office.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 212.64,
+      "end": 219.0,
+      "text": "The coroner's office comes out and decides whether to come and go to the place where they arrest the suspect.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 219.94,
+      "end": 225.26,
+      "text": "If you go to the coroner's office, you will be arrested once again at the coroner's office.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 227.96,
+      "end": 230.54,
+      "text": "Finally, if you die in the house or nursing facility.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 231.44,
+      "end": 239.66,
+      "text": "If you die without a hospice, the person who was in the general family and nursing facility should be called 911.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 240.7,
+      "end": 249.12,
+      "text": "If you call 911, a paramedic, a fire department, or a police team comes out first, like I said earlier.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 249.16,
+      "end": 251.64,
+      "text": "In general, there are emergency services in the paramedics.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 252.82,
+      "end": 257.2,
+      "text": "Most paramedic hospitals have a POLST office, but they have a POLST-death facility.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 258.06,
+      "end": 265.567,
+      "text": "But there are no people who have a home or a hotel, and even if you go back, you have to call",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 265.567,
+      "end": 268.98,
+      "text": "911 because there are no people who can officially die.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 269.6,
+      "end": 272.88,
+      "text": "So you have to come to 911 and check if there is a DNR,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 273.78,
+      "end": 281.12,
+      "text": "If you don't have it, you have to carry out a possible trial, and you have to take all the procedures for life extension.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 281.7,
+      "end": 287.974,
+      "text": "Nevertheless, if you go back, you have to do POLST-death procedure, and you have to investigate whether the police are a natural",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 287.974,
+      "end": 289.4,
+      "text": "death or a suspicious death.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 291.08,
+      "end": 297.76,
+      "text": "In the same way as the nursing facility, the worst case is that the police have to call the County Coroner to do the autopsy.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 299.72,
+      "end": 309.21,
+      "text": "First of all, the family was already in shock due to sudden death, and the police couldn't touch or move it until",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 309.21,
+      "end": 315.68,
+      "text": "the investigation was over, so the family went through a difficult situation mentally once again.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 316.62,
+      "end": 324.52,
+      "text": "So, especially for those at home, I also recommend the hospice to prevent the complicated process that you have to go through after death.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 326.06,
+      "end": 335.32,
+      "text": "If the patient who doesn't do the hospice is dead, the chief doctor will help you with the necessary procedures for death.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 335.92,
+      "end": 339.8,
+      "text": "Then this time, I would like to tell you more about the funeral.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 340.72,
+      "end": 343.56,
+      "text": "Our company mainly has patients in LA and Orange County.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 346.3,
+      "end": 350.5,
+      "text": "So, people who are in LA and in this neighborhood use a lot of Korean funeral companies.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 351.56,
+      "end": 357.3,
+      "text": "When the patient goes back, they take him to the funeral, and after that, they do POLST-death procedure.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 358.22,
+      "end": 363.44,
+      "text": "In the funeral, they invite customers and move to the funeral after all POLST-death procedures are done.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 365.96,
+      "end": 378.6,
+      "text": "In general, Korean funeral companies are easy-going and culture-like, so they take care of everything in Korean, so Koreans prefer Korean funeral companies.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 379.8,
+      "end": 384.02,
+      "text": "American funeral companies have cheap and expensive prices.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 384.42,
+      "end": 391.5,
+      "text": "Rather than doing it on their own, there are a lot of choices and sometimes you feel uncomfortable due to other cultures,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 391.86,
+      "end": 397.02,
+      "text": "so Korean people prefer Korean companies that are a little expensive and culture-like.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 400.5,
+      "end": 406.9,
+      "text": "Among foreign funeral companies, there is a company that provides funeral services at the funeral site.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 407.9,
+      "end": 415.1,
+      "text": "So, when you go back, it is a little expensive because you can bring funeral services to the site without moving right away.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 417.14,
+      "end": 421.54,
+      "text": "funeral expenses are very different from funeral companies, and the more you decide in advance, the better you can prepare in advance",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 421.54,
+      "end": 423.54,
+      "text": "because you can choose from the price or service, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 428.52,
+      "end": 431.9,
+      "text": "And if you do cremation, it's another case.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 432.68,
+      "end": 437.62,
+      "text": "This is also a cremation company run by Koreans and a foreign company run by foreign people.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 439.32,
+      "end": 440.74,
+      "text": "However, there is a little price difference.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 442.6,
+      "end": 448.713,
+      "text": "One thing I want to tell you is that if you are economically difficult or you don't want to invite a lot",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 448.713,
+      "end": 450.38,
+      "text": "of people regardless of the price,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 451.38,
+      "end": 458.38,
+      "text": "if you want to do cremation with a low price, you usually use a foreign company.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 459.74,
+      "end": 463.52,
+      "text": "So far, I have talked about the general procedure of Lim Jong-woo.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 464.46,
+      "end": 470.0,
+      "text": "Before I finish the video, I would like to tell you about the attitude of death for a moment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 470.54,
+      "end": 477.74,
+      "text": "Korean culture often thinks that it is very difficult to talk about death because it is not the end of death.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 479.6,
+      "end": 486.42,
+      "text": "On the other hand, Western culture thinks that death is another natural journey of life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 488.9,
+      "end": 491.02,
+      "text": "I really saw a lot of death.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 493.52,
+      "end": 497.24,
+      "text": "It seems to be the final expression of the fact that I lived well.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 497.46,
+      "end": 500.92,
+      "text": "I think I can die well because I lived well.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 501.5,
+      "end": 504.28,
+      "text": "Every time I see the person who goes back, I become humble.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 505.11,
+      "end": 507.22,
+      "text": "My life is once given to me.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 507.73,
+      "end": 510.58,
+      "text": "I have to live meaningfully until I go to God.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 510.58,
+      "end": 517.04,
+      "text": "I hope this video was helpful to those who watched it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 517.84,
+      "end": 522.86,
+      "text": "In the next video, I will come back with this question.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 523.78,
+      "end": 525.84,
+      "text": "Thank you for watching.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "video": "public/videos/hospice-team-interview-younghee-kim-korean-english-subtitles.mp4",
+  "source_transcript": "audit\\video_captions\\transcripts\\hospice-team-interview-younghee-kim-korean-english-subtitles.json",
+  "language": "en",
+  "source": "machine translation grouped into phrase-level draft captions",
+  "review_required": true,
+  "style": {
+    "max_lines": 2,
+    "line_width": 42,
+    "burned_in": true,
+    "vtt_accessibility_track": true
+  },
+  "entries": [
+    {
+      "start": 11.79,
+      "end": 19.87,
+      "text": "I am Kim Young-hee, working as a assistant at Eminent Hospice for the past 6 months.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 28.47,
+      "end": 34.31,
+      "text": "My husband, who was usually sick, was discharged on April 15th.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 46.27,
+      "end": 55.196,
+      "text": "I was able to stay at the hospital bed, wheelchair, walker, oxygen heater, and other equipment provided by Eminent Hospice for the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 55.196,
+      "end": 57.63,
+      "text": "past 1 month and 1 month.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 57.63,
+      "end": 61.59,
+      "text": "I was able to stay at the hospital bed safely and comfortably without panic.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 63.39,
+      "end": 69.73,
+      "text": "I was also able to take the doctor who helped me at the hospice a few days ago to the hospital bed.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 72.03,
+      "end": 87.35,
+      "text": "After a few days after he passed away, I began to work from April 21.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 96.1,
+      "end": 100.4,
+      "text": "I worked as a nurse at Seoul National Hospital for 20 years.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 126.44,
+      "end": 130.38,
+      "text": "I worked as a nurse at a hospital bed to help my baby father.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 158.96,
+      "end": 160.36,
+      "text": "Thanks to that, I am now working as a nurse at the hospital bed.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 160.36,
+      "end": 164.3,
+      "text": "I am now helping those who need a hair cut or a foot massage.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 173.21,
+      "end": 179.85,
+      "text": "I have been working for the first time since I was born.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 182.21,
+      "end": 185.31,
+      "text": "I was 98 years old. I cried a lot for a long time.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 187.11,
+      "end": 191.21,
+      "text": "Before I went back to the hospital bed, I had to change my diaper in the evening.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 191.29,
+      "end": 193.67,
+      "text": "My father was smiling at me with a wrong mouth.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 196.29,
+      "end": 200.05,
+      "text": "That night, my father was smiling at me like a child.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 202.91,
+      "end": 206.05,
+      "text": "I thought that I should go and hug him.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 208.75,
+      "end": 212.75,
+      "text": "My heart ached a lot. He loved me.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 218.05,
+      "end": 224.57,
+      "text": "My mother is a Parkinson's patient, but she has a lot of doubts.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 225.31,
+      "end": 226.95,
+      "text": "She was very scared of people she had never seen before.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 229.79,
+      "end": 232.29,
+      "text": "She is very close to me now.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 232.61,
+      "end": 234.03,
+      "text": "I was also scared at first.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 234.67,
+      "end": 237.45,
+      "text": "She said she had never seen me before.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 237.45,
+      "end": 238.37,
+      "text": "She said she had never seen me before.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 239.67,
+      "end": 241.63,
+      "text": "She is a patient who can't move because her muscles are paralyzed.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 244.41,
+      "end": 247.63,
+      "text": "She can't chew and swallow well.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 248.79,
+      "end": 252.63,
+      "text": "She can't express well because she can't speak well.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 255.43,
+      "end": 258.89,
+      "text": "But she is very close to me now.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 259.29,
+      "end": 263.09,
+      "text": "She sometimes gets depressed, but she is very happy to communicate with me.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 263.09,
+      "end": 270.601,
+      "text": "When patients who are having a hard time because of dementia, they also sympathize with their emotional state and say thank you",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 270.601,
+      "end": 272.65,
+      "text": "when they get used to it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 273.89,
+      "end": 286.83,
+      "text": "It's very annoying. Therefore, I think it's most rewarding when patients feel comforted and feel at ease",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 294.49,
+      "end": 297.61,
+      "text": "I think most people don't know much about hospice like my husband or my father.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 300.85,
+      "end": 304.47,
+      "text": "I think most people don't know much about hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 304.89,
+      "end": 308.65,
+      "text": "I think there are many people who need help from my experience.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 312.67,
+      "end": 317.53,
+      "text": "Please contact Eminot Hospice right now and receive help.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 319.35,
+      "end": 329.83,
+      "text": "I'm trying to give as much help as possible to those who need time and health to those who need it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 331.69,
+      "end": 333.25,
+      "text": "Thank you.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    }
+  ]
+}

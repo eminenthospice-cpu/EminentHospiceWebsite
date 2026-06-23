@@ -1,0 +1,1009 @@
+{
+  "video": "public/videos/polst-korean-english-subtitles.mp4",
+  "source_transcript": "audit\\video_captions\\transcripts\\polst-korean-english-subtitles.json",
+  "language": "en",
+  "source": "machine translation grouped into phrase-level draft captions",
+  "review_required": true,
+  "style": {
+    "max_lines": 2,
+    "line_width": 42,
+    "burned_in": true,
+    "vtt_accessibility_track": true
+  },
+  "entries": [
+    {
+      "start": 0.0,
+      "end": 5.32,
+      "text": "Hello, I'm Kim Jeong Ah, a nurse practitioner at Eminent Hospice. Today, I will explain about the POLST.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 7.62,
+      "end": 15.996,
+      "text": "POLST is a official document that determines what treatment you will receive when the patient with severe disease with a serious disease",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 15.996,
+      "end": 18.28,
+      "text": "with the weakness of life-sustaining treatment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 18.28,
+      "end": 24.095,
+      "text": "It is an official document that determines whether you will receive life-sustaining treatment or not, and if you think that the patient",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 24.095,
+      "end": 28.06,
+      "text": "and the doctor should be together, you can think of it as a medical resource.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 30.06,
+      "end": 34.46,
+      "text": "If it is difficult for the patient to write it himself, you can write it instead of a legal person such as",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 34.46,
+      "end": 35.46,
+      "text": "family or power of attorney.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 35.46,
+      "end": 44.66,
+      "text": "The purpose of POLST is not to write it, but if you do not write it in advance, you will feel great",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 44.66,
+      "end": 49.26,
+      "text": "pressure or guilt due to the need for family decisions later.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 50.22,
+      "end": 56.8,
+      "text": "Also, if you do not have a pre-ordinary decision, you may accept the patient's pain due to unnecessary medical procedures.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 58.36,
+      "end": 61.34,
+      "text": "Accordingly, it is most desirable that the patient decides in advance.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 63.3,
+      "end": 65.72,
+      "text": "The written content can be changed anytime.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 68.8,
+      "end": 73.803,
+      "text": "POLST is usually written on a bright pink container so that it can be seen well in the eyes, and it is",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 73.803,
+      "end": 74.94,
+      "text": "often called the pink bomb.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 76.0,
+      "end": 81.92,
+      "text": "If you keep it at home, it is often attached to the refrigerator or place where it can be seen well compared to emergency situations.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 82.98,
+      "end": 90.545,
+      "text": "When the 911 is launched, if there is a POLST, according to the content, it decides the direction of treatment such as",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 90.545,
+      "end": 91.92,
+      "text": "CPR, lung surgery, etc.,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 92.52,
+      "end": 100.676,
+      "text": "but if there is no POLST, it is automatically controlled by full-code, all side-by-side treatment, and all emergency measures are carried out",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 100.676,
+      "end": 102.9,
+      "text": "to prevent the patient from suffering.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 103.59,
+      "end": 112.12,
+      "text": "The food of POLST is largely composed of 8A, B, C, D, and four, and contains various patient's treatment preferences and symptoms.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 113.8,
+      "end": 119.62,
+      "text": "At the top right, you can enter the patient's information on patient information.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 120.1,
+      "end": 125.84,
+      "text": "When the patient's heart stops or does not breathe, it is the part that decides whether to perform a simple operation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 128.32,
+      "end": 134.48,
+      "text": "The first option is an attempt to perform CPR, lung surgery, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 134.62,
+      "end": 142.36,
+      "text": "When you check the CPR, it means that all emergency measures can be taken when the patient's heart stops.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 142.56,
+      "end": 150.401,
+      "text": "At the site, the heart massage and the artificial breathing are performed, and all treatments including transplant, electric shock, drug treatment, organ",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 150.401,
+      "end": 152.54,
+      "text": "surgery, and artificial breathing are included.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 152.54,
+      "end": 155.42,
+      "text": "In other words, all treatments include painkillers for life extension.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 155.62,
+      "end": 160.86,
+      "text": "That is, it means that all medical treatments provided by the modern medicine for the life of the patient will receive full treatment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 163.18,
+      "end": 171.22,
+      "text": "The second option is a natural use of CPR, lung surgery, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 171.22,
+      "end": 173.9,
+      "text": "The second option is a natural use of CPR, lung surgery, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 173.9,
+      "end": 174.7,
+      "text": "The second option is a natural use of CPR, lung surgery, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 174.7,
+      "end": 182.12,
+      "text": "When the patient's heart stops or breathing stops, it is a choice that does not perform a simple operation, and does not face pain naturally.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 212.86,
+      "end": 220.48,
+      "text": "There are cases where many people only think of simple surgery, lung surgery, and heart pressure, which is seen in dramas or TV.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 220.94,
+      "end": 227.265,
+      "text": "In fact, there are cases where you have to understand the connection of the electric shock, organ surgery, and artificial breathing, so",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 227.265,
+      "end": 230.14,
+      "text": "it is necessary to send the patient to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 231.74,
+      "end": 235.04,
+      "text": "You have to understand and decide carefully.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 236.0,
+      "end": 241.44,
+      "text": "Part B is divided into three things about medical intervention, including medical intervention.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 242.22,
+      "end": 250.84,
+      "text": "The first four treatments are meant to use all medical means available for the life extension as I said earlier.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 252.34,
+      "end": 257.98,
+      "text": "If you want CPR for the life extension, you will be treated here and treated at the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 260.3,
+      "end": 263.58,
+      "text": "The second selective treatment is a choice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 263.58,
+      "end": 270.04,
+      "text": "It is a selective treatment. It is a choice that avoids excessive treatment and painful treatment due to the current medical problems.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 271.22,
+      "end": 277.62,
+      "text": "It does not have to do with CPR or prayer, but it is used to treat the need for life extension, lung surgery, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 279.42,
+      "end": 286.28,
+      "text": "When the patient is in a place where comfort, comfort and comfort are not met, he will be sent to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 286.86,
+      "end": 291.42,
+      "text": "The third is a treatment that aims to fill in the patient's comfort.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 293.94,
+      "end": 303.42,
+      "text": "It is a symptom-free treatment such as oxygen, suction, and absorption, but it is not an active treatment for the purpose of life extension.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 304.1,
+      "end": 306.42,
+      "text": "It is a choice that most hospice patients choose.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 317.08,
+      "end": 322.24,
+      "text": "Part C is a choice about artificially administered nutrition and artificial nutrition.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 324.32,
+      "end": 329.1,
+      "text": "The first is long-term artificial nutrition, including feeding tube.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 329.48,
+      "end": 333.92,
+      "text": "Long-term artificial nutrition is a surgical method that includes a long-term artificial nutrition tube.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 337.36,
+      "end": 340.54,
+      "text": "This method requires external surgery.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 341.5,
+      "end": 348.44,
+      "text": "If you are already using a feeding tube before starting hospice, you can continue while receiving hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 349.58,
+      "end": 353.2,
+      "text": "You can not start with a g-tube while doing hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 353.46,
+      "end": 357.4,
+      "text": "Usually, you consult a hospice service and do g-tubes.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 358.32,
+      "end": 365.32,
+      "text": "The second is trial field of artificial nutrition, including feeding tube.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 365.76,
+      "end": 377.4,
+      "text": "It is a short-term trial. It is a case of using g-tubes, long-term nasogastric tubes, and g-tubes, which are commonly called g-tubes.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 377.92,
+      "end": 386.22,
+      "text": "This tube is very uncomfortable because it has it while the patient is conscious, so the patient may take it out without even knowing it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 389.84,
+      "end": 395.06,
+      "text": "The third is no artificial nutrition, including feeding tube.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 395.44,
+      "end": 398.08,
+      "text": "It means that it will not try artificial nutrition.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 399.02,
+      "end": 403.3,
+      "text": "It is a choice that uses natural behavior without artificial nutrition.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 403.98,
+      "end": 408.32,
+      "text": "Most hospice patients choose this option for the quality and flexibility of life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 410.2,
+      "end": 412.54,
+      "text": "Part D is the final section.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 412.54,
+      "end": 415.5,
+      "text": "The decision is made by the patient or the family and the procedure.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 420.16,
+      "end": 422.34,
+      "text": "I would like to talk a little more about the feeding tube.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 423.92,
+      "end": 426.84,
+      "text": "There are people who are already using g-tubes when you start hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 427.88,
+      "end": 432.66,
+      "text": "However, g-tubes can cause symptoms such as inflammation, infection, and repeatable fever.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 434.84,
+      "end": 438.82,
+      "text": "There are many cases where the patient needs to take care of someone for 24 hours by dropping the quality of life of the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 439.18,
+      "end": 443.42,
+      "text": "There are many cases where the patient needs to take care of someone for 24 hours.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 444.4,
+      "end": 451.26,
+      "text": "Especially in dementia, Parkinson's, and brain disease, patients often behave when they lose their ability to swallow,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 451.26,
+      "end": 456.46,
+      "text": "but after a while, many people regret and regret it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 457.1,
+      "end": 462.32,
+      "text": "Some of my family members told me to do it in the hospital, so I just did it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 464.3,
+      "end": 469.68,
+      "text": "There are many cases where the patient only listens to the doctor when he is not ready to explain the situation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 471.24,
+      "end": 476.227,
+      "text": "However, in the end, in order to take care of one patient, the whole family is sacrificed, or one of the family",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 476.227,
+      "end": 478.04,
+      "text": "has to take care of the whole family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 478.04,
+      "end": 479.66,
+      "text": "There are cases when the patient leaves the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 480.12,
+      "end": 486.435,
+      "text": "Therefore, it is better to consider the situation of g-tubes, and carefully decide whether to take care of the patient's medical skills,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 486.435,
+      "end": 489.88,
+      "text": "life quality, and the environment in which the family can handle it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 494.76,
+      "end": 501.322,
+      "text": "I often talk to people who apply for hospice, but first of all, I ask them whether they are ready to take",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 501.322,
+      "end": 508.48,
+      "text": "care of the patient's medical skills, life quality, and the environment in which the patient is not ready to take care of the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 509.52,
+      "end": 515.25,
+      "text": "When applying for hospice, many people think that they should do it because it is a good service, but there are cases",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 515.25,
+      "end": 520.46,
+      "text": "where they are surprised when they say that they are not ready to take care of the patient's medical skills.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 522.54,
+      "end": 524.88,
+      "text": "And they immediately ask like this.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 525.6,
+      "end": 527.02,
+      "text": "What do you do when you are sick?",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 527.6,
+      "end": 530.38,
+      "text": "In particular, Koreans often think that if they are sick, they should go to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 531.24,
+      "end": 533.3,
+      "text": "If they are in emergency, they should call 911.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 536.3,
+      "end": 541.34,
+      "text": "Of course, in general situations, if you choose hospice,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 542.44,
+      "end": 545.58,
+      "text": "when the patient is sick or has a medical problem,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 546.7,
+      "end": 548.56,
+      "text": "I tell you to contact hospice first.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 549.66,
+      "end": 556.86,
+      "text": "Even in emergency situations, you can call hospice and you can get help from the part you can solve in hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 558.22,
+      "end": 563.667,
+      "text": "The important thing is to explain to the family that the patient's current situation and the things that have happened in the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 563.667,
+      "end": 565.4,
+      "text": "future can be chosen by the family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 568.08,
+      "end": 573.679,
+      "text": "In fact, there are many cases where the family is taken to the hospital because they are not doctors, but in reality,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 573.679,
+      "end": 578.26,
+      "text": "there are quite a lot of cases where they are given instructions to the guardian on the phone",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 578.26,
+      "end": 584.62,
+      "text": "or the nurse checks the patient at the door, and if the doctor drops the medicine at the hospice,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 584.78,
+      "end": 586.78,
+      "text": "there are quite a lot of cases where the patient does not have to go to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 590.26,
+      "end": 594.1,
+      "text": "For example, some patients often go to the hospital because the patient is sick.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 596.58,
+      "end": 599.18,
+      "text": "There were cases where the family was tired and started hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 600.96,
+      "end": 603.74,
+      "text": "And after the start of hospice, there were a lot of panic attacks.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 604.9,
+      "end": 611.9,
+      "text": "At that time, the hospice doctor had to remove the warning signs and never went to the hospital for a year.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 612.88,
+      "end": 617.78,
+      "text": "So, instead, the patient's condition got better, so there were cases where the hospice had to terminate the treatment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 619.2,
+      "end": 622.1,
+      "text": "In this case, there are often cases like this.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 622.1,
+      "end": 625.78,
+      "text": "The purpose of hospice is not to drag the patient forward or to let go.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 627.02,
+      "end": 633.48,
+      "text": "Hospice is the place where the patient is currently at, so it helps to get the last dose naturally.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 636.06,
+      "end": 642.58,
+      "text": "So, instead of going through a difficult treatment process at the hospital, I will explain the patient's condition",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 642.58,
+      "end": 646.28,
+      "text": "so that the family can continue to prepare for it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 648.8,
+      "end": 654.843,
+      "text": "Then, in many cases, the patient and the family take the situation well, and the patient also receives a comfortable dose at",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 654.843,
+      "end": 657.04,
+      "text": "the place where the patient is currently at.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 659.62,
+      "end": 663.64,
+      "text": "Of course, at first, the patient said that he would get a dose at home without going to the hospital,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 664.78,
+      "end": 669.66,
+      "text": "but when the patient gets sick, the heart changes, so there are cases of moving to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 672.2,
+      "end": 676.24,
+      "text": "As I explained in POLST, POLST can be changed at any time depending on the patient and the family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 679.26,
+      "end": 682.26,
+      "text": "In that case, we will stop the hospice service,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 683.2,
+      "end": 686.04,
+      "text": "and we will respect the choice of the family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 688.96,
+      "end": 690.18,
+      "text": "I will wrap up here.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 691.1,
+      "end": 693.68,
+      "text": "POLST I mentioned so far is generally accepted.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 695.22,
+      "end": 699.96,
+      "text": "However, in the actual scene, there are times when the family asks the part that is not clearly written on the POLST.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 702.12,
+      "end": 705.96,
+      "text": "For example, some families say, let's not even do oxygenation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 707.74,
+      "end": 714.76,
+      "text": "In fact, oxygenation is considered as an emergency comfort measure for the patient's convenience.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 715.2,
+      "end": 721.32,
+      "text": "So we say that since oxygenation is considered as a comfort measure, you must do it at the hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 722.74,
+      "end": 727.38,
+      "text": "If you listen to that explanation, some people understand it, and some people don't understand it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 728.3,
+      "end": 735.38,
+      "text": "In this case, it is carried out according to the doctor's order, but in the family, it may not be easy to decide.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 735.98,
+      "end": 742.28,
+      "text": "So if you are not in a general situation in POLST, you have to discuss with the doctor and decide.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 743.22,
+      "end": 747.82,
+      "text": "The important thing is that there is no answer or answer in the POLST.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 748.22,
+      "end": 753.14,
+      "text": "The values of the patient and the family may vary depending on the environment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 754.74,
+      "end": 761.98,
+      "text": "However, as I said earlier, I would like to emphasize that a part of the life extension may cause more pain to the patient",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 761.98,
+      "end": 764.0,
+      "text": "and that it may drop the quality of life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 766.92,
+      "end": 769.36,
+      "text": "I recommend that the family decide carefully with enough time.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 772.28,
+      "end": 773.08,
+      "text": "It is difficult for anyone to talk about death.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 775.7,
+      "end": 781.34,
+      "text": "However, it is really important to prepare to face the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 788.5,
+      "end": 795.4,
+      "text": "I would like to share my experience as a hospice nurse.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 795.78,
+      "end": 799.06,
+      "text": "I watched the end of many patients.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 799.56,
+      "end": 804.76,
+      "text": "Some families are really good at preparing, so I saw them go to the hospital in peace.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 806.04,
+      "end": 813.44,
+      "text": "However, in some cases, even though the patient is in pain, the family still lives a bit more comfortably.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 813.44,
+      "end": 818.82,
+      "text": "So I watched the end of many patients.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 818.9,
+      "end": 828.88,
+      "text": "Especially in Korea, there are many cases where patients die without preparation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 829.34,
+      "end": 838.98,
+      "text": "Some patients die without preparation. In fact, the most important moments of life are",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 838.98,
+      "end": 842.44,
+      "text": "preparation, care, marriage, retirement, etc.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 844.04,
+      "end": 847.3,
+      "text": "You need to prepare and choose the last moment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 847.96,
+      "end": 851.12,
+      "text": "You already know, but there is no ordinary life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 851.9,
+      "end": 854.08,
+      "text": "The last moment is not just passing.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 855.18,
+      "end": 856.56,
+      "text": "You need to prepare and choose.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 857.8,
+      "end": 863.78,
+      "text": "For the patient, and for the rest of the family, you need to take the last moment and prepare comfortably.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 863.78,
+      "end": 866.8,
+      "text": "You need to take the last moment and prepare comfortably.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 867.56,
+      "end": 870.1,
+      "text": "Thank you for watching.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    }
+  ]
+}

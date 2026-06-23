@@ -1,0 +1,402 @@
+{
+  "date": "2026-06-23",
+  "base": "http://localhost:4321",
+  "method": "Native video elements were focused/clicked, then ArrowRight/ArrowLeft keyboard seeking was verified. Direct play/currentTime mutation is unavailable in this in-app browser read-only media wrapper.",
+  "routesChecked": 10,
+  "videosChecked": 18,
+  "failures": [],
+  "results": [
+    {
+      "route": "/en/understanding-hospice",
+      "videos": [
+        {
+          "currentTime": 0,
+          "duration": 638.177,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/hospice-myths-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/hospice-myths-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 19.145,
+          "afterBack": 12.764,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        }
+      ]
+    },
+    {
+      "route": "/en/services",
+      "videos": [
+        {
+          "currentTime": 0,
+          "duration": 860.764,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/hospice-core-services-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/hospice-core-services-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 25.823,
+          "afterBack": 17.215,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        }
+      ]
+    },
+    {
+      "route": "/en/hospice-laws",
+      "videos": [
+        {
+          "currentTime": 0,
+          "duration": 876.112,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/polst-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/polst-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 26.283,
+          "afterBack": 17.522,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        },
+        {
+          "currentTime": 0,
+          "duration": 527.627,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/after-death-non-hospice-polst-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/after-death-non-hospice-polst-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 15.829,
+          "afterBack": 10.553,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        }
+      ]
+    },
+    {
+      "route": "/en/for-families",
+      "videos": [
+        {
+          "currentTime": 0,
+          "duration": 587.488,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/end-of-life-timing-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/end-of-life-timing-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 17.625,
+          "afterBack": 11.75,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        },
+        {
+          "currentTime": 0,
+          "duration": 528.231,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/after-death-hospice-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/after-death-hospice-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 15.847,
+          "afterBack": 10.565,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        }
+      ]
+    },
+    {
+      "route": "/en/about",
+      "videos": [
+        {
+          "currentTime": 0,
+          "duration": 345.583,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/hospice-team-interview-younghee-kim-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/hospice-team-interview-younghee-kim-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 10.367,
+          "afterBack": 6.912,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        },
+        {
+          "currentTime": 0,
+          "duration": 328.539,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/hospice-nurse-interview-janice-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/hospice-nurse-interview-janice-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 9.856,
+          "afterBack": 6.571,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        },
+        {
+          "currentTime": 0,
+          "duration": 472.689,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 14.181,
+          "afterBack": 9.454,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        }
+      ]
+    },
+    {
+      "route": "/ko/understanding-hospice",
+      "videos": [
+        {
+          "currentTime": 0,
+          "duration": 638.177,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/hospice-myths-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/hospice-myths-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 19.145,
+          "afterBack": 12.764,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        }
+      ]
+    },
+    {
+      "route": "/ko/services",
+      "videos": [
+        {
+          "currentTime": 0,
+          "duration": 860.764,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/hospice-core-services-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/hospice-core-services-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 25.823,
+          "afterBack": 17.215,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        }
+      ]
+    },
+    {
+      "route": "/ko/hospice-laws",
+      "videos": [
+        {
+          "currentTime": 0,
+          "duration": 876.112,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/polst-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/polst-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 26.283,
+          "afterBack": 17.522,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        },
+        {
+          "currentTime": 0,
+          "duration": 527.627,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/after-death-non-hospice-polst-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/after-death-non-hospice-polst-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 15.829,
+          "afterBack": 10.553,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        }
+      ]
+    },
+    {
+      "route": "/ko/for-families",
+      "videos": [
+        {
+          "currentTime": 0,
+          "duration": 587.488,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/end-of-life-timing-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/end-of-life-timing-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 17.625,
+          "afterBack": 11.75,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        },
+        {
+          "currentTime": 0,
+          "duration": 528.231,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/after-death-hospice-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/after-death-hospice-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 15.847,
+          "afterBack": 10.565,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        }
+      ]
+    },
+    {
+      "route": "/ko/about",
+      "videos": [
+        {
+          "currentTime": 0,
+          "duration": 345.583,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/hospice-team-interview-younghee-kim-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/hospice-team-interview-younghee-kim-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 10.367,
+          "afterBack": 6.912,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        },
+        {
+          "currentTime": 0,
+          "duration": 328.539,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/hospice-nurse-interview-janice-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/hospice-nurse-interview-janice-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 9.856,
+          "afterBack": 6.571,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        },
+        {
+          "currentTime": 0,
+          "duration": 472.689,
+          "hasControls": true,
+          "preload": "metadata",
+          "src": "http://localhost:4321/videos/hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.mp4",
+          "tracks": [
+            {
+              "default": false,
+              "kind": "subtitles",
+              "mode": null,
+              "src": "/captions/hospice-social-work-bereavement-interview-peter-park-korean-english-subtitles.en.vtt"
+            }
+          ],
+          "afterForward": 14.181,
+          "afterBack": 9.454,
+          "keyboardSeekForward": true,
+          "keyboardSeekBackward": true
+        }
+      ]
+    }
+  ]
+}

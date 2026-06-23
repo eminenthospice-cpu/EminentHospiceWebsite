@@ -1,0 +1,316 @@
+{
+  "video": "public/videos/hospice-nurse-interview-janice-korean-english-subtitles.mp4",
+  "source_transcript": "audit\\video_captions\\transcripts\\hospice-nurse-interview-janice-korean-english-subtitles.json",
+  "language": "en",
+  "source": "machine translation grouped into phrase-level draft captions",
+  "review_required": true,
+  "style": {
+    "max_lines": 2,
+    "line_width": 42,
+    "burned_in": true,
+    "vtt_accessibility_track": true
+  },
+  "entries": [
+    {
+      "start": 11.95,
+      "end": 15.53,
+      "text": "Hello, my name is Janice, and I work as a nurse at Eminent Hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 25.75,
+      "end": 28.47,
+      "text": "I used to work at the nursing home.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 29.37,
+      "end": 33.49,
+      "text": "It was very rewarding to work with the elderly.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 34.55,
+      "end": 39.37,
+      "text": "Even if I gave them a little help, it was a big help to them.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 40.53,
+      "end": 47.63,
+      "text": "Even if I gave them a word of interest, they were very smiley and happy.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 48.49,
+      "end": 50.85,
+      "text": "I felt a lot more rewarding because of that.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 51.61,
+      "end": 56.79,
+      "text": "One thing I was sad about was that I couldn't have enough time with them.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 56.81,
+      "end": 60.33,
+      "text": "One of them asked me to visit the hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 60.33,
+      "end": 64.31,
+      "text": "At that time, it was only for the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 68.41,
+      "end": 75.81,
+      "text": "I felt more rewarding because of that.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 75.81,
+      "end": 77.85,
+      "text": "That's why I started hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 86.7,
+      "end": 91.06,
+      "text": "When you go to the hospice, you often think of patients who are not clear-cut.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 92.1,
+      "end": 102.2,
+      "text": "We help patients with various reasons to prepare for the end of their lives comfortably.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 105.98,
+      "end": 115.56,
+      "text": "If I explain in detail, the nurse went to the hospice and looked at the patient's head from the beginning to the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 116.26,
+      "end": 121.56,
+      "text": "We plan on the problems that are present there and the problems that can be solved in the future.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 123.56,
+      "end": 129.72,
+      "text": "After discussing with the doctor, we provide various treatments for the medicine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 137.89,
+      "end": 140.09,
+      "text": "There was a person who went back to the hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 140.43,
+      "end": 143.53,
+      "text": "Her wife was a guardian.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 144.63,
+      "end": 151.25,
+      "text": "She was determined to help her husband so that he could be comfortable with the patient at home.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 154.85,
+      "end": 158.79,
+      "text": "The patient was in a very difficult situation as the body was progressing quickly.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 158.79,
+      "end": 163.45,
+      "text": "In many situations, the guardian was very tired.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 164.25,
+      "end": 167.19,
+      "text": "Then, the guardian was very tired.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 168.39,
+      "end": 170.41,
+      "text": "And her children were living abroad.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 172.57,
+      "end": 176.23,
+      "text": "The guardian needed a lot of help.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 178.13,
+      "end": 184.25,
+      "text": "Whenever we needed help, we called her or found her and helped her.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 184.25,
+      "end": 188.21,
+      "text": "There was a limit to that.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 188.43,
+      "end": 196.79,
+      "text": "The guardian was very tired. After discussing with the guardian, we moved the patient to the assisted living room.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 199.21,
+      "end": 202.47,
+      "text": "The guardian was able to accept the patient comfortably until he was helped there.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 205.91,
+      "end": 209.21,
+      "text": "To be honest, the guardian needed a lot of help.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 209.21,
+      "end": 211.51,
+      "text": "To be honest, it was a difficult case for me.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 211.81,
+      "end": 216.17,
+      "text": "The guardian told me at the end of the story.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 216.81,
+      "end": 220.43,
+      "text": "After listening to the story, everything that was hard for me disappeared.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 221.67,
+      "end": 227.17,
+      "text": "The guardian told me that he was with me from the beginning to the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 228.05,
+      "end": 229.15,
+      "text": "He said thank you so much.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 229.15,
+      "end": 239.39,
+      "text": "After listening to the story, everything was forgotten.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 247.02,
+      "end": 253.96,
+      "text": "I was very nervous. After listening to the story, I was very nervous.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 254.14,
+      "end": 257.46,
+      "text": "At the hospital, I heard that the guardian was not helping the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 262.1,
+      "end": 265.16,
+      "text": "The guardian was very nervous.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 268.58,
+      "end": 273.0,
+      "text": "I think it is our job to help the patient to be able to take care of the patient well with their families.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 276.16,
+      "end": 282.88,
+      "text": "I think it is our job to make it easy for the patient to live as a member of the family until the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 286.34,
+      "end": 289.06,
+      "text": "And I think it is our job to help the patient to live as a member of the family until the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 290.24,
+      "end": 312.86,
+      "text": "And I think it is our job to help the patients to be able to live as a member of the family until the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 312.86,
+      "end": 315.38,
+      "text": "I think it is our job to help the patient to live as a member of the family until the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    }
+  ]
+}

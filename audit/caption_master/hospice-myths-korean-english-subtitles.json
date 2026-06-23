@@ -1,0 +1,967 @@
+{
+  "video": "public/videos/hospice-myths-korean-english-subtitles.mp4",
+  "source_transcript": "audit\\video_captions\\transcripts\\hospice-myths-korean-english-subtitles.json",
+  "language": "en",
+  "source": "machine translation grouped into phrase-level draft captions",
+  "review_required": true,
+  "style": {
+    "max_lines": 2,
+    "line_width": 42,
+    "burned_in": true,
+    "vtt_accessibility_track": true
+  },
+  "entries": [
+    {
+      "start": 0.18,
+      "end": 4.44,
+      "text": "Hello, I'm Kim Jeong Ah, a nurse practitioner working at Eminent Hospice Care.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 5.48,
+      "end": 14.28,
+      "text": "Today, I'm going to give you an answer to this question,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 16.18,
+      "end": 20.68,
+      "text": "There are people who ask, are you going to use a wet tissue if you do hospice?",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 22.14,
+      "end": 25.02,
+      "text": "To tell you the conclusion, it's not like that.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 25.42,
+      "end": 28.12,
+      "text": "Hospice is the cause, so patients don't go back soon.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 28.12,
+      "end": 37.22,
+      "text": "If you look at the research on hospice, Hospice patients are more likely to live longer than when they receive hospice service or hospice service.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 40.18,
+      "end": 47.733,
+      "text": "Hospice has seen a lot of the process of vaccination of patients, so it is possible to measure the disease that patients",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 47.733,
+      "end": 50.48,
+      "text": "have and the symptoms according to the symptoms.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 51.64,
+      "end": 59.0,
+      "text": "So, instead of looking around the patient alone, when you receive hospice service, you can manage the symptoms that the patient has now,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 61.28,
+      "end": 65.26,
+      "text": "so if the patient becomes comfortable and wants to live longer,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 66.48,
+      "end": 68.92,
+      "text": "then it becomes more likely to live longer.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 70.22,
+      "end": 74.6,
+      "text": "Taking good care of the medicine in hospice also increases the amount of medicine in the patient's life,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 76.28,
+      "end": 81.277,
+      "text": "but it is very rare. One of the misunderstandings about hospice is that there are people who think that if you do",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 81.277,
+      "end": 82.64,
+      "text": "hospice, the medicine will be broken.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 84.74,
+      "end": 87.52,
+      "text": "To tell you the conclusion, it's not like that.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 87.68,
+      "end": 95.02,
+      "text": "If you do hospice, you don't need to remove the medicine, but you need to organize it and leave the medicine that helps the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 96.65,
+      "end": 102.34,
+      "text": "After a while, there are cases where the medicine becomes more burdensome to the patient rather than looking forward to the effect of the medicine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 102.66,
+      "end": 105.08,
+      "text": "The most common case is dementia medicine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 105.96,
+      "end": 109.36,
+      "text": "Dementia is not a medicine that treats dementia, but a medicine that prevents dementia.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 111.38,
+      "end": 116.887,
+      "text": "In the case of dementia, it is not that you are looking forward to the effect of dementia, but that it can",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 116.887,
+      "end": 119.64,
+      "text": "give more bad influence to the current condition of the patient,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 119.64,
+      "end": 121.4,
+      "text": "so there are times when you have to make a decision.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 122.0,
+      "end": 127.26,
+      "text": "In other cases, there are cases where you have to take the medicine depending on the condition of the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 129.8,
+      "end": 137.88,
+      "text": "If the patient is maintaining normal conditions well, it will not be a big problem, but if the patient is in a bad condition,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 138.62,
+      "end": 141.28,
+      "text": "blood pressure, diabetes, and cholesterol should be careful.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 142.26,
+      "end": 146.72,
+      "text": "We often say that we should take diabetes, blood pressure, and cholesterol until we die.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 149.86,
+      "end": 156.86,
+      "text": "This means that we emphasize the word to keep eating without hesitation, but it is when the patient maintains normal conditions.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 158.76,
+      "end": 162.9,
+      "text": "In fact, there are a lot of people who come in because they can't eat,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 164.82,
+      "end": 169.72,
+      "text": "but if you take blood pressure, there are people who are already in low blood pressure.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 172.32,
+      "end": 176.92,
+      "text": "I think it's because there are responsibilities that families have to take the medicine even if they can't eat.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 179.86,
+      "end": 185.16,
+      "text": "If you can't eat, your weight will lose, and then there will be a lot of possibilities for your blood pressure to drop.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 186.24,
+      "end": 188.58,
+      "text": "In that case, if you keep taking the medicine,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 189.98,
+      "end": 193.84,
+      "text": "you will have low blood pressure and low blood pressure, and you will also be the cause of death.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 194.66,
+      "end": 200.284,
+      "text": "In the case of cholesterol medicine, it is a medicine that removes cholesterol from the body, but if you explain to your",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 200.284,
+      "end": 202.84,
+      "text": "family that you don't need to take the saved fat",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 203.9,
+      "end": 209.58,
+      "text": "even though you can't eat, your family will understand and agree with you.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 210.58,
+      "end": 213.78,
+      "text": "In the case of what I've told you so far, it's normal.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 214.5,
+      "end": 218.22,
+      "text": "According to the patient, there are some people who go to the hospital unexpectedly.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 219.74,
+      "end": 224.052,
+      "text": "So the family has to decide on the middle period by considering the amount of the patient's blood pressure, the amount of",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 224.052,
+      "end": 225.62,
+      "text": "food, the amount of the patient's blood pressure,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 225.62,
+      "end": 228.84,
+      "text": "and the overall condition of the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 228.84,
+      "end": 233.22,
+      "text": "So we have to decide on the middle period of the medicine by discussing with the medical staff.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 234.7,
+      "end": 236.54,
+      "text": "As the nurse goes to the hospital,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 238.32,
+      "end": 241.92,
+      "text": "we have to decide what to monitor according to the symptoms of the patient and what to monitor according to the symptoms of the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 241.92,
+      "end": 244.04,
+      "text": "We discuss how to make the patient feel more comfortable.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 247.06,
+      "end": 250.02,
+      "text": "And we discuss the doctor and the medicine that will help and not help.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 251.1,
+      "end": 260.12,
+      "text": "When you take the medicine that has been adjusted, the patient will feel comfortable, and the patient will feel more stable than the previous condition.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 260.34,
+      "end": 263.8,
+      "text": "So if you take the hospice, you can say that you are going back quickly.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 266.06,
+      "end": 267.52,
+      "text": "I want to tell you about the morphine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 269.4,
+      "end": 271.82,
+      "text": "Koreans often see the extreme reaction of morphine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 273.38,
+      "end": 275.74,
+      "text": "Of course, it's a medicine that you have to be very careful with.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 276.76,
+      "end": 280.24,
+      "text": "It doesn't necessarily start with morphine because it starts with hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 281.84,
+      "end": 285.2,
+      "text": "If you start with morphine, you can think of it as two things.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 285.88,
+      "end": 288.5,
+      "text": "If you have respiratory problems and symptoms.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 289.64,
+      "end": 291.66,
+      "text": "There may be respiratory problems that occur before the person is vaccinated,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 293.42,
+      "end": 297.0,
+      "text": "and you can use the original phagealumnalgia respiratory problems.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 298.62,
+      "end": 299.86,
+      "text": "You can use the original phagealumnalgia respiratory problems.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 299.86,
+      "end": 301.66,
+      "text": "If you have a lot of respiratory problems before the person is vaccinated, you can use the morphine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 303.4,
+      "end": 307.86,
+      "text": "Even if it's not phagealumnalgia, you can use the phagealumnalgia respiratory problems.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 308.92,
+      "end": 310.44,
+      "text": "If you have a lot of respiratory problems with phagealumnalgia,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 311.82,
+      "end": 313.38,
+      "text": "you can use the morphine a lot.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 315.42,
+      "end": 316.9,
+      "text": "The next thing you use for morphine is",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 318.28,
+      "end": 319.12,
+      "text": "the case where the pain is severe.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 320.46,
+      "end": 326.92,
+      "text": "The cancer pain also starts with the weakest part of the anesthetic and ends with the morphine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 328.26,
+      "end": 334.078,
+      "text": "And if the pain is severe, and you can't swallow it with your mouth, you can start with the morphine that you",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 334.078,
+      "end": 335.4,
+      "text": "can put under your tongue.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 335.68,
+      "end": 342.5,
+      "text": "The morphine that you can put under your tongue is absorbed by the blood vessels under your tongue and is absorbed quickly.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 344.88,
+      "end": 351.24,
+      "text": "In conclusion, the reason why you use morphine is because of respiratory problems and symptoms.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 351.72,
+      "end": 355.08,
+      "text": "The purpose is to make the process of vaccination short and easy.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 358.36,
+      "end": 361.56,
+      "text": "The reason is because of respiratory problems and symptoms.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 361.56,
+      "end": 366.26,
+      "text": "Because of the respiratory problems, we always get the same family when we start with morphine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 366.52,
+      "end": 367.94,
+      "text": "In many cases,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 369.28,
+      "end": 372.784,
+      "text": "the family has to live in a house or live in a house, or the family has to live in a house",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 372.784,
+      "end": 373.58,
+      "text": "or live in a house,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 373.58,
+      "end": 377.82,
+      "text": "so there are people who ask to start with morphine later.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 380.1,
+      "end": 383.58,
+      "text": "We are a family and a business, so we make the right time to start with morphine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 384.72,
+      "end": 388.54,
+      "text": "And many Koreans think of morphine as a subject of investigation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 389.36,
+      "end": 397.26,
+      "text": "The morphine we give to people in the US in hospice is a remedy to diabetes.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 397.88,
+      "end": 398.06,
+      "text": "The morphine we give to people in the U.S.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 398.1,
+      "end": 403.72,
+      "text": "It will be dropped under your tongue, and start with a small injection or a small amount of poison.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 404.28,
+      "end": 410.22,
+      "text": "The morphine we give to people in Korea starts with 0.2g of 5mg of poison.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 411.16,
+      "end": 417.16,
+      "text": "The morphine we give to people in Korea",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 417.16,
+      "end": 417.92,
+      "text": "starts with 0.2g of 5mg of 5mg of poison.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 420.82,
+      "end": 426.6,
+      "text": "If you don't have any effect, you can increase the capacity or increase it more often.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 428.58,
+      "end": 431.78,
+      "text": "And I think you can think of the other half as the effect you want.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 433.54,
+      "end": 439.14,
+      "text": "The effect you want is that it is always difficult, and the symptoms are less.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 440.6,
+      "end": 442.4,
+      "text": "There are some people who don't want to see the effect.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 442.4,
+      "end": 444.04,
+      "text": "There are some people who don't want to see the effect.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 444.04,
+      "end": 450.76,
+      "text": "There are some people who have allergies or have a mental disorder or have a confusion.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 451.94,
+      "end": 454.84,
+      "text": "There are some people who lose consciousness.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 456.42,
+      "end": 461.24,
+      "text": "That's why I'm telling you this to my family before we start the morphine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 462.48,
+      "end": 466.4,
+      "text": "Lastly, there is someone who has seen the effect of expectations.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 466.4,
+      "end": 470.52,
+      "text": "In this case, it's easy to say that the morphine fits the patient so well.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 470.52,
+      "end": 473.74,
+      "text": "The symptoms are better than expectations.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 475.34,
+      "end": 478.74,
+      "text": "I gave you a morphine because I thought you would go back to the extreme.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 478.74,
+      "end": 482.42,
+      "text": "After eating the morphine, your body is relaxed and comfortable.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 482.86,
+      "end": 486.82,
+      "text": "The patient gets better mentally and feels better.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 488.3,
+      "end": 491.04,
+      "text": "So there are some people who live a little more comfortably.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 493.56,
+      "end": 495.88,
+      "text": "I told you about the effect of morphine so far.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 496.88,
+      "end": 499.1,
+      "text": "Not all patients use morphine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 500.26,
+      "end": 502.46,
+      "text": "There are some people who don't use morphine and go back.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 503.9,
+      "end": 507.12,
+      "text": "People who go back while sleeping don't use morphine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 508.5,
+      "end": 512.04,
+      "text": "There are some people who have a slow breathing.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 512.04,
+      "end": 515.0,
+      "text": "Or there are some people who have a very weak breathing.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 516.02,
+      "end": 521.58,
+      "text": "If you breathe slowly or slowly, If you don't have a pain, morphine doesn't start.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 524.4,
+      "end": 527.82,
+      "text": "Lastly, I want to tell you about the importance of drug management.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 527.82,
+      "end": 528.82,
+      "text": "I want to fill the end.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 530.36,
+      "end": 533.76,
+      "text": "I'm sure you know so well about nurses and nurses",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 537.62,
+      "end": 538.46,
+      "text": "who are taking care of patients.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 539.28,
+      "end": 542.2,
+      "text": "There are so many young people in Korea who are not good at drug management.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 544.66,
+      "end": 546.64,
+      "text": "The name of the drug is English.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 547.6,
+      "end": 550.2,
+      "text": "The patient and family are not used to the name of the drug.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 550.2,
+      "end": 553.02,
+      "text": "They don't know why they are taking the drug.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 553.88,
+      "end": 555.2,
+      "text": "They eat it as they like.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 557.76,
+      "end": 558.6,
+      "text": "Let me tell you about the problems.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 559.98,
+      "end": 561.66,
+      "text": "There are a lot of drugs that are addicted.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 561.94,
+      "end": 564.94,
+      "text": "The doctor said, You have to cut it off, but you don't cut it off.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 565.0,
+      "end": 568.38,
+      "text": "You're together at once. Or you're eating together.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 568.74,
+      "end": 570.48,
+      "text": "Or you're in the middle.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 571.38,
+      "end": 572.46,
+      "text": "It's a waste to throw it away.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 572.72,
+      "end": 576.2,
+      "text": "You're fighting, and you forget later.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 576.78,
+      "end": 581.12,
+      "text": "Sometimes you eat again. Or you have too much medication.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 582.46,
+      "end": 584.0,
+      "text": "You have to take some medicine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 584.88,
+      "end": 585.46,
+      "text": "You have to take some medicine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 586.32,
+      "end": 590.62,
+      "text": "Sometimes it's a mess. And in medicine, they keep refilling.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 591.9,
+      "end": 596.62,
+      "text": "There are so many drugs because the patients are taking pills.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 598.08,
+      "end": 599.32,
+      "text": "If you watch this video,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 600.32,
+      "end": 601.22,
+      "text": "It's because it's a young generation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 602.98,
+      "end": 604.96,
+      "text": "There are so many good drugs in the world.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 605.92,
+      "end": 609.44,
+      "text": "They save people and go back.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 610.48,
+      "end": 613.32,
+      "text": "I've seen a lot of cases like that.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 614.48,
+      "end": 617.74,
+      "text": "Be smart about the drug. What kind of medicine do you take?",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 618.46,
+      "end": 619.88,
+      "text": "What kind of effect does it have?",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 620.52,
+      "end": 622.44,
+      "text": "And what kind of medicine should you take?",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 623.28,
+      "end": 625.42,
+      "text": "Take good care of the medicine.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 626.72,
+      "end": 627.56,
+      "text": "That's all.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    }
+  ]
+}

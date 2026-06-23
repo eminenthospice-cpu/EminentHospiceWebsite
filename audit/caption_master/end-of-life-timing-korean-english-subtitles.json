@@ -1,0 +1,869 @@
+{
+  "video": "public/videos/end-of-life-timing-korean-english-subtitles.mp4",
+  "source_transcript": "audit\\video_captions\\transcripts\\end-of-life-timing-korean-english-subtitles.json",
+  "language": "en",
+  "source": "machine translation grouped into phrase-level draft captions",
+  "review_required": true,
+  "style": {
+    "max_lines": 2,
+    "line_width": 42,
+    "burned_in": true,
+    "vtt_accessibility_track": true
+  },
+  "entries": [
+    {
+      "start": 10.19,
+      "end": 13.67,
+      "text": "This is a nurse practitioner, Kim Jeong Ah, from Eminent Hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 14.05,
+      "end": 19.43,
+      "text": "What I'm going to talk about is that I'm talking about experience as a hospice nurse.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 19.99,
+      "end": 25.27,
+      "text": "This is a general thing, except that it's all-co-true, medical.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 26.99,
+      "end": 29.45,
+      "text": "I hope you can hear that there are many exceptions and various cases.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 29.45,
+      "end": 31.99,
+      "text": "I hope you can hear that there are many exceptions and various cases.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 33.07,
+      "end": 39.81,
+      "text": "Today, I'm going to talk about one of the questions many families ask about hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 42.59,
+      "end": 51.376,
+      "text": "It's a very burdensome topic for the general public, but it's one of the questions that a lot of people ask the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 51.376,
+      "end": 54.97,
+      "text": "nurses who explain hospice when they have a grandchild.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 55.97,
+      "end": 57.03,
+      "text": "When do you think you're going to go back?",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 57.99,
+      "end": 59.63,
+      "text": "There are a lot of people who ask like this.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 60.65,
+      "end": 65.89,
+      "text": "First of all, if you ask like this, of course, the patient's condition is not good.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 66.95,
+      "end": 71.87,
+      "text": "Most of the people who ask like this are already asked by the doctor.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 73.49,
+      "end": 78.45,
+      "text": "But the doctor may not have been able to answer the questions that the family would like to ask,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 79.85,
+      "end": 82.97,
+      "text": "or there are many cases where the family wants to confirm it again.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 86.15,
+      "end": 91.43,
+      "text": "Most of the doctors answer like this.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 92.29,
+      "end": 95.73,
+      "text": "That's right. There are a lot of nurses who answer like that.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 96.81,
+      "end": 103.33,
+      "text": "However, if the nurse explains a little more to the patient according to the situation,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 103.97,
+      "end": 106.21,
+      "text": "there are a lot of cases where the family is satisfied with that answer.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 107.99,
+      "end": 110.63,
+      "text": "So today, I'm going to talk about how I explained it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 117.51,
+      "end": 119.99,
+      "text": "There are quite a lot of variables in terms of prediction.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 120.13,
+      "end": 122.55,
+      "text": "There are many, but I will only tell you a few.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 123.55,
+      "end": 132.87,
+      "text": "For example, the patient has a genetic disease, the basic physical strength of the patient, the remaining life,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 134.23,
+      "end": 137.57,
+      "text": "and the environment around the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 137.93,
+      "end": 145.39,
+      "text": "The genetic disease the patient has is actually a physical sleep.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 148.43,
+      "end": 157.05,
+      "text": "And the basic physical strength of the patient, even if you don't eat the same food, there are people who live more than 10 days,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 158.03,
+      "end": 161.87,
+      "text": "and there are people who can't stand it for a day.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 162.05,
+      "end": 165.67,
+      "text": "And the remaining life of the patient is important.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 166.05,
+      "end": 168.89,
+      "text": "If you want to live, you eat more.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 170.93,
+      "end": 174.09,
+      "text": "If you take the spoon in your mouth right before you go back,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 175.11,
+      "end": 177.73,
+      "text": "open your mouth and swallow it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 177.73,
+      "end": 179.37,
+      "text": "There are people who have remaining life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 181.87,
+      "end": 187.91,
+      "text": "And there are people who swallow it even if it's a severe dementia.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 189.65,
+      "end": 194.23,
+      "text": "I don't know about that. But I think it's probably the remaining life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 195.39,
+      "end": 198.89,
+      "text": "And the environment of support is also very important.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 199.77,
+      "end": 202.57,
+      "text": "Some people may not be able to buy a few days to see a doctor or nurse.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 205.19,
+      "end": 209.11,
+      "text": "But there are cases where family or patients are killed.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 210.13,
+      "end": 216.85,
+      "text": "The best thing is that the patient can't swallow it, but the patient or the family can eat it in any way.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 219.41,
+      "end": 221.23,
+      "text": "There are a lot of amazing times.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 222.21,
+      "end": 224.19,
+      "text": "There is a know-how for them.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 224.51,
+      "end": 227.21,
+      "text": "I hope I have a chance to tell you later.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 228.95,
+      "end": 232.23,
+      "text": "And now, really, There are some cases where you have to prepare for the vaccination.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 232.71,
+      "end": 237.43,
+      "text": "The patient is in the middle of eating for some reason.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 238.35,
+      "end": 239.39,
+      "text": "There is a family like this among family members.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 241.61,
+      "end": 243.49,
+      "text": "The patient is worried that he doesn't eat.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 244.73,
+      "end": 246.17,
+      "text": "So how much do you eat?",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 246.55,
+      "end": 249.93,
+      "text": "If you ask like this, He eats three eggs a day.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 251.37,
+      "end": 253.81,
+      "text": "That's because the family doesn't eat.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 255.25,
+      "end": 257.37,
+      "text": "I don't think you eat enough to go back.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 257.37,
+      "end": 258.63,
+      "text": "I don't think it's the case.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 259.23,
+      "end": 260.63,
+      "text": "First of all, you have a lot of hair.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 261.55,
+      "end": 264.71,
+      "text": "Especially if you're lying down or if you don't work,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 265.59,
+      "end": 267.01,
+      "text": "You don't need a lot of energy.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 268.29,
+      "end": 271.09,
+      "text": "That's why there are people who live for a long time even after eating three eggs a day.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 274.11,
+      "end": 275.77,
+      "text": "And even if you didn't eat,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 276.84,
+      "end": 281.03,
+      "text": "In some cases, it's an IV Hydration.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 281.57,
+      "end": 284.35,
+      "text": "It's called Suhek Ringel in Korean.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 284.35,
+      "end": 287.53,
+      "text": "In the family of hospitals or nursing hospitals,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 288.99,
+      "end": 293.89,
+      "text": "No matter what method you use, Suhek or Ringel to replenish the moisture of the water.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 295.01,
+      "end": 302.41,
+      "text": "Because there is moisture in the body, Even if you don't eat anything, If you have Suhek,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 305.37,
+      "end": 307.13,
+      "text": "And even if you didn't eat,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 308.35,
+      "end": 315.25,
+      "text": "It's an IV Hydration. It's called Suhek or Ringel in Korean.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 315.47,
+      "end": 318.09,
+      "text": "In the family of hospitals or nursing hospitals,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 319.13,
+      "end": 321.87,
+      "text": "No matter what method you use, Those who were hit by Ringel,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 322.77,
+      "end": 327.07,
+      "text": "Because there is moisture in the body, Even if you don't buy anything, You can increase your life.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 329.71,
+      "end": 331.45,
+      "text": "Now, in some cases,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 332.59,
+      "end": 338.07,
+      "text": "In some cases, You eat water to the point of killing the leaves.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 338.47,
+      "end": 339.33,
+      "text": "Or you don't eat at all.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 341.09,
+      "end": 343.33,
+      "text": "Then, I'll tell you to prepare for the transplant.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 346.67,
+      "end": 348.73,
+      "text": "You're not taking a day or two without being well.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 348.91,
+      "end": 354.63,
+      "text": "In the overall condition, In the situation of getting worse, I give you a lot of food.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 356.13,
+      "end": 357.67,
+      "text": "You don't eat at all.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 358.77,
+      "end": 364.65,
+      "text": "Or you eat well. In some cases, The condition is extremely bad.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 365.91,
+      "end": 370.73,
+      "text": "For example, Most of the time, There are a lot of migraines and pneumonia.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 371.95,
+      "end": 377.55,
+      "text": "Or because of the sudden infection, The condition is extremely bad.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 378.01,
+      "end": 381.75,
+      "text": "So you don't eat. In this case,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 382.75,
+      "end": 384.29,
+      "text": "I think you can think about it for about a week or two.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 388.51,
+      "end": 395.09,
+      "text": "And after that, While looking at the viral signs, You have to monitor the condition of the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 397.51,
+      "end": 403.99,
+      "text": "The viral sign is Blood pressure, blood pressure, breathing, body temperature, And oxygen saturation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 405.05,
+      "end": 407.89,
+      "text": "There are people who keep the numbers as usual.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 409.61,
+      "end": 417.45,
+      "text": "According to the patient, If these numbers are slowly getting worse, In some cases, There are people who get worse at a fast speed.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 418.91,
+      "end": 421.35,
+      "text": "In general, The blood pressure starts to drop,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 422.21,
+      "end": 425.03,
+      "text": "To raise the blood pressure, It also goes up.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 426.19,
+      "end": 429.23,
+      "text": "Breathing is slower or faster than normal.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 429.73,
+      "end": 431.71,
+      "text": "The body temperature goes up or down.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 432.95,
+      "end": 435.07,
+      "text": "And oxygen saturation goes down.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 436.85,
+      "end": 438.61,
+      "text": "To the patients,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 439.59,
+      "end": 440.87,
+      "text": "There's really a day or two left.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 440.87,
+      "end": 444.81,
+      "text": "Or even if you go back today, There's nothing to do at all.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 446.73,
+      "end": 448.51,
+      "text": "In some cases,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 450.09,
+      "end": 451.91,
+      "text": "The blood pressure drops to 80 to 50.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 452.71,
+      "end": 455.33,
+      "text": "Or the blood pressure goes up to 120.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 456.01,
+      "end": 458.15,
+      "text": "Or it drops to 52.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 459.39,
+      "end": 463.25,
+      "text": "Breathing is 10 times more than in Japan.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 463.75,
+      "end": 470.41,
+      "text": "The oxygen saturation When the oxygen is maximized, In some cases, The blood pressure drops to 82.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 472.39,
+      "end": 479.13,
+      "text": "That's what I'm saying. Or if the patient loses his mind, If he doesn't have any reaction,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 480.61,
+      "end": 485.09,
+      "text": "Now, I'm telling you to get ready.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 485.39,
+      "end": 488.69,
+      "text": "In the case I'm telling you now, It's not always about the general situation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 491.49,
+      "end": 493.19,
+      "text": "Usually, the blood pressure doesn't go down.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 493.19,
+      "end": 497.45,
+      "text": "If you don't have any reaction, I'm telling you to go back in a few hours.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 499.85,
+      "end": 502.31,
+      "text": "But the human body is really amazing.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 503.69,
+      "end": 505.45,
+      "text": "The blood pressure doesn't go down.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 505.83,
+      "end": 506.69,
+      "text": "There are people who live for a few days.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 508.21,
+      "end": 510.49,
+      "text": "There are people who breathe once a day in Japan.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 510.49,
+      "end": 511.85,
+      "text": "There are people who breathe once a day in Japan.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 514.81,
+      "end": 517.45,
+      "text": "This is what I can tell you as a hospice nurse.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 518.57,
+      "end": 521.69,
+      "text": "There may be more situations and experiences.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 523.27,
+      "end": 525.11,
+      "text": "Hospices are the process of this change.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 525.75,
+      "end": 527.47,
+      "text": "I'll tell you how to prepare for patients and family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 528.63,
+      "end": 530.81,
+      "text": "I'll tell you how to prepare for patients and family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 531.93,
+      "end": 534.85,
+      "text": "That's why hospice is helpful to patients and family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 536.71,
+      "end": 543.19,
+      "text": "If you get the shot without preparation, When the family gets confused, When the family gets confused,",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 543.31,
+      "end": 545.67,
+      "text": "I'll get the shot in the middle of confusion.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 546.45,
+      "end": 549.21,
+      "text": "If you get the shot in the middle of confusion, The form of life is different every time.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 549.47,
+      "end": 551.93,
+      "text": "The way to deal with death is different.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 552.79,
+      "end": 555.47,
+      "text": "So what is right and what is wrong.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 555.71,
+      "end": 560.29,
+      "text": "I can't say that. When parents have children, It's not the answer.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 561.51,
+      "end": 563.57,
+      "text": "It's the best thing you can do.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 564.51,
+      "end": 565.89,
+      "text": "It's also an advice from a yoga expert.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 568.09,
+      "end": 570.29,
+      "text": "I think you can think of death like that.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 571.99,
+      "end": 573.91,
+      "text": "You can get help from a doctor or a hospice nurse.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 575.35,
+      "end": 581.31,
+      "text": "If you have more details, Please leave a comment or contact me.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 582.29,
+      "end": 583.27,
+      "text": "Thank you.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    }
+  ]
+}
