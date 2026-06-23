@@ -12,7 +12,7 @@ const { lang } = Astro.props;
 const t = useTranslations(lang);
 const lp = (p: string) => localizedPath(p, lang);
 
-const eyebrow = lang === 'ko' ? '로스앤젤레스 호스피스 케어' : 'Hospice Care · Los Angeles County';
+const eyebrow = lang === 'ko' ? '노스할리우드 · 광역 로스앤젤레스 호스피스 케어' : 'Hospice Care · North Hollywood & Greater Los Angeles';
 const heading = t('home.hero.heading');
 // Make first word italic by splitting at first space
 const words = heading.trim().split(/\s+/);
