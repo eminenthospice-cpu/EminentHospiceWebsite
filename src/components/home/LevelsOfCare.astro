@@ -11,14 +11,13 @@ export interface Props {
 const { lang } = Astro.props;
 const t = useTranslations(lang);
 const lp = (p: string) => localizedPath(p, lang);
-const eyebrow = lang === 'ko' ? '네 가지 돌봄 단계' : 'Four levels of care';
+const eyebrow = lang === 'ko' ? '세 가지 돌봄 단계' : 'Three levels of care';
 
 interface Level { key: string; num: string; slot: ImageSlotKey }
 const levels: Level[] = [
   { key: 'routine',    num: '01', slot: 'homeLevelRoutine' },
   { key: 'continuous', num: '02', slot: 'homeLevelContinuous' },
   { key: 'inpatient',  num: '03', slot: 'homeLevelInpatient' },
-  { key: 'respite',    num: '04', slot: 'homeLevelRespite' },
 ];
 ---
 

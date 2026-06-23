@@ -64,8 +64,8 @@
         "label": "Care availability"
       },
       "stat2": {
-        "value": "2",
-        "label": "Languages spoken (English / Korean)"
+        "value": "Korean / English",
+        "label": "Languages spoken"
       },
       "stat3": {
         "value": "100%",
@@ -79,8 +79,8 @@
       "marginalia": "Dignity is not a luxury at the end of life — it is the standard we hold ourselves to, every visit."
     },
     "levels": {
-      "title": "Four Levels of Care",
-      "subtitle": "Medicare defines four levels of hospice care to match each patient's needs as they change. We deliver every level, with care.",
+      "title": "Three Levels of Care",
+      "subtitle": "We provide the hospice care levels families most often need as symptoms change, with coordinated support at home and in short-term inpatient settings.",
       "learnMore": "Learn more",
       "routine": {
         "title": "Routine Home Care",
@@ -93,10 +93,6 @@
       "inpatient": {
         "title": "General Inpatient Care",
         "desc": "Inpatient stays (limited days) when pain or symptoms can no longer be safely managed at home."
-      },
-      "respite": {
-        "title": "Respite Care",
-        "desc": "Up to five days of inpatient care that gives family caregivers time to rest and recharge."
       }
     },
     "team": {
@@ -133,7 +129,7 @@
         },
         "volunteer": {
           "name": "Trained Volunteer",
-          "desc": "Provides companionship, light errands, and respite presence so caregivers can step away."
+          "desc": "Provides companionship, light errands, and supportive presence so caregivers can step away."
         }
       }
     },
@@ -418,24 +414,24 @@
   },
   "insurance": {
     "pageTitle": "Insurance & Medicare Information",
-    "metaDescription": "How Medicare Part A, Medi-Cal, and private insurance cover hospice care. FY2026 federal rates, the four levels of care, and step-by-step election process.",
+    "metaDescription": "How Medicare Part A, Medi-Cal, and private insurance cover hospice care. FY2026 federal rates, care levels, and step-by-step election process.",
     "lastReviewed": "2026-05-01",
     "introParagraph": "Hospice care is covered in full for most patients. This page explains how Medicare, Medi-Cal, and private insurance handle hospice, plus the step-by-step election process.",
     "sections": {
       "cost": {
         "title": "Quick Answer: What Does Hospice Cost?",
         "p1": "For most patients, hospice care costs $0. Medicare Part A and Medi-Cal cover hospice services in full when you elect the hospice benefit. There are no deductibles or coinsurance for hospice services themselves.",
-        "footnote": "Small Medicare cost-sharing applies in two narrow cases: outpatient drugs related to your terminal illness (up to $5 per prescription) and inpatient respite care (5% of the Medicare-approved rate, capped at the annual inpatient hospital deductible). Both caps are set by federal regulation; you will never be billed more than these limits. The patient or family will be notified of any additional cost by the hospice agency."
+        "footnote": "Small Medicare cost-sharing may apply to outpatient drugs related to your terminal illness, up to $5 per prescription. This cap is set by federal regulation; you will never be billed more than this limit for covered hospice drugs. The patient or family will be notified of any additional cost by the hospice agency."
       },
       "medicare": {
         "title": "Medicare Part A Hospice Benefit",
         "eligibility": "To qualify, you must be entitled to Medicare Part A. Two physicians — your attending physician and the hospice medical director — must certify that your illness is terminal, with a life expectancy of six months or less if the illness runs its normal course.",
-        "covered": "Medicare covers all hospice services delivered by your hospice team: nursing visits, physician oversight, hospice aide care, social worker, chaplain, bereavement support, medications related to your terminal illness, durable medical equipment, and all four levels of care described below.",
+        "covered": "Medicare covers hospice services delivered by your hospice team: nursing visits, physician oversight, hospice aide care, social worker, chaplain, bereavement support, medications related to your terminal illness, durable medical equipment, and the care levels described below.",
         "notCovered": "Medicare hospice does not cover treatments aimed at curing the terminal illness once you elect hospice, room and board in your private home, or care from providers outside your hospice team unless arranged in advance. Room and board in a nursing facility may be covered separately by Medi-Cal."
       },
       "levels": {
-        "title": "The Four Levels of Care",
-        "intro": "Medicare defines four levels of hospice care. Your level can change day-to-day depending on what you need. Eminent delivers all four.",
+        "title": "The Three Levels of Care",
+        "intro": "Your level can change day-to-day depending on what you need. Eminent coordinates home-based care and short-term inpatient support when symptoms require it.",
         "sourceNote": "Source: CMS FY2026 Hospice Wage Index Final Rule (CMS-1835-F), effective October 1, 2025. Federal rates are updated annually each October.",
         "fy2026Note": "Federal payment rates increased 2.6% in FY2026. Specific dollar amounts below reflect the FY2026 final rule.",
         "rhc": {
@@ -452,11 +448,6 @@
           "name": "General Inpatient Care (GIP)",
           "desc": "Short-term inpatient care for symptoms that cannot be safely managed at home. Delivered in a hospital, skilled nursing facility, or hospice inpatient unit.",
           "rateNote": "Paid at a daily facility rate."
-        },
-        "irc": {
-          "name": "Inpatient Respite Care (IRC)",
-          "desc": "Up to five consecutive days of inpatient care, used to give the family caregiver a planned break.",
-          "rateNote": "Paid at a daily rate. A 5% patient coinsurance applies, capped at the annual inpatient hospital deductible."
         },
         "aggregateCap": {
           "label": "FY2026 Aggregate Cap",
@@ -506,7 +497,7 @@
           },
           "familyPay": {
             "label": "What family pays",
-            "medicare": "$0 for services; up to $5/drug; 5% respite",
+            "medicare": "$0 for services; up to $5/drug",
             "medical": "Generally $0",
             "private": "Per plan; verify first"
           }
@@ -627,17 +618,17 @@
   },
   "services": {
     "pageTitle": "Hospice Services",
-    "metaDescription": "All four Medicare-defined levels of hospice care, an eight-discipline interdisciplinary team, 24/7 on-call nursing, and medication + equipment delivery — delivered throughout North Hollywood and the greater Los Angeles area, in English and Korean.",
-    "introParagraph": "Hospice is a comprehensive benefit, not a single service. This page walks through every level of care we deliver, every discipline on our team, and the supporting services that make care work day-to-day at home.",
+    "metaDescription": "Hospice care at home and in short-term inpatient settings, an eight-discipline interdisciplinary team, 24/7 on-call nursing, and medication + equipment delivery — throughout North Hollywood and greater Los Angeles, in English and Korean.",
+    "introParagraph": "Hospice is a comprehensive benefit, not a single service. This page walks through the care levels we deliver, every discipline on our team, and the supporting services that make care work day-to-day at home.",
     "sections": {
       "offer": {
         "title": "What We Offer",
-        "body": "All four Medicare-defined levels of hospice care, delivered by a full interdisciplinary team, twenty-four hours a day, seven days a week, anywhere a patient calls home in North Hollywood and the greater Los Angeles area. New to hospice?",
+        "body": "Hospice care delivered by a full interdisciplinary team, twenty-four hours a day, seven days a week, anywhere a patient calls home in North Hollywood and the greater Los Angeles area. New to hospice?",
         "linkToUnderstanding": "Start with our Understanding Hospice Care guide →"
       },
       "levels": {
-        "title": "The Four Levels of Care",
-        "intro": "Your level of care can change day to day depending on what you need. We deliver every level, with care. For coverage and payment details, see our Insurance & Medicare page.",
+        "title": "The Three Levels of Care",
+        "intro": "Your level of care can change day to day depending on what you need. We coordinate care at home and short-term inpatient support when symptoms require it. For coverage and payment details, see our Insurance & Medicare page.",
         "routine": {
           "title": "Routine Home Care",
           "summary": "Scheduled visits from your hospice team — nursing, aide, social worker, chaplain — to wherever you live. The most common level, used by most patients most of the time.",
@@ -655,12 +646,6 @@
           "summary": "Short-term inpatient care for symptoms that cannot be safely managed at home. Patients return home as soon as symptoms are stable.",
           "clinical": "General Inpatient Care is short-term care at a contracted facility — hospital, freestanding hospice inpatient unit, or skilled nursing facility — used when symptoms cannot be safely managed at home. Patients return home as soon as symptoms are stable.",
           "atHome": "We coordinate the transfer, communicate with the facility's clinical team, and stay involved during the inpatient stay."
-        },
-        "respite": {
-          "title": "Inpatient Respite Care",
-          "summary": "Up to five consecutive days of inpatient stay so the primary family caregiver can rest. The patient is cared for in a Medicare-certified facility; the family steps away knowing the patient is safe.",
-          "clinical": "Respite Care provides up to five consecutive days of inpatient stay to give the primary family caregiver a needed break. The patient is cared for in a Medicare-certified facility; the family rests.",
-          "atHome": "Respite is planned, not reactive — families schedule it in advance. We arrange the bed, the transfer, and the return home. Caregivers come back rested and the patient's care does not skip a beat."
         },
         "costFootnote": "For coverage and what families pay, see our <link>Insurance & Medicare page</link>."
       },
@@ -697,7 +682,7 @@
         },
         "volunteer": {
           "role": "Trained Volunteer",
-          "body": "Provides companionship, light errands, and respite presence so caregivers can step away briefly. Our volunteers complete a structured training program and are background-checked — the role is meaningful, not casual."
+          "body": "Provides companionship, light errands, and supportive presence so caregivers can step away briefly. Our volunteers complete a structured training program and are background-checked — the role is meaningful, not casual."
         }
       },
       "additional": {
@@ -721,7 +706,7 @@
         },
         "volunteer": {
           "title": "Volunteer Program",
-          "body": "Companionship, light errands, and respite presence — trained and background-checked. Families can request a volunteer through our social worker."
+          "body": "Companionship, light errands, and supportive presence — trained and background-checked. Families can request a volunteer through our social worker."
         }
       },
       "howToStart": {
@@ -857,7 +842,6 @@
         "askForHelp": {
           "title": "Ask for help",
           "body": "Help is built into hospice. Some specific options to ask the team about:",
-          "respiteLinkLabel": "Respite Care — up to five days of inpatient stay so you can rest",
           "volunteerLinkLabel": "Trained volunteers — companionship, short errands, a presence in the home",
           "socialWorkerNote": "Our social worker offers caregiver counseling and can help connect you with community support and faith-based resources."
         }
@@ -980,7 +964,7 @@
         "items": {
           "cost": {
             "q": "How much does hospice cost?",
-            "a": "For most patients, the out-of-pocket cost is $0. Medicare Part A and Medi-Cal cover the full hospice benefit when elected; small co-pays may apply for some outpatient drugs (up to $5) and respite care. See Insurance & Medicare."
+            "a": "For most patients, the out-of-pocket cost is $0. Medicare Part A and Medi-Cal cover the full hospice benefit when elected; small co-pays may apply for some outpatient drugs (up to $5). See Insurance & Medicare."
           },
           "medicare": {
             "q": "Does Medicare cover hospice?",

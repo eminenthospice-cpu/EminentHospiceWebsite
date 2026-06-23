@@ -5,7 +5,7 @@
  * only for mobile toggle and scroll shrink.
  */
 import { useTranslations, localizedPath, type Locale } from '../../i18n/utils';
-import { CONTACT, SITE } from '../../data/site-config';
+import { BRAND, CONTACT, SITE } from '../../data/site-config';
 
 interface Props {
   lang: Locale;
@@ -112,11 +112,23 @@ function isActive(href: string): boolean {
       <!-- Logo / wordmark -->
       <a
         href={localizedPath('/', lang)}
-        class="flex flex-col leading-tight hover:opacity-80 transition-opacity flex-shrink-0"
+        class="flex items-center gap-3 leading-tight hover:opacity-80 transition-opacity flex-shrink-0"
         aria-label={`${SITE.name} — Home`}
       >
-        <span class="font-heading font-bold text-xl" style="color: var(--color-ink-900);">{SITE.name}</span>
-        <span class="text-caption tracking-wide" style="color: var(--color-ink-500);">{SITE.tagline}</span>
+        <img
+          src={BRAND.logo}
+          alt=""
+          width="52"
+          height="52"
+          class="h-12 w-12 shrink-0 rounded-sm object-contain"
+          loading="eager"
+          decoding="async"
+          aria-hidden="true"
+        />
+        <span class="flex flex-col">
+          <span class="font-heading font-bold text-xl" style="color: var(--color-ink-900);">{SITE.name}</span>
+          <span class="text-caption tracking-wide" style="color: var(--color-ink-500);">{SITE.tagline}</span>
+        </span>
       </a>
 
       <!-- Desktop links -->

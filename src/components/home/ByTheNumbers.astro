@@ -24,6 +24,7 @@ const stats = ['stat1', 'stat2', 'stat3'] as const;
             <Stat
               value={t(`home.byTheNumbers.${key}.value`)}
               label={t(`home.byTheNumbers.${key}.label`)}
+              valueStyle={key === 'stat2' ? 'text' : 'number'}
               align="center"
               class="sm:items-center sm:text-center"
             />
