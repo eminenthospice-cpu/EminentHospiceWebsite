@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 TRANSCRIPTS = ROOT / "audit" / "video_captions" / "transcripts"
 OUT_DIR = ROOT / "audit" / "caption_master"
 
-MAX_WORDS = 22
+MAX_WORDS = 14
 MIN_WORDS = 6
 MAX_DURATION = 6.0
 MAX_GAP = 0.85

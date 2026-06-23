@@ -20,29 +20,43 @@
     },
     {
       "start": 5.29,
-      "end": 9.17,
-      "text": "Today, there are a lot of people who ask me what happens when a patient passes away from their family.",
+      "end": 8.006,
+      "text": "Today, there are a lot of people who ask me what happens when a",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 8.006,
+      "end": 9.17,
+      "text": "patient passes away from their family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 13.61,
       "end": 18.73,
       "text": "So, when the patient passes away, I will explain what the situation is in the U.S.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 20.97,
-      "end": 27.582,
-      "text": "First, when the patient passes away, whether he was doing hospice or not, or which place he was in, I will explain",
+      "end": 25.177,
+      "text": "First, when the patient passes away, whether he was doing hospice or not, or",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 27.582,
+      "start": 25.177,
+      "end": 29.385,
+      "text": "which place he was in, I will explain the difference between those who have",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 29.385,
       "end": 32.39,
-      "text": "the difference between those who have passed away and those who have to step on it.",
+      "text": "passed away and those who have to step on it.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -51,7 +65,7 @@
       "end": 39.55,
       "text": "First, when he was doing hospice, I will explain the case of the patient passing away.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 41.55,
@@ -62,24 +76,38 @@
     },
     {
       "start": 47.97,
-      "end": 53.63,
-      "text": "The family means that the patient has agreed to pass away at the place where he is now.",
+      "end": 52.372,
+      "text": "The family means that the patient has agreed to pass away at the place",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 52.372,
+      "end": 53.63,
+      "text": "where he is now.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 54.63,
-      "end": 61.27,
-      "text": "So, even if the hospice patient passes away from a place, you can call the hospice office right away.",
+      "end": 59.523,
+      "text": "So, even if the hospice patient passes away from a place, you can call",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 59.523,
+      "end": 61.27,
+      "text": "the hospice office right away.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 62.59,
       "end": 67.43,
       "text": "Then, the hospice staff goes out and passes away, and most of the nurses go out.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 67.99,
@@ -100,14 +128,21 @@
       "end": 83.23,
       "text": "Sometimes, there are people who ask for two or four hours to take the patient with them.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 86.03,
-      "end": 94.23,
-      "text": "Then, most of the family wants to spend more time with the patient, the patient, or the family from afar,",
+      "end": 91.77,
+      "text": "Then, most of the family wants to spend more time with the patient, the",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 91.77,
+      "end": 94.23,
+      "text": "patient, or the family from afar,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 94.87,
@@ -118,15 +153,29 @@
     },
     {
       "start": 98.05,
-      "end": 103.15,
-      "text": "I will arrange it so that the hospice office can spend more time with the family at the funeral.",
+      "end": 101.808,
+      "text": "I will arrange it so that the hospice office can spend more time with",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 101.808,
+      "end": 103.15,
+      "text": "the family at the funeral.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 104.23,
+      "end": 108.296,
+      "text": "However, the California law brings the patient to a place where he has passed",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 108.296,
       "end": 110.91,
-      "text": "However, the California law brings the patient to a place where he has passed away for four hours after he has passed away.",
+      "text": "away for four hours after he has passed away.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -135,7 +184,7 @@
       "end": 119.11,
       "text": "Because it is a law, most of the time, the patient takes the patient to the funeral.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 119.71,
@@ -146,10 +195,17 @@
     },
     {
       "start": 122.59,
-      "end": 128.47,
-      "text": "Sometimes, many people think that the patient who is in the U.S. has to go back to the hospital and call 911.",
+      "end": 125.797,
+      "text": "Sometimes, many people think that the patient who is in the U.S.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 125.797,
+      "end": 128.47,
+      "text": "has to go back to the hospital and call 911.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 128.47,
@@ -170,7 +226,7 @@
       "end": 144.39,
       "text": "However, if the patient dies while the hospice is doing it, you don't need to call 911.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 146.1,
@@ -188,17 +244,24 @@
     },
     {
       "start": 154.23,
-      "end": 158.25,
-      "text": "In the case of the U.S. funeral, you can think that it takes two to four hours.",
+      "end": 155.649,
+      "text": "In the case of the U.S.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 155.649,
+      "end": 158.25,
+      "text": "funeral, you can think that it takes two to four hours.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 162.01,
       "end": 164.97,
       "text": "Then, I will tell you another story according to the place where the patient has passed away.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 165.95,
@@ -209,31 +272,45 @@
     },
     {
       "start": 168.31,
-      "end": 178.77,
-      "text": "In the nursing hospital, there is an upper-level nurse, so the nurses call the hospice company after they have passed away.",
+      "end": 175.283,
+      "text": "In the nursing hospital, there is an upper-level nurse, so the nurses call the",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 175.283,
+      "end": 178.77,
+      "text": "hospice company after they have passed away.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 178.77,
-      "end": 185.65,
-      "text": "The hospice company brings the patient to the funeral and the funeral that the family has already decided.",
+      "end": 184.121,
+      "text": "The hospice company brings the patient to the funeral and the funeral that the",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 184.121,
+      "end": 185.65,
+      "text": "family has already decided.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 187.39,
       "end": 193.87,
       "text": "If the patient is admitted to the nursing hospital or at home, the nurse is not there.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 194.27,
       "end": 199.43,
       "text": "If you call the hospice office, the hospice staff will go out of the hospice office.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 200.69,
@@ -244,15 +321,15 @@
     },
     {
       "start": 203.15,
-      "end": 210.269,
-      "text": "If the nurse goes to the funeral and calls the hospice office, the hospice office will call the family and the funeral",
+      "end": 207.68,
+      "text": "If the nurse goes to the funeral and calls the hospice office, the hospice",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 210.269,
+      "start": 207.68,
       "end": 212.21,
-      "text": "that the family has already decided.",
+      "text": "office will call the family and the funeral that the family has already decided.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -261,14 +338,21 @@
       "end": 217.05,
       "text": "I will call the funeral and ask them to take the patient to the hospital.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 220.47,
-      "end": 227.09,
-      "text": "After taking the patient to the funeral, the funeral is sent to the hospice office to receive the death worksheet.",
+      "end": 225.104,
+      "text": "After taking the patient to the funeral, the funeral is sent to the hospice",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 225.104,
+      "end": 227.09,
+      "text": "office to receive the death worksheet.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 228.09,
@@ -279,15 +363,22 @@
     },
     {
       "start": 232.63,
-      "end": 239.658,
-      "text": "For example, the patient's information, the time of death, the cause of death, and the doctor's information to write the death certificate",
+      "end": 237.102,
+      "text": "For example, the patient's information, the time of death, the cause of death, and",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 239.658,
+      "start": 237.102,
+      "end": 241.575,
+      "text": "the doctor's information to write the death certificate are sent to the death worksheet",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 241.575,
       "end": 244.45,
-      "text": "are sent to the death worksheet to send a fax or e-mail to the funeral.",
+      "text": "to send a fax or e-mail to the funeral.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -324,14 +415,21 @@
       "end": 276.75,
       "text": "In the state, after checking, the death certificate, the certificate of death, is sent to the funeral.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 277.75,
-      "end": 284.19,
-      "text": "The death certificate must be finished so that the funeral can proceed to the funeral of the patient.",
+      "end": 282.759,
+      "text": "The death certificate must be finished so that the funeral can proceed to the",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 282.759,
+      "end": 284.19,
+      "text": "funeral of the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 284.65,
@@ -342,36 +440,57 @@
     },
     {
       "start": 288.29,
-      "end": 295.668,
-      "text": "If you make a reservation, the first place to start the death worksheet is the funeral, and the death certificate is the",
+      "end": 292.985,
+      "text": "If you make a reservation, the first place to start the death worksheet is",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 295.668,
+      "start": 292.985,
       "end": 297.01,
-      "text": "final place to arrive.",
+      "text": "the funeral, and the death certificate is the final place to arrive.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 298.71,
-      "end": 303.49,
-      "text": "So if you go back to the main government, you can finish the death certificate within two to three days.",
+      "end": 302.056,
+      "text": "So if you go back to the main government, you can finish the death",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 302.056,
+      "end": 303.49,
+      "text": "certificate within two to three days.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 304.09,
-      "end": 309.71,
-      "text": "If you go back to the weekend, you can finish the death certificate within two to three days after the weekend.",
+      "end": 307.837,
+      "text": "If you go back to the weekend, you can finish the death certificate within",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 307.837,
+      "end": 309.71,
+      "text": "two to three days after the weekend.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 310.17,
+      "end": 314.662,
+      "text": "If you are late at work in the funeral or the doctor's signature is",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 314.662,
       "end": 317.87,
-      "text": "If you are late at work in the funeral or the doctor's signature is late, the death certificate can be delayed a little longer.",
+      "text": "late, the death certificate can be delayed a little longer.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -391,17 +510,24 @@
     },
     {
       "start": 330.67,
-      "end": 339.21,
-      "text": "You can request as much as you need the funeral certificate after the death certificate is finished in the funeral.",
+      "end": 336.648,
+      "text": "You can request as much as you need the funeral certificate after the death",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 336.648,
+      "end": 339.21,
+      "text": "certificate is finished in the funeral.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 340.05,
       "end": 347.35,
       "text": "Finally, the hospice office is called to comfort the patient's family after the patient's death.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 347.35,
@@ -422,14 +548,14 @@
       "end": 365.79,
       "text": "The spiritual dolbom is also one of the core services that must be provided by the hospice.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 366.23,
       "end": 372.15,
       "text": "The spiritual dolbom service means that it must be provided by the hospice in Medicare.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 373.73,
@@ -440,29 +566,57 @@
     },
     {
       "start": 380.45,
-      "end": 388.15,
-      "text": "During the hospice service period, the pastor visits the patient and takes a look at the spiritual part.",
+      "end": 386.439,
+      "text": "During the hospice service period, the pastor visits the patient and takes a look",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 386.439,
+      "end": 388.15,
+      "text": "at the spiritual part.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 390.03,
-      "end": 398.05,
-      "text": "In Jong-woo Lim, I will tell you about Bremen Rural Service after I tell you about the comfort of the family.",
+      "end": 395.377,
+      "text": "In Jong-woo Lim, I will tell you about Bremen Rural Service after I tell",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 395.377,
+      "end": 398.05,
+      "text": "you about the comfort of the family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 398.05,
-      "end": 404.89,
-      "text": "In fact, it is a little unfamiliar in Korea, but it is translated as a family letter service.",
+      "end": 403.37,
+      "text": "In fact, it is a little unfamiliar in Korea, but it is translated as",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 403.37,
+      "end": 404.89,
+      "text": "a family letter service.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 405.99,
+      "end": 410.166,
+      "text": "It is a service that sends a letter to the family for about a",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 410.166,
       "end": 412.85,
-      "text": "It is a service that sends a letter to the family for about a year and a half during the hospice service period.",
+      "text": "year and a half during the hospice service period.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -513,7 +667,7 @@
       "end": 442.59,
       "text": "Hospice is known to Koreans a little bit more, but it is still considered an uncomfortable word.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 443.59,
@@ -527,12 +681,19 @@
       "end": 452.33,
       "text": "When the patient said that his knee was too painful because he had liver disease.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 454.21,
+      "end": 457.85,
+      "text": "It is a disease that needs to be aged, but it is a blessing",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 457.85,
       "end": 460.45,
-      "text": "It is a disease that needs to be aged, but it is a blessing to live until the age when you have liver disease.",
+      "text": "to live until the age when you have liver disease.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -569,21 +730,35 @@
       "end": 487.27,
       "text": "In that sense, it can be said that it is a natural thing to face the infected.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 489.69,
-      "end": 493.49,
-      "text": "It is a sad thing to let go of your family, but it is a thing that cannot be avoided.",
+      "end": 492.35,
+      "text": "It is a sad thing to let go of your family, but it is",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 492.35,
+      "end": 493.49,
+      "text": "a thing that cannot be avoided.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 493.49,
-      "end": 498.61,
-      "text": "Hospice is a service that helps the last fairy of life to be a little more meaningful and comfortable.",
+      "end": 497.263,
+      "text": "Hospice is a service that helps the last fairy of life to be a",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 497.263,
+      "end": 498.61,
+      "text": "little more meaningful and comfortable.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 502.49,
@@ -618,7 +793,7 @@
       "end": 523.79,
       "text": "I will tell you about the death of the infected and the death of the infected.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 525.03,

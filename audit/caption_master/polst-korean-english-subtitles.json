@@ -13,73 +13,101 @@
   "entries": [
     {
       "start": 0.0,
-      "end": 5.32,
-      "text": "Hello, I'm Kim Jeong Ah, a nurse practitioner at Eminent Hospice. Today, I will explain about the POLST.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 7.62,
-      "end": 15.996,
-      "text": "POLST is a official document that determines what treatment you will receive when the patient with severe disease with a serious disease",
+      "end": 3.251,
+      "text": "Hello, I'm Kim Jeong Ah, a nurse practitioner at Eminent Hospice.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 15.996,
+      "start": 3.251,
+      "end": 5.32,
+      "text": "Today, I will explain about the POLST.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 7.62,
+      "end": 12.95,
+      "text": "POLST is a official document that determines what treatment you will receive when the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 12.95,
       "end": 18.28,
-      "text": "with the weakness of life-sustaining treatment.",
+      "text": "patient with severe disease with a serious disease with the weakness of life-sustaining treatment.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 18.28,
-      "end": 24.095,
-      "text": "It is an official document that determines whether you will receive life-sustaining treatment or not, and if you think that the patient",
+      "end": 21.981,
+      "text": "It is an official document that determines whether you will receive life-sustaining treatment or",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 24.095,
+      "start": 21.981,
+      "end": 25.681,
+      "text": "not, and if you think that the patient and the doctor should be together,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 25.681,
       "end": 28.06,
-      "text": "and the doctor should be together, you can think of it as a medical resource.",
+      "text": "you can think of it as a medical resource.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 30.06,
-      "end": 34.46,
-      "text": "If it is difficult for the patient to write it himself, you can write it instead of a legal person such as",
+      "end": 32.86,
+      "text": "If it is difficult for the patient to write it himself, you can write",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 34.46,
+      "start": 32.86,
       "end": 35.46,
-      "text": "family or power of attorney.",
+      "text": "it instead of a legal person such as family or power of attorney.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 35.46,
-      "end": 44.66,
-      "text": "The purpose of POLST is not to write it, but if you do not write it in advance, you will feel great",
+      "end": 41.315,
+      "text": "The purpose of POLST is not to write it, but if you do not",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 44.66,
+      "start": 41.315,
+      "end": 47.169,
+      "text": "write it in advance, you will feel great pressure or guilt due to the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 47.169,
       "end": 49.26,
-      "text": "pressure or guilt due to the need for family decisions later.",
+      "text": "need for family decisions later.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 50.22,
-      "end": 56.8,
-      "text": "Also, if you do not have a pre-ordinary decision, you may accept the patient's pain due to unnecessary medical procedures.",
+      "end": 54.826,
+      "text": "Also, if you do not have a pre-ordinary decision, you may accept the patient's",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 54.826,
+      "end": 56.8,
+      "text": "pain due to unnecessary medical procedures.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 58.36,
@@ -97,59 +125,73 @@
     },
     {
       "start": 68.8,
-      "end": 73.803,
-      "text": "POLST is usually written on a bright pink container so that it can be seen well in the eyes, and it is",
+      "end": 71.984,
+      "text": "POLST is usually written on a bright pink container so that it can be",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 73.803,
+      "start": 71.984,
       "end": 74.94,
-      "text": "often called the pink bomb.",
+      "text": "seen well in the eyes, and it is often called the pink bomb.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 76.0,
+      "end": 79.315,
+      "text": "If you keep it at home, it is often attached to the refrigerator or",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 79.315,
       "end": 81.92,
-      "text": "If you keep it at home, it is often attached to the refrigerator or place where it can be seen well compared to emergency situations.",
+      "text": "place where it can be seen well compared to emergency situations.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 82.98,
-      "end": 90.545,
-      "text": "When the 911 is launched, if there is a POLST, according to the content, it decides the direction of treatment such as",
+      "end": 87.794,
+      "text": "When the 911 is launched, if there is a POLST, according to the content,",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 90.545,
+      "start": 87.794,
       "end": 91.92,
-      "text": "CPR, lung surgery, etc.,",
+      "text": "it decides the direction of treatment such as CPR, lung surgery, etc.,",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 92.52,
-      "end": 100.676,
-      "text": "but if there is no POLST, it is automatically controlled by full-code, all side-by-side treatment, and all emergency measures are carried out",
+      "end": 97.71,
+      "text": "but if there is no POLST, it is automatically controlled by full-code, all side-by-side",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 100.676,
+      "start": 97.71,
       "end": 102.9,
-      "text": "to prevent the patient from suffering.",
+      "text": "treatment, and all emergency measures are carried out to prevent the patient from suffering.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 103.59,
-      "end": 112.12,
-      "text": "The food of POLST is largely composed of 8A, B, C, D, and four, and contains various patient's treatment preferences and symptoms.",
+      "end": 109.018,
+      "text": "The food of POLST is largely composed of 8A, B, C, D, and four,",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 109.018,
+      "end": 112.12,
+      "text": "and contains various patient's treatment preferences and symptoms.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 113.8,
@@ -160,10 +202,17 @@
     },
     {
       "start": 120.1,
-      "end": 125.84,
-      "text": "When the patient's heart stops or does not breathe, it is the part that decides whether to perform a simple operation.",
+      "end": 123.927,
+      "text": "When the patient's heart stops or does not breathe, it is the part that",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 123.927,
+      "end": 125.84,
+      "text": "decides whether to perform a simple operation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 128.32,
@@ -174,22 +223,29 @@
     },
     {
       "start": 134.62,
-      "end": 142.36,
-      "text": "When you check the CPR, it means that all emergency measures can be taken when the patient's heart stops.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 142.56,
-      "end": 150.401,
-      "text": "At the site, the heart massage and the artificial breathing are performed, and all treatments including transplant, electric shock, drug treatment, organ",
+      "end": 140.323,
+      "text": "When you check the CPR, it means that all emergency measures can be taken",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 150.401,
+      "start": 140.323,
+      "end": 142.36,
+      "text": "when the patient's heart stops.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 142.56,
+      "end": 147.55,
+      "text": "At the site, the heart massage and the artificial breathing are performed, and all",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 147.55,
       "end": 152.54,
-      "text": "surgery, and artificial breathing are included.",
+      "text": "treatments including transplant, electric shock, drug treatment, organ surgery, and artificial breathing are included.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -202,8 +258,15 @@
     },
     {
       "start": 155.62,
+      "end": 158.81,
+      "text": "That is, it means that all medical treatments provided by the modern medicine for",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 158.81,
       "end": 160.86,
-      "text": "That is, it means that all medical treatments provided by the modern medicine for the life of the patient will receive full treatment.",
+      "text": "the life of the patient will receive full treatment.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -230,29 +293,50 @@
     },
     {
       "start": 174.7,
+      "end": 178.855,
+      "text": "When the patient's heart stops or breathing stops, it is a choice that does",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 178.855,
       "end": 182.12,
-      "text": "When the patient's heart stops or breathing stops, it is a choice that does not perform a simple operation, and does not face pain naturally.",
+      "text": "not perform a simple operation, and does not face pain naturally.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 212.86,
+      "end": 217.498,
+      "text": "There are cases where many people only think of simple surgery, lung surgery, and",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 217.498,
       "end": 220.48,
-      "text": "There are cases where many people only think of simple surgery, lung surgery, and heart pressure, which is seen in dramas or TV.",
+      "text": "heart pressure, which is seen in dramas or TV.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 220.94,
-      "end": 227.265,
-      "text": "In fact, there are cases where you have to understand the connection of the electric shock, organ surgery, and artificial breathing, so",
+      "end": 224.965,
+      "text": "In fact, there are cases where you have to understand the connection of the",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 227.265,
+      "start": 224.965,
+      "end": 228.99,
+      "text": "electric shock, organ surgery, and artificial breathing, so it is necessary to send the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 228.99,
       "end": 230.14,
-      "text": "it is necessary to send the patient to the hospital.",
+      "text": "patient to the hospital.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -272,17 +356,31 @@
     },
     {
       "start": 242.22,
-      "end": 250.84,
-      "text": "The first four treatments are meant to use all medical means available for the life extension as I said earlier.",
+      "end": 248.254,
+      "text": "The first four treatments are meant to use all medical means available for the",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 248.254,
+      "end": 250.84,
+      "text": "life extension as I said earlier.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 252.34,
-      "end": 257.98,
-      "text": "If you want CPR for the life extension, you will be treated here and treated at the hospital.",
+      "end": 256.727,
+      "text": "If you want CPR for the life extension, you will be treated here and",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 256.727,
+      "end": 257.98,
+      "text": "treated at the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 260.3,
@@ -293,24 +391,45 @@
     },
     {
       "start": 263.58,
-      "end": 270.04,
-      "text": "It is a selective treatment. It is a choice that avoids excessive treatment and painful treatment due to the current medical problems.",
+      "end": 267.691,
+      "text": "It is a selective treatment. It is a choice that avoids excessive treatment and",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 267.691,
+      "end": 270.04,
+      "text": "painful treatment due to the current medical problems.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 271.22,
+      "end": 274.953,
+      "text": "It does not have to do with CPR or prayer, but it is used",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 274.953,
       "end": 277.62,
-      "text": "It does not have to do with CPR or prayer, but it is used to treat the need for life extension, lung surgery, etc.",
+      "text": "to treat the need for life extension, lung surgery, etc.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 279.42,
-      "end": 286.28,
-      "text": "When the patient is in a place where comfort, comfort and comfort are not met, he will be sent to the hospital.",
+      "end": 283.785,
+      "text": "When the patient is in a place where comfort, comfort and comfort are not",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 283.785,
+      "end": 286.28,
+      "text": "met, he will be sent to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 286.86,
@@ -321,8 +440,15 @@
     },
     {
       "start": 293.94,
+      "end": 299.47,
+      "text": "It is a symptom-free treatment such as oxygen, suction, and absorption, but it is",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 299.47,
       "end": 303.42,
-      "text": "It is a symptom-free treatment such as oxygen, suction, and absorption, but it is not an active treatment for the purpose of life extension.",
+      "text": "not an active treatment for the purpose of life extension.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -366,7 +492,7 @@
       "end": 348.44,
       "text": "If you are already using a feeding tube before starting hospice, you can continue while receiving hospice.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 349.58,
@@ -391,15 +517,29 @@
     },
     {
       "start": 365.76,
-      "end": 377.4,
-      "text": "It is a short-term trial. It is a case of using g-tubes, long-term nasogastric tubes, and g-tubes, which are commonly called g-tubes.",
+      "end": 373.167,
+      "text": "It is a short-term trial. It is a case of using g-tubes, long-term nasogastric",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 373.167,
+      "end": 377.4,
+      "text": "tubes, and g-tubes, which are commonly called g-tubes.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 377.92,
+      "end": 382.568,
+      "text": "This tube is very uncomfortable because it has it while the patient is conscious,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 382.568,
       "end": 386.22,
-      "text": "This tube is very uncomfortable because it has it while the patient is conscious, so the patient may take it out without even knowing it.",
+      "text": "so the patient may take it out without even knowing it.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -468,8 +608,15 @@
     },
     {
       "start": 434.84,
+      "end": 437.069,
+      "text": "There are many cases where the patient needs to take care of someone for",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 437.069,
       "end": 438.82,
-      "text": "There are many cases where the patient needs to take care of someone for 24 hours by dropping the quality of life of the patient.",
+      "text": "24 hours by dropping the quality of life of the patient.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -478,14 +625,14 @@
       "end": 443.42,
       "text": "There are many cases where the patient needs to take care of someone for 24 hours.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 444.4,
       "end": 451.26,
       "text": "Especially in dementia, Parkinson's, and brain disease, patients often behave when they lose their ability to swallow,",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 451.26,
@@ -496,31 +643,45 @@
     },
     {
       "start": 457.1,
-      "end": 462.32,
-      "text": "Some of my family members told me to do it in the hospital, so I just did it.",
+      "end": 461.16,
+      "text": "Some of my family members told me to do it in the hospital, so",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 461.16,
+      "end": 462.32,
+      "text": "I just did it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 464.3,
-      "end": 469.68,
-      "text": "There are many cases where the patient only listens to the doctor when he is not ready to explain the situation.",
+      "end": 467.887,
+      "text": "There are many cases where the patient only listens to the doctor when he",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 467.887,
+      "end": 469.68,
+      "text": "is not ready to explain the situation.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 471.24,
-      "end": 476.227,
-      "text": "However, in the end, in order to take care of one patient, the whole family is sacrificed, or one of the family",
+      "end": 475.16,
+      "text": "However, in the end, in order to take care of one patient, the whole family is sacrificed,",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 476.227,
+      "start": 475.66,
       "end": 478.04,
-      "text": "has to take care of the whole family.",
+      "text": "or one of the family has to take care of the whole family.",
       "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
       "start": 478.04,
@@ -531,43 +692,78 @@
     },
     {
       "start": 480.12,
-      "end": 486.435,
-      "text": "Therefore, it is better to consider the situation of g-tubes, and carefully decide whether to take care of the patient's medical skills,",
+      "end": 484.139,
+      "text": "Therefore, it is better to consider the situation of g-tubes, and carefully decide whether",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 486.435,
+      "start": 484.139,
+      "end": 488.158,
+      "text": "to take care of the patient's medical skills, life quality, and the environment in",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 488.158,
       "end": 489.88,
-      "text": "life quality, and the environment in which the family can handle it.",
+      "text": "which the family can handle it.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 494.76,
-      "end": 501.322,
-      "text": "I often talk to people who apply for hospice, but first of all, I ask them whether they are ready to take",
+      "end": 498.936,
+      "text": "I often talk to people who apply for hospice, but first of all, I",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 501.322,
+      "start": 498.936,
+      "end": 503.111,
+      "text": "ask them whether they are ready to take care of the patient's medical skills,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 503.111,
+      "end": 507.287,
+      "text": "life quality, and the environment in which the patient is not ready to take",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 507.287,
       "end": 508.48,
-      "text": "care of the patient's medical skills, life quality, and the environment in which the patient is not ready to take care of the patient.",
+      "text": "care of the patient.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 509.52,
-      "end": 515.25,
-      "text": "When applying for hospice, many people think that they should do it because it is a good service, but there are cases",
+      "end": 513.86,
+      "text": "When applying for hospice, many people think that they should do it because it",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 515.25,
+      "start": 513.86,
+      "end": 515.1,
+      "text": "is a good service,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 515.84,
+      "end": 518.535,
+      "text": "but there are cases where they are surprised when they say that they are",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 518.535,
       "end": 520.46,
-      "text": "where they are surprised when they say that they are not ready to take care of the patient's medical skills.",
+      "text": "not ready to take care of the patient's medical skills.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -590,7 +786,7 @@
       "end": 530.38,
       "text": "In particular, Koreans often think that if they are sick, they should go to the hospital.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 531.24,
@@ -622,52 +818,87 @@
     },
     {
       "start": 549.66,
-      "end": 556.86,
-      "text": "Even in emergency situations, you can call hospice and you can get help from the part you can solve in hospice.",
-      "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
-    },
-    {
-      "start": 558.22,
-      "end": 563.667,
-      "text": "The important thing is to explain to the family that the patient's current situation and the things that have happened in the",
+      "end": 554.46,
+      "text": "Even in emergency situations, you can call hospice and you can get help from",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 563.667,
+      "start": 554.46,
+      "end": 556.86,
+      "text": "the part you can solve in hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 558.22,
+      "end": 561.686,
+      "text": "The important thing is to explain to the family that the patient's current situation",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 561.686,
       "end": 565.4,
-      "text": "future can be chosen by the family.",
+      "text": "and the things that have happened in the future can be chosen by the family.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 568.08,
-      "end": 573.679,
-      "text": "In fact, there are many cases where the family is taken to the hospital because they are not doctors, but in reality,",
+      "end": 572.398,
+      "text": "In fact, there are many cases where the family is taken to the hospital",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 573.679,
+      "start": 572.398,
+      "end": 573.94,
+      "text": "because they are not doctors,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 573.94,
+      "end": 576.82,
+      "text": "but in reality, there are quite a lot of cases where they are given",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 576.82,
       "end": 578.26,
-      "text": "there are quite a lot of cases where they are given instructions to the guardian on the phone",
+      "text": "instructions to the guardian on the phone",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 578.26,
-      "end": 584.62,
-      "text": "or the nurse checks the patient at the door, and if the doctor drops the medicine at the hospice,",
+      "end": 582.946,
+      "text": "or the nurse checks the patient at the door, and if the doctor drops",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 582.946,
+      "end": 584.62,
+      "text": "the medicine at the hospice,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 584.78,
-      "end": 586.78,
-      "text": "there are quite a lot of cases where the patient does not have to go to the hospital.",
+      "end": 586.336,
+      "text": "there are quite a lot of cases where the patient does not have to",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 586.336,
+      "end": 586.78,
+      "text": "go to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 590.26,
@@ -692,17 +923,31 @@
     },
     {
       "start": 604.9,
-      "end": 611.9,
-      "text": "At that time, the hospice doctor had to remove the warning signs and never went to the hospital for a year.",
+      "end": 609.567,
+      "text": "At that time, the hospice doctor had to remove the warning signs and never",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 609.567,
+      "end": 611.9,
+      "text": "went to the hospital for a year.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 612.88,
-      "end": 617.78,
-      "text": "So, instead, the patient's condition got better, so there were cases where the hospice had to terminate the treatment.",
+      "end": 616.491,
+      "text": "So, instead, the patient's condition got better, so there were cases where the hospice",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 616.491,
+      "end": 617.78,
+      "text": "had to terminate the treatment.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 619.2,
@@ -716,21 +961,35 @@
       "end": 625.78,
       "text": "The purpose of hospice is not to drag the patient forward or to let go.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 627.02,
-      "end": 633.48,
-      "text": "Hospice is the place where the patient is currently at, so it helps to get the last dose naturally.",
+      "end": 631.78,
+      "text": "Hospice is the place where the patient is currently at, so it helps to",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 631.78,
+      "end": 633.48,
+      "text": "get the last dose naturally.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 636.06,
-      "end": 642.58,
-      "text": "So, instead of going through a difficult treatment process at the hospital, I will explain the patient's condition",
+      "end": 641.131,
+      "text": "So, instead of going through a difficult treatment process at the hospital, I will",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 641.131,
+      "end": 642.58,
+      "text": "explain the patient's condition",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 642.58,
@@ -741,38 +1000,59 @@
     },
     {
       "start": 648.8,
-      "end": 654.843,
-      "text": "Then, in many cases, the patient and the family take the situation well, and the patient also receives a comfortable dose at",
+      "end": 652.645,
+      "text": "Then, in many cases, the patient and the family take the situation well, and",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 654.843,
+      "start": 652.645,
       "end": 657.04,
-      "text": "the place where the patient is currently at.",
+      "text": "the patient also receives a comfortable dose at the place where the patient is currently at.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 659.62,
-      "end": 663.64,
-      "text": "Of course, at first, the patient said that he would get a dose at home without going to the hospital,",
+      "end": 662.434,
+      "text": "Of course, at first, the patient said that he would get a dose at",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 662.434,
+      "end": 663.64,
+      "text": "home without going to the hospital,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 664.78,
-      "end": 669.66,
-      "text": "but when the patient gets sick, the heart changes, so there are cases of moving to the hospital.",
+      "end": 668.576,
+      "text": "but when the patient gets sick, the heart changes, so there are cases of",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 668.576,
+      "end": 669.66,
+      "text": "moving to the hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 672.2,
-      "end": 676.24,
-      "text": "As I explained in POLST, POLST can be changed at any time depending on the patient and the family.",
+      "end": 675.177,
+      "text": "As I explained in POLST, POLST can be changed at any time depending on",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 675.177,
+      "end": 676.24,
+      "text": "the patient and the family.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 679.26,
@@ -804,10 +1084,17 @@
     },
     {
       "start": 695.22,
-      "end": 699.96,
-      "text": "However, in the actual scene, there are times when the family asks the part that is not clearly written on the POLST.",
+      "end": 698.236,
+      "text": "However, in the actual scene, there are times when the family asks the part",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 698.236,
+      "end": 699.96,
+      "text": "that is not clearly written on the POLST.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 702.12,
@@ -825,31 +1112,52 @@
     },
     {
       "start": 715.2,
-      "end": 721.32,
-      "text": "So we say that since oxygenation is considered as a comfort measure, you must do it at the hospice.",
+      "end": 719.709,
+      "text": "So we say that since oxygenation is considered as a comfort measure, you must",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 719.709,
+      "end": 721.32,
+      "text": "do it at the hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 722.74,
       "end": 727.38,
       "text": "If you listen to that explanation, some people understand it, and some people don't understand it.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 728.3,
+      "end": 732.61,
+      "text": "In this case, it is carried out according to the doctor's order, but in",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 732.61,
       "end": 735.38,
-      "text": "In this case, it is carried out according to the doctor's order, but in the family, it may not be easy to decide.",
+      "text": "the family, it may not be easy to decide.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 735.98,
-      "end": 742.28,
-      "text": "So if you are not in a general situation in POLST, you have to discuss with the doctor and decide.",
+      "end": 740.39,
+      "text": "So if you are not in a general situation in POLST, you have to",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 740.39,
+      "end": 742.28,
+      "text": "discuss with the doctor and decide.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 743.22,
@@ -867,8 +1175,15 @@
     },
     {
       "start": 754.74,
+      "end": 758.963,
+      "text": "However, as I said earlier, I would like to emphasize that a part of",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 758.963,
       "end": 761.98,
-      "text": "However, as I said earlier, I would like to emphasize that a part of the life extension may cause more pain to the patient",
+      "text": "the life extension may cause more pain to the patient",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -919,14 +1234,21 @@
       "end": 804.76,
       "text": "Some families are really good at preparing, so I saw them go to the hospital in peace.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 806.04,
-      "end": 813.44,
-      "text": "However, in some cases, even though the patient is in pain, the family still lives a bit more comfortably.",
+      "end": 811.493,
+      "text": "However, in some cases, even though the patient is in pain, the family still",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 811.493,
+      "end": 813.44,
+      "text": "lives a bit more comfortably.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 813.44,
@@ -986,10 +1308,17 @@
     },
     {
       "start": 857.8,
-      "end": 863.78,
-      "text": "For the patient, and for the rest of the family, you need to take the last moment and prepare comfortably.",
+      "end": 861.986,
+      "text": "For the patient, and for the rest of the family, you need to take",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 861.986,
+      "end": 863.78,
+      "text": "the last moment and prepare comfortably.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 863.78,

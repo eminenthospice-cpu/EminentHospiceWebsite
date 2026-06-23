@@ -34,10 +34,17 @@
     },
     {
       "start": 18.87,
-      "end": 24.61,
-      "text": "First, if you look at the address on the screen, you can see the most accurate and detailed information.",
+      "end": 23.099,
+      "text": "First, if you look at the address on the screen, you can see the",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 23.099,
+      "end": 24.61,
+      "text": "most accurate and detailed information.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 25.61,
@@ -51,12 +58,19 @@
       "end": 36.29,
       "text": "If you don't have Medicare, you can apply for a medical or private insurance personal insurance.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 38.15,
+      "end": 43.58,
+      "text": "The benefits are slightly different depending on the insurance, so you have to check",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 43.58,
       "end": 47.07,
-      "text": "The benefits are slightly different depending on the insurance, so you have to check the insurance benefits and check the general insurance benefits.",
+      "text": "the insurance benefits and check the general insurance benefits.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -79,7 +93,7 @@
       "end": 65.69,
       "text": "Hospice Care Core Service is a service provided by Medicare to be provided by Hospice.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 66.49,
@@ -104,10 +118,17 @@
     },
     {
       "start": 79.64,
-      "end": 89.09,
-      "text": "The rest of the staff members are a choice service provided by the hospice company depending on the patient and the patient.",
+      "end": 85.654,
+      "text": "The rest of the staff members are a choice service provided by the hospice",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 85.654,
+      "end": 89.09,
+      "text": "company depending on the patient and the patient.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 89.09,
@@ -125,10 +146,17 @@
     },
     {
       "start": 101.15,
-      "end": 110.37,
-      "text": "So, all the medical products provided by hospice patients go to the doctor's office or hospice doctor's office.",
+      "end": 108.321,
+      "text": "So, all the medical products provided by hospice patients go to the doctor's office",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 108.321,
+      "end": 110.37,
+      "text": "or hospice doctor's office.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 111.01,
@@ -167,10 +195,17 @@
     },
     {
       "start": 141.39,
-      "end": 149.65,
-      "text": "At the time of 6 months, a general doctor or a nurse practitioner The patient receives a hospice service continuously",
+      "end": 147.172,
+      "text": "At the time of 6 months, a general doctor or a nurse practitioner The",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 147.172,
+      "end": 149.65,
+      "text": "patient receives a hospice service continuously",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 149.65,
@@ -191,7 +226,7 @@
       "end": 168.29,
       "text": "Once or twice a week depending on the patient Check if the patient's current symptoms are well-managed.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 169.35,
@@ -205,14 +240,21 @@
       "end": 180.77,
       "text": "The nurse monitors the symptoms of the patient Is the current nurse's plan and treatment plan well-managed?",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 181.43,
-      "end": 187.45,
-      "text": "Follow-up continuously If necessary, consult a nurse It is a role to report to the doctor and stop the medicine",
+      "end": 185.644,
+      "text": "Follow-up continuously If necessary, consult a nurse It is a role to report to",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 185.644,
+      "end": 187.45,
+      "text": "the doctor and stop the medicine",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 187.45,
@@ -226,40 +268,54 @@
       "end": 201.45,
       "text": "Refill the equipment you need for the patient I will help you to supplement the necessary items.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 201.53,
       "end": 207.37,
       "text": "One of the questions the family often asks If the nurse comes, how many are there?",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 208.41,
       "end": 214.81,
       "text": "When the nurse is the first visit Look at all the patients and review the medicine",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 215.34,
-      "end": 224.03,
-      "text": "Because you have to explore the environment of the family It takes a long time After the first visit, the regular visit",
+      "end": 220.87,
+      "text": "Because you have to explore the environment of the family It takes a long time",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 224.03,
-      "end": 227.43,
-      "text": "Most of the time is 30 minutes away You can think of it.",
+      "start": 221.28,
+      "end": 226.65,
+      "text": "After the first visit, the regular visit Most of the time is 30 minutes away",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 228.45,
+      "start": 226.65,
+      "end": 230.726,
+      "text": "You can think of it. If the patient is too much to do If",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 230.726,
+      "end": 231.89,
+      "text": "the symptoms are uncomfortable",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 231.89,
       "end": 236.69,
-      "text": "If the patient is too much to do If the symptoms are uncomfortable It may take more time.",
+      "text": "It may take more time.",
       "review_status": "machine_draft",
       "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
@@ -275,7 +331,7 @@
       "end": 255.11,
       "text": "Acne, constipation, nausea, vomiting, There is a lot of reasons why Koreans do hospice patients",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 255.11,
@@ -289,14 +345,21 @@
       "end": 262.89,
       "text": "dementia patients There are no symptoms like this There may be about one or two",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 264.05,
-      "end": 271.01,
-      "text": "Or according to a certain disease The symptoms may be worse Or if you are a cancer patient",
+      "end": 269.463,
+      "text": "Or according to a certain disease The symptoms may be worse Or if you",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 269.463,
+      "end": 271.01,
+      "text": "are a cancer patient",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 271.01,
@@ -310,14 +373,21 @@
       "end": 281.67,
       "text": "All the symptoms mentioned above It means that all symptoms are taken care of at hospice.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 282.77,
-      "end": 289.83,
-      "text": "So the nurse with experience You have to meet hospice well You can say you can get better care of it.",
+      "end": 287.477,
+      "text": "So the nurse with experience You have to meet hospice well You can say",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 287.477,
+      "end": 289.83,
+      "text": "you can get better care of it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 290.73,
@@ -328,10 +398,17 @@
     },
     {
       "start": 295.27,
-      "end": 299.79,
-      "text": "And one of the nurses There is a nurse who really looks at the patient with interest and love.",
+      "end": 298.601,
+      "text": "And one of the nurses There is a nurse who really looks at the",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 298.601,
+      "end": 299.79,
+      "text": "patient with interest and love.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 303.47,
@@ -373,14 +450,14 @@
       "end": 333.05,
       "text": "When you started hospice, Acne, constipation, nausea, vomiting, nausea, constipation There were all of them.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 333.25,
       "end": 339.25,
       "text": "So at first Adjust the constipation to the level of constipation The constipation was solved.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 339.99,
@@ -454,10 +531,17 @@
     },
     {
       "start": 375.43,
-      "end": 384.17,
-      "text": "So I'm a nurse. Even if it's hard for the patient, I always put my finger in the door and check it.",
+      "end": 380.992,
+      "text": "So I'm a nurse. Even if it's hard for the patient, I always put",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 380.992,
+      "end": 384.17,
+      "text": "my finger in the door and check it.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 385.73,
@@ -482,10 +566,17 @@
     },
     {
       "start": 403.97,
-      "end": 413.11,
-      "text": "For example, in the case of California, If you apply for medical care, If you apply for body donation, IHSS,",
+      "end": 410.368,
+      "text": "For example, in the case of California, If you apply for medical care, If",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 410.368,
+      "end": 413.11,
+      "text": "you apply for body donation, IHSS,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 413.11,
@@ -506,7 +597,7 @@
       "end": 425.39,
       "text": "It's called a spiritual counselor. Most of the time, the pastor is in charge of it.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 426.03,
@@ -548,7 +639,7 @@
       "end": 447.57,
       "text": "Injong-Hoo Family Album Service The spiritual counselor is also in charge of the spiritual counseling.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 449.59,
@@ -576,14 +667,21 @@
       "end": 469.57,
       "text": "The four things I've told you so far It's a hospice core service set in Medicare.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 469.57,
-      "end": 481.35,
-      "text": "And next time, With a guitar selection service The spiritual counselor and the volunteer The spiritual counselor usually visits once or twice a week.",
+      "end": 475.49,
+      "text": "And next time, With a guitar selection service The spiritual counselor and the volunteer",
       "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+    },
+    {
+      "start": 475.49,
+      "end": 481.35,
+      "text": "The spiritual counselor usually visits once or twice a week.",
+      "review_status": "machine_draft",
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
       "start": 481.73,
@@ -632,7 +730,7 @@
       "end": 507.23,
       "text": "Next is a service that is not a care step, but a part of the hospice.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 509.36,
@@ -650,10 +748,17 @@
     },
     {
       "start": 517.17,
-      "end": 525.45,
-      "text": "For example, A diet, a study, And to look at the patient who is on the verge of death,",
+      "end": 523.271,
+      "text": "For example, A diet, a study, And to look at the patient who is",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 523.271,
+      "end": 525.45,
+      "text": "on the verge of death,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 527.57,
@@ -688,7 +793,7 @@
       "end": 549.29,
       "text": "The patient may be comfortable, I'll send you medical equipment to make the family more comfortable.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 552.59,
@@ -699,24 +804,31 @@
     },
     {
       "start": 559.37,
+      "end": 563.556,
+      "text": "Suction machine, Nebulizer, etc. I'll send you according to the patient's needs in the",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 563.556,
       "end": 565.35,
-      "text": "Suction machine, Nebulizer, etc. I'll send you according to the patient's needs in the rental company signed by the hospice.",
+      "text": "rental company signed by the hospice.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 566.81,
+      "end": 572.19,
+      "text": "If you don't usually do hospice, In order to receive medical equipment like this,",
       "review_status": "machine_draft",
       "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
-      "start": 566.81,
-      "end": 573.021,
-      "text": "If you don't usually do hospice, In order to receive medical equipment like this, It is a complicated process of signing a",
-      "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
-    },
-    {
-      "start": 573.021,
+      "start": 572.19,
       "end": 574.15,
-      "text": "doctor's autograph and documents.",
+      "text": "It is a complicated process of signing a doctor's autograph and documents.",
       "review_status": "machine_draft",
-      "notes": "Auto-generated from transcript; requires Korean-English review."
+      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
     {
       "start": 576.95,
@@ -748,22 +860,22 @@
     },
     {
       "start": 592.47,
-      "end": 597.581,
-      "text": "The hospital bed can be adjusted to the top and bottom, It can be adjusted to the top and bottom, Because you",
+      "end": 595.473,
+      "text": "The hospital bed can be adjusted to the top and bottom, It can be",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 597.581,
-      "end": 598.51,
-      "text": "can build your head,",
+      "start": 595.473,
+      "end": 596.76,
+      "text": "adjusted to the top and bottom,",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
-      "start": 598.57,
+      "start": 597.51,
       "end": 600.27,
-      "text": "Those who are suffering from respiratory problems,",
+      "text": "Because you can build your head, Those who are suffering from respiratory problems,",
       "review_status": "machine_draft",
       "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
     },
@@ -832,10 +944,17 @@
     },
     {
       "start": 634.49,
-      "end": 641.65,
-      "text": "From 9 o'clock to 5 o'clock is the office time, After that, Arani receives the call and explains the emergency triage.",
+      "end": 639.263,
+      "text": "From 9 o'clock to 5 o'clock is the office time, After that, Arani receives",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 639.263,
+      "end": 641.65,
+      "text": "the call and explains the emergency triage.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 643.69,
@@ -849,7 +968,7 @@
       "end": 656.43,
       "text": "I support the basic command. Hospice patients often prepare medicine or equipment for emergency situations.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 657.97,
@@ -870,14 +989,14 @@
       "end": 671.27,
       "text": "Even if it's not emergency, You can ask the patient about the medicine or the care.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 674.37,
       "end": 681.73,
       "text": "This 24-hour on-call waiting service is personally the most difficult part as a hospice nurse.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 682.13,
@@ -909,10 +1028,17 @@
     },
     {
       "start": 701.55,
-      "end": 708.73,
-      "text": "Since most of the family members are the first to be admitted, As long as the hospice employee is with the patient,",
+      "end": 706.119,
+      "text": "Since most of the family members are the first to be admitted, As long",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 706.119,
+      "end": 708.73,
+      "text": "as the hospice employee is with the patient,",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 709.07,
@@ -930,10 +1056,17 @@
     },
     {
       "start": 719.05,
-      "end": 724.51,
-      "text": "In the case of our hospice, There are many patients who are in a nursing hotel or a nursing hospital.",
+      "end": 722.872,
+      "text": "In the case of our hospice, There are many patients who are in a",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 722.872,
+      "end": 724.51,
+      "text": "nursing hotel or a nursing hospital.",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 724.51,
@@ -947,7 +1080,7 @@
       "end": 729.69,
       "text": "What I hear a lot is that our company is very good at receiving calls.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 731.23,
@@ -972,8 +1105,15 @@
     },
     {
       "start": 747.65,
+      "end": 752.763,
+      "text": "If you give the message to the hospice on-call, The hospice on-call nurse It",
+      "review_status": "machine_draft",
+      "notes": "Auto-generated from transcript; requires Korean-English review."
+    },
+    {
+      "start": 752.763,
       "end": 756.05,
-      "text": "If you give the message to the hospice on-call, The hospice on-call nurse It is the way to call again in the judgment.",
+      "text": "is the way to call again in the judgment.",
       "review_status": "machine_draft",
       "notes": "Auto-generated from transcript; requires Korean-English review."
     },
@@ -1052,7 +1192,7 @@
       "end": 795.41,
       "text": "Depending on where you are, The service provided to the patient may change little by little.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 796.77,
@@ -1073,14 +1213,14 @@
       "end": 807.01,
       "text": "I think there will be a nurse or a doctor who is interested in hospice.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 807.01,
       "end": 808.47,
       "text": "I think there will be a nurse or a doctor who is interested in hospice.",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 808.49,
@@ -1094,7 +1234,7 @@
       "end": 819.53,
       "text": "Not only the symptoms of the patient, Physical, mental, spiritual, And the environment surrounding the patient",
       "review_status": "machine_draft",
-      "notes": "Auto-grouped to avoid one-word rolling fragments; requires Korean-English review."
+      "notes": "Auto-generated from transcript; requires Korean-English review."
     },
     {
       "start": 819.53,

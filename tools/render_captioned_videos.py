@@ -80,7 +80,7 @@ def ass_time(seconds: float) -> str:
 
 
 def escape_ass(text: str) -> str:
-    return text.replace("\\", "\\\\").replace("{", r"\{").replace("}", r"\}")
+    return text.replace("{", r"\{").replace("}", r"\}")
 
 
 def line_chunks(text: str, width: int = 42) -> list[str]:
@@ -104,7 +104,7 @@ def line_chunks(text: str, width: int = 42) -> list[str]:
 
 def two_line_ass(text: str, width: int = 42) -> str:
     lines = wrap_lines(text, width=width, max_lines=2)
-    return "\\N".join(lines)
+    return "\\N".join(escape_ass(line) for line in lines)
 
 
 def two_line_vtt(text: str, width: int = 52) -> str:
@@ -175,9 +175,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
     events = []
     for entry in entries:
-        cue_text = two_line_ass(entry["text"], width=42)
+        cue_text = two_line_ass(entry["text"], width=34)
         events.append(
-            f"Dialogue: 0,{ass_time(entry['start'])},{ass_time(entry['end'])},Default,,0,0,0,,{escape_ass(cue_text)}"
+            f"Dialogue: 0,{ass_time(entry['start'])},{ass_time(entry['end'])},Default,,0,0,0,,{cue_text}"
         )
     ass_path.write_text(header + "\n".join(events) + "\n", encoding="utf-8")
     return ass_path
