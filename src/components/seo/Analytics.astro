@@ -1,0 +1,33 @@
+---
+/**
+ * Analytics — privacy-conscious, opt-in measurement. Renders nothing until you
+ * set a value in `ANALYTICS` (src/data/site-config.ts). Supports GA4 and/or
+ * Plausible. Without measurement you can't tell whether the SEO work is paying
+ * off, so wire one of these up once a real domain is live.
+ */
+import { ANALYTICS } from '../../data/site-config';
+
+const ga4Id = ANALYTICS.ga4Id?.trim();
+const plausibleDomain = ANALYTICS.plausibleDomain?.trim();
+---
+
+{plausibleDomain && (
+  <script
+    is:inline
+    defer
+    data-domain={plausibleDomain}
+    src="https://plausible.io/js/script.js"
+  ></script>
+)}
+
+{ga4Id && (
+  <>
+    <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`}></script>
+    <script is:inline define:vars={{ ga4Id }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', ga4Id, { anonymize_ip: true });
+    </script>
+  </>
+)}

@@ -14,22 +14,26 @@ interface Props {
 const { lang, currentPath } = Astro.props;
 const t = useTranslations(lang);
 
+// Top-level nav is intentionally short and plain-labeled — the logo links Home,
+// and the deeper educational pages live under Resources. This keeps the choices
+// an older or stressed visitor must scan to a handful (About · Services ·
+// Insurance · Resources · Contact).
 const primaryLinks = [
-  { key: 'home',            href: localizedPath('/',        lang), label: t('nav.home') },
   { key: 'about',           href: localizedPath('/about',   lang), label: t('nav.aboutUs') },
   { key: 'services',        href: localizedPath('/services',lang), label: t('nav.hospiceServices') },
+  { key: 'insurance',       href: localizedPath('/insurance',lang), label: t('nav.insurance') },
 ];
 
 const resourceLinks = [
   { href: localizedPath('/understanding-hospice', lang), label: t('nav.understandingHospice') },
-  { href: localizedPath('/hospice-laws',          lang), label: t('nav.hospiceLaws') },
   { href: localizedPath('/for-families',          lang), label: t('nav.forFamilies') },
-  { href: localizedPath('/insurance',             lang), label: t('nav.insurance') },
   { href: localizedPath('/faq',                   lang), label: t('nav.faq') },
+  { href: localizedPath('/hospice-laws',          lang), label: t('nav.hospiceLaws') },
   { href: localizedPath('/grief-support',         lang), label: lang === 'ko' ? '슬픔 지원' : 'Grief Support' },
 ];
 
 const mobileLinks = [
+  { href: localizedPath('/',         lang), label: t('nav.home') },
   ...primaryLinks,
   ...resourceLinks,
   { href: localizedPath('/contact',  lang), label: t('nav.contact') },

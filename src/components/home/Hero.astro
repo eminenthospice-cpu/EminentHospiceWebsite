@@ -1,5 +1,6 @@
 ---
 import { useTranslations, localizedPath } from '../../i18n/utils';
+import { BRAND, SITE, CONTACT } from '../../data/site-config';
 import Badge from '../ui/Badge.astro';
 import Button from '../ui/Button.astro';
 import EditorialFigure from '../ui/EditorialFigure.astro';
@@ -25,6 +26,22 @@ const restWords = words.slice(1).join(' ');
   class="relative overflow-hidden bg-surface-paper"
 >
   <div class="max-w-[90rem] mx-auto min-w-0 px-6 md:px-12 lg:px-16 py-14 md:py-20 lg:py-24">
+
+    <!-- Brand masthead -->
+    <div class="reveal text-center mb-12 md:mb-16 pb-10 md:pb-12 border-b border-line-soft">
+      <img
+        src={BRAND.logo}
+        alt={SITE.name}
+        width="900"
+        height="300"
+        class="h-20 sm:h-24 md:h-28 w-auto mx-auto object-contain"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
+      />
+      <p class="mt-5 text-caption uppercase tracking-[0.18em] text-ink-500">{SITE.tagline}</p>
+    </div>
+
     <div class="relative grid grid-cols-1 min-w-0 lg:grid-cols-[1.15fr_0.85fr] gap-10 lg:gap-12 items-center">
 
       <!-- Text column -->
@@ -44,17 +61,28 @@ const restWords = words.slice(1).join(' ');
         <p class="lead mb-8">{t('home.hero.subtext')}</p>
 
         <div class="flex flex-col sm:flex-row gap-3 sm:items-center">
-          <Button href={lp('/understanding-hospice')} variant="cta" size="lg">
+          <!-- Primary action: Call. Largest, highest-contrast control so the
+               most important next step is unmistakable for older visitors. -->
+          <a
+            href={`tel:${CONTACT.phone.tel}`}
+            class="group inline-flex items-center justify-center gap-3 rounded-btn px-7 py-4 min-h-[60px] press-tap shadow-float
+                   font-semibold transition-[transform,background-color,box-shadow] duration-150
+                   focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+            style="background: var(--color-accent-gold-500); color: var(--color-ink-900);"
+            aria-label={`${t('home.hero.call')}: ${CONTACT.phone.display}`}
+          >
+            <svg aria-hidden="true" class="h-5 w-5 transition-transform duration-150 group-hover:scale-110" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 6.75z" />
+            </svg>
+            <span>{t('home.hero.call')}</span>
+            <span class="font-heading text-xl tabular-nums tracking-tight leading-none">{CONTACT.phone.display}</span>
+          </a>
+          <!-- Secondary action: learn more -->
+          <Button href={lp('/understanding-hospice')} variant="secondary" size="lg">
             {t('home.hero.ctaPrimary')}
             <svg aria-hidden="true" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
             </svg>
-          </Button>
-          <Button href={lp('/contact')} variant="ghost" size="lg" class="text-primary-700">
-            <svg aria-hidden="true" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 6.75z" />
-            </svg>
-            {t('home.hero.ctaSecondary')}
           </Button>
         </div>
       </div>

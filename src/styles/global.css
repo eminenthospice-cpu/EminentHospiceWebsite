@@ -173,6 +173,14 @@ body {
   line-height: 1.7;
 }
 
+/* Reserve space for the fixed mobile call bar (StickyCallBar.astro) so it
+   never overlaps the footer. Bar is hidden at lg, so the offset is too. */
+@media (max-width: 1023.98px) {
+  body {
+    padding-bottom: calc(56px + env(safe-area-inset-bottom));
+  }
+}
+
 /* Korean: keep whole syllables together */
 :lang(ko) h1,
 :lang(ko) h2,

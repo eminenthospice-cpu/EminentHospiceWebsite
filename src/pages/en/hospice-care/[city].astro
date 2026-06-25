@@ -1,0 +1,14 @@
+---
+import CityLanding from '../../../components/areas/CityLanding.astro';
+import { SERVICE_AREAS } from '../../../data/service-areas';
+
+export function getStaticPaths() {
+  return SERVICE_AREAS.map((area) => ({
+    params: { city: area.slug },
+    props: { area },
+  }));
+}
+
+const { area } = Astro.props;
+---
+<CityLanding lang="en" {area} />

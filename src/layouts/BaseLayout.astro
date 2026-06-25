@@ -7,8 +7,11 @@
 import '../styles/global.css';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
+import StickyCallBar from '../components/layout/StickyCallBar.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
 import { buildAlternates } from '../i18n/utils';
 import { SITE, BRAND } from '../data/site-config';
+import Analytics from '../components/seo/Analytics.astro';
 
 export interface Props {
   title: string;
@@ -71,6 +74,9 @@ const ogImageAbs   = ogImage.startsWith('http') ? ogImage : `${SITE.url}${ogImag
     <meta name="twitter:image"       content={ogImageAbs} />
 
     <slot name="head" />
+
+    <!-- Opt-in analytics (renders only when configured in site-config) -->
+    <Analytics />
   </head>
 
   <body>
@@ -81,11 +87,16 @@ const ogImageAbs   = ogImage.startsWith('http') ? ogImage : `${SITE.url}${ogImag
 
     <Header lang={lang} currentPath={path} />
 
+    {path !== '/' && <Breadcrumbs lang={lang} path={path} title={title} />}
+
     <main id="main-content" tabindex="-1">
       <slot />
     </main>
 
     <Footer lang={lang} />
+
+    <!-- Persistent click-to-call (mobile only) -->
+    <StickyCallBar lang={lang} />
 
     <!-- Scroll reveal — runs after paint -->
     <script>

@@ -1,0 +1,53 @@
+---
+/**
+ * Breadcrumbs — visual trail + BreadcrumbList structured data.
+ *
+ * The site has a flat information architecture (content pages sit one level
+ * below home), so the trail is simply Home › Current page. Rendered globally
+ * from BaseLayout for every page except the home page. Helps orientation for
+ * the reader and can earn breadcrumb rich results in Google.
+ */
+import { localizedPath } from '../../i18n/utils';
+import { SITE } from '../../data/site-config';
+
+export interface Props {
+  lang: 'en' | 'ko';
+  path: string;   // canonical path, e.g. '/about'
+  title: string;  // current page title
+}
+const { lang, path, title } = Astro.props;
+
+const homeLabel = lang === 'ko' ? '홈' : 'Home';
+const homeHref  = localizedPath('/', lang);
+const homeUrl   = `${SITE.url}${homeHref}`;
+const currentUrl = `${SITE.url}/${lang}${path}`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: homeLabel, item: homeUrl },
+    { '@type': 'ListItem', position: 2, name: title, item: currentUrl },
+  ],
+};
+---
+
+<nav
+  aria-label={lang === 'ko' ? '탐색 경로' : 'Breadcrumb'}
+  class="bg-surface-paper border-b border-line-hairline"
+>
+  <ol class="container-content flex items-center gap-2 py-3 text-caption list-none m-0 p-0" style="color: var(--color-ink-500);">
+    <li class="flex items-center gap-2">
+      <a
+        href={homeHref}
+        class="underline-grow hover:text-ink-900 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 rounded-sm"
+      >
+        {homeLabel}
+      </a>
+      <span aria-hidden="true" style="color: var(--color-ink-300);">/</span>
+    </li>
+    <li aria-current="page" class="font-medium" style="color: var(--color-ink-700);">{title}</li>
+  </ol>
+</nav>
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />

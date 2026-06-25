@@ -10,6 +10,7 @@ const t = useTranslations(lang);
 const lp = (p: string) => localizedPath(p, lang);
 
 const directionsUrl = `https://www.google.com/maps?q=${encodeURIComponent(CONTACT.address.display)}`;
+const mapEmbedUrl = `https://maps.google.com/maps?q=${encodeURIComponent(CONTACT.address.display)}&z=15&output=embed`;
 ---
 
 <BaseLayout
@@ -109,6 +110,20 @@ const directionsUrl = `https://www.google.com/maps?q=${encodeURIComponent(CONTAC
                   <Icon name="arrowRight" class="w-4 h-4" />
                 </a>
               </div>
+            </div>
+            <!-- Embedded map — reinforces the local-business signal and shows
+                 families exactly where we are. Lazy-loaded to protect LCP. -->
+            <div class="mt-4 overflow-hidden rounded-card border border-line-hairline">
+              <iframe
+                src={mapEmbedUrl}
+                title={t('contact.info.mapTitle')}
+                width="100%"
+                height="240"
+                style="border:0; display:block;"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                aria-label={t('contact.info.mapTitle')}
+              ></iframe>
             </div>
           </div>
 

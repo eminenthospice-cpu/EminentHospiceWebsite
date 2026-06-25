@@ -1,0 +1,125 @@
+---
+/**
+ * CityLanding — renders a single "Hospice Care in [City]" page. Driven entirely
+ * by i18n templates + the ServiceArea record, so EN/KO stay in sync and adding
+ * a city is a one-line data change. Reuses LongFormLayout + PageSidebar so the
+ * page matches every other content page on the site.
+ */
+import LongFormLayout from '../../layouts/LongFormLayout.astro';
+import PageSidebar from '../layout/PageSidebar.astro';
+import LocalBusinessJsonLd from '../seo/LocalBusinessJsonLd.astro';
+import { useTranslations, localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+import { SERVICE_AREAS, type ServiceArea } from '../../data/service-areas';
+
+export interface Props {
+  lang: 'en' | 'ko';
+  area: ServiceArea;
+}
+const { lang, area } = Astro.props;
+const t = useTranslations(lang);
+const lp = (p: string) => localizedPath(p, lang);
+
+const city = area.name[lang];
+const region = area.region[lang];
+
+/** Fill {city}/{region}/{phone} placeholders in a template string. */
+const fill = (s: string) =>
+  s.replaceAll('{city}', city)
+   .replaceAll('{region}', region)
+   .replaceAll('{phone}', CONTACT.phone.display);
+
+const base = 'serviceAreas.city';
+const title = fill(t(`${base}.pageTitleTemplate`));
+const description = fill(t(`${base}.metaDescriptionTemplate`));
+const intro = fill(t(`${base}.introTemplate`));
+
+const SECTION_KEYS = ['whatWeProvide', 'whereWeCare', 'whoPays', 'bilingual', 'howToStart'] as const;
+const sections = SECTION_KEYS.map((key) => ({
+  id: key,
+  title: fill(t(`${base}.sections.${key}.title`)),
+  body: fill(t(`${base}.sections.${key}.body`)),
+}));
+
+const anchors = SECTION_KEYS.map((key) => ({
+  id: key,
+  label: t(`${base}.anchors.${key}`),
+}));
+
+const relatedLinks = [
+  { href: '/hospice-care',          label: t('serviceAreas.index.listHeading') },
+  { href: '/services',              label: t('common.relatedPages.links.services') },
+  { href: '/insurance',             label: t('common.relatedPages.links.insurance') },
+  { href: '/understanding-hospice', label: t('common.relatedPages.links.understandingHospice') },
+  { href: '/contact',               label: t('common.relatedPages.links.contact') },
+];
+
+const otherAreas = SERVICE_AREAS.filter((a) => a.slug !== area.slug);
+---
+
+<LongFormLayout
+  title={title}
+  description={description}
+  lang={lang}
+  path={`/hospice-care/${area.slug}`}
+  eyebrow={t(`${base}.eyebrow`)}
+  introParagraph={intro}
+>
+  <LocalBusinessJsonLd slot="head" lang={lang} />
+  <PageSidebar slot="sidebar" {anchors} {relatedLinks} {lang} />
+
+  {sections.map(({ id, title, body }) => (
+    <section id={id} aria-labelledby={`${id}-h`} class="reveal scroll-mt-24">
+      <h2 id={`${id}-h`}>{title}</h2>
+      <p>{body}</p>
+      {id === 'whoPays' && (
+        <p class="not-prose">
+          <a href={lp('/insurance')} class="inline-flex items-center gap-1 text-base font-medium text-primary-600 hover:text-primary-700 hover:underline">
+            {t('common.relatedPages.links.insurance')} →
+          </a>
+        </p>
+      )}
+    </section>
+  ))}
+
+  <!-- Primary CTA pair -->
+  <div class="not-prose mt-10 flex flex-col sm:flex-row gap-3">
+    <a
+      href={`tel:${CONTACT.phone.tel}`}
+      class="inline-flex items-center justify-center gap-2 min-h-[52px] px-7 py-3 rounded-btn
+             font-semibold shadow-soft transition-colors duration-150 w-full sm:w-auto
+             focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+      style="background: var(--color-accent-gold-500); color: var(--color-ink-900);"
+    >
+      <svg aria-hidden="true" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 6.75z" />
+      </svg>
+      {fill(t(`${base}.callCta`))}
+    </a>
+    <a
+      href={lp('/contact')}
+      class="inline-flex items-center justify-center min-h-[52px] px-7 py-3 rounded-btn border-2 border-primary-500
+             text-primary-600 font-medium hover:bg-primary-50 transition-colors duration-150 w-full sm:w-auto
+             focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2"
+    >
+      {t(`${base}.contactCta`)}
+    </a>
+  </div>
+
+  <!-- Internal links to sibling city pages (local SEO + navigation) -->
+  <section aria-labelledby="other-areas-h" class="reveal scroll-mt-24">
+    <h2 id="other-areas-h">{t(`${base}.otherAreasHeading`)}</h2>
+    <ul class="not-prose grid grid-cols-2 sm:grid-cols-3 gap-2">
+      {otherAreas.map((a) => (
+        <li>
+          <a
+            href={lp(`/hospice-care/${a.slug}`)}
+            class="block py-2 text-base font-medium text-primary-600 hover:text-primary-700 hover:underline"
+          >
+            {a.name[lang]}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</LongFormLayout>

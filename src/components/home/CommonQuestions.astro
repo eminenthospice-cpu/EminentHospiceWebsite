@@ -1,0 +1,65 @@
+---
+/**
+ * CommonQuestions — three plain-language answers to the questions families ask
+ * first (who pays, where care happens, how to start). Placed high on the home
+ * page so visitors get oriented immediately instead of hunting through pages.
+ */
+import { useTranslations, localizedPath } from '../../i18n/utils';
+import { CONTACT } from '../../data/site-config';
+import SectionContainer from '../ui/SectionContainer.astro';
+
+export interface Props {
+  lang: 'en' | 'ko';
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const lp = (p: string) => localizedPath(p, lang);
+
+const base = 'home.commonQuestions';
+const cards = [
+  { q: t(`${base}.q1.question`), a: t(`${base}.q1.answer`), label: t(`${base}.q1.linkLabel`), href: lp('/insurance') },
+  { q: t(`${base}.q2.question`), a: t(`${base}.q2.answer`), label: t(`${base}.q2.linkLabel`), href: lp('/about') },
+  { q: t(`${base}.q3.question`), a: t(`${base}.q3.answer`), label: t(`${base}.q3.linkLabel`), href: `tel:${CONTACT.phone.tel}` },
+];
+---
+
+<SectionContainer bg="warm" ariaLabel={t(`${base}.ariaLabel`)} class="border-b border-line-hairline">
+  <div class="reveal max-w-2xl mb-10 md:mb-12">
+    <h2 class="font-heading text-3xl md:text-4xl text-ink-900 leading-tight mb-3">
+      {t(`${base}.heading`)}
+    </h2>
+    <p class="font-prose text-body text-ink-600">{t(`${base}.subheading`)}</p>
+  </div>
+
+  <ul class="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6 list-none p-0 m-0">
+    {cards.map(({ q, a, label, href }) => (
+      <li class="reveal card-paper bg-white p-6 lg:p-7 flex flex-col">
+        <h3 class="font-heading text-2xl text-ink-900 leading-snug mb-3">{q}</h3>
+        <p class="font-prose text-body-sm text-ink-700 leading-relaxed flex-1">{a}</p>
+        <a
+          href={href}
+          class="underline-grow mt-5 inline-flex items-center gap-1.5 font-semibold text-primary-700 hover:text-primary-800
+                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 rounded-sm"
+        >
+          {label}
+          <svg aria-hidden="true" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+          </svg>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <div class="reveal mt-8">
+    <a
+      href={lp('/faq')}
+      class="underline-grow inline-flex items-center gap-1.5 font-medium text-ink-700 hover:text-ink-900
+             focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2 rounded-sm"
+    >
+      {t(`${base}.allLinkLabel`)}
+      <svg aria-hidden="true" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+      </svg>
+    </a>
+  </div>
+</SectionContainer>

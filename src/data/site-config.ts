@@ -38,6 +38,43 @@ export const BRAND = {
   ogImageDefault:'/og-default.png',
 } as const;
 
+/**
+ * Approximate geo-coordinates of the office. Used in LocalBusiness structured
+ * data to strengthen local ("near me") search signals.
+ * TODO: replace with the exact lat/long from the Google Business Profile pin.
+ */
+export const GEO = {
+  latitude:  34.1564,
+  longitude: -118.3692,
+} as const;
+
+/**
+ * Cities/areas served, as discrete entries for structured data and on-page
+ * local content. Each name is an individual local-search signal — keep these
+ * specific (city names), not regions.
+ */
+export const SERVICE_AREAS = [
+  'North Hollywood',
+  'Burbank',
+  'Glendale',
+  'Sherman Oaks',
+  'Studio City',
+  'Van Nuys',
+  'Pasadena',
+  'Los Angeles',
+] as const;
+
+/**
+ * Analytics. Leave blank to disable. Set one (or both) to enable measurement:
+ *  - ga4Id:          Google Analytics 4 Measurement ID, e.g. 'G-XXXXXXXXXX'
+ *  - plausibleDomain: your bare domain for Plausible, e.g. 'eminenthospicecare.com'
+ * The Analytics component renders nothing until a value is present.
+ */
+export const ANALYTICS = {
+  ga4Id:           '',
+  plausibleDomain: '',
+} as const;
+
 export const FORMS = {
   contactEndpoint:  'https://formspree.io/f/mqevkdog',
   referralEndpoint: 'https://formspree.io/f/mlgyewka',

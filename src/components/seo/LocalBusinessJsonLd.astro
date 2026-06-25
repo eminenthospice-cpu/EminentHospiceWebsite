@@ -1,17 +1,25 @@
 ---
-import { SITE, CONTACT } from '../../data/site-config';
+import { SITE, CONTACT, BRAND, GEO, SERVICE_AREAS, SOCIAL } from '../../data/site-config';
 
 export interface Props {
   lang?: 'en' | 'ko';
 }
 const { lang = 'en' } = Astro.props;
 
+// Absolute URLs — structured data must not use relative paths.
+const logoAbs  = `${SITE.url}${BRAND.logo}`;
+const imageAbs = `${SITE.url}${BRAND.ogImageDefault}`;
+const sameAs   = Object.values(SOCIAL).filter(Boolean) as string[];
+
 const ld = {
   '@context': 'https://schema.org',
   '@type': 'MedicalBusiness',
+  '@id': `${SITE.url}/#organization`,
   name: SITE.name,
   legalName: SITE.legalName,
   url: SITE.url,
+  logo: logoAbs,
+  image: imageAbs,
   telephone: CONTACT.phone.tel,
   email: CONTACT.email,
   address: {
@@ -22,14 +30,26 @@ const ld = {
     postalCode: CONTACT.address.zip,
     addressCountry: CONTACT.address.country,
   },
-  openingHours: 'Mo-Su 00:00-24:00',
-  areaServed: {
-    '@type': 'AdministrativeArea',
-    name: CONTACT.regions,
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: GEO.latitude,
+    longitude: GEO.longitude,
   },
-  priceRange: 'Insurance & Medicare Accepted',
+  // Structured opening hours (24/7).
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    opens: '00:00',
+    closes: '23:59',
+  },
+  // Each served city is its own local-search signal.
+  areaServed: SERVICE_AREAS.map((city) => ({
+    '@type': 'City',
+    name: city,
+  })),
   medicalSpecialty: 'Hospice & Palliative Care',
   availableLanguage: ['English', 'Korean'],
+  ...(sameAs.length ? { sameAs } : {}),
 };
 ---
 
